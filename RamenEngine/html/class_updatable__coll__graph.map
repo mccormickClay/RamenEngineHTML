@@ -1,0 +1,6 @@
+<map id="Updatable" name="Updatable">
+<area shape="rect" id="node2" href="$class_update_registeration_command.html" title="{UpdateRegisterationCommand\n||+ UpdateRegisterationCommand()\l+ ~UpdateRegisterationCommand()\l+ Execute()\l}" alt="" coords="357,375,584,481"/>
+<area shape="rect" id="node5" href="$class_update_deregisteration_command.html" title="{UpdateDeregisterationCommand\n||+ UpdateDeregisterationCommand()\l+ ~UpdateDeregisterationCommand()\l+ Execute()\l}" alt="" coords="5,375,243,481"/>
+<area shape="rect" id="node3" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="476,183,663,261"/>
+<area shape="rect" id="node4" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="514,5,625,83"/>
+</map>

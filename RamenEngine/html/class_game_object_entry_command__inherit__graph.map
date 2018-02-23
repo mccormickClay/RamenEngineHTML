@@ -1,0 +1,4 @@
+<map id="GameObjectEntryCommand" name="GameObjectEntryCommand">
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="19,131,205,208"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="57,5,167,83"/>
+</map>

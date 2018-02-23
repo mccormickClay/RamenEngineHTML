@@ -1,0 +1,4 @@
+<map id="SceneChangeBroker" name="SceneChangeBroker">
+<area shape="rect" id="node3" href="$class_scene_change_command_base.html" title="{SceneChangeCommandBase\n||+ Execute()\l}" alt="" coords="18,132,210,209"/>
+<area shape="rect" id="node4" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="59,5,169,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="AlarmRegistrationCommand" name="AlarmRegistrationCommand">
+<area shape="rect" id="node5" href="$struct_alarmable_1_1_registration_data.html" title="{Alarmable::RegistrationData\n|+ pDeleteRef\l+ RegStateCurr\l|}" alt="" coords="173,428,357,520"/>
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="294,132,481,209"/>
+<area shape="rect" id="node6" href="$class_alarm_deregistration_command.html" title="{AlarmDeregistrationCommand\n|&#45; alarm_id\l|+ AlarmDeregistrationCommand()\l+ ~AlarmDeregistrationCommand()\l+ Execute()\l}" alt="" coords="139,899,361,1005"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="332,5,443,83"/>
+<area shape="rect" id="node4" href="$class_alarmable.html" title="{Alarmable\n|&#45; alarmID\l&#45; alarmTime\l|+ Alarmable()\l+ AlarmRegistration()\l+ AlarmDeregistration()\l+ ~Alarmable()\l+ GetAlarmTime()\l+ SetAlarmTime()\l# SubmitAlarmRegistration()\l# SubmitAlarmDeregistration()\l&#45; TriggerAlarm()\l&#45; Alarm0()\l&#45; Alarm1()\l&#45; Alarm2()\l}" alt="" coords="5,583,201,836"/>
+</map>

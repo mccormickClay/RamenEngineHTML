@@ -1,0 +1,6 @@
+<map id="SceneChangeCommandBase" name="SceneChangeCommandBase">
+<area shape="rect" id="node3" href="$class_scene_change_deregistration_command.html" title="{SceneChangeDeregistration\lCommand\n|&#45; ptrToken\l|+ SceneChangeDeregistration\lCommand()\l+ ~SceneChangeDeregistration\lCommand()\l+ Execute()\l}" alt="" coords="5,256,208,407"/>
+<area shape="rect" id="node4" href="$class_scene_change_null_command.html" title="{SceneChangeNullCommand\n||+ Execute()\l}" alt="" coords="232,293,416,370"/>
+<area shape="rect" id="node5" href="$class_scene_change_registration_command.html" title="{SceneChangeRegistrationCommand\n|&#45; ptrToken\l|+ SceneChangeRegistrationCommand()\l+ ~SceneChangeRegistration\lCommand()\l+ Execute()\l}" alt="" coords="440,271,691,392"/>
+<area shape="rect" id="node2" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="269,5,379,83"/>
+</map>

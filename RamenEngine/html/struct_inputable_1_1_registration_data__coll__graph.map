@@ -1,0 +1,7 @@
+<map id="Inputable::RegistrationData" name="Inputable::RegistrationData">
+<area shape="rect" id="node2" href="$class_inputable_deregistration_command.html" title="{InputableDeregistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableDeregistrationCommand()\l+ ~InputableDeregistration\lCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="96,572,329,752"/>
+<area shape="rect" id="node3" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="342,373,528,451"/>
+<area shape="rect" id="node7" href="$class_inputable_registration_command.html" title="{InputableRegistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableRegistrationCommand()\l+ ~InputableRegistrationCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="353,579,584,745"/>
+<area shape="rect" id="node4" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="380,167,490,245"/>
+<area shape="rect" id="node5" href="$class_inputable.html" title="{Inputable\n|&#45; searchData\l&#45; itR\l|+ Inputable()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ ~Inputable()\l# SubmitKeyRegistration()\l# SubmitKeyDeregistration()\l&#45; keyPressed()\l&#45; keyReleased()\l}" alt="" coords="132,315,317,509"/>
+</map>

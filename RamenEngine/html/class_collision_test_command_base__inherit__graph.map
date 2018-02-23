@@ -1,0 +1,5 @@
+<map id="CollisionTestCommandBase" name="CollisionTestCommandBase">
+<area shape="rect" id="node3" href="$class_collision_test_pair_command.html" title="{CollisionTestPairCommand\l\&lt; C1, C2 \&gt;\n|&#45; Collection1\l&#45; Collection2\l|+ CollisionTestPairCommand()\l+ Execute()\l}" alt="" coords="5,256,204,377"/>
+<area shape="rect" id="node4" href="$class_collision_test_self_command.html" title="{CollisionTestSelfCommand\&lt; C \&gt;\n|&#45; Collection1\l|+ CollisionTestSelfCommand()\l+ Execute()\l}" alt="" coords="229,271,439,363"/>
+<area shape="rect" id="node2" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="164,5,275,83"/>
+</map>

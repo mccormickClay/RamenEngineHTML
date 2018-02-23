@@ -1,0 +1,7 @@
+<map id="Inputable" name="Inputable">
+<area shape="rect" id="node4" href="$class_inputable_deregistration_command.html" title="{InputableDeregistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableDeregistrationCommand()\l+ ~InputableDeregistration\lCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="66,389,299,569"/>
+<area shape="rect" id="node7" href="$class_inputable_registration_command.html" title="{InputableRegistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableRegistrationCommand()\l+ ~InputableRegistrationCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="323,397,554,562"/>
+<area shape="rect" id="node3" href="$struct_inputable_1_1_registration_data.html" title="{Inputable::RegistrationData\n|+ RegStateCurr\l+ inputEvent\l|}" alt="" coords="93,632,272,724"/>
+<area shape="rect" id="node5" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="305,191,492,268"/>
+<area shape="rect" id="node6" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="343,5,454,83"/>
+</map>

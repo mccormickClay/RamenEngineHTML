@@ -1,0 +1,8 @@
+<map id="UpdatableManager" name="UpdatableManager">
+<area shape="rect" id="node2" title="STL iterator class. " alt="" coords="5,389,149,467"/>
+<area shape="rect" id="node4" href="$class_updatable.html" title="{Updatable\n|+ pDeleteRef\l&#45; RegStateCurr\l|+ Updatable()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ ~Updatable()\l# SubmitUpdateRegistration()\l# SubmitUpdateDeregistration()\l&#45; Update()\l}" alt="" coords="364,132,567,312"/>
+<area shape="rect" id="node5" href="$class_update_registeration_command.html" title="{UpdateRegisterationCommand\n||+ UpdateRegisterationCommand()\l+ ~UpdateRegisterationCommand()\l+ Execute()\l}" alt="" coords="699,375,925,481"/>
+<area shape="rect" id="node8" href="$class_update_deregisteration_command.html" title="{UpdateDeregisterationCommand\n||+ UpdateDeregisterationCommand()\l+ ~UpdateDeregisterationCommand()\l+ Execute()\l}" alt="" coords="355,375,592,481"/>
+<area shape="rect" id="node6" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="817,183,1004,261"/>
+<area shape="rect" id="node7" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="855,5,966,83"/>
+</map>
