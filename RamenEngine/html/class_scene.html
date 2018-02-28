@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: Scene Class Reference</title>
+<title>Ramen: Scene Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -98,50 +98,10 @@ $(document).ready(function(){initNavTree('class_scene.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn, Updated, Can use alarms, send an input, and collide with other objects. Commands are needed to "Submit" registration requests to the <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. multiple scenes can be used and switched between one another.  
+ <a href="class_scene.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_scene_8h_source.html">Scene.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Scene:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scene__inherit__graph.png" border="0" usemap="#_scene_inherit__map" alt="Inheritance graph"/></div>
-<map name="_scene_inherit__map" id="_scene_inherit__map">
-<area shape="rect" id="node2" href="class_scene_null.html" title="{SceneNull\n||}" alt="" coords="38,468,119,545"/>
-</map>
-</div>
-<div class="dynheader">
-Collaboration diagram for Scene:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scene__coll__graph.png" border="0" usemap="#_scene_coll__map" alt="Collaboration graph"/></div>
-<map name="_scene_coll__map" id="_scene_coll__map">
-<area shape="rect" id="node3" href="class_scene_change_deregistration_command.html" title="{SceneChangeDeregistration\lCommand\n||+ SceneChangeDeregistration\lCommand()\l+ ~SceneChangeDeregistration\lCommand()\l+ Execute()\l}" alt="" coords="532,2576,735,2727"/>
-<area shape="rect" id="node6" href="class_scene_change_registration_command.html" title="{SceneChangeRegistrationCommand\n||+ SceneChangeRegistrationCommand()\l+ ~SceneChangeRegistration\lCommand()\l+ Execute()\l}" alt="" coords="759,2591,1009,2712"/>
-<area shape="rect" id="node2" href="struct_scene_1_1_scene_change_registration.html" title="{Scene::SceneChangeRegistration\n|+ currentState\l|}" alt="" coords="775,2789,993,2867"/>
-<area shape="rect" id="node4" href="class_scene_change_command_base.html" title="{SceneChangeCommandBase\n||+ Execute()\l}" alt="" coords="537,2319,729,2396"/>
-<area shape="rect" id="node5" href="class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="1147,5,1258,83"/>
-<area shape="rect" id="node11" href="class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="705,145,892,223"/>
-<area shape="rect" id="node33" href="class_collision_test_command_base.html" title="{CollisionTestCommandBase\n||+ Execute()\l}" alt="" coords="1110,145,1295,223"/>
-<area shape="rect" id="node36" href="class_collision_group_command.html" title="{CollisionGroupCommand\n||+ Execute()\l}" alt="" coords="1339,145,1504,223"/>
-<area shape="rect" id="node7" href="class_drawable_manager.html" title="{DrawableManager\n||+ DrawableManager()\l+ DrawableManager()\l+ operator=()\l+ ~DrawableManager()\l+ Process()\l+ Register()\l+ Deregister()\l}" alt="" coords="973,1047,1126,1212"/>
-<area shape="rect" id="node9" href="class_drawable.html" title="{Drawable\n|+ pDeleteRef\l&#45; RegStateCurr\l|+ Drawable()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ ~Drawable()\l# SubmitDrawRegistration()\l# SubmitDrawDeregistration()\l&#45; Draw()\l}" alt="" coords="989,620,1179,800"/>
-<area shape="rect" id="node10" href="class_drawable_registration_command.html" title="{DrawableRegistrationCommand\n||+ DrawableRegistrationCommand()\l+ ~DrawableRegistrationCommand()\l+ Execute()\l}" alt="" coords="887,322,1118,429"/>
-<area shape="rect" id="node12" href="class_drawable_deregistration_command.html" title="{DrawableDeregistrationCommand\n||+ DrawableDeregistrationCommand()\l+ ~DrawableDeregistrationCommand()\l+ Execute()\l}" alt="" coords="1149,863,1392,969"/>
-<area shape="rect" id="node17" href="class_update_registeration_command.html" title="{UpdateRegisterationCommand\n||+ UpdateRegisterationCommand()\l+ ~UpdateRegisterationCommand()\l+ Execute()\l}" alt="" coords="523,322,749,429"/>
-<area shape="rect" id="node18" href="class_update_deregisteration_command.html" title="{UpdateDeregisterationCommand\n||+ UpdateDeregisterationCommand()\l+ ~UpdateDeregisterationCommand()\l+ Execute()\l}" alt="" coords="544,863,781,969"/>
-<area shape="rect" id="node26" href="class_inputable_deregistration_command.html" title="{InputableDeregistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableDeregistrationCommand()\l+ ~InputableDeregistration\lCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="126,285,359,465"/>
-<area shape="rect" id="node27" href="class_inputable_registration_command.html" title="{InputableRegistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableRegistrationCommand()\l+ ~InputableRegistrationCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="43,1289,274,1455"/>
-<area shape="rect" id="node13" title="STL iterator class. " alt="" coords="805,877,949,955"/>
-<area shape="rect" id="node14" href="class_updatable_manager.html" title="{UpdatableManager\n||+ UpdatableManager()\l+ UpdatableManager()\l+ operator=()\l+ ~UpdatableManager()\l+ Process()\l+ Register()\l+ Deregister()\l}" alt="" coords="731,1047,890,1212"/>
-<area shape="rect" id="node16" href="class_updatable.html" title="{Updatable\n|+ pDeleteRef\l&#45; RegStateCurr\l|+ Updatable()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ ~Updatable()\l# SubmitUpdateRegistration()\l# SubmitUpdateDeregistration()\l&#45; Update()\l}" alt="" coords="441,620,644,800"/>
-<area shape="rect" id="node19" href="class_keyboard_event_manager.html" title="{KeyboardEventManager\n||+ KeyboardEventManager()\l+ KeyboardEventManager()\l+ operator=()\l+ ~KeyboardEventManager()\l+ ProcessAllKeyEvents()\l+ Register()\l+ Deregister()\l}" alt="" coords="523,1959,709,2124"/>
-<area shape="rect" id="node21" href="class_single_key_manager.html" title="{SingleKeyManager\n|&#45; key\l&#45; currentStatePlaced\l&#45; prevStatePlaced\l|+ SingleKeyManager()\l+ SingleKeyManager()\l+ Register()\l+ Deregister()\l+ ProcessKeyEvent()\l+ ~SingleKeyManager()\l}" alt="" coords="301,1532,459,1712"/>
-<area shape="rect" id="node23" href="class_inputable.html" title="{Inputable\n|&#45; searchData\l&#45; itR\l|+ Inputable()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ ~Inputable()\l# SubmitKeyRegistration()\l# SubmitKeyDeregistration()\l&#45; keyPressed()\l&#45; keyReleased()\l}" alt="" coords="217,1032,402,1227"/>
-<area shape="rect" id="node25" href="struct_inputable_1_1_registration_data.html" title="{Inputable::RegistrationData\n|+ RegStateCurr\l+ inputEvent\l|}" alt="" coords="153,664,332,756"/>
-<area shape="rect" id="node28" title="STL iterator class. " alt="" coords="531,1789,701,1867"/>
-<area shape="rect" id="node29" href="class_alarmable_manager.html" title="{AlarmableManager\n|+ ref\l+ ALARM_NUMBER\l|+ AlarmableManager()\l+ AlarmableManager()\l+ operator=()\l+ ~AlarmableManager()\l+ Process()\l+ Register()\l+ Deregister()\l}" alt="" coords="1565,1951,1723,2131"/>
-<area shape="rect" id="node31" href="class_cam_manager.html" title="{CamManager\n|&#45; currentCam\l&#45; DefaultCamera\l|+ ~CamManager()\l+ CreateDefaultCamera()\l+ GetCurrentCamera()\l+ UpdateCurrentCamera()\l+ SetCurrentCamera()\l&#45; Start()\l&#45; DeleteDefaultCamera()\l&#45; Terminate()\l}" alt="" coords="848,1944,1019,2139"/>
-<area shape="rect" id="node32" href="class_collision_manager.html" title="{CollisionManager\n||+ ProcessCollsionTests()\l+ SetCollisionPair()\l+ SetCollisionSelf()\l+ SendDeleteCommand()\l+ ProcessDeletes()\l+ ~CollisionManager()\l}" alt="" coords="1227,635,1395,785"/>
-<area shape="rect" id="node37" href="class_scene_registeration_broker.html" title="{SceneRegisterationBroker\n||+ ~SceneRegisterationBroker()\l+ AddCommand()\l+ ExecuteCommands()\l}" alt="" coords="1570,489,1771,596"/>
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -158,14 +118,18 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a6a4388bfe9700aaec9366cb927742d49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6a4388bfe9700aaec9366cb927742d49">CreateDefaultCam</a> ()</td></tr>
+<tr class="memdesc:a6a4388bfe9700aaec9366cb927742d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a DefaultCamera the user has access too without having to make their own. Making a Camera is recommended to be able to easily control what is does.  <a href="#a6a4388bfe9700aaec9366cb927742d49">More...</a><br /></td></tr>
 <tr class="separator:a6a4388bfe9700aaec9366cb927742d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfe328dea360602765f1e1964d65ae06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#abfe328dea360602765f1e1964d65ae06">SetCurrCamera</a> (Camera *newCam)</td></tr>
+<tr class="memdesc:abfe328dea360602765f1e1964d65ae06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a user-made Camera as the current camera. Until this is called again, no other Camera will be used.  <a href="#abfe328dea360602765f1e1964d65ae06">More...</a><br /></td></tr>
 <tr class="separator:abfe328dea360602765f1e1964d65ae06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7257d595b38462d1764a6c4e260b47f7"><td class="memTemplParams" colspan="2">template&lt;typename C1 , typename C2 &gt; </td></tr>
 <tr class="memitem:a7257d595b38462d1764a6c4e260b47f7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scene.html#a7257d595b38462d1764a6c4e260b47f7">SetCollisionPair</a> ()</td></tr>
+<tr class="memdesc:a7257d595b38462d1764a6c4e260b47f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template funciton that compares information between two different GameObjects. This will call Collision if these two pairs connect. Collision can be by AABB, BSphere, or OBB.  <a href="#a7257d595b38462d1764a6c4e260b47f7">More...</a><br /></td></tr>
 <tr class="separator:a7257d595b38462d1764a6c4e260b47f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af198d5dc3e3a472f32ef71100517323b"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:af198d5dc3e3a472f32ef71100517323b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scene.html#af198d5dc3e3a472f32ef71100517323b">SetCollisionSelf</a> ()</td></tr>
+<tr class="memdesc:af198d5dc3e3a472f32ef71100517323b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A template funciton that compares information between the same type of GameObjects. This will call Collision if two of the same GameObjects connect. Collision can be by AABB, BSphere, or OBB.  <a href="#af198d5dc3e3a472f32ef71100517323b">More...</a><br /></td></tr>
 <tr class="separator:af198d5dc3e3a472f32ef71100517323b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -235,7 +199,9 @@ Friends</h2></td></tr>
 <tr class="memitem:aad4cf9f37b9aa669db2381b4f9d1529a"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aad4cf9f37b9aa669db2381b4f9d1529a">CollisionAttorney</a></td></tr>
 <tr class="separator:aad4cf9f37b9aa669db2381b4f9d1529a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn, Updated, Can use alarms, send an input, and collide with other objects. Commands are needed to "Submit" registration requests to the <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. multiple scenes can be used and switched between one another. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad10176d75a9cc0da56626f682d083507"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad10176d75a9cc0da56626f682d083507">&#9670;&nbsp;</a></span>Scene()</h2>
 
@@ -301,6 +267,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Creates a DefaultCamera the user has access too without having to make their own. Making a Camera is recommended to be able to easily control what is does. </p>
 
 </div>
 </div>
@@ -787,6 +755,16 @@ template&lt;typename C1 , typename C2 &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>A template funciton that compares information between two different GameObjects. This will call Collision if these two pairs connect. Collision can be by AABB, BSphere, or OBB. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">C1</td><td>The first collidable <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>. </td></tr>
+    <tr><td class="paramname">C2</td><td>The second collidable <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>New to templates? Check it out: <a href="http://www.cplusplus.com/doc/oldtutorial/templates/">Template Functions</a> </p>
+
 </div>
 </div>
 <a id="af198d5dc3e3a472f32ef71100517323b"></a>
@@ -814,6 +792,15 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>A template funciton that compares information between the same type of GameObjects. This will call Collision if two of the same GameObjects connect. Collision can be by AABB, BSphere, or OBB. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">C</td><td>The first collidable <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>New to templates? Check it out: <a href="http://www.cplusplus.com/doc/oldtutorial/templates/">Template Functions</a> </p>
+
 </div>
 </div>
 <a id="abfe328dea360602765f1e1964d65ae06"></a>
@@ -839,6 +826,14 @@ template&lt;typename C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets a user-made Camera as the current camera. Until this is called again, no other Camera will be used. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newCam</td><td>The camera that will be set to currentCam. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

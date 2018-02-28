@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: Collidable Class Reference</title>
+<title>Ramen: Collidable Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -92,31 +92,14 @@ $(document).ready(function(){initNavTree('class_collidable.html','');});
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_collidable-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Collidable Class Reference</div>  </div>
+<div class="title">Collidable Class Reference<div class="ingroups"><a class="el" href="group___g_a_m_e_o_b_j_e_c_t.html">GameObject</a> &raquo; <a class="el" href="group___c_o_m_p_o_n_e_n_t_s.html">Components</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>Allows GameObjects to collide with one other by different Volumes.  
+ <a href="class_collidable.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_collidable_8h_source.html">Collidable.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Collidable:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_collidable__inherit__graph.png" border="0" usemap="#_collidable_inherit__map" alt="Inheritance graph"/></div>
-<map name="_collidable_inherit__map" id="_collidable_inherit__map">
-<area shape="rect" id="node2" href="class_game_object.html" title="{GameObject\n|&#45; Registration\l&#45; currentCam\l|+ GameObject()\l+ ~GameObject()\l+ SubmitEntry()\l+ SubmitExit()\l# GetCurrentCamera()\l# SetCurrentCamera()\l&#45; SceneEntry()\l&#45; SceneExit()\l&#45; ConnectToScene()\l&#45; DisconnectFromScene()\l}" alt="" coords="5,292,176,516"/>
-<area shape="rect" id="node3" href="class_axis___default.html" title="{Axis_Default\n|&#45; GraphicsObj\l&#45; world\l|+ Axis_Default()\l+ ~Axis_Default()\l+ Initialize()\l+ Draw()\l+ Delete()\l}" alt="" coords="29,564,152,715"/>
-</map>
-</div>
-<div class="dynheader">
-Collaboration diagram for Collidable:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_collidable__coll__graph.png" border="0" usemap="#_collidable_coll__map" alt="Collaboration graph"/></div>
-<map name="_collidable_coll__map" id="_collidable_coll__map">
-<area shape="rect" id="node2" href="class_collision_volume_b_sphere.html" title="{CollisionVolumeBSphere\n|&#45; Center\l&#45; Radius\l|+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ GetCenter()\l+ GetRadius()\l}" alt="" coords="5,161,171,312"/>
-<area shape="rect" id="node3" href="class_collision_volume_base.html" title="{CollisionVolumeBase\n||+ ComputeData()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="15,5,161,112"/>
-<area shape="rect" id="node4" href="class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="195,198,381,275"/>
-<area shape="rect" id="node5" href="class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="233,20,343,97"/>
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -125,21 +108,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a454ca1b66dd504b25fed3706914cee6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collidable.html#a454ca1b66dd504b25fed3706914cee6e">~Collidable</a> ()</td></tr>
 <tr class="separator:a454ca1b66dd504b25fed3706914cee6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae96957ee1912398694c2cd8a4c48f9de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collidable.html#ae96957ee1912398694c2cd8a4c48f9de">Collision</a> (<a class="el" href="class_collidable.html">Collidable</a> *token)</td></tr>
+<tr class="memdesc:ae96957ee1912398694c2cd8a4c48f9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base callback for Collision that is called first before any collision takes place.  <a href="#ae96957ee1912398694c2cd8a4c48f9de">More...</a><br /></td></tr>
 <tr class="separator:ae96957ee1912398694c2cd8a4c48f9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aee8b1571e98b7fda6c7a683094558f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collidable.html#a6aee8b1571e98b7fda6c7a683094558f">GetBSphere</a> ()</td></tr>
+<tr class="memdesc:a6aee8b1571e98b7fda6c7a683094558f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recieve the Bsphere to easily debug and visualize the objects collision. This can be used with the <a class="el" href="class_visualizer_tool.html" title="A visualizer tool for collision use. This is only for Debugging and should not be used for real game ...">VisualizerTool</a> to see the BSphere at the Draw stage.  <a href="#a6aee8b1571e98b7fda6c7a683094558f">More...</a><br /></td></tr>
 <tr class="separator:a6aee8b1571e98b7fda6c7a683094558f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ad054f72882af5504b070273ee62db734"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:ad054f72882af5504b070273ee62db734"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_collidable.html#ad054f72882af5504b070273ee62db734">CollisionRegistration</a> (C *c)</td></tr>
+<tr class="memdesc:ad054f72882af5504b070273ee62db734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers GameObjects to be collidiable. This can only be used for Gameobjects. The <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> must also be DEREGISTERED or error will occur. Look up <a class="el" href="class_collidable.html#a49eaad32b810e69165e31e1155516231" title="Deregisters GameObjects from being collidable. This can only be used for Gameobjects. The GameObject must also be REGISTERED or error will occur. Look up Collidable::CollisionRegistration(C*c) for more information. ">Collidable::CollisionDeregistration(C*c)</a> for more information.  <a href="#ad054f72882af5504b070273ee62db734">More...</a><br /></td></tr>
 <tr class="separator:ad054f72882af5504b070273ee62db734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49eaad32b810e69165e31e1155516231"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:a49eaad32b810e69165e31e1155516231"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_collidable.html#a49eaad32b810e69165e31e1155516231">CollisionDeregistration</a> (C *c)</td></tr>
+<tr class="memdesc:a49eaad32b810e69165e31e1155516231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregisters GameObjects from being collidable. This can only be used for Gameobjects. The <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> must also be REGISTERED or error will occur. Look up <a class="el" href="class_collidable.html#ad054f72882af5504b070273ee62db734" title="Registers GameObjects to be collidiable. This can only be used for Gameobjects. The GameObject must a...">Collidable::CollisionRegistration(C*c)</a> for more information.  <a href="#a49eaad32b810e69165e31e1155516231">More...</a><br /></td></tr>
 <tr class="separator:a49eaad32b810e69165e31e1155516231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d33f78bfd10c5bdabe88a60d4a86ea6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collidable.html#a9d33f78bfd10c5bdabe88a60d4a86ea6">SetColliderModel</a> (Model *pModel)</td></tr>
+<tr class="memdesc:a9d33f78bfd10c5bdabe88a60d4a86ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses the information from a model to make a collision for an object. A GraphicsObject can be used to get the model information. Check GraphicsObject_Base for more information.  <a href="#a9d33f78bfd10c5bdabe88a60d4a86ea6">More...</a><br /></td></tr>
 <tr class="separator:a9d33f78bfd10c5bdabe88a60d4a86ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5032eab638c66313562a0c9654758332"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collidable.html#a5032eab638c66313562a0c9654758332">UpdateCollisionData</a> (Matrix &amp;M)</td></tr>
+<tr class="memdesc:a5032eab638c66313562a0c9654758332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the information for the volume being used. Send the world matrix of a Gameobject to BSphere::ComputeData to update the volume. Examples: BSphere, AABB, OBB.  <a href="#a5032eab638c66313562a0c9654758332">More...</a><br /></td></tr>
 <tr class="separator:a5032eab638c66313562a0c9654758332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -158,7 +147,11 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad8bcd7a3d7dced96afacd63bb07a96a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scene_registration_command.html">SceneRegistrationCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collidable.html#ad8bcd7a3d7dced96afacd63bb07a96a1">pDeregisteredCommand</a></td></tr>
 <tr class="separator:ad8bcd7a3d7dced96afacd63bb07a96a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Allows GameObjects to collide with one other by different Volumes. </p>
+<p>All Commands must be Registered and Deregistered by the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be used correctly. All GameObjects have <a class="el" href="class_collidable.html#ad054f72882af5504b070273ee62db734" title="Registers GameObjects to be collidiable. This can only be used for Gameobjects. The GameObject must a...">CollisionRegistration(C*c)</a> and <a class="el" href="class_collidable.html#a49eaad32b810e69165e31e1155516231" title="Deregisters GameObjects from being collidable. This can only be used for Gameobjects. The GameObject must also be REGISTERED or error will occur. Look up Collidable::CollisionRegistration(C*c) for more information. ">CollisionDeregistration(C*c)</a>.</p>
+<p>For Collisions to be read in a specific way ( <a class="el" href="class_scene.html#a7257d595b38462d1764a6c4e260b47f7" title="A template funciton that compares information between two different GameObjects. This will call Colli...">Scene::SetCollisionPair()</a> or <a class="el" href="class_scene.html#af198d5dc3e3a472f32ef71100517323b" title="A template funciton that compares information between the same type of GameObjects. This will call Collision if two of the same GameObjects connect. Collision can be by AABB, BSphere, or OBB. ">Scene::SetCollisionSelf()</a> ) these functions must be used inside a <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a92ce9e2b08086bb2f466168ffc69c9ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92ce9e2b08086bb2f466168ffc69c9ed">&#9670;&nbsp;</a></span>Collidable()</h2>
 
@@ -218,6 +211,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The base callback for Collision that is called first before any collision takes place. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">token</td><td>A collidable <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> that is colliding with the current <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This callback uses code within the function for Debug uses only. </dd></dl>
+
 </div>
 </div>
 <a id="a49eaad32b810e69165e31e1155516231"></a>
@@ -246,6 +248,20 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Deregisters GameObjects from being collidable. This can only be used for Gameobjects. The <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> must also be REGISTERED or error will occur. Look up <a class="el" href="class_collidable.html#ad054f72882af5504b070273ee62db734" title="Registers GameObjects to be collidiable. This can only be used for Gameobjects. The GameObject must a...">Collidable::CollisionRegistration(C*c)</a> for more information. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">C</td><td>Generic type parameter of the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>Pointer to the gameobject. This will always be assigned <em>this</em>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p><div class="fragment"><div class="line">TankObject::Delete()</div><div class="line">{</div><div class="line">    CollisionDeregistration&lt;TankObject&gt;(<span class="keyword">this</span>);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ad054f72882af5504b070273ee62db734"></a>
@@ -274,6 +290,20 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Registers GameObjects to be collidiable. This can only be used for Gameobjects. The <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> must also be DEREGISTERED or error will occur. Look up <a class="el" href="class_collidable.html#a49eaad32b810e69165e31e1155516231" title="Deregisters GameObjects from being collidable. This can only be used for Gameobjects. The GameObject must also be REGISTERED or error will occur. Look up Collidable::CollisionRegistration(C*c) for more information. ">Collidable::CollisionDeregistration(C*c)</a> for more information. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">C</td><td>Generic type parameter of the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>Pointer to the gameobject. This will always be assigned <em>this</em>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p><div class="fragment"><div class="line">TankObject::TankObject()</div><div class="line">{</div><div class="line">    SubmitUpdateRegistration();</div><div class="line">    CollisionRegistration&lt;TankObject&gt;(<span class="keyword">this</span>);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a6aee8b1571e98b7fda6c7a683094558f"></a>
@@ -291,6 +321,8 @@ template&lt;typename C &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Recieve the Bsphere to easily debug and visualize the objects collision. This can be used with the <a class="el" href="class_visualizer_tool.html" title="A visualizer tool for collision use. This is only for Debugging and should not be used for real game ...">VisualizerTool</a> to see the BSphere at the Draw stage. </p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> TankObject::Draw()</div><div class="line">{</div><div class="line">    GraphicsObj-&gt;Render(<a class="code" href="class_camera_tool.html#a99d418b0e435b2b319cd21800b6dcfb7">CameraTool::GetCurrentCamera</a>());</div><div class="line">    Vect collisionColor = Colors::Blue;</div><div class="line">    <a class="code" href="class_visualizer_tool.html#a5a8394c7a5399f49a15ffe8fe6545d70">VisualizerTool::ShowBSphere</a>(<a class="code" href="class_collidable.html#a6aee8b1571e98b7fda6c7a683094558f">GetBSphere</a>(), collisionColor);</div><div class="line"></div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a9d33f78bfd10c5bdabe88a60d4a86ea6"></a>
@@ -317,6 +349,15 @@ template&lt;typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Uses the information from a model to make a collision for an object. A GraphicsObject can be used to get the model information. Check GraphicsObject_Base for more information. </p>
+<dl class="section note"><dt>Note</dt><dd>This does not have to be the model from the Gameobject its being used in.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pModel</td><td>Pointer to model that will be set as ColliderModel for <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p><div class="fragment"><div class="line">TankObject::TankObject()</div><div class="line">{</div><div class="line">    SubmitUpdateRegistration();</div><div class="line"></div><div class="line">    GraphicsObj = <span class="keyword">new</span> GraphicsObject_TextureLight(<a class="code" href="class_asset_manager.html#abd704dd92c1a3abb12893c99837cfc6e">AssetManager::GetModel</a>(<span class="stringliteral">&quot;t99body&quot;</span>), </div><div class="line">                <a class="code" href="class_asset_manager.html#ad5c47d4d41eddb4ffddfe50694201026">AssetManager::GetShader</a>(<span class="stringliteral">&quot;textureLight&quot;</span>), <a class="code" href="class_asset_manager.html#a920612e9abafdec72f7fbc1c05ece545">AssetManager::GetTexture</a>(<span class="stringliteral">&quot;t99body&quot;</span>), </div><div class="line">                <a class="code" href="class_asset_manager.html#a920612e9abafdec72f7fbc1c05ece545">AssetManager::GetTexture</a>(<span class="stringliteral">&quot;t99body&quot;</span>), <a class="code" href="class_asset_manager.html#a920612e9abafdec72f7fbc1c05ece545">AssetManager::GetTexture</a>(<span class="stringliteral">&quot;t99track&quot;</span>), LightColor, LightPos);</div><div class="line"></div><div class="line">    <a class="code" href="class_collidable.html#a9d33f78bfd10c5bdabe88a60d4a86ea6">SetColliderModel</a>(GraphicsObj-&gt;getModel());</div><div class="line"></div><div class="line">    CollisionRegistration&lt;TankObject&gt;(<span class="keyword">this</span>);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a5032eab638c66313562a0c9654758332"></a>
@@ -342,6 +383,14 @@ template&lt;typename C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Update the information for the volume being used. Send the world matrix of a Gameobject to BSphere::ComputeData to update the volume. Examples: BSphere, AABB, OBB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">M</td><td>The world Matrix given to update the collision volume. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: AlarmableManager Class Reference</title>
+<title>Ramen: AlarmableManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -99,20 +99,14 @@ $(document).ready(function(){initNavTree('class_alarmable_manager.html','');});
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_alarmable_manager_8h_source.html">AlarmableManager.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for AlarmableManager:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_alarmable_manager__coll__graph.png" border="0" usemap="#_alarmable_manager_coll__map" alt="Collaboration graph"/></div>
-<map name="_alarmable_manager_coll__map" id="_alarmable_manager_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a78cfc784d78e1cda78df7d5a42b2cc68"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">ALARM_ID</a> { <a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68ac483605f18e6e177cb37d207df8bec77">ALARM_0</a>, 
-<a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68ad58c8711c8d2a2a541d39d405eacb28a">ALARM_1</a>, 
-<a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a7a420f0b8c11fa87d4526f3b483d5134">ALARM_2</a>
+<tr class="memitem:a78cfc784d78e1cda78df7d5a42b2cc68"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">ALARM_ID</a> { <a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a839544c6608423b41c82648137105240">ALARM_0</a>, 
+<a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a5eefa95e89db3361bf648f2d61b051a5">ALARM_1</a>, 
+<a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a0b48e7f48367015186e3f482ff26824d">ALARM_2</a>
  }</td></tr>
+<tr class="memdesc:a78cfc784d78e1cda78df7d5a42b2cc68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values that represent alarm Identifiers. These are used within the Gameobject to represent which Alarm you would like to Register too using SubmitAlarmRegistration.  <a href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">More...</a><br /></td></tr>
 <tr class="separator:a78cfc784d78e1cda78df7d5a42b2cc68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acab3951ce10e81ee583ddd266776d6aa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable_manager.html#acab3951ce10e81ee583ddd266776d6aa">StorageMapRef</a> = StorageMap::iterator</td></tr>
 <tr class="separator:acab3951ce10e81ee583ddd266776d6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,10 +221,17 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a78cfc784d78e1cda78df7d5a42b2cc68ac483605f18e6e177cb37d207df8bec77"></a>ALARM_0&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a78cfc784d78e1cda78df7d5a42b2cc68ad58c8711c8d2a2a541d39d405eacb28a"></a>ALARM_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a78cfc784d78e1cda78df7d5a42b2cc68a7a420f0b8c11fa87d4526f3b483d5134"></a>ALARM_2&#160;</td><td class="fielddoc"></td></tr>
+
+<p>Values that represent alarm Identifiers. These are used within the Gameobject to represent which Alarm you would like to Register too using SubmitAlarmRegistration. </p>
+<p>Example </p>
+<div class="fragment"><div class="line">SubmitAlarmRegistration(5, <a class="code" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a839544c6608423b41c82648137105240">AlarmableManager::ALARM_0</a>);</div></div><!-- fragment --><pre class="fragment">    Values that represent alarm Identifiers.</pre> <table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a78cfc784d78e1cda78df7d5a42b2cc68a839544c6608423b41c82648137105240"></a>ALARM_0&#160;</td><td class="fielddoc"><p>ID used to communicate with <a class="el" href="class_alarmable.html#accbf4b8e8f2fa14fd7803706e268f904" title="Callback for Alarm0. ">Alarmable::Alarm0()</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a78cfc784d78e1cda78df7d5a42b2cc68a5eefa95e89db3361bf648f2d61b051a5"></a>ALARM_1&#160;</td><td class="fielddoc"><p>ID used to communicate with <a class="el" href="class_alarmable.html#a345658b4526baaf3207278d9237f7dca" title="Callback for Alarm1. ">Alarmable::Alarm1()</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a78cfc784d78e1cda78df7d5a42b2cc68a0b48e7f48367015186e3f482ff26824d"></a>ALARM_2&#160;</td><td class="fielddoc"><p>ID used to communicate with <a class="el" href="class_alarmable.html#acbedfd8613edd1830974dec08f19f3eb" title="Callback for Alarm2. ">Alarmable::Alarm2()</a>.</p>
+<p>Clay, 2/28/2018. </p>
+</td></tr>
 </table>
 
 </div>

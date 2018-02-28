@@ -1,7 +1,0 @@
-<map id="Alarmable::RegistrationData" name="Alarmable::RegistrationData">
-<area shape="rect" id="node5" href="$class_alarmable.html" title="{Alarmable\n|&#45; alarmID\l&#45; alarmTime\l|+ Alarmable()\l+ AlarmRegistration()\l+ AlarmDeregistration()\l+ ~Alarmable()\l+ GetAlarmTime()\l+ SetAlarmTime()\l# SubmitAlarmRegistration()\l# SubmitAlarmDeregistration()\l&#45; TriggerAlarm()\l&#45; Alarm0()\l&#45; Alarm1()\l&#45; Alarm2()\l}" alt="" coords="417,160,613,413"/>
-<area shape="rect" id="node2" href="$class_alarm_registration_command.html" title="{AlarmRegistrationCommand\n|&#45; alarm_id\l|+ AlarmRegistrationCommand()\l+ ~AlarmRegistrationCommand()\l+ Execute()\l}" alt="" coords="409,476,621,583"/>
-<area shape="rect" id="node3" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="5,248,192,325"/>
-<area shape="rect" id="node6" href="$class_alarm_deregistration_command.html" title="{AlarmDeregistrationCommand\n|&#45; alarm_id\l|+ AlarmDeregistrationCommand()\l+ ~AlarmDeregistrationCommand()\l+ Execute()\l}" alt="" coords="129,476,351,583"/>
-<area shape="rect" id="node4" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="43,13,154,90"/>
-</map>

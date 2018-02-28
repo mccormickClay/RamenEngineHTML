@@ -4,9 +4,9 @@ var class_alarmable_manager =
     [ "StorageMap", "class_alarmable_manager.html#ab135f9b6200ed90af4b02b4e14218b15", null ],
     [ "StorageMapRef", "class_alarmable_manager.html#acab3951ce10e81ee583ddd266776d6aa", null ],
     [ "ALARM_ID", "class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68", [
-      [ "ALARM_0", "class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68ac483605f18e6e177cb37d207df8bec77", null ],
-      [ "ALARM_1", "class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68ad58c8711c8d2a2a541d39d405eacb28a", null ],
-      [ "ALARM_2", "class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a7a420f0b8c11fa87d4526f3b483d5134", null ]
+      [ "ALARM_0", "class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a839544c6608423b41c82648137105240", null ],
+      [ "ALARM_1", "class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a5eefa95e89db3361bf648f2d61b051a5", null ],
+      [ "ALARM_2", "class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a0b48e7f48367015186e3f482ff26824d", null ]
     ] ],
     [ "AlarmableManager", "class_alarmable_manager.html#a01cbcf096f24ddb08613c0d083fd622c", null ],
     [ "AlarmableManager", "class_alarmable_manager.html#a5bc36e5715344cda74161b470a386681", null ],

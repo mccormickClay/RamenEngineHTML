@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: Drawable Class Reference</title>
+<title>Ramen: Drawable Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -94,39 +94,24 @@ $(document).ready(function(){initNavTree('class_drawable.html','');});
 <a href="#friends">Friends</a> &#124;
 <a href="class_drawable-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Drawable Class Reference</div>  </div>
+<div class="title">Drawable Class Reference<div class="ingroups"><a class="el" href="group___g_a_m_e_o_b_j_e_c_t.html">GameObject</a> &raquo; <a class="el" href="group___c_o_m_p_o_n_e_n_t_s.html">Components</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>Allows Gameobjects to be drawn on screen.  
+ <a href="class_drawable.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_drawable_8h_source.html">Drawable.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Drawable:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_drawable__inherit__graph.png" border="0" usemap="#_drawable_inherit__map" alt="Inheritance graph"/></div>
-<map name="_drawable_inherit__map" id="_drawable_inherit__map">
-<area shape="rect" id="node2" href="class_game_object.html" title="{GameObject\n|&#45; Registration\l&#45; currentCam\l|+ GameObject()\l+ ~GameObject()\l+ SubmitEntry()\l+ SubmitExit()\l# GetCurrentCamera()\l# SetCurrentCamera()\l&#45; SceneEntry()\l&#45; SceneExit()\l&#45; ConnectToScene()\l&#45; DisconnectFromScene()\l}" alt="" coords="15,263,186,487"/>
-<area shape="rect" id="node3" href="class_axis___default.html" title="{Axis_Default\n|&#45; GraphicsObj\l&#45; world\l|+ Axis_Default()\l+ ~Axis_Default()\l+ Initialize()\l+ Draw()\l+ Delete()\l}" alt="" coords="39,535,162,685"/>
-</map>
-</div>
-<div class="dynheader">
-Collaboration diagram for Drawable:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_drawable__coll__graph.png" border="0" usemap="#_drawable_coll__map" alt="Collaboration graph"/></div>
-<map name="_drawable_coll__map" id="_drawable_coll__map">
-<area shape="rect" id="node2" href="class_drawable_registration_command.html" title="{DrawableRegistrationCommand\n||+ DrawableRegistrationCommand()\l+ ~DrawableRegistrationCommand()\l+ Execute()\l}" alt="" coords="358,375,589,481"/>
-<area shape="rect" id="node5" href="class_drawable_deregistration_command.html" title="{DrawableDeregistrationCommand\n||+ DrawableDeregistrationCommand()\l+ ~DrawableDeregistrationCommand()\l+ Execute()\l}" alt="" coords="5,375,248,481"/>
-<area shape="rect" id="node3" href="class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="479,183,665,261"/>
-<area shape="rect" id="node4" href="class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="517,5,627,83"/>
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aac88608db6081da479c772c96636acb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drawable.html#aac88608db6081da479c772c96636acb1">Drawable</a> ()</td></tr>
 <tr class="separator:aac88608db6081da479c772c96636acb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fcee39362c678403998dd6454ed0720"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drawable.html#a7fcee39362c678403998dd6454ed0720">SceneRegistration</a> ()</td></tr>
+<tr class="memdesc:a7fcee39362c678403998dd6454ed0720"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_REGISTRATION. Sends the <a class="el" href="class_drawable.html" title="Allows Gameobjects to be drawn on screen. ">Drawable</a> object to the <a class="el" href="class_drawable_manager.html">DrawableManager</a> to Draw every frame.  <a href="#a7fcee39362c678403998dd6454ed0720">More...</a><br /></td></tr>
 <tr class="separator:a7fcee39362c678403998dd6454ed0720"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a457619b2a757693baa43f115128fc73f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drawable.html#a457619b2a757693baa43f115128fc73f">SceneDeregistration</a> ()</td></tr>
+<tr class="memdesc:a457619b2a757693baa43f115128fc73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_DEREGISTRATION. Deletes the drawable object from the <a class="el" href="class_drawable_manager.html">DrawableManager</a> so it no longer is drawn on screen.  <a href="#a457619b2a757693baa43f115128fc73f">More...</a><br /></td></tr>
 <tr class="separator:a457619b2a757693baa43f115128fc73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5db44942658aab760a7418e338582e0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drawable.html#a5db44942658aab760a7418e338582e0a">~Drawable</a> ()</td></tr>
 <tr class="separator:a5db44942658aab760a7418e338582e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,13 +124,16 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4f89e20fc4a5efe3ed173743498d93eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drawable.html#a4f89e20fc4a5efe3ed173743498d93eb">SubmitDrawRegistration</a> ()</td></tr>
+<tr class="memdesc:a4f89e20fc4a5efe3ed173743498d93eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if RegistrationState is CURRENTLY_DEREGISTERED. Asks to be drawn on the screen.  <a href="#a4f89e20fc4a5efe3ed173743498d93eb">More...</a><br /></td></tr>
 <tr class="separator:a4f89e20fc4a5efe3ed173743498d93eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04fdefc737ea11759ed7334949420cf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drawable.html#a04fdefc737ea11759ed7334949420cf8">SubmitDrawDeregistration</a> ()</td></tr>
+<tr class="memdesc:a04fdefc737ea11759ed7334949420cf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks to no longer be drawn on the screen.  <a href="#a04fdefc737ea11759ed7334949420cf8">More...</a><br /></td></tr>
 <tr class="separator:a04fdefc737ea11759ed7334949420cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a12d6f25f173cdf98429d7b13c97284d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drawable.html#a12d6f25f173cdf98429d7b13c97284d1">Draw</a> ()</td></tr>
+<tr class="memdesc:a12d6f25f173cdf98429d7b13c97284d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for all GameObjects to be drawn on screen. Draw will likely be used with GraphicsObject Render(Camera* pCam).  <a href="#a12d6f25f173cdf98429d7b13c97284d1">More...</a><br /></td></tr>
 <tr class="separator:a12d6f25f173cdf98429d7b13c97284d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -162,7 +150,10 @@ Friends</h2></td></tr>
 <tr class="memitem:a444a454a2549646e4a144c4870116fc0"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drawable.html#a444a454a2549646e4a144c4870116fc0">DrawableManager</a></td></tr>
 <tr class="separator:a444a454a2549646e4a144c4870116fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Allows Gameobjects to be drawn on screen. </p>
+<p>All Commands must be Registered and Deregistered by the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be used correctly. All GameObjects have <a class="el" href="class_drawable.html#a4f89e20fc4a5efe3ed173743498d93eb" title="Checks to see if RegistrationState is CURRENTLY_DEREGISTERED. Asks to be drawn on the screen...">SubmitDrawRegistration()</a> and <a class="el" href="class_drawable.html#a04fdefc737ea11759ed7334949420cf8" title="Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks to no longer be drawn on the screen...">SubmitDrawDeregistration()</a>; </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aac88608db6081da479c772c96636acb1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac88608db6081da479c772c96636acb1">&#9670;&nbsp;</a></span>Drawable()</h2>
 
@@ -221,6 +212,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Callback for all GameObjects to be drawn on screen. Draw will likely be used with GraphicsObject Render(Camera* pCam). </p>
+<p>Example </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> Bullet::Draw()</div><div class="line">{</div><div class="line">    GraphicsObj-&gt;Render(<a class="code" href="class_camera_tool.html#a99d418b0e435b2b319cd21800b6dcfb7">CameraTool::GetCurrentCamera</a>());</div><div class="line">}</div></div><!-- fragment --> 
 <p>Reimplemented in <a class="el" href="class_axis___default.html#a330d33d8de31eedfd82d3dc6e47a0b58">Axis_Default</a>.</p>
 
 </div>
@@ -240,6 +233,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>After submission, checks RegistrationState for PENDING_DEREGISTRATION. Deletes the drawable object from the <a class="el" href="class_drawable_manager.html">DrawableManager</a> so it no longer is drawn on screen. </p>
+
 </div>
 </div>
 <a id="a7fcee39362c678403998dd6454ed0720"></a>
@@ -256,6 +251,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>After submission, checks RegistrationState for PENDING_REGISTRATION. Sends the <a class="el" href="class_drawable.html" title="Allows Gameobjects to be drawn on screen. ">Drawable</a> object to the <a class="el" href="class_drawable_manager.html">DrawableManager</a> to Draw every frame. </p>
 
 </div>
 </div>
@@ -282,6 +279,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks to no longer be drawn on the screen. </p>
+<p>Example </p><div class="fragment"><div class="line">TankObject::Delete()</div><div class="line">{</div><div class="line">    <a class="code" href="class_updatable.html#a1739b07f9bbc3a22c0ca6d9688f628a6">Updatable::SubmitUpdateDeregistration</a>();</div><div class="line">    <a class="code" href="class_drawable.html#a04fdefc737ea11759ed7334949420cf8">Drawable::SubmitDrawDeregistration</a>();</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a4f89e20fc4a5efe3ed173743498d93eb"></a>
@@ -307,6 +306,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Checks to see if RegistrationState is CURRENTLY_DEREGISTERED. Asks to be drawn on the screen. </p>
+<p>Example </p><div class="fragment"><div class="line">TankObject::TankObject()</div><div class="line">{</div><div class="line">    <a class="code" href="class_updatable.html#a705b2573da6eaa190a30bba0f7f4dddc">Updatable::SubmitUpdateRegistration</a>();</div><div class="line">    <a class="code" href="class_drawable.html#a4f89e20fc4a5efe3ed173743498d93eb">Drawable::SubmitDrawRegistration</a>();</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>

@@ -19,5 +19,6 @@ var searchData=
   ['updateregisterationcommand',['UpdateRegisterationCommand',['../class_update_registeration_command.html',1,'UpdateRegisterationCommand'],['../class_update_registeration_command.html#ad3f76845fef64cc6ee95f7b331717e77',1,'UpdateRegisterationCommand::UpdateRegisterationCommand()']]],
   ['updateregisterationcommand_2ecpp',['UpdateRegisterationCommand.cpp',['../_update_registeration_command_8cpp.html',1,'']]],
   ['updateregisterationcommand_2eh',['UpdateRegisterationCommand.h',['../_update_registeration_command_8h.html',1,'']]],
-  ['usedeletecommand',['UseDeleteCommand',['../class_collision_attorney_1_1_group_delete_options.html#af8db2d473fd65378376e6ddf160ab427',1,'CollisionAttorney::GroupDeleteOptions']]]
+  ['usedeletecommand',['UseDeleteCommand',['../class_collision_attorney_1_1_group_delete_options.html#af8db2d473fd65378376e6ddf160ab427',1,'CollisionAttorney::GroupDeleteOptions']]],
+  ['userstartscene',['UserStartScene',['../class_scene_manager_attorney_1_1_initialize.html#a389d692be5f5e029d235b28f88b42dab',1,'SceneManagerAttorney::Initialize']]]
 ];

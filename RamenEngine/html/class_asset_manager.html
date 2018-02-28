@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: AssetManager Class Reference</title>
+<title>Ramen: AssetManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -97,30 +97,33 @@ $(document).ready(function(){initNavTree('class_asset_manager.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>Manager for User and Default assets. This object communicates with the <a class="el" href="class_model_manager.html" title="Manager for Models. Check AssetManager for more information about Loading and Recieving Models...">ModelManager</a>, <a class="el" href="class_shader_manager.html" title="Manager for Shaders. Check AssetManager for more information about Loading and Recieving Shaders...">ShaderManager</a> and <a class="el" href="class_texture_manager.html" title="Manager for Textures. Check AssetManager for more information about Loading and Recieving Textures...">TextureManager</a> to allow easier implimentations to Load and Recieve resources.  
+ <a href="class_asset_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_asset_manager_8h_source.html">AssetManager.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for AssetManager:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_asset_manager__coll__graph.png" border="0" usemap="#_asset_manager_coll__map" alt="Collaboration graph"/></div>
-<map name="_asset_manager_coll__map" id="_asset_manager_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acf6d31cc873a2ea6c0801dbb615d6ca4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#acf6d31cc873a2ea6c0801dbb615d6ca4">LoadModel</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:acf6d31cc873a2ea6c0801dbb615d6ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load a model.  <a href="#acf6d31cc873a2ea6c0801dbb615d6ca4">More...</a><br /></td></tr>
 <tr class="separator:acf6d31cc873a2ea6c0801dbb615d6ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7340f31648c488b3b988ead6d1631aa5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#a7340f31648c488b3b988ead6d1631aa5">LoadModel</a> (const std::string &amp;key, Model::PreMadedeModels premadeObject)</td></tr>
+<tr class="memdesc:a7340f31648c488b3b988ead6d1631aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load a model.  <a href="#a7340f31648c488b3b988ead6d1631aa5">More...</a><br /></td></tr>
 <tr class="separator:a7340f31648c488b3b988ead6d1631aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd704dd92c1a3abb12893c99837cfc6e"><td class="memItemLeft" align="right" valign="top">static Model *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#abd704dd92c1a3abb12893c99837cfc6e">GetModel</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:abd704dd92c1a3abb12893c99837cfc6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a model to be loaded.  <a href="#abd704dd92c1a3abb12893c99837cfc6e">More...</a><br /></td></tr>
 <tr class="separator:abd704dd92c1a3abb12893c99837cfc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c0936c7d7e5e2d6fced2a40fa6cc7cc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#a9c0936c7d7e5e2d6fced2a40fa6cc7cc">LoadTexture</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:a9c0936c7d7e5e2d6fced2a40fa6cc7cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load a texture.  <a href="#a9c0936c7d7e5e2d6fced2a40fa6cc7cc">More...</a><br /></td></tr>
 <tr class="separator:a9c0936c7d7e5e2d6fced2a40fa6cc7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a920612e9abafdec72f7fbc1c05ece545"><td class="memItemLeft" align="right" valign="top">static Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#a920612e9abafdec72f7fbc1c05ece545">GetTexture</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:a920612e9abafdec72f7fbc1c05ece545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Texture to be loaded.  <a href="#a920612e9abafdec72f7fbc1c05ece545">More...</a><br /></td></tr>
 <tr class="separator:a920612e9abafdec72f7fbc1c05ece545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc501d9155012663807294a3f7b0b363"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#afc501d9155012663807294a3f7b0b363">LoadShader</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:afc501d9155012663807294a3f7b0b363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load a Shader.  <a href="#afc501d9155012663807294a3f7b0b363">More...</a><br /></td></tr>
 <tr class="separator:afc501d9155012663807294a3f7b0b363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5c47d4d41eddb4ffddfe50694201026"><td class="memItemLeft" align="right" valign="top">static ShaderObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#ad5c47d4d41eddb4ffddfe50694201026">GetShader</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:ad5c47d4d41eddb4ffddfe50694201026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Shader to be loaded.  <a href="#ad5c47d4d41eddb4ffddfe50694201026">More...</a><br /></td></tr>
 <tr class="separator:ad5c47d4d41eddb4ffddfe50694201026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -157,6 +160,7 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a81ac05430eff5342869aac417aa949a8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#a81ac05430eff5342869aac417aa949a8">DeleteAllAssets</a> ()</td></tr>
 <tr class="separator:a81ac05430eff5342869aac417aa949a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5251142bf5d58377334b32e6a2b580b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#a5251142bf5d58377334b32e6a2b580b0">LoadUserResources</a> ()</td></tr>
+<tr class="memdesc:a5251142bf5d58377334b32e6a2b580b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads user resources. This function is controlled by the user and is currently found in the User Folder.  <a href="#a5251142bf5d58377334b32e6a2b580b0">More...</a><br /></td></tr>
 <tr class="separator:a5251142bf5d58377334b32e6a2b580b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af07a91459d1c0b24cce172fd2d2b0ac5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#af07a91459d1c0b24cce172fd2d2b0ac5">Terminate</a> ()</td></tr>
 <tr class="separator:af07a91459d1c0b24cce172fd2d2b0ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,7 +177,10 @@ Friends</h2></td></tr>
 <tr class="memitem:a59dfc651bb3d4047646282fffb95ae52"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset_manager.html#a59dfc651bb3d4047646282fffb95ae52">AssetManagerAttorney</a></td></tr>
 <tr class="separator:a59dfc651bb3d4047646282fffb95ae52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manager for User and Default assets. This object communicates with the <a class="el" href="class_model_manager.html" title="Manager for Models. Check AssetManager for more information about Loading and Recieving Models...">ModelManager</a>, <a class="el" href="class_shader_manager.html" title="Manager for Shaders. Check AssetManager for more information about Loading and Recieving Shaders...">ShaderManager</a> and <a class="el" href="class_texture_manager.html" title="Manager for Textures. Check AssetManager for more information about Loading and Recieving Textures...">TextureManager</a> to allow easier implimentations to Load and Recieve resources. </p>
+<p>Clay, 2/28/2018. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a48938b146fa7ad19270a11be5363472a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48938b146fa7ad19270a11be5363472a">&#9670;&nbsp;</a></span>AssetManager() <span class="overload">[1/2]</span></h2>
 
@@ -300,6 +307,16 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns a model to be loaded. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Model given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Model will be retrieved. </dd></dl>
+
 </div>
 </div>
 <a id="ad5c47d4d41eddb4ffddfe50694201026"></a>
@@ -326,6 +343,16 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns a Shader to be loaded. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Shader given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Shader will be retrieved. </dd></dl>
+
 </div>
 </div>
 <a id="a920612e9abafdec72f7fbc1c05ece545"></a>
@@ -351,6 +378,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns a Texture to be loaded. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Texture given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Texture will be retrieved. </dd></dl>
 
 </div>
 </div>
@@ -413,6 +450,17 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Public call to load a model. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">path</td><td>Pathname of the file in the Model folder. </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p>
+<div class="fragment"><div class="line"><a class="code" href="class_asset_manager.html#acf6d31cc873a2ea6c0801dbb615d6ca4">LoadModel</a>(<span class="stringliteral">&quot;t99turret&quot;</span>, <span class="stringliteral">&quot;t99turret.azul&quot;</span>);</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a7340f31648c488b3b988ead6d1631aa5"></a>
@@ -449,6 +497,17 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Public call to load a model. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">premadeObject</td><td>Premade Models already available to the user. </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p>
+<div class="fragment"><div class="line"><a class="code" href="class_asset_manager.html#acf6d31cc873a2ea6c0801dbb615d6ca4">LoadModel</a>(<span class="stringliteral">&quot;premadeSphere&quot;</span>, Model::PreMadedeModels::UnitSphere);</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="afc501d9155012663807294a3f7b0b363"></a>
@@ -485,6 +544,17 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Public call to load a Shader. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">path</td><td>Pathname of the file inside the Shader Folder within Assets. </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p>
+<div class="fragment"><div class="line"><a class="code" href="class_asset_manager.html#afc501d9155012663807294a3f7b0b363">LoadShader</a>(<span class="stringliteral">&quot;textureFlat&quot;</span>, <span class="stringliteral">&quot;textureFlatRender&quot;</span>);</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a9c0936c7d7e5e2d6fced2a40fa6cc7cc"></a>
@@ -521,6 +591,17 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Public call to load a texture. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">path</td><td>Pathname of the file inside the Texture Folder within Assets. </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p>
+<div class="fragment"><div class="line">      <a class="code" href="class_asset_manager.html#a9c0936c7d7e5e2d6fced2a40fa6cc7cc">LoadTexture</a>(<span class="stringliteral">&quot;t99body&quot;</span>, <span class="stringliteral">&quot;body.tga&quot;</span>);  </div><div class="line">&lt;br&gt;</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a5251142bf5d58377334b32e6a2b580b0"></a>
@@ -545,6 +626,11 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Loads user resources. This function is controlled by the user and is currently found in the User Folder. </p>
+<dl class="section note"><dt>Note</dt><dd><br />
+Later this might be in a new folder specifically for user tools.</dd></dl>
+<p>Clay, 2/28/2018. </p>
 
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: Alarmable Class Reference</title>
+<title>Ramen: Alarmable Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -94,32 +94,14 @@ $(document).ready(function(){initNavTree('class_alarmable.html','');});
 <a href="#friends">Friends</a> &#124;
 <a href="class_alarmable-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Alarmable Class Reference</div>  </div>
+<div class="title">Alarmable Class Reference<div class="ingroups"><a class="el" href="group___g_a_m_e_o_b_j_e_c_t.html">GameObject</a> &raquo; <a class="el" href="group___c_o_m_p_o_n_e_n_t_s.html">Components</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>Allows GameObjects to call functions at a specific time.  
+ <a href="class_alarmable.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_alarmable_8h_source.html">Alarmable.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Alarmable:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_alarmable__inherit__graph.png" border="0" usemap="#_alarmable_inherit__map" alt="Inheritance graph"/></div>
-<map name="_alarmable_inherit__map" id="_alarmable_inherit__map">
-<area shape="rect" id="node2" href="class_game_object.html" title="{GameObject\n|&#45; Registration\l&#45; currentCam\l|+ GameObject()\l+ ~GameObject()\l+ SubmitEntry()\l+ SubmitExit()\l# GetCurrentCamera()\l# SetCurrentCamera()\l&#45; SceneEntry()\l&#45; SceneExit()\l&#45; ConnectToScene()\l&#45; DisconnectFromScene()\l}" alt="" coords="18,321,189,545"/>
-<area shape="rect" id="node3" href="class_axis___default.html" title="{Axis_Default\n|&#45; GraphicsObj\l&#45; world\l|+ Axis_Default()\l+ ~Axis_Default()\l+ Initialize()\l+ Draw()\l+ Delete()\l}" alt="" coords="42,593,165,744"/>
-</map>
-</div>
-<div class="dynheader">
-Collaboration diagram for Alarmable:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_alarmable__coll__graph.png" border="0" usemap="#_alarmable_coll__map" alt="Collaboration graph"/></div>
-<map name="_alarmable_coll__map" id="_alarmable_coll__map">
-<area shape="rect" id="node3" href="class_alarm_registration_command.html" title="{AlarmRegistrationCommand\n|&#45; alarm_id\l|+ AlarmRegistrationCommand()\l+ ~AlarmRegistrationCommand()\l+ Execute()\l}" alt="" coords="339,448,551,555"/>
-<area shape="rect" id="node6" href="class_alarm_deregistration_command.html" title="{AlarmDeregistrationCommand\n|&#45; alarm_id\l|+ AlarmDeregistrationCommand()\l+ ~AlarmDeregistrationCommand()\l+ Execute()\l}" alt="" coords="93,448,315,555"/>
-<area shape="rect" id="node2" href="struct_alarmable_1_1_registration_data.html" title="{Alarmable::RegistrationData\n|+ pDeleteRef\l+ RegStateCurr\l|}" alt="" coords="112,617,296,709"/>
-<area shape="rect" id="node4" href="class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="339,220,525,297"/>
-<area shape="rect" id="node5" href="class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="377,5,487,83"/>
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -131,32 +113,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6290ab21a53be8e8918cd2e3a00be1d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#a6290ab21a53be8e8918cd2e3a00be1d9">Alarmable</a> ()</td></tr>
 <tr class="separator:a6290ab21a53be8e8918cd2e3a00be1d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a447b2a813efdeee56bbbbebd7fbc1a1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#a447b2a813efdeee56bbbbebd7fbc1a1e">AlarmRegistration</a> (float time, <a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a> id)</td></tr>
+<tr class="memdesc:a447b2a813efdeee56bbbbebd7fbc1a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to ensure that registrationState is PENDING_REGISTRATION. When Submission is completed the alarm is sent to the <a class="el" href="class_alarmable_manager.html">AlarmableManager</a> timeline.  <a href="#a447b2a813efdeee56bbbbebd7fbc1a1e">More...</a><br /></td></tr>
 <tr class="separator:a447b2a813efdeee56bbbbebd7fbc1a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2da9852c51da5d0696d73fd69f647d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#ad2da9852c51da5d0696d73fd69f647d2">AlarmDeregistration</a> (<a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a> id)</td></tr>
+<tr class="memdesc:ad2da9852c51da5d0696d73fd69f647d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to ensure that registrationState is PENDING_DEREGISTRATION. When Submission is completed the alarm is deleted from the <a class="el" href="class_alarmable_manager.html">AlarmableManager</a> timeline if it exists.  <a href="#ad2da9852c51da5d0696d73fd69f647d2">More...</a><br /></td></tr>
 <tr class="separator:ad2da9852c51da5d0696d73fd69f647d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade26467bf487e12d0f9c23aa03ea8136"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#ade26467bf487e12d0f9c23aa03ea8136">~Alarmable</a> ()</td></tr>
 <tr class="separator:ade26467bf487e12d0f9c23aa03ea8136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6c3cd09a16c90c543aab762dd182143"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#ac6c3cd09a16c90c543aab762dd182143">GetAlarmTime</a> (<a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a> id)</td></tr>
+<tr class="memdesc:ac6c3cd09a16c90c543aab762dd182143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the time that was set for a specific alarm.  <a href="#ac6c3cd09a16c90c543aab762dd182143">More...</a><br /></td></tr>
 <tr class="separator:ac6c3cd09a16c90c543aab762dd182143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdd0b0b1bc9a70f6180f9c9992509f9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#afdd0b0b1bc9a70f6180f9c9992509f9c">SetAlarmTime</a> (float time, int alarmNumber)</td></tr>
-<tr class="separator:afdd0b0b1bc9a70f6180f9c9992509f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:af16b507a5abd1b0deed03fcaa2ce2b58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#af16b507a5abd1b0deed03fcaa2ce2b58">SubmitAlarmRegistration</a> (float time, <a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a> id)</td></tr>
+<tr class="memdesc:af16b507a5abd1b0deed03fcaa2ce2b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask for Registration of a specific alarm for a specific time. Errors will occur if you try to register the same alarm more then once on the same <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>.  <a href="#af16b507a5abd1b0deed03fcaa2ce2b58">More...</a><br /></td></tr>
 <tr class="separator:af16b507a5abd1b0deed03fcaa2ce2b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53debebf4464c3e7c421e82a0fa21fe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#a53debebf4464c3e7c421e82a0fa21fe0">SubmitAlarmDeregistration</a> (<a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a> id)</td></tr>
+<tr class="memdesc:a53debebf4464c3e7c421e82a0fa21fe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask for Deregistration of a specific alarm for a specific time. Errors will occur if you try to deregister the same alarm more then once on the same <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>.  <a href="#a53debebf4464c3e7c421e82a0fa21fe0">More...</a><br /></td></tr>
 <tr class="separator:a53debebf4464c3e7c421e82a0fa21fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a043d268abd8f4ec1a6825c9f6b2ade77"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#a043d268abd8f4ec1a6825c9f6b2ade77">TriggerAlarm</a> (<a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a> id)</td></tr>
+<tr class="memdesc:a043d268abd8f4ec1a6825c9f6b2ade77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for user to use their own code when alarm is triggered.  <a href="#a043d268abd8f4ec1a6825c9f6b2ade77">More...</a><br /></td></tr>
 <tr class="separator:a043d268abd8f4ec1a6825c9f6b2ade77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accbf4b8e8f2fa14fd7803706e268f904"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#accbf4b8e8f2fa14fd7803706e268f904">Alarm0</a> ()</td></tr>
+<tr class="memdesc:accbf4b8e8f2fa14fd7803706e268f904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for Alarm0.  <a href="#accbf4b8e8f2fa14fd7803706e268f904">More...</a><br /></td></tr>
 <tr class="separator:accbf4b8e8f2fa14fd7803706e268f904"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345658b4526baaf3207278d9237f7dca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#a345658b4526baaf3207278d9237f7dca">Alarm1</a> ()</td></tr>
+<tr class="memdesc:a345658b4526baaf3207278d9237f7dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for Alarm1.  <a href="#a345658b4526baaf3207278d9237f7dca">More...</a><br /></td></tr>
 <tr class="separator:a345658b4526baaf3207278d9237f7dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbedfd8613edd1830974dec08f19f3eb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#acbedfd8613edd1830974dec08f19f3eb">Alarm2</a> ()</td></tr>
+<tr class="memdesc:acbedfd8613edd1830974dec08f19f3eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for Alarm2.  <a href="#acbedfd8613edd1830974dec08f19f3eb">More...</a><br /></td></tr>
 <tr class="separator:acbedfd8613edd1830974dec08f19f3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -173,7 +162,11 @@ Friends</h2></td></tr>
 <tr class="memitem:adac111eaf1a912dc3027527e86f52209"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_alarmable.html#adac111eaf1a912dc3027527e86f52209">AlarmableManager</a></td></tr>
 <tr class="separator:adac111eaf1a912dc3027527e86f52209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Allows GameObjects to call functions at a specific time. </p>
+<p>All Commands must be Registered and Deregistered by the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be used correctly. All GameObjects have SubmitAlarmRegistration and SubmitAlarmDeregistration;</p>
+<p>There are a total of 3 alarms (0-2) in each <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>. TriggerAlarm is used when the amount of time given to registration is met. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6290ab21a53be8e8918cd2e3a00be1d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6290ab21a53be8e8918cd2e3a00be1d9">&#9670;&nbsp;</a></span>Alarmable()</h2>
 
@@ -232,6 +225,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Callback for Alarm0. </p>
+
 </div>
 </div>
 <a id="a345658b4526baaf3207278d9237f7dca"></a>
@@ -256,6 +251,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Callback for Alarm1. </p>
 
 </div>
 </div>
@@ -282,6 +279,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Callback for Alarm2. </p>
+
 </div>
 </div>
 <a id="ad2da9852c51da5d0696d73fd69f647d2"></a>
@@ -299,6 +298,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Checks to ensure that registrationState is PENDING_DEREGISTRATION. When Submission is completed the alarm is deleted from the <a class="el" href="class_alarmable_manager.html">AlarmableManager</a> timeline if it exists. </p>
 
 </div>
 </div>
@@ -328,6 +329,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Checks to ensure that registrationState is PENDING_REGISTRATION. When Submission is completed the alarm is sent to the <a class="el" href="class_alarmable_manager.html">AlarmableManager</a> timeline. </p>
+
 </div>
 </div>
 <a id="ac6c3cd09a16c90c543aab762dd182143"></a>
@@ -346,33 +349,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="afdd0b0b1bc9a70f6180f9c9992509f9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdd0b0b1bc9a70f6180f9c9992509f9c">&#9670;&nbsp;</a></span>SetAlarmTime()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Alarmable::SetAlarmTime </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>alarmNumber</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Get the time that was set for a specific alarm. </p>
+<p>param id The specific alarm used. </p>
 
 </div>
 </div>
@@ -400,6 +378,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Ask for Deregistration of a specific alarm for a specific time. Errors will occur if you try to deregister the same alarm more then once on the same <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>The specific alarm used.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This is used when an object is being recycled and not destroyed. The alarm needs to be deregistered or it will still go off when the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> is already recycled. Not doing this can lead to unwanted results.</dd></dl>
+<p>Example </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> Bullet::SceneExit() <span class="comment">//Bullet is still alive and being sent to a Factory</span></div><div class="line">{</div><div class="line">    <a class="code" href="class_updatable.html#a1739b07f9bbc3a22c0ca6d9688f628a6">Updatable::SubmitUpdateDeregistration</a>();</div><div class="line">    <a class="code" href="class_drawable.html#a04fdefc737ea11759ed7334949420cf8">Drawable::SubmitDrawDeregistration</a>();</div><div class="line">    <a class="code" href="class_alarmable.html#a53debebf4464c3e7c421e82a0fa21fe0">Alarmable::SubmitAlarmDeregistration</a>(<a class="code" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a839544c6608423b41c82648137105240">AlarmableManager::ALARM_0</a>);</div><div class="line">    BulletFactory::RecycleBullet(<span class="keyword">this</span>);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="af16b507a5abd1b0deed03fcaa2ce2b58"></a>
@@ -436,6 +423,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Ask for Registration of a specific alarm for a specific time. Errors will occur if you try to register the same alarm more then once on the same <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>The amount of time that will go by that will call TriggerAlarm</td></tr>
+    <tr><td class="paramname">id</td><td>The specific alarm used.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p><div class="fragment"><div class="line">TankObject::TankObject()</div><div class="line">{</div><div class="line">    <a class="code" href="class_updatable.html#a705b2573da6eaa190a30bba0f7f4dddc">Updatable::SubmitUpdateRegistration</a>();</div><div class="line">    <a class="code" href="class_alarmable.html#af16b507a5abd1b0deed03fcaa2ce2b58">Alarmable::SubmitAlarmRegistration</a>(5.0f, <a class="code" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68a839544c6608423b41c82648137105240">AlarmableManager::ALARM_0</a>);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a043d268abd8f4ec1a6825c9f6b2ade77"></a>
@@ -461,6 +457,14 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Callback for user to use their own code when alarm is triggered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>The specific alarm used. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

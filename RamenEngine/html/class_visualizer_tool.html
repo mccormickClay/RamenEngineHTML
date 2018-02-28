@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: VisualizerTool Class Reference</title>
+<title>Ramen: VisualizerTool Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -98,21 +98,10 @@ $(document).ready(function(){initNavTree('class_visualizer_tool.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>A visualizer tool for collision use. This is only for Debugging and should not be used for real game input or gameplay.  
+ <a href="class_visualizer_tool.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_visualizer_tool_8h_source.html">VisualizerTool.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for VisualizerTool:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_visualizer_tool__inherit__graph.png" border="0" usemap="#_visualizer_tool_inherit__map" alt="Inheritance graph"/></div>
-<map name="_visualizer_tool_inherit__map" id="_visualizer_tool_inherit__map">
-</map>
-</div>
-<div class="dynheader">
-Collaboration diagram for VisualizerTool:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_visualizer_tool__coll__graph.png" border="0" usemap="#_visualizer_tool_coll__map" alt="Collaboration graph"/></div>
-<map name="_visualizer_tool_coll__map" id="_visualizer_tool_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -128,6 +117,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a8394c7a5399f49a15ffe8fe6545d70"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_visualizer_tool.html#a5a8394c7a5399f49a15ffe8fe6545d70">ShowBSphere</a> (const <a class="el" href="class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;S, const Vect &amp;color=<a class="el" href="class_visualizer_tool.html#ad9e4595240971b2cc7b81f351f31e27b">DEFAULT_COLOR</a>)</td></tr>
+<tr class="memdesc:a5a8394c7a5399f49a15ffe8fe6545d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the BSphere for the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> being used.  <a href="#a5a8394c7a5399f49a15ffe8fe6545d70">More...</a><br /></td></tr>
 <tr class="separator:a5a8394c7a5399f49a15ffe8fe6545d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -154,7 +144,10 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:ad9e4595240971b2cc7b81f351f31e27b"><td class="memItemLeft" align="right" valign="top">static Vect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_visualizer_tool.html#ad9e4595240971b2cc7b81f351f31e27b">DEFAULT_COLOR</a> = <a class="el" href="struct_color.html#a86a9c3e1e63a03f4f13cd42ce5a4ee19">Color::GreenYellow</a></td></tr>
 <tr class="separator:ad9e4595240971b2cc7b81f351f31e27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A visualizer tool for collision use. This is only for Debugging and should not be used for real game input or gameplay. </p>
+<p>Clay, 2/28/2018. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af812cd6df9d9fb20aef227878fca2884"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af812cd6df9d9fb20aef227878fca2884">&#9670;&nbsp;</a></span>VisualizerTool() <span class="overload">[1/2]</span></h2>
 
@@ -361,6 +354,17 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Shows the BSphere for the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> being used. </p>
+<dl class="section note"><dt>Note</dt><dd>This is only used for a visual representation of the collisions being placed. For Demo and Debug uses only.</dd></dl>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">S</td><td>A <a class="el" href="class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> to process. Best to use with <a class="el" href="class_collidable.html#a6aee8b1571e98b7fda6c7a683094558f" title="Recieve the Bsphere to easily debug and visualize the objects collision. This can be used with the Vi...">Collidable::GetBSphere()</a> </td></tr>
+    <tr><td class="paramname">color</td><td>(Optional) The color the user wants the BSphere to be. To use a specific color. Look up <a class="el" href="struct_color.html" title="Easy way to define a object by a Vect variable. These Colors are constant and can not be changed...">Color</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

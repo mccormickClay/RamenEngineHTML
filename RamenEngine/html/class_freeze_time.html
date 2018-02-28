@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: FreezeTime Class Reference</title>
+<title>Ramen: FreezeTime Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -96,14 +96,10 @@ $(document).ready(function(){initNavTree('class_freeze_time.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>A hack to allow time to befrozen during runtime. This is not meant to be used for game specific control. This is only for Debugging use only. 
+ <a href="class_freeze_time.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_freeze_time_8h_source.html">FreezeTime.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for FreezeTime:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_freeze_time__coll__graph.png" border="0" usemap="#_freeze_time_coll__map" alt="Collaboration graph"/></div>
-<map name="_freeze_time_coll__map" id="_freeze_time_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,11 +131,16 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a738d2ae045b5c2e7e2739063081841ad"><td class="memItemLeft" align="right" valign="top">static const AZUL_KEY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_freeze_time.html#a738d2ae045b5c2e7e2739063081841ad">FREEZE_KEY</a> = AZUL_KEY::KEY_F10</td></tr>
+<tr class="memdesc:a738d2ae045b5c2e7e2739063081841ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">The key press that allows the game to be frozen. This also unfreezes the game if already frozen. <a href="#a738d2ae045b5c2e7e2739063081841ad">More...</a><br /></td></tr>
 <tr class="separator:a738d2ae045b5c2e7e2739063081841ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99275e27800ba48d91c3fcfcaf6c378b"><td class="memItemLeft" align="right" valign="top">static const AZUL_KEY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_freeze_time.html#a99275e27800ba48d91c3fcfcaf6c378b">SINGLE_FRAME_KEY</a> = AZUL_KEY::KEY_F9</td></tr>
+<tr class="memdesc:a99275e27800ba48d91c3fcfcaf6c378b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The keypress that allows to move a FROZEN game to the next frame. Once this is executed the game will resume being frozen.  <a href="#a99275e27800ba48d91c3fcfcaf6c378b">More...</a><br /></td></tr>
 <tr class="separator:a99275e27800ba48d91c3fcfcaf6c378b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A hack to allow time to befrozen during runtime. This is not meant to be used for game specific control. This is only for Debugging use only.</p>
+<p>Clay, 2/28/2018. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6956f75b7b051bf9c097fece296f67cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6956f75b7b051bf9c097fece296f67cb">&#9670;&nbsp;</a></span>FreezeTime() <span class="overload">[1/2]</span></h2>
 
@@ -326,6 +327,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The key press that allows the game to be frozen. This also unfreezes the game if already frozen.</p>
+
 </div>
 </div>
 <a id="aaec927b3a13a89c864c521f22b5864cd"></a>
@@ -369,6 +372,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The keypress that allows to move a FROZEN game to the next frame. Once this is executed the game will resume being frozen. </p>
 
 </div>
 </div>

@@ -9,6 +9,9 @@ var hierarchy =
     [ "SceneAttorney::AlarmableOptions", "class_scene_attorney_1_1_alarmable_options.html", null ],
     [ "Align16", null, [
       [ "GameObject", "class_game_object.html", null ],
+      [ "Scene", "class_scene.html", [
+        [ "SceneNull", "class_scene_null.html", null ]
+      ] ],
       [ "VisualizerTool", "class_visualizer_tool.html", null ]
     ] ],
     [ "AssetManager", "class_asset_manager.html", null ],
@@ -97,9 +100,6 @@ var hierarchy =
     [ "SceneManagerAttorney::Registration", "class_scene_manager_attorney_1_1_registration.html", null ],
     [ "Alarmable::RegistrationData", "struct_alarmable_1_1_registration_data.html", null ],
     [ "Inputable::RegistrationData", "struct_inputable_1_1_registration_data.html", null ],
-    [ "Scene", "class_scene.html", [
-      [ "SceneNull", "class_scene_null.html", null ]
-    ] ],
     [ "SceneAttorney", "class_scene_attorney.html", null ],
     [ "SceneChangeBroker", "class_scene_change_broker.html", null ],
     [ "Scene::SceneChangeRegistration", "struct_scene_1_1_scene_change_registration.html", null ],

@@ -9,7 +9,6 @@ var class_alarmable =
     [ "AlarmDeregistration", "class_alarmable.html#ad2da9852c51da5d0696d73fd69f647d2", null ],
     [ "AlarmRegistration", "class_alarmable.html#a447b2a813efdeee56bbbbebd7fbc1a1e", null ],
     [ "GetAlarmTime", "class_alarmable.html#ac6c3cd09a16c90c543aab762dd182143", null ],
-    [ "SetAlarmTime", "class_alarmable.html#afdd0b0b1bc9a70f6180f9c9992509f9c", null ],
     [ "SubmitAlarmDeregistration", "class_alarmable.html#a53debebf4464c3e7c421e82a0fa21fe0", null ],
     [ "SubmitAlarmRegistration", "class_alarmable.html#af16b507a5abd1b0deed03fcaa2ce2b58", null ],
     [ "TriggerAlarm", "class_alarmable.html#a043d268abd8f4ec1a6825c9f6b2ade77", null ],

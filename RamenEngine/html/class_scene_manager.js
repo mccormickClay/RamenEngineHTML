@@ -18,6 +18,7 @@ var class_scene_manager =
     [ "SetNextScene", "class_scene_manager.html#af750522414c8188ffa7870f153a758de", null ],
     [ "SetStartScreen", "class_scene_manager.html#a284ebf487bc6f92823612557e6d0bfb0", null ],
     [ "Start", "class_scene_manager.html#a87821e1aa8e52a147a769f1411262bb7", null ],
+    [ "StartScene", "class_scene_manager.html#a06cd5440361bc826a3f53175e544a8fb", null ],
     [ "Terminate", "class_scene_manager.html#a54d4b597fd2832375e2048ce4c90cac4", null ],
     [ "Update", "class_scene_manager.html#a63dcf65832d6a2c190bf496d9a3b00a3", null ],
     [ "SceneManagerAttorney", "class_scene_manager.html#a30165f059417f4ed57a7ab134669d7e4", null ],

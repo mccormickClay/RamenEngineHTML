@@ -2,7 +2,6 @@ var files_dup =
 [
     [ "Alarmable.cpp", "_alarmable_8cpp.html", null ],
     [ "Alarmable.h", "_alarmable_8h.html", [
-      [ "Alarmable", "class_alarmable.html", "class_alarmable" ],
       [ "RegistrationData", "struct_alarmable_1_1_registration_data.html", "struct_alarmable_1_1_registration_data" ]
     ] ],
     [ "AlarmableManager.cpp", "_alarmable_manager_8cpp.html", null ],
@@ -51,9 +50,7 @@ var files_dup =
       [ "CamManager", "class_cam_manager.html", "class_cam_manager" ]
     ] ],
     [ "Collidable.cpp", "_collidable_8cpp.html", null ],
-    [ "Collidable.h", "_collidable_8h.html", [
-      [ "Collidable", "class_collidable.html", "class_collidable" ]
-    ] ],
+    [ "Collidable.h", "_collidable_8h.html", null ],
     [ "CollidableGroup.h", "_collidable_group_8h.html", [
       [ "CollidableGroup", "class_collidable_group.html", "class_collidable_group" ]
     ] ],
@@ -111,10 +108,9 @@ var files_dup =
     [ "CommandBase.h", "_command_base_8h.html", [
       [ "CommandBase", "class_command_base.html", "class_command_base" ]
     ] ],
+    [ "doxygenInfo.h", "doxygen_info_8h.html", null ],
     [ "Drawable.cpp", "_drawable_8cpp.html", null ],
-    [ "Drawable.h", "_drawable_8h.html", [
-      [ "Drawable", "class_drawable.html", "class_drawable" ]
-    ] ],
+    [ "Drawable.h", "_drawable_8h.html", null ],
     [ "DrawableDeregistrationCommand.cpp", "_drawable_deregistration_command_8cpp.html", null ],
     [ "DrawableDeregistrationCommand.h", "_drawable_deregistration_command_8h.html", [
       [ "DrawableDeregistrationCommand", "class_drawable_deregistration_command.html", "class_drawable_deregistration_command" ]
@@ -146,7 +142,6 @@ var files_dup =
     ] ],
     [ "Inputable.cpp", "_inputable_8cpp.html", null ],
     [ "Inputable.h", "_inputable_8h.html", [
-      [ "Inputable", "class_inputable.html", "class_inputable" ],
       [ "RegistrationData", "struct_inputable_1_1_registration_data.html", "struct_inputable_1_1_registration_data" ]
     ] ],
     [ "InputableDeregistrationCommand.cpp", "_inputable_deregistration_command_8cpp.html", null ],
@@ -296,9 +291,7 @@ var files_dup =
       [ "TimeManagerAttorney", "class_time_manager_attorney.html", "class_time_manager_attorney" ]
     ] ],
     [ "Updatable.cpp", "_updatable_8cpp.html", null ],
-    [ "Updatable.h", "_updatable_8h.html", [
-      [ "Updatable", "class_updatable.html", "class_updatable" ]
-    ] ],
+    [ "Updatable.h", "_updatable_8h.html", null ],
     [ "UpdatableManager.cpp", "_updatable_manager_8cpp.html", null ],
     [ "UpdatableManager.h", "_updatable_manager_8h.html", [
       [ "UpdatableManager", "class_updatable_manager.html", "class_updatable_manager" ]

@@ -4,8 +4,8 @@ var class_inputable =
     [ "InputData", "class_inputable.html#ae39a92f70ee32f827a281707de45b125", null ],
     [ "RegistrationKeys", "class_inputable.html#aad4bc7dac7aa5bb47b2a8ef0d4910ad8", null ],
     [ "INPUT_EVENT_TYPE", "class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d", [
-      [ "KEY_PRESS", "class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da38d3b3bd402296ba635522676d383b50", null ],
-      [ "KEY_RELEASE", "class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da2494d2581496ed9938488a5d6d77de4a", null ]
+      [ "KEY_PRESS", "class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da18cbfcb552dd940be047a906394fb165", null ],
+      [ "KEY_RELEASE", "class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da56be2988773227a84b41de37a1cd4e8e", null ]
     ] ],
     [ "Inputable", "class_inputable.html#a191fd4624272222ea8344eabf9d26ead", null ],
     [ "~Inputable", "class_inputable.html#a47837480eb9ca33e9455ad876c890a52", null ],

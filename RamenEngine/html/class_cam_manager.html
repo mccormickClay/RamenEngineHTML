@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: CamManager Class Reference</title>
+<title>Ramen: CamManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -97,25 +97,22 @@ $(document).ready(function(){initNavTree('class_cam_manager.html','');});
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_cam_manager_8h_source.html">CamManager.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for CamManager:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_cam_manager__coll__graph.png" border="0" usemap="#_cam_manager_coll__map" alt="Collaboration graph"/></div>
-<map name="_cam_manager_coll__map" id="_cam_manager_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a29b778f974145eb82d49a511f0b0cfc3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a29b778f974145eb82d49a511f0b0cfc3">~CamManager</a> ()</td></tr>
 <tr class="separator:a29b778f974145eb82d49a511f0b0cfc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33ebf83c95f82f2d169857ec11d23c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a33ebf83c95f82f2d169857ec11d23c3b">CreateDefaultCamera</a> ()</td></tr>
+<tr class="memdesc:a33ebf83c95f82f2d169857ec11d23c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates default camera.  <a href="#a33ebf83c95f82f2d169857ec11d23c3b">More...</a><br /></td></tr>
 <tr class="separator:a33ebf83c95f82f2d169857ec11d23c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0118f0863c7c11d40cf0acce5aa68bca"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a0118f0863c7c11d40cf0acce5aa68bca">GetCurrentCamera</a> ()</td></tr>
+<tr class="memdesc:a0118f0863c7c11d40cf0acce5aa68bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current Camera for the current <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. <a class="el" href="class_camera_tool.html">CameraTool</a> uses this function so all GameObjects have easy access.  <a href="#a0118f0863c7c11d40cf0acce5aa68bca">More...</a><br /></td></tr>
 <tr class="separator:a0118f0863c7c11d40cf0acce5aa68bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a855adb9c62b7c02bf124d35882997211"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a855adb9c62b7c02bf124d35882997211">UpdateCurrentCamera</a> ()</td></tr>
+<tr class="memdesc:a855adb9c62b7c02bf124d35882997211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the current camera. This is needed if you are moving the Camera within a <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. Example would be a GodCamera or a FreeFlying Camera.  <a href="#a855adb9c62b7c02bf124d35882997211">More...</a><br /></td></tr>
 <tr class="separator:a855adb9c62b7c02bf124d35882997211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088f0ad0c9835728e5a9dfd1d1c39edb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a088f0ad0c9835728e5a9dfd1d1c39edb">SetCurrentCamera</a> (Camera *newCamera)</td></tr>
+<tr class="memdesc:a088f0ad0c9835728e5a9dfd1d1c39edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current camera to a Camera created by the user.CameraTool uses this function so all GameObjects have easy access.  <a href="#a088f0ad0c9835728e5a9dfd1d1c39edb">More...</a><br /></td></tr>
 <tr class="separator:a088f0ad0c9835728e5a9dfd1d1c39edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -173,6 +170,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Creates default camera. </p>
+<p>Clay, 2/28/2018. </p>
+
 </div>
 </div>
 <a id="ac0978e55e5f1b1b9f6d16c091bf5f66c"></a>
@@ -215,6 +215,10 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets current Camera for the current <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. <a class="el" href="class_camera_tool.html">CameraTool</a> uses this function so all GameObjects have easy access. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current camera. If no Camera has been set by the user, it will be the Default Camera. </dd></dl>
+
 </div>
 </div>
 <a id="a088f0ad0c9835728e5a9dfd1d1c39edb"></a>
@@ -232,6 +236,15 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets current camera to a Camera created by the user.CameraTool uses this function so all GameObjects have easy access. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newCamera</td><td>The camera that was created by the user. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -299,6 +312,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates the current camera. This is needed if you are moving the Camera within a <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. Example would be a GodCamera or a FreeFlying Camera. </p>
+<p>Clay, 2/28/2018. </p>
 
 </div>
 </div>

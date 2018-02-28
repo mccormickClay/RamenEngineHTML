@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramin: TimeManager Class Reference</title>
+<title>Ramen: TimeManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Ramin
+   <div id="projectname">Ramen
    </div>
   </td>
  </tr>
@@ -98,21 +98,18 @@ $(document).ready(function(){initNavTree('class_time_manager.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>Manager for recieving time and controlling <a class="el" href="class_freeze_time.html" title="A hack to allow time to befrozen during runtime. This is not meant to be used for game specific contr...">FreezeTime</a> for Debugging.  
+ <a href="class_time_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_time_manager_8h_source.html">TimeManager.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for TimeManager:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_time_manager__coll__graph.png" border="0" usemap="#_time_manager_coll__map" alt="Collaboration graph"/></div>
-<map name="_time_manager_coll__map" id="_time_manager_coll__map">
-<area shape="rect" id="node2" href="class_freeze_time.html" title="{FreezeTime\n|&#45; totalFrozenTime\l&#45; freeze_mode_active\l&#45; FREEZE_KEY\l&#45; SINGLE_FRAME_KEY\l|+ FreezeTime()\l+ ~FreezeTime()\l+ FreezeTime()\l+ operator=()\l+ GetTimeInSeconds()\l&#45; WaitAndReturnFrozenTime()\l&#45; HackedKeyRelease()\l}" alt="" coords="5,5,200,215"/>
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e02187dd69748e70bb2f7c88caf9da3"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_time_manager.html#a7e02187dd69748e70bb2f7c88caf9da3">GetTime</a> ()</td></tr>
+<tr class="memdesc:a7e02187dd69748e70bb2f7c88caf9da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the time from the start of the Game. This will also counts for inbetween scenes. Freezing Time for Debugging will pause the current time. Look up: <a class="el" href="class_freeze_time.html" title="A hack to allow time to befrozen during runtime. This is not meant to be used for game specific contr...">FreezeTime</a> for more information.  <a href="#a7e02187dd69748e70bb2f7c88caf9da3">More...</a><br /></td></tr>
 <tr class="separator:a7e02187dd69748e70bb2f7c88caf9da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93031532f0e45a52de562f521616b381"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_time_manager.html#a93031532f0e45a52de562f521616b381">GetFrameTime</a> ()</td></tr>
+<tr class="memdesc:a93031532f0e45a52de562f521616b381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets frame time. This is from game launch and uses currentTime to calculate this. <a href="#a93031532f0e45a52de562f521616b381">More...</a><br /></td></tr>
 <tr class="separator:a93031532f0e45a52de562f521616b381"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add31c307771f533faa3fb5e30878ee37"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_time_manager.html#add31c307771f533faa3fb5e30878ee37">PrintFrameTime</a> ()</td></tr>
 <tr class="separator:add31c307771f533faa3fb5e30878ee37"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,7 +161,10 @@ Friends</h2></td></tr>
 <tr class="memitem:ae1beb2ce31de4e59492462dd5030436c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_time_manager.html#ae1beb2ce31de4e59492462dd5030436c">TimeManagerAttorney</a></td></tr>
 <tr class="separator:ae1beb2ce31de4e59492462dd5030436c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manager for recieving time and controlling <a class="el" href="class_freeze_time.html" title="A hack to allow time to befrozen during runtime. This is not meant to be used for game specific contr...">FreezeTime</a> for Debugging. </p>
+<p>Clay, 2/28/2018. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab1c3cbb48ad68d928bb8b9a4ef210ed6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1c3cbb48ad68d928bb8b9a4ef210ed6">&#9670;&nbsp;</a></span>TimeManager() <span class="overload">[1/2]</span></h2>
 
@@ -265,6 +265,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets frame time. This is from game launch and uses currentTime to calculate this.</p>
+<p>Clay, 2/28/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>The frame time. </dd></dl>
+
 </div>
 </div>
 <a id="af52f56356125c3c2208bb757ff456b01"></a>
@@ -314,6 +318,10 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets the time from the start of the Game. This will also counts for inbetween scenes. Freezing Time for Debugging will pause the current time. Look up: <a class="el" href="class_freeze_time.html" title="A hack to allow time to befrozen during runtime. This is not meant to be used for game specific contr...">FreezeTime</a> for more information. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current time since game launch. </dd></dl>
 
 </div>
 </div>

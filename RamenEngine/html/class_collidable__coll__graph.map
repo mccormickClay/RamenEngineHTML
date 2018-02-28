@@ -1,6 +1,0 @@
-<map id="Collidable" name="Collidable">
-<area shape="rect" id="node2" href="$class_collision_volume_b_sphere.html" title="{CollisionVolumeBSphere\n|&#45; Center\l&#45; Radius\l|+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ GetCenter()\l+ GetRadius()\l}" alt="" coords="5,161,171,312"/>
-<area shape="rect" id="node3" href="$class_collision_volume_base.html" title="{CollisionVolumeBase\n||+ ComputeData()\l+ Intersect()\l+ Intersect()\l}" alt="" coords="15,5,161,112"/>
-<area shape="rect" id="node4" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="195,198,381,275"/>
-<area shape="rect" id="node5" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="233,20,343,97"/>
-</map>

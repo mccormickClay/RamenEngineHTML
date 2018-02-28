@@ -1,4 +1,0 @@
-<map id="SceneChangeDeregistrationCommand" name="SceneChangeDeregistrationCommand">
-<area shape="rect" id="node2" href="$class_scene_change_command_base.html" title="{SceneChangeCommandBase\n||+ Execute()\l}" alt="" coords="11,131,203,208"/>
-<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="51,5,162,83"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="UpdateDeregisterationCommand" name="UpdateDeregisterationCommand">
-<area shape="rect" id="node4" href="$class_updatable.html" title="{Updatable\n|+ pDeleteRef\l&#45; RegStateCurr\l|+ Updatable()\l+ SceneRegistration()\l+ SceneDeregistration()\l+ ~Updatable()\l# SubmitUpdateRegistration()\l# SubmitUpdateDeregistration()\l&#45; Update()\l}" alt="" coords="8,428,211,608"/>
-<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="172,132,359,209"/>
-<area shape="rect" id="node5" href="$class_update_registeration_command.html" title="{UpdateRegisterationCommand\n||+ UpdateRegisterationCommand()\l+ ~UpdateRegisterationCommand()\l+ Execute()\l}" alt="" coords="43,671,269,777"/>
-<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="210,5,321,83"/>
-</map>
