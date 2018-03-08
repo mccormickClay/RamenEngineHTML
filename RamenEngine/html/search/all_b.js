@@ -25,5 +25,6 @@ var searchData=
   ['modelmanagerattorney',['ModelManagerAttorney',['../class_model_manager_attorney.html',1,'ModelManagerAttorney'],['../class_model_manager.html#a30d0523536edf4e71d8a833bcbed7e03',1,'ModelManager::ModelManagerAttorney()']]],
   ['modelmanagerattorney_2eh',['ModelManagerAttorney.h',['../_model_manager_attorney_8h.html',1,'']]],
   ['modelmap',['ModelMap',['../class_model_manager.html#ad57c6399948b9185a87de9799a6e50c8',1,'ModelManager']]],
+  ['move',['Move',['../class_sprite.html#ad1bd59989afb0b8b3cb72d52acf00e43',1,'Sprite']]],
   ['mspersec',['msPerSec',['../class_time_manager.html#a9ce63f604316f3361f4193782056fa85',1,'TimeManager']]]
 ];

@@ -4,6 +4,7 @@ var annotated_dup =
     [ "AlarmableManager", "class_alarmable_manager.html", "class_alarmable_manager" ],
     [ "AlarmDeregistrationCommand", "class_alarm_deregistration_command.html", "class_alarm_deregistration_command" ],
     [ "AlarmRegistrationCommand", "class_alarm_registration_command.html", "class_alarm_registration_command" ],
+    [ "AlarmsDemo", "class_alarms_demo.html", "class_alarms_demo" ],
     [ "AssetManager", "class_asset_manager.html", "class_asset_manager" ],
     [ "AssetManagerAttorney", "class_asset_manager_attorney.html", [
       [ "Delete", "class_asset_manager_attorney_1_1_delete.html", "class_asset_manager_attorney_1_1_delete" ],
@@ -45,6 +46,10 @@ var annotated_dup =
     [ "GameObject", "class_game_object.html", "class_game_object" ],
     [ "GameObjectEntryCommand", "class_game_object_entry_command.html", "class_game_object_entry_command" ],
     [ "GameObjectExitCommand", "class_game_object_exit_command.html", "class_game_object_exit_command" ],
+    [ "ImageManager", "class_image_manager.html", "class_image_manager" ],
+    [ "ImageManagerAttorney", "class_image_manager_attorney.html", [
+      [ "Delete", "class_image_manager_attorney_1_1_delete.html", "class_image_manager_attorney_1_1_delete" ]
+    ] ],
     [ "Inputable", "class_inputable.html", "class_inputable" ],
     [ "InputableDeregistrationCommand", "class_inputable_deregistration_command.html", "class_inputable_deregistration_command" ],
     [ "InputableRegistrationCommand", "class_inputable_registration_command.html", "class_inputable_registration_command" ],
@@ -61,26 +66,23 @@ var annotated_dup =
     [ "SceneAttorney", "class_scene_attorney.html", [
       [ "AlarmableOptions", "class_scene_attorney_1_1_alarmable_options.html", "class_scene_attorney_1_1_alarmable_options" ],
       [ "CollidableOptions", "class_scene_attorney_1_1_collidable_options.html", "class_scene_attorney_1_1_collidable_options" ],
-      [ "CommandConnections", "class_scene_attorney_1_1_command_connections.html", "class_scene_attorney_1_1_command_connections" ],
       [ "DeregConnections", "class_scene_attorney_1_1_dereg_connections.html", "class_scene_attorney_1_1_dereg_connections" ],
       [ "DrawableOptions", "class_scene_attorney_1_1_drawable_options.html", "class_scene_attorney_1_1_drawable_options" ],
       [ "GameObjectOptions", "class_scene_attorney_1_1_game_object_options.html", "class_scene_attorney_1_1_game_object_options" ],
       [ "InputOptions", "class_scene_attorney_1_1_input_options.html", "class_scene_attorney_1_1_input_options" ],
       [ "SceneOptions", "class_scene_attorney_1_1_scene_options.html", "class_scene_attorney_1_1_scene_options" ],
+      [ "SpritableOptions", "class_scene_attorney_1_1_spritable_options.html", "class_scene_attorney_1_1_spritable_options" ],
       [ "UpdatableOptions", "class_scene_attorney_1_1_updatable_options.html", "class_scene_attorney_1_1_updatable_options" ]
     ] ],
-    [ "SceneChangeBroker", "class_scene_change_broker.html", "class_scene_change_broker" ],
+    [ "SceneChangeCommand", "class_scene_change_command.html", "class_scene_change_command" ],
     [ "SceneChangeCommandBase", "class_scene_change_command_base.html", "class_scene_change_command_base" ],
-    [ "SceneChangeDeregistrationCommand", "class_scene_change_deregistration_command.html", "class_scene_change_deregistration_command" ],
     [ "SceneChangeNullCommand", "class_scene_change_null_command.html", "class_scene_change_null_command" ],
-    [ "SceneChangeRegistrationCommand", "class_scene_change_registration_command.html", "class_scene_change_registration_command" ],
     [ "SceneManager", "class_scene_manager.html", "class_scene_manager" ],
     [ "SceneManagerAttorney", "class_scene_manager_attorney.html", [
       [ "Connection", "class_scene_manager_attorney_1_1_connection.html", "class_scene_manager_attorney_1_1_connection" ],
       [ "Deletion", "class_scene_manager_attorney_1_1_deletion.html", "class_scene_manager_attorney_1_1_deletion" ],
       [ "Initialize", "class_scene_manager_attorney_1_1_initialize.html", "class_scene_manager_attorney_1_1_initialize" ],
-      [ "Process", "class_scene_manager_attorney_1_1_process.html", "class_scene_manager_attorney_1_1_process" ],
-      [ "Registration", "class_scene_manager_attorney_1_1_registration.html", "class_scene_manager_attorney_1_1_registration" ]
+      [ "Process", "class_scene_manager_attorney_1_1_process.html", "class_scene_manager_attorney_1_1_process" ]
     ] ],
     [ "SceneNull", "class_scene_null.html", null ],
     [ "SceneRegisterationBroker", "class_scene_registeration_broker.html", "class_scene_registeration_broker" ],
@@ -90,6 +92,21 @@ var annotated_dup =
       [ "Delete", "class_shader_manager_attorney_1_1_delete.html", "class_shader_manager_attorney_1_1_delete" ]
     ] ],
     [ "SingleKeyManager", "class_single_key_manager.html", "class_single_key_manager" ],
+    [ "SphereObject", "class_sphere_object.html", "class_sphere_object" ],
+    [ "Spritable", "class_spritable.html", "class_spritable" ],
+    [ "SpritableDeregistrationCommand", "class_spritable_deregistration_command.html", "class_spritable_deregistration_command" ],
+    [ "SpritableManager", "class_spritable_manager.html", "class_spritable_manager" ],
+    [ "SpritableRegistrationCommand", "class_spritable_registration_command.html", "class_spritable_registration_command" ],
+    [ "Sprite", "class_sprite.html", "class_sprite" ],
+    [ "SpriteDemo", "class_sprite_demo.html", "class_sprite_demo" ],
+    [ "SpriteDemo3DObject", "class_sprite_demo3_d_object.html", "class_sprite_demo3_d_object" ],
+    [ "SpriteDemoObject", "class_sprite_demo_object.html", "class_sprite_demo_object" ],
+    [ "SpriteFactory", "class_sprite_factory.html", "class_sprite_factory" ],
+    [ "SpriteFactoryAttorney", "class_sprite_factory_attorney.html", [
+      [ "SceneOptions", "class_sprite_factory_attorney_1_1_scene_options.html", "class_sprite_factory_attorney_1_1_scene_options" ],
+      [ "SpriteOptions", "class_sprite_factory_attorney_1_1_sprite_options.html", "class_sprite_factory_attorney_1_1_sprite_options" ]
+    ] ],
+    [ "SpriteTool", "class_sprite_tool.html", "class_sprite_tool" ],
     [ "TestKey", "class_test_key.html", "class_test_key" ],
     [ "TextureManager", "class_texture_manager.html", "class_texture_manager" ],
     [ "TextureManagerAttorney", "class_texture_manager_attorney.html", [

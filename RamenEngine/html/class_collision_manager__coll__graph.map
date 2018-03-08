@@ -1,0 +1,5 @@
+<map id="CollisionManager" name="CollisionManager">
+<area shape="rect" id="node2" href="$class_collision_test_command_base.html" title="{CollisionTestCommandBase\n||+ Execute()\l}" alt="" coords="66,132,251,209"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="223,5,334,83"/>
+<area shape="rect" id="node6" href="$class_collision_group_command.html" title="{CollisionGroupCommand\n||+ Execute()\l}" alt="" coords="276,132,441,209"/>
+</map>

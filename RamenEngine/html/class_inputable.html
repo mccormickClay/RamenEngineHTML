@@ -104,6 +104,30 @@ $(document).ready(function(){initNavTree('class_inputable.html','');});
  <a href="class_inputable.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_inputable_8h_source.html">Inputable.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Inputable:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_inputable__inherit__graph.png" border="0" usemap="#_inputable_inherit__map" alt="Inheritance graph"/></div>
+<map name="_inputable_inherit__map" id="_inputable_inherit__map">
+<area shape="rect" id="node2" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ..." alt="" coords="219,263,389,487"/>
+<area shape="rect" id="node3" href="class_axis___default.html" title="{Axis_Default\n|&#45; GraphicsObj\l&#45; world\l|+ Axis_Default()\l+ ~Axis_Default()\l+ Initialize()\l+ Draw()\l+ Delete()\l}" alt="" coords="5,579,128,729"/>
+<area shape="rect" id="node4" href="class_sphere_object.html" title="A sphere object that will change colors depending on two different alarms. " alt="" coords="153,549,282,759"/>
+<area shape="rect" id="node5" href="class_sprite_demo3_d_object.html" title="{SpriteDemo3DObject\n|&#45; GraphicObj\l&#45; currentColor\l&#45; Pos\l&#45; Rot\l&#45; Scale\l&#45; world\l|+ SpriteDemo3DObject()\l+ ~SpriteDemo3DObject()\l+ Update()\l+ Draw()\l+ Delete()\l}" alt="" coords="306,549,478,759"/>
+<area shape="rect" id="node6" href="class_sprite_demo_object.html" title="{SpriteDemoObject\n|&#45; alien\l&#45; spr_Alien\l&#45; box\l&#45; currentColor\l&#45; GraphicObj\l|+ SpriteDemoObject()\l+ ~SpriteDemoObject()\l+ Initialize()\l+ Update()\l+ keyPressed()\l+ Draw()\l+ Draw2D()\l+ Delete()\l}" alt="" coords="502,535,658,773"/>
+</map>
+</div>
+<div class="dynheader">
+Collaboration diagram for Inputable:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_inputable__coll__graph.png" border="0" usemap="#_inputable_coll__map" alt="Collaboration graph"/></div>
+<map name="_inputable_coll__map" id="_inputable_coll__map">
+<area shape="rect" id="node4" href="class_inputable_deregistration_command.html" title="{InputableDeregistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableDeregistrationCommand()\l+ ~InputableDeregistration\lCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="66,389,299,569"/>
+<area shape="rect" id="node7" href="class_inputable_registration_command.html" title="{InputableRegistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableRegistrationCommand()\l+ ~InputableRegistrationCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="323,397,554,562"/>
+<area shape="rect" id="node3" href="struct_inputable_1_1_registration_data.html" title="{Inputable::RegistrationData\n|+ RegStateCurr\l+ inputEvent\l|}" alt="" coords="93,632,272,724"/>
+<area shape="rect" id="node5" href="class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="305,191,492,268"/>
+<area shape="rect" id="node6" href="class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="343,5,454,83"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -307,6 +331,8 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 <p>Example </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> Airplane::keyPressed(AZUL_KEY k)</div><div class="line"><span class="keywordflow">switch</span> (k)</div><div class="line">{</div><div class="line"><span class="keywordflow">case</span> AZUL_KEY::KEY_W:</div><div class="line">    &lt;...&gt; <span class="comment">// move Airplane forward</span></div><div class="line">    <span class="keywordflow">break</span>;</div><div class="line"><span class="keywordflow">case</span> AZUL_KEY::KEY_SPACE:</div><div class="line">    &lt;...&gt; <span class="comment">// fire bullet</span></div><div class="line">    <span class="keywordflow">break</span>;</div><div class="line"><span class="keywordflow">default</span>:</div><div class="line">    DebugMsg::out(<span class="stringliteral">&quot;\nERROR: Key %i unprocessed&quot;</span>, k);</div><div class="line">}</div></div><!-- fragment --> 
+<p>Reimplemented in <a class="el" href="class_sprite_demo_object.html#a281bc8da93aef3b6e57c2e8bab702d78">SpriteDemoObject</a>.</p>
+
 </div>
 </div>
 <a id="a666f688a54c97b1eb8f84cb6eee0fcd3"></a>

@@ -1,0 +1,6 @@
+<map id="SpritableRegistrationCommand" name="SpritableRegistrationCommand">
+<area shape="rect" id="node4" href="$class_spritable.html" title="Allows objects to draw sprites over 3D objects. " alt="" coords="5,428,212,608"/>
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="210,132,397,209"/>
+<area shape="rect" id="node5" href="$class_spritable_deregistration_command.html" title="{SpritableDeregistrationCommand\n||+ SpritableDeregistrationCommand()\l+ ~SpritableDeregistration\lCommand()\l+ Execute()\l}" alt="" coords="66,671,298,792"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="248,5,359,83"/>
+</map>

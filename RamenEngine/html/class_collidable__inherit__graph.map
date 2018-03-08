@@ -1,0 +1,7 @@
+<map id="Collidable" name="Collidable">
+<area shape="rect" id="node2" href="$class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ..." alt="" coords="219,292,389,516"/>
+<area shape="rect" id="node3" href="$class_axis___default.html" title="{Axis_Default\n|&#45; GraphicsObj\l&#45; world\l|+ Axis_Default()\l+ ~Axis_Default()\l+ Initialize()\l+ Draw()\l+ Delete()\l}" alt="" coords="5,608,128,759"/>
+<area shape="rect" id="node4" href="$class_sphere_object.html" title="A sphere object that will change colors depending on two different alarms. " alt="" coords="153,579,282,788"/>
+<area shape="rect" id="node5" href="$class_sprite_demo3_d_object.html" title="{SpriteDemo3DObject\n|&#45; GraphicObj\l&#45; currentColor\l&#45; Pos\l&#45; Rot\l&#45; Scale\l&#45; world\l|+ SpriteDemo3DObject()\l+ ~SpriteDemo3DObject()\l+ Update()\l+ Draw()\l+ Delete()\l}" alt="" coords="306,579,478,788"/>
+<area shape="rect" id="node6" href="$class_sprite_demo_object.html" title="{SpriteDemoObject\n|&#45; alien\l&#45; spr_Alien\l&#45; box\l&#45; currentColor\l&#45; GraphicObj\l|+ SpriteDemoObject()\l+ ~SpriteDemoObject()\l+ Initialize()\l+ Update()\l+ keyPressed()\l+ Draw()\l+ Draw2D()\l+ Delete()\l}" alt="" coords="502,564,658,803"/>
+</map>

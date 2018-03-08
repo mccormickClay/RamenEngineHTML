@@ -97,11 +97,19 @@ $(document).ready(function(){initNavTree('class_cam_manager.html','');});
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_cam_manager_8h_source.html">CamManager.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for CamManager:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cam_manager__coll__graph.png" border="0" usemap="#_cam_manager_coll__map" alt="Collaboration graph"/></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a29b778f974145eb82d49a511f0b0cfc3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a29b778f974145eb82d49a511f0b0cfc3">~CamManager</a> ()</td></tr>
 <tr class="separator:a29b778f974145eb82d49a511f0b0cfc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3308913b3cd1486be5ecea091a71276f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a3308913b3cd1486be5ecea091a71276f">Start</a> ()</td></tr>
+<tr class="memdesc:a3308913b3cd1486be5ecea091a71276f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begins the defualt settings for the <a class="el" href="class_cam_manager.html">CamManager</a>  <a href="#a3308913b3cd1486be5ecea091a71276f">More...</a><br /></td></tr>
+<tr class="separator:a3308913b3cd1486be5ecea091a71276f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33ebf83c95f82f2d169857ec11d23c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a33ebf83c95f82f2d169857ec11d23c3b">CreateDefaultCamera</a> ()</td></tr>
 <tr class="memdesc:a33ebf83c95f82f2d169857ec11d23c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates default camera.  <a href="#a33ebf83c95f82f2d169857ec11d23c3b">More...</a><br /></td></tr>
 <tr class="separator:a33ebf83c95f82f2d169857ec11d23c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,13 +120,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a855adb9c62b7c02bf124d35882997211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the current camera. This is needed if you are moving the Camera within a <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. Example would be a GodCamera or a FreeFlying Camera.  <a href="#a855adb9c62b7c02bf124d35882997211">More...</a><br /></td></tr>
 <tr class="separator:a855adb9c62b7c02bf124d35882997211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088f0ad0c9835728e5a9dfd1d1c39edb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a088f0ad0c9835728e5a9dfd1d1c39edb">SetCurrentCamera</a> (Camera *newCamera)</td></tr>
-<tr class="memdesc:a088f0ad0c9835728e5a9dfd1d1c39edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current camera to a Camera created by the user.CameraTool uses this function so all GameObjects have easy access.  <a href="#a088f0ad0c9835728e5a9dfd1d1c39edb">More...</a><br /></td></tr>
+<tr class="memdesc:a088f0ad0c9835728e5a9dfd1d1c39edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current camera to a Camera created by the user. <a class="el" href="class_camera_tool.html">CameraTool</a> uses this function so all GameObjects have easy access.  <a href="#a088f0ad0c9835728e5a9dfd1d1c39edb">More...</a><br /></td></tr>
 <tr class="separator:a088f0ad0c9835728e5a9dfd1d1c39edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c34f3462c9d491cc3b7e4a9dc23fd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a40c34f3462c9d491cc3b7e4a9dc23fd3">CreateDefault2DCamera</a> ()</td></tr>
+<tr class="memdesc:a40c34f3462c9d491cc3b7e4a9dc23fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates default 2D camera.  <a href="#a40c34f3462c9d491cc3b7e4a9dc23fd3">More...</a><br /></td></tr>
+<tr class="separator:a40c34f3462c9d491cc3b7e4a9dc23fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c022c76d079881f7f43966afa16ce89"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a9c022c76d079881f7f43966afa16ce89">GetCurrent2DCamera</a> ()</td></tr>
+<tr class="memdesc:a9c022c76d079881f7f43966afa16ce89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current 2D Camera for the current <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. <a class="el" href="class_camera_tool.html">CameraTool</a> uses this function so all GameObjects have easy access.  <a href="#a9c022c76d079881f7f43966afa16ce89">More...</a><br /></td></tr>
+<tr class="separator:a9c022c76d079881f7f43966afa16ce89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa3fb33d7cd4f01c68803e999c783ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a6aa3fb33d7cd4f01c68803e999c783ff">SetCurrent2DCamera</a> (Camera *new2DCamera)</td></tr>
+<tr class="memdesc:a6aa3fb33d7cd4f01c68803e999c783ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current camera to a Camera created by the user. <a class="el" href="class_camera_tool.html">CameraTool</a> uses this function so all Sprites have easy access.  <a href="#a6aa3fb33d7cd4f01c68803e999c783ff">More...</a><br /></td></tr>
+<tr class="separator:a6aa3fb33d7cd4f01c68803e999c783ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a3308913b3cd1486be5ecea091a71276f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a3308913b3cd1486be5ecea091a71276f">Start</a> ()</td></tr>
-<tr class="separator:a3308913b3cd1486be5ecea091a71276f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0978e55e5f1b1b9f6d16c091bf5f66c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#ac0978e55e5f1b1b9f6d16c091bf5f66c">DeleteDefaultCamera</a> ()</td></tr>
 <tr class="separator:ac0978e55e5f1b1b9f6d16c091bf5f66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18f83609f30e2ff779cacb74dc132ebd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a18f83609f30e2ff779cacb74dc132ebd">Terminate</a> ()</td></tr>
@@ -128,6 +143,10 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad3f3a79d32f8651b5fce8915c0b3d532"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#ad3f3a79d32f8651b5fce8915c0b3d532">currentCam</a></td></tr>
 <tr class="separator:ad3f3a79d32f8651b5fce8915c0b3d532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b3208ef464d2e18bc27d1e8f488c24"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#ac9b3208ef464d2e18bc27d1e8f488c24">current2DCam</a></td></tr>
+<tr class="separator:ac9b3208ef464d2e18bc27d1e8f488c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6e3363124a9be30ddd331de0158a84"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#a9e6e3363124a9be30ddd331de0158a84">Default2DCamera</a></td></tr>
+<tr class="separator:a9e6e3363124a9be30ddd331de0158a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad5c36fd8b52529d0ad9753524932d28"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cam_manager.html#aad5c36fd8b52529d0ad9753524932d28">DefaultCamera</a></td></tr>
 <tr class="separator:aad5c36fd8b52529d0ad9753524932d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -155,6 +174,26 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a40c34f3462c9d491cc3b7e4a9dc23fd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c34f3462c9d491cc3b7e4a9dc23fd3">&#9670;&nbsp;</a></span>CreateDefault2DCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CamManager::CreateDefault2DCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates default 2D camera. </p>
+<p>Clay, 2/28/2018. </p>
+
+</div>
+</div>
 <a id="a33ebf83c95f82f2d169857ec11d23c3b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33ebf83c95f82f2d169857ec11d23c3b">&#9670;&nbsp;</a></span>CreateDefaultCamera()</h2>
 
@@ -200,6 +239,27 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a9c022c76d079881f7f43966afa16ce89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c022c76d079881f7f43966afa16ce89">&#9670;&nbsp;</a></span>GetCurrent2DCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera * CamManager::GetCurrent2DCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets current 2D Camera for the current <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. <a class="el" href="class_camera_tool.html">CameraTool</a> uses this function so all GameObjects have easy access. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current 2D camera. If no Camera has been set by the user, it will be the Default Camera. </dd></dl>
+
+</div>
+</div>
 <a id="a0118f0863c7c11d40cf0acce5aa68bca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0118f0863c7c11d40cf0acce5aa68bca">&#9670;&nbsp;</a></span>GetCurrentCamera()</h2>
 
@@ -221,6 +281,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a6aa3fb33d7cd4f01c68803e999c783ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa3fb33d7cd4f01c68803e999c783ff">&#9670;&nbsp;</a></span>SetCurrent2DCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CamManager::SetCurrent2DCamera </td>
+          <td>(</td>
+          <td class="paramtype">Camera *&#160;</td>
+          <td class="paramname"><em>new2DCamera</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets current camera to a Camera created by the user. <a class="el" href="class_camera_tool.html">CameraTool</a> uses this function so all Sprites have easy access. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new2DCamera</td><td>The camera that was created by the user. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a088f0ad0c9835728e5a9dfd1d1c39edb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a088f0ad0c9835728e5a9dfd1d1c39edb">&#9670;&nbsp;</a></span>SetCurrentCamera()</h2>
 
@@ -237,7 +324,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets current camera to a Camera created by the user.CameraTool uses this function so all GameObjects have easy access. </p>
+<p>Sets current camera to a Camera created by the user. <a class="el" href="class_camera_tool.html">CameraTool</a> uses this function so all GameObjects have easy access. </p>
 <p>Clay, 2/28/2018. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -253,9 +340,6 @@ Friends</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CamManager::Start </td>
@@ -264,12 +348,10 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Begins the defualt settings for the <a class="el" href="class_cam_manager.html">CamManager</a> </p>
+<p>Clay, 2/28/2018. </p>
 
 </div>
 </div>
@@ -342,6 +424,28 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac9b3208ef464d2e18bc27d1e8f488c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b3208ef464d2e18bc27d1e8f488c24">&#9670;&nbsp;</a></span>current2DCam</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera* CamManager::current2DCam</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad3f3a79d32f8651b5fce8915c0b3d532"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3f3a79d32f8651b5fce8915c0b3d532">&#9670;&nbsp;</a></span>currentCam</h2>
 
@@ -353,6 +457,28 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Camera* CamManager::currentCam</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e6e3363124a9be30ddd331de0158a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e6e3363124a9be30ddd331de0158a84">&#9670;&nbsp;</a></span>Default2DCamera</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera* CamManager::Default2DCamera</td>
         </tr>
       </table>
   </td>

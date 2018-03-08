@@ -1,0 +1,6 @@
+<map id="Drawable" name="Drawable">
+<area shape="rect" id="node2" href="$class_drawable_registration_command.html" title="{DrawableRegistrationCommand\n||+ DrawableRegistrationCommand()\l+ ~DrawableRegistrationCommand()\l+ Execute()\l}" alt="" coords="358,375,589,481"/>
+<area shape="rect" id="node5" href="$class_drawable_deregistration_command.html" title="{DrawableDeregistrationCommand\n||+ DrawableDeregistrationCommand()\l+ ~DrawableDeregistrationCommand()\l+ Execute()\l}" alt="" coords="5,375,248,481"/>
+<area shape="rect" id="node3" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="479,183,665,261"/>
+<area shape="rect" id="node4" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="517,5,627,83"/>
+</map>

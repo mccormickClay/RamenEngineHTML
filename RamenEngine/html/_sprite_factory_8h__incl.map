@@ -1,0 +1,10 @@
+<map id="SpriteFactory.h" name="SpriteFactory.h">
+<area shape="rect" id="node3" href="$_sprite_8h.html" title="Sprite.h" alt="" coords="117,80,183,107"/>
+<area shape="rect" id="node4" href="$_drawable_8h.html" title="Drawable.h" alt="" coords="251,155,337,181"/>
+<area shape="rect" id="node11" href="$_registration_state_8h.html" title="RegistrationState.h" alt="" coords="58,229,191,256"/>
+<area shape="rect" id="node6" href="$_ramen_8h.html" title="Ramen.h" alt="" coords="469,229,543,256"/>
+<area shape="rect" id="node10" href="$_drawable_manager_8h.html" title="DrawableManager.h" alt="" coords="215,229,351,256"/>
+<area shape="rect" id="node7" href="$_time_manager_attorney_8h.html" title="TimeManagerAttorney.h" alt="" coords="426,304,586,331"/>
+<area shape="rect" id="node8" href="$_time_manager_8h.html" title="TimeManager.h" alt="" coords="439,379,549,405"/>
+<area shape="rect" id="node9" href="$_freeze_time_8h.html" title="FreezeTime.h" alt="" coords="435,453,537,480"/>
+</map>

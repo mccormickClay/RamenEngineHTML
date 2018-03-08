@@ -1,0 +1,4 @@
+<map id="AlarmDeregistrationCommand" name="AlarmDeregistrationCommand">
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="23,131,210,208"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="61,5,172,83"/>
+</map>

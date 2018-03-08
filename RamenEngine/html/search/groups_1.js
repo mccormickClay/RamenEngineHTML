@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gameobject',['GameObject',['../group___g_a_m_e_o_b_j_e_c_t.html',1,'']]]
+  ['components',['Components',['../group___c_o_m_p_o_n_e_n_t_s.html',1,'']]]
 ];

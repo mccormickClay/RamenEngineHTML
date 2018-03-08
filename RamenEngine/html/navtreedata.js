@@ -24,6 +24,10 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Ramen", "index.html", [
+    [ "Update Notes", "index.html", [
+      [ "3/6/2018", "index.html#febsixth", null ],
+      [ "3/4/2018", "index.html#febfourth", null ]
+    ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -53,10 +57,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_alarm_deregistration_command_8cpp.html",
-"class_asset_manager.html#a7340f31648c488b3b988ead6d1631aa5",
-"class_inputable.html#adcab947c50865de02b0df20b4943aa79",
-"class_scene_manager_attorney_1_1_process.html#a800cc046fba360ba4c5922f56088d29c",
-"struct_color.html#a03efccc3af42fd9fe9d9ad8c7459e688"
+"class_alarmable.html#ad2da9852c51da5d0696d73fd69f647d2",
+"class_drawable_registration_command.html#a399d2d59acc464a4570dcf4d4ffe9dfe",
+"class_scene_attorney_1_1_input_options.html#a8462bee41dd740daa99013b4fb6a1e84",
+"class_sprite_factory.html#ad5f5fba0c88dfa8391bf28b7a53519fd",
+"struct_color.html#a4a92e61ab05dd8a59b1e767fdeac858a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

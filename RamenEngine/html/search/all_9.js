@@ -8,7 +8,7 @@ var searchData=
   ['keyboardeventmanager_2ecpp',['KeyboardEventManager.cpp',['../_keyboard_event_manager_8cpp.html',1,'']]],
   ['keyboardeventmanager_2eh',['KeyboardEventManager.h',['../_keyboard_event_manager_8h.html',1,'']]],
   ['keymanagermap',['KeyManagerMap',['../class_keyboard_event_manager.html#ada903d5a8f776398850b80a0ce981159',1,'KeyboardEventManager']]],
-  ['keypressed',['keyPressed',['../class_inputable.html#a4ab3f868d29a2c50a9aca5c7ae53601d',1,'Inputable']]],
+  ['keypressed',['keyPressed',['../class_inputable.html#a4ab3f868d29a2c50a9aca5c7ae53601d',1,'Inputable::keyPressed()'],['../class_sprite_demo_object.html#a281bc8da93aef3b6e57c2e8bab702d78',1,'SpriteDemoObject::keyPressed()']]],
   ['keypresslist',['keyPressList',['../class_single_key_manager.html#ab23fcabf82237c86e602d15fe231de9f',1,'SingleKeyManager']]],
   ['keyregistrationcommand',['KeyRegistrationCommand',['../class_key_registration_command.html',1,'']]],
   ['keyregistrationcommand_2eh',['KeyRegistrationCommand.h',['../_key_registration_command_8h.html',1,'']]],

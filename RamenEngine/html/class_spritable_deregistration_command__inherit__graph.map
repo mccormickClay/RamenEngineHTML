@@ -1,0 +1,4 @@
+<map id="SpritableDeregistrationCommand" name="SpritableDeregistrationCommand">
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="28,131,215,208"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="66,5,177,83"/>
+</map>

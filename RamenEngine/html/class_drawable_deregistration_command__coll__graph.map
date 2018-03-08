@@ -1,0 +1,6 @@
+<map id="DrawableDeregistrationCommand" name="DrawableDeregistrationCommand">
+<area shape="rect" id="node4" href="$class_drawable.html" title="Allows Gameobjects to be drawn on screen. " alt="" coords="15,428,206,608"/>
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="173,132,360,209"/>
+<area shape="rect" id="node5" href="$class_drawable_registration_command.html" title="{DrawableRegistrationCommand\n||+ DrawableRegistrationCommand()\l+ ~DrawableRegistrationCommand()\l+ Execute()\l}" alt="" coords="42,671,273,777"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="211,5,322,83"/>
+</map>

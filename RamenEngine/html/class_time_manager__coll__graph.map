@@ -1,0 +1,3 @@
+<map id="TimeManager" name="TimeManager">
+<area shape="rect" id="node2" href="$class_freeze_time.html" title="A hack to allow time to befrozen during runtime. This is not meant to be used for game specific contr..." alt="" coords="5,5,200,215"/>
+</map>

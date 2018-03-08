@@ -19,13 +19,14 @@ var searchData=
   ['darkviolet',['DarkViolet',['../struct_color.html#af4a734a3e61790424c72da8798f098ce',1,'Color']]],
   ['deeppink',['DeepPink',['../struct_color.html#a99f30654785f803510ea67ad8925d4a9',1,'Color']]],
   ['deepskyblue',['DeepSkyBlue',['../struct_color.html#a6d247016825d466d5a11fbfb9c3da58d',1,'Color']]],
+  ['default2dcamera',['Default2DCamera',['../class_cam_manager.html#a9e6e3363124a9be30ddd331de0158a84',1,'CamManager']]],
   ['default_5fcolor',['DEFAULT_COLOR',['../class_visualizer_tool.html#ad9e4595240971b2cc7b81f351f31e27b',1,'VisualizerTool']]],
   ['defaultcamera',['DefaultCamera',['../class_camera_manager.html#af64c8568a4a7919fbded3686c0651a37',1,'CameraManager::DefaultCamera()'],['../class_cam_manager.html#aad5c36fd8b52529d0ad9753524932d28',1,'CamManager::DefaultCamera()']]],
   ['deletecmd',['deletecmd',['../class_collidable_group.html#ad6968a8196f381815d88e19c5296e549',1,'CollidableGroup']]],
   ['deletionlist',['deletionList',['../class_collision_manager.html#afc8430bf8c84948665f5cab85bc82433',1,'CollisionManager']]],
-  ['deregcommand',['DeregCommand',['../struct_scene_1_1_scene_change_registration.html#ab39af63a26eaaf0d9227ba5fbc7a38ed',1,'Scene::SceneChangeRegistration']]],
   ['dimgray',['DimGray',['../struct_color.html#a6cc267f277b77fa77e70f180c6403027',1,'Color']]],
   ['dodgerblue',['DodgerBlue',['../struct_color.html#a79902a574f8134aff02c9793f59da57a',1,'Color']]],
+  ['draw2dmanager',['Draw2DManager',['../class_scene.html#a8f7be1f3f7e3b159dae5d5689fb3af02',1,'Scene']]],
   ['drawlist',['drawList',['../class_drawable_manager.html#aeb1b5ecbfb613b11edcd74dee049ce34',1,'DrawableManager']]],
   ['drawmanager',['DrawManager',['../class_scene.html#a76aeccbd502c502d47f457cfc8b91155',1,'Scene']]]
 ];

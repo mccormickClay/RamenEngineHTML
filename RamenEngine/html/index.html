@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ramen: Main Page</title>
+<title>Ramen: Update Notes</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -86,10 +86,61 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Ramen Documentation</div>  </div>
+<div class="title">Update Notes </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><p>On (mostly) every large upload, notes of what the current version has added will be on this page.</p>
+<h1><a class="anchor" id="febsixth"></a>
+3/6/2018</h1>
+<p><b>Coming Soon(ish):</b></p>
+<ul>
+<li>EngineOptions</li>
+</ul>
+<ol type="1">
+<li>Soon (if Andre thinks its a good idea) will be adding GameOptions. This will allow the user to decide what to do and dont want the engine to do. Example right now is the <a class="el" href="class_sprite_factory.html">SpriteFactory</a>. The Engine currently controls it but the user could turn it off if they want!</li>
+</ol>
+<p><b>New Stuff:</b></p><ul>
+<li><a class="el" href="class_sprite.html">Sprite</a><ol type="1">
+<li>Now Documented! (With what is currently available and working).</li>
+</ol>
+</li>
+</ul>
+<p><b>Polished Shtuff</b></p><ul>
+<li><p class="startli"><a class="el" href="class_sprite.html">Sprite</a></p><ol type="1">
+<li>Started Seperating Engine code from user code for GameOptions. RemoveAndRecycle is specifically for the <a class="el" href="class_sprite_factory.html">SpriteFactory</a>. For DISABLED <a class="el" href="class_sprite_factory.html">SpriteFactory</a>: Deleting the sprite will not call the factory for recycling.</li>
+</ol>
+<p class="startli"><code> coolSprite-&gt;RemoveAndRecycle(); // used for the <a class="el" href="class_sprite_factory.html">SpriteFactory</a> </code></p>
+<p class="startli">or</p>
+<p class="startli"><code> delete coolSprite; // Allows the user to delete the sprite if <a class="el" href="class_sprite_factory.html">SpriteFactory</a> isnt used. </code></p>
+</li>
+</ul>
+<h1><a class="anchor" id="febfourth"></a>
+3/4/2018</h1>
+<p><b>New Stuff:</b></p><ul>
+<li><a class="el" href="class_sprite.html">Sprite</a><ol type="1">
+<li>Now added into the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>. Make sprites easier having to add the header everytime.</li>
+<li>To Use a <a class="el" href="class_sprite.html">Sprite</a> Submit for a SpritableRegistration. Any Sprites rendering inside the new <a class="el" href="class_spritable.html#a1cb9bcd0a7820811d3522e01394d02bf" title="Call back to Draw 2D on the screen. ">Spritable::Draw2D()</a> function will be called to the screen. Sprites do not need to have a specific Camera to render to. The default is the new 2DCam!</li>
+<li>Sprites are Recycled after every scene to be used on other scenes. Hopefully not to waste space. At the moment Scenes Terminate Sprites when they are destroyed. Soon this will be in the <a class="el" href="class_scene_manager.html">SceneManager</a> to avoid this.</li>
+<li>Sprites do not need to be deleted by the user. When you are done with the sprite, use <a class="el" href="class_sprite.html#a0f047e1cc4b605772d50f1d7e24a231e" title="Destroys this object. This is used if the EngineSpriteFactory is disabled. ">Sprite::Destroy()</a> and you are done!</li>
+</ol>
+</li>
+<li><a class="el" href="class_sprite_tool.html">SpriteTool</a><ol type="1">
+<li>Just like the <a class="el" href="class_camera_tool.html">CameraTool</a>, it allows users to have use of <a class="el" href="class_sprite.html">Sprite</a> Creation without needing the <a class="el" href="_sprite_factory_8h.html">SpriteFactory.h</a></li>
+<li><a class="el" href="class_sprite_tool.html">SpriteTool</a> is already in <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>, just type <a class="el" href="class_sprite.html">Sprite</a> tool and you're set!</li>
+</ol>
+</li>
+</ul>
+<p><b>Polished Shtuff</b></p><ul>
+<li><a class="el" href="class_camera_manager.html">CameraManager</a><ol type="1">
+<li>Camera Manager has two currentCameras: <a class="el" href="class_cam_manager.html#ad3f3a79d32f8651b5fce8915c0b3d532">CamManager::currentCam</a> and <a class="el" href="class_cam_manager.html#ac9b3208ef464d2e18bc27d1e8f488c24">CamManager::current2DCam</a>. Both can be used at the same time for 3D objects and Sprites.</li>
+</ol>
+</li>
+<li>Attorneys<ol type="1">
+<li>Cleaned up Attorneys some for better access and readability. </li>
+</ol>
+</li>
+</ul>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

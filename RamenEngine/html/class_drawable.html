@@ -102,6 +102,29 @@ $(document).ready(function(){initNavTree('class_drawable.html','');});
  <a href="class_drawable.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_drawable_8h_source.html">Drawable.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Drawable:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_drawable__inherit__graph.png" border="0" usemap="#_drawable_inherit__map" alt="Inheritance graph"/></div>
+<map name="_drawable_inherit__map" id="_drawable_inherit__map">
+<area shape="rect" id="node2" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ..." alt="" coords="219,263,389,487"/>
+<area shape="rect" id="node3" href="class_axis___default.html" title="{Axis_Default\n|&#45; GraphicsObj\l&#45; world\l|+ Axis_Default()\l+ ~Axis_Default()\l+ Initialize()\l+ Draw()\l+ Delete()\l}" alt="" coords="5,579,128,729"/>
+<area shape="rect" id="node4" href="class_sphere_object.html" title="A sphere object that will change colors depending on two different alarms. " alt="" coords="153,549,282,759"/>
+<area shape="rect" id="node5" href="class_sprite_demo3_d_object.html" title="{SpriteDemo3DObject\n|&#45; GraphicObj\l&#45; currentColor\l&#45; Pos\l&#45; Rot\l&#45; Scale\l&#45; world\l|+ SpriteDemo3DObject()\l+ ~SpriteDemo3DObject()\l+ Update()\l+ Draw()\l+ Delete()\l}" alt="" coords="306,549,478,759"/>
+<area shape="rect" id="node6" href="class_sprite_demo_object.html" title="{SpriteDemoObject\n|&#45; alien\l&#45; spr_Alien\l&#45; box\l&#45; currentColor\l&#45; GraphicObj\l|+ SpriteDemoObject()\l+ ~SpriteDemoObject()\l+ Initialize()\l+ Update()\l+ keyPressed()\l+ Draw()\l+ Draw2D()\l+ Delete()\l}" alt="" coords="502,535,658,773"/>
+</map>
+</div>
+<div class="dynheader">
+Collaboration diagram for Drawable:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_drawable__coll__graph.png" border="0" usemap="#_drawable_coll__map" alt="Collaboration graph"/></div>
+<map name="_drawable_coll__map" id="_drawable_coll__map">
+<area shape="rect" id="node2" href="class_drawable_registration_command.html" title="{DrawableRegistrationCommand\n||+ DrawableRegistrationCommand()\l+ ~DrawableRegistrationCommand()\l+ Execute()\l}" alt="" coords="358,375,589,481"/>
+<area shape="rect" id="node5" href="class_drawable_deregistration_command.html" title="{DrawableDeregistrationCommand\n||+ DrawableDeregistrationCommand()\l+ ~DrawableDeregistrationCommand()\l+ Execute()\l}" alt="" coords="5,375,248,481"/>
+<area shape="rect" id="node3" href="class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="479,183,665,261"/>
+<area shape="rect" id="node4" href="class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="517,5,627,83"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -214,7 +237,7 @@ Friends</h2></td></tr>
 
 <p>Callback for all GameObjects to be drawn on screen. Draw will likely be used with GraphicsObject Render(Camera* pCam). </p>
 <p>Example </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> Bullet::Draw()</div><div class="line">{</div><div class="line">    GraphicsObj-&gt;Render(<a class="code" href="class_camera_tool.html#a99d418b0e435b2b319cd21800b6dcfb7">CameraTool::GetCurrentCamera</a>());</div><div class="line">}</div></div><!-- fragment --> 
-<p>Reimplemented in <a class="el" href="class_axis___default.html#a330d33d8de31eedfd82d3dc6e47a0b58">Axis_Default</a>.</p>
+<p>Reimplemented in <a class="el" href="class_sphere_object.html#a60771134a28dc8d6bd4c89cabbfe231a">SphereObject</a>, <a class="el" href="class_sprite_demo_object.html#a77ac5394708064134fe657c575b72cc2">SpriteDemoObject</a>, <a class="el" href="class_axis___default.html#a330d33d8de31eedfd82d3dc6e47a0b58">Axis_Default</a>, and <a class="el" href="class_sprite_demo3_d_object.html#ae66814b3b5e1847fbbac94e15c306c42">SpriteDemo3DObject</a>.</p>
 
 </div>
 </div>

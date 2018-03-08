@@ -1,0 +1,5 @@
+<map id="SceneChangeCommandBase" name="SceneChangeCommandBase">
+<area shape="rect" id="node3" href="$class_scene_change_command.html" title="{SceneChangeCommand\n|&#45; ptrToken\l|+ SceneChangeCommand()\l+ ~SceneChangeCommand()\l+ SetScene()\l+ Execute()\l}" alt="" coords="5,256,196,377"/>
+<area shape="rect" id="node4" href="$class_scene_change_null_command.html" title="{SceneChangeNullCommand\n||+ Execute()\l}" alt="" coords="221,278,405,355"/>
+<area shape="rect" id="node2" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="151,5,261,83"/>
+</map>

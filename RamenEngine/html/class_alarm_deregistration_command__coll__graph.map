@@ -1,0 +1,7 @@
+<map id="AlarmDeregistrationCommand" name="AlarmDeregistrationCommand">
+<area shape="rect" id="node5" href="$struct_alarmable_1_1_registration_data.html" title="{Alarmable::RegistrationData\n|+ pDeleteRef\l+ RegStateCurr\l|}" alt="" coords="162,428,346,520"/>
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="283,132,470,209"/>
+<area shape="rect" id="node6" href="$class_alarm_registration_command.html" title="{AlarmRegistrationCommand\n|&#45; alarm_id\l|+ AlarmRegistrationCommand()\l+ ~AlarmRegistrationCommand()\l+ Execute()\l}" alt="" coords="144,884,356,991"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="321,5,432,83"/>
+<area shape="rect" id="node4" href="$class_alarmable.html" title="Allows GameObjects to call functions at a specific time. " alt="" coords="5,583,201,821"/>
+</map>

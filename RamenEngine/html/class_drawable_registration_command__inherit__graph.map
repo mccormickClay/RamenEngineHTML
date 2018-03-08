@@ -1,0 +1,4 @@
+<map id="DrawableRegistrationCommand" name="DrawableRegistrationCommand">
+<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="27,131,214,208"/>
+<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="65,5,176,83"/>
+</map>

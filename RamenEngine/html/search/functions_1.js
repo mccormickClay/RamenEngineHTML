@@ -14,6 +14,9 @@ var searchData=
   ['collisiontestselfcommand',['CollisionTestSelfCommand',['../class_collision_test_self_command.html#a291f84198b3d445d9f1f4542e3ff7bff',1,'CollisionTestSelfCommand']]],
   ['computedata',['ComputeData',['../class_collision_volume_base.html#a0e7c0a2a5bf77d3f18f7392b7641d88f',1,'CollisionVolumeBase::ComputeData()'],['../class_collision_volume_b_sphere.html#a36557edc6ab37d1ec7c23231044cadeb',1,'CollisionVolumeBSphere::ComputeData()']]],
   ['connecttoscene',['ConnectToScene',['../class_game_object.html#ac1b3409129559bfc11845d6437c3d587',1,'GameObject']]],
-  ['createdefaultcam',['CreateDefaultCam',['../class_camera_manager_attorney_1_1_initialize.html#a91ea7755eb0b6a06175992c662063163',1,'CameraManagerAttorney::Initialize::CreateDefaultCam()'],['../class_scene.html#a6a4388bfe9700aaec9366cb927742d49',1,'Scene::CreateDefaultCam()']]],
-  ['createdefaultcamera',['CreateDefaultCamera',['../class_camera_manager.html#ae6cada6d2aa22e6b340d04e50dfe4206',1,'CameraManager::CreateDefaultCamera()'],['../class_cam_manager.html#a33ebf83c95f82f2d169857ec11d23c3b',1,'CamManager::CreateDefaultCamera()']]]
+  ['create',['Create',['../class_sprite_factory_attorney_1_1_scene_options.html#a6534df5bf6d764f910df1fcc5edd3573',1,'SpriteFactoryAttorney::SceneOptions::Create()'],['../class_sprite_tool.html#a7dc4e538c84dae51384bc7d76e4a325c',1,'SpriteTool::Create()']]],
+  ['createdefault2dcamera',['CreateDefault2DCamera',['../class_cam_manager.html#a40c34f3462c9d491cc3b7e4a9dc23fd3',1,'CamManager']]],
+  ['createdefaultcamera',['CreateDefaultCamera',['../class_camera_manager.html#ae6cada6d2aa22e6b340d04e50dfe4206',1,'CameraManager::CreateDefaultCamera()'],['../class_cam_manager.html#a33ebf83c95f82f2d169857ec11d23c3b',1,'CamManager::CreateDefaultCamera()']]],
+  ['createfactory',['CreateFactory',['../class_sprite_factory.html#a08fd21b371e2f308acdb477f61b72b4d',1,'SpriteFactory']]],
+  ['createsprite',['CreateSprite',['../class_sprite_factory.html#a7e4896e2a9f1538c1bc6b070699f0f91',1,'SpriteFactory']]]
 ];

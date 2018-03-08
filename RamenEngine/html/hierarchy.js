@@ -2,7 +2,10 @@ var hierarchy =
 [
     [ "Alarmable", "class_alarmable.html", [
       [ "GameObject", "class_game_object.html", [
-        [ "Axis_Default", "class_axis___default.html", null ]
+        [ "Axis_Default", "class_axis___default.html", null ],
+        [ "SphereObject", "class_sphere_object.html", null ],
+        [ "SpriteDemo3DObject", "class_sprite_demo3_d_object.html", null ],
+        [ "SpriteDemoObject", "class_sprite_demo_object.html", null ]
       ] ]
     ] ],
     [ "AlarmableManager", "class_alarmable_manager.html", null ],
@@ -10,8 +13,12 @@ var hierarchy =
     [ "Align16", null, [
       [ "GameObject", "class_game_object.html", null ],
       [ "Scene", "class_scene.html", [
-        [ "SceneNull", "class_scene_null.html", null ]
+        [ "AlarmsDemo", "class_alarms_demo.html", null ],
+        [ "SceneNull", "class_scene_null.html", null ],
+        [ "SpriteDemo", "class_sprite_demo.html", null ]
       ] ],
+      [ "Sprite", "class_sprite.html", null ],
+      [ "SpriteFactory", "class_sprite_factory.html", null ],
       [ "VisualizerTool", "class_visualizer_tool.html", null ]
     ] ],
     [ "AssetManager", "class_asset_manager.html", null ],
@@ -42,9 +49,8 @@ var hierarchy =
         [ "CollisionTestSelfCommand< C >", "class_collision_test_self_command.html", null ]
       ] ],
       [ "SceneChangeCommandBase", "class_scene_change_command_base.html", [
-        [ "SceneChangeDeregistrationCommand", "class_scene_change_deregistration_command.html", null ],
-        [ "SceneChangeNullCommand", "class_scene_change_null_command.html", null ],
-        [ "SceneChangeRegistrationCommand", "class_scene_change_registration_command.html", null ]
+        [ "SceneChangeCommand", "class_scene_change_command.html", null ],
+        [ "SceneChangeNullCommand", "class_scene_change_null_command.html", null ]
       ] ],
       [ "SceneRegistrationCommand", "class_scene_registration_command.html", [
         [ "AlarmDeregistrationCommand", "class_alarm_deregistration_command.html", null ],
@@ -57,13 +63,15 @@ var hierarchy =
         [ "GameObjectExitCommand", "class_game_object_exit_command.html", null ],
         [ "InputableDeregistrationCommand", "class_inputable_deregistration_command.html", null ],
         [ "InputableRegistrationCommand", "class_inputable_registration_command.html", null ],
+        [ "SpritableDeregistrationCommand", "class_spritable_deregistration_command.html", null ],
+        [ "SpritableRegistrationCommand", "class_spritable_registration_command.html", null ],
         [ "UpdateDeregisterationCommand", "class_update_deregisteration_command.html", null ],
         [ "UpdateRegisterationCommand", "class_update_registeration_command.html", null ]
       ] ]
     ] ],
-    [ "SceneAttorney::CommandConnections", "class_scene_attorney_1_1_command_connections.html", null ],
     [ "SceneManagerAttorney::Connection", "class_scene_manager_attorney_1_1_connection.html", null ],
     [ "AssetManagerAttorney::Delete", "class_asset_manager_attorney_1_1_delete.html", null ],
+    [ "ImageManagerAttorney::Delete", "class_image_manager_attorney_1_1_delete.html", null ],
     [ "ModelManagerAttorney::Delete", "class_model_manager_attorney_1_1_delete.html", null ],
     [ "ShaderManagerAttorney::Delete", "class_shader_manager_attorney_1_1_delete.html", null ],
     [ "TextureManagerAttorney::Delete", "class_texture_manager_attorney_1_1_delete.html", null ],
@@ -82,6 +90,8 @@ var hierarchy =
     [ "SceneAttorney::GameObjectOptions", "class_scene_attorney_1_1_game_object_options.html", null ],
     [ "GameObject::GORegistration", "struct_game_object_1_1_g_o_registration.html", null ],
     [ "CollisionAttorney::GroupDeleteOptions", "class_collision_attorney_1_1_group_delete_options.html", null ],
+    [ "ImageManager", "class_image_manager.html", null ],
+    [ "ImageManagerAttorney", "class_image_manager_attorney.html", null ],
     [ "CameraManagerAttorney::Initialize", "class_camera_manager_attorney_1_1_initialize.html", null ],
     [ "SceneManagerAttorney::Initialize", "class_scene_manager_attorney_1_1_initialize.html", null ],
     [ "Inputable", "class_inputable.html", [
@@ -97,19 +107,26 @@ var hierarchy =
     [ "SceneManagerAttorney::Process", "class_scene_manager_attorney_1_1_process.html", null ],
     [ "RamenAttorney", "class_ramen_attorney.html", null ],
     [ "CollisionAttorney::Registration", "class_collision_attorney_1_1_registration.html", null ],
-    [ "SceneManagerAttorney::Registration", "class_scene_manager_attorney_1_1_registration.html", null ],
-    [ "Alarmable::RegistrationData", "struct_alarmable_1_1_registration_data.html", null ],
     [ "Inputable::RegistrationData", "struct_inputable_1_1_registration_data.html", null ],
+    [ "Alarmable::RegistrationData", "struct_alarmable_1_1_registration_data.html", null ],
     [ "SceneAttorney", "class_scene_attorney.html", null ],
-    [ "SceneChangeBroker", "class_scene_change_broker.html", null ],
     [ "Scene::SceneChangeRegistration", "struct_scene_1_1_scene_change_registration.html", null ],
     [ "SceneManager", "class_scene_manager.html", null ],
     [ "SceneManagerAttorney", "class_scene_manager_attorney.html", null ],
+    [ "SpriteFactoryAttorney::SceneOptions", "class_sprite_factory_attorney_1_1_scene_options.html", null ],
     [ "SceneAttorney::SceneOptions", "class_scene_attorney_1_1_scene_options.html", null ],
     [ "SceneRegisterationBroker", "class_scene_registeration_broker.html", null ],
     [ "ShaderManager", "class_shader_manager.html", null ],
     [ "ShaderManagerAttorney", "class_shader_manager_attorney.html", null ],
     [ "SingleKeyManager", "class_single_key_manager.html", null ],
+    [ "Spritable", "class_spritable.html", [
+      [ "GameObject", "class_game_object.html", null ]
+    ] ],
+    [ "SpritableManager", "class_spritable_manager.html", null ],
+    [ "SceneAttorney::SpritableOptions", "class_scene_attorney_1_1_spritable_options.html", null ],
+    [ "SpriteFactoryAttorney", "class_sprite_factory_attorney.html", null ],
+    [ "SpriteFactoryAttorney::SpriteOptions", "class_sprite_factory_attorney_1_1_sprite_options.html", null ],
+    [ "SpriteTool", "class_sprite_tool.html", null ],
     [ "TestKey", "class_test_key.html", null ],
     [ "TextureManager", "class_texture_manager.html", null ],
     [ "TextureManagerAttorney", "class_texture_manager_attorney.html", null ],

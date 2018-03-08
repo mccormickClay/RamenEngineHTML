@@ -1,0 +1,3 @@
+<map id="SpriteFactory" name="SpriteFactory">
+<area shape="rect" id="node4" href="$class_sprite.html" title="{Sprite\n|&#45; goSprite\l&#45; Scale\l&#45; Rotation\l&#45; currentRotation\l&#45; xScaleByFactor\l&#45; yScaleByFactor\l&#45; Trans\l&#45; World\l|+ Sprite()\l+ Sprite()\l+ Initialize()\l+ GetXPos()\l+ GetYPos()\l+ SetPosition()\l+ SetPixelSize()\l+ SetFactorSize()\l+ SetOrigin()\l+ Move()\land 6 more...\l&#45; SetWorld()\l&#45; ResetWorld()\l&#45; Destroy()\l}" alt="" coords="97,132,222,503"/>
+</map>

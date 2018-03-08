@@ -16,6 +16,8 @@ var files_dup =
     [ "AlarmRegistrationCommand.h", "_alarm_registration_command_8h.html", [
       [ "AlarmRegistrationCommand", "class_alarm_registration_command.html", "class_alarm_registration_command" ]
     ] ],
+    [ "AlarmsDemo.cpp", "_alarms_demo_8cpp.html", null ],
+    [ "AlarmsDemo.h", "_alarms_demo_8h.html", null ],
     [ "AssetManager.cpp", "_asset_manager_8cpp.html", null ],
     [ "AssetManager.h", "_asset_manager_8h.html", [
       [ "AssetManager", "class_asset_manager.html", "class_asset_manager" ]
@@ -140,6 +142,16 @@ var files_dup =
     [ "GameObjectExitCommand.h", "_game_object_exit_command_8h.html", [
       [ "GameObjectExitCommand", "class_game_object_exit_command.html", "class_game_object_exit_command" ]
     ] ],
+    [ "ImageManager.cpp", "_image_manager_8cpp.html", null ],
+    [ "ImageManager.h", "_image_manager_8h.html", [
+      [ "ImageManager", "class_image_manager.html", "class_image_manager" ]
+    ] ],
+    [ "ImageManagerAttorney.h", "_image_manager_attorney_8h.html", [
+      [ "ImageManagerAttorney", "class_image_manager_attorney.html", [
+        [ "Delete", "class_image_manager_attorney_1_1_delete.html", "class_image_manager_attorney_1_1_delete" ]
+      ] ],
+      [ "Delete", "class_image_manager_attorney_1_1_delete.html", "class_image_manager_attorney_1_1_delete" ]
+    ] ],
     [ "Inputable.cpp", "_inputable_8cpp.html", null ],
     [ "Inputable.h", "_inputable_8h.html", [
       [ "RegistrationData", "struct_inputable_1_1_registration_data.html", "struct_inputable_1_1_registration_data" ]
@@ -159,6 +171,7 @@ var files_dup =
     [ "KeyRegistrationCommand.h", "_key_registration_command_8h.html", [
       [ "KeyRegistrationCommand", "class_key_registration_command.html", "class_key_registration_command" ]
     ] ],
+    [ "LoadDefaultResources.cpp", "_load_default_resources_8cpp.html", null ],
     [ "main.cpp", "main_8cpp.html", "main_8cpp" ],
     [ "MathTool.cpp", "_math_tool_8cpp.html", null ],
     [ "MathTool.h", "_math_tool_8h.html", [
@@ -191,41 +204,33 @@ var files_dup =
       [ "SceneAttorney", "class_scene_attorney.html", [
         [ "AlarmableOptions", "class_scene_attorney_1_1_alarmable_options.html", "class_scene_attorney_1_1_alarmable_options" ],
         [ "CollidableOptions", "class_scene_attorney_1_1_collidable_options.html", "class_scene_attorney_1_1_collidable_options" ],
-        [ "CommandConnections", "class_scene_attorney_1_1_command_connections.html", "class_scene_attorney_1_1_command_connections" ],
         [ "DeregConnections", "class_scene_attorney_1_1_dereg_connections.html", "class_scene_attorney_1_1_dereg_connections" ],
         [ "DrawableOptions", "class_scene_attorney_1_1_drawable_options.html", "class_scene_attorney_1_1_drawable_options" ],
         [ "GameObjectOptions", "class_scene_attorney_1_1_game_object_options.html", "class_scene_attorney_1_1_game_object_options" ],
         [ "InputOptions", "class_scene_attorney_1_1_input_options.html", "class_scene_attorney_1_1_input_options" ],
         [ "SceneOptions", "class_scene_attorney_1_1_scene_options.html", "class_scene_attorney_1_1_scene_options" ],
+        [ "SpritableOptions", "class_scene_attorney_1_1_spritable_options.html", "class_scene_attorney_1_1_spritable_options" ],
         [ "UpdatableOptions", "class_scene_attorney_1_1_updatable_options.html", "class_scene_attorney_1_1_updatable_options" ]
       ] ],
       [ "SceneOptions", "class_scene_attorney_1_1_scene_options.html", "class_scene_attorney_1_1_scene_options" ],
       [ "UpdatableOptions", "class_scene_attorney_1_1_updatable_options.html", "class_scene_attorney_1_1_updatable_options" ],
       [ "CollidableOptions", "class_scene_attorney_1_1_collidable_options.html", "class_scene_attorney_1_1_collidable_options" ],
       [ "DrawableOptions", "class_scene_attorney_1_1_drawable_options.html", "class_scene_attorney_1_1_drawable_options" ],
+      [ "SpritableOptions", "class_scene_attorney_1_1_spritable_options.html", "class_scene_attorney_1_1_spritable_options" ],
       [ "AlarmableOptions", "class_scene_attorney_1_1_alarmable_options.html", "class_scene_attorney_1_1_alarmable_options" ],
       [ "InputOptions", "class_scene_attorney_1_1_input_options.html", "class_scene_attorney_1_1_input_options" ],
       [ "GameObjectOptions", "class_scene_attorney_1_1_game_object_options.html", "class_scene_attorney_1_1_game_object_options" ],
-      [ "CommandConnections", "class_scene_attorney_1_1_command_connections.html", "class_scene_attorney_1_1_command_connections" ],
       [ "DeregConnections", "class_scene_attorney_1_1_dereg_connections.html", "class_scene_attorney_1_1_dereg_connections" ]
     ] ],
-    [ "SceneChangeBroker.cpp", "_scene_change_broker_8cpp.html", null ],
-    [ "SceneChangeBroker.h", "_scene_change_broker_8h.html", [
-      [ "SceneChangeBroker", "class_scene_change_broker.html", "class_scene_change_broker" ]
+    [ "SceneChangeCommand.cpp", "_scene_change_command_8cpp.html", null ],
+    [ "SceneChangeCommand.h", "_scene_change_command_8h.html", [
+      [ "SceneChangeCommand", "class_scene_change_command.html", "class_scene_change_command" ]
     ] ],
     [ "SceneChangeCommandBase.h", "_scene_change_command_base_8h.html", [
       [ "SceneChangeCommandBase", "class_scene_change_command_base.html", "class_scene_change_command_base" ]
     ] ],
-    [ "SceneChangeDeregistrationCommand.cpp", "_scene_change_deregistration_command_8cpp.html", null ],
-    [ "SceneChangeDeregistrationCommand.h", "_scene_change_deregistration_command_8h.html", [
-      [ "SceneChangeDeregistrationCommand", "class_scene_change_deregistration_command.html", "class_scene_change_deregistration_command" ]
-    ] ],
     [ "SceneChangeNullCommand.h", "_scene_change_null_command_8h.html", [
       [ "SceneChangeNullCommand", "class_scene_change_null_command.html", "class_scene_change_null_command" ]
-    ] ],
-    [ "SceneChangeRegistrationCommand.cpp", "_scene_change_registration_command_8cpp.html", null ],
-    [ "SceneChangeRegistrationCommand.h", "_scene_change_registration_command_8h.html", [
-      [ "SceneChangeRegistrationCommand", "class_scene_change_registration_command.html", "class_scene_change_registration_command" ]
     ] ],
     [ "SceneManager.cpp", "_scene_manager_8cpp.html", null ],
     [ "SceneManager.h", "_scene_manager_8h.html", [
@@ -236,14 +241,12 @@ var files_dup =
         [ "Connection", "class_scene_manager_attorney_1_1_connection.html", "class_scene_manager_attorney_1_1_connection" ],
         [ "Deletion", "class_scene_manager_attorney_1_1_deletion.html", "class_scene_manager_attorney_1_1_deletion" ],
         [ "Initialize", "class_scene_manager_attorney_1_1_initialize.html", "class_scene_manager_attorney_1_1_initialize" ],
-        [ "Process", "class_scene_manager_attorney_1_1_process.html", "class_scene_manager_attorney_1_1_process" ],
-        [ "Registration", "class_scene_manager_attorney_1_1_registration.html", "class_scene_manager_attorney_1_1_registration" ]
+        [ "Process", "class_scene_manager_attorney_1_1_process.html", "class_scene_manager_attorney_1_1_process" ]
       ] ],
       [ "Initialize", "class_scene_manager_attorney_1_1_initialize.html", "class_scene_manager_attorney_1_1_initialize" ],
       [ "Process", "class_scene_manager_attorney_1_1_process.html", "class_scene_manager_attorney_1_1_process" ],
       [ "Deletion", "class_scene_manager_attorney_1_1_deletion.html", "class_scene_manager_attorney_1_1_deletion" ],
-      [ "Connection", "class_scene_manager_attorney_1_1_connection.html", "class_scene_manager_attorney_1_1_connection" ],
-      [ "Registration", "class_scene_manager_attorney_1_1_registration.html", "class_scene_manager_attorney_1_1_registration" ]
+      [ "Connection", "class_scene_manager_attorney_1_1_connection.html", "class_scene_manager_attorney_1_1_connection" ]
     ] ],
     [ "SceneNull.h", "_scene_null_8h.html", [
       [ "SceneNull", "class_scene_null.html", null ]
@@ -268,6 +271,53 @@ var files_dup =
     [ "SingleKeyManager.cpp", "_single_key_manager_8cpp.html", null ],
     [ "SingleKeyManager.h", "_single_key_manager_8h.html", [
       [ "SingleKeyManager", "class_single_key_manager.html", "class_single_key_manager" ]
+    ] ],
+    [ "SphereObject.cpp", "_sphere_object_8cpp.html", null ],
+    [ "SphereObject.h", "_sphere_object_8h.html", null ],
+    [ "Spritable.cpp", "_spritable_8cpp.html", null ],
+    [ "Spritable.h", "_spritable_8h.html", null ],
+    [ "SpritableDeregistrationCommand.cpp", "_spritable_deregistration_command_8cpp.html", null ],
+    [ "SpritableDeregistrationCommand.h", "_spritable_deregistration_command_8h.html", [
+      [ "SpritableDeregistrationCommand", "class_spritable_deregistration_command.html", "class_spritable_deregistration_command" ]
+    ] ],
+    [ "SpritableManager.cpp", "_spritable_manager_8cpp.html", null ],
+    [ "SpritableManager.h", "_spritable_manager_8h.html", [
+      [ "SpritableManager", "class_spritable_manager.html", "class_spritable_manager" ]
+    ] ],
+    [ "SpritableRegistrationCommand.cpp", "_spritable_registration_command_8cpp.html", null ],
+    [ "SpritableRegistrationCommand.h", "_spritable_registration_command_8h.html", [
+      [ "SpritableRegistrationCommand", "class_spritable_registration_command.html", "class_spritable_registration_command" ]
+    ] ],
+    [ "Sprite.cpp", "_sprite_8cpp.html", null ],
+    [ "Sprite.h", "_sprite_8h.html", [
+      [ "Sprite", "class_sprite.html", "class_sprite" ]
+    ] ],
+    [ "SpriteDemo.cpp", "_sprite_demo_8cpp.html", null ],
+    [ "SpriteDemo.h", "_sprite_demo_8h.html", [
+      [ "SpriteDemo", "class_sprite_demo.html", "class_sprite_demo" ]
+    ] ],
+    [ "SpriteDemo3DObject.cpp", "_sprite_demo3_d_object_8cpp.html", null ],
+    [ "SpriteDemo3DObject.h", "_sprite_demo3_d_object_8h.html", [
+      [ "SpriteDemo3DObject", "class_sprite_demo3_d_object.html", "class_sprite_demo3_d_object" ]
+    ] ],
+    [ "SpriteDemoObject.cpp", "_sprite_demo_object_8cpp.html", null ],
+    [ "SpriteDemoObject.h", "_sprite_demo_object_8h.html", [
+      [ "SpriteDemoObject", "class_sprite_demo_object.html", "class_sprite_demo_object" ]
+    ] ],
+    [ "SpriteFactory.cpp", "_sprite_factory_8cpp.html", null ],
+    [ "SpriteFactory.h", "_sprite_factory_8h.html", [
+      [ "SpriteFactory", "class_sprite_factory.html", "class_sprite_factory" ]
+    ] ],
+    [ "SpriteFactoryAttorney.h", "_sprite_factory_attorney_8h.html", [
+      [ "SpriteFactoryAttorney", "class_sprite_factory_attorney.html", [
+        [ "SceneOptions", "class_sprite_factory_attorney_1_1_scene_options.html", "class_sprite_factory_attorney_1_1_scene_options" ],
+        [ "SpriteOptions", "class_sprite_factory_attorney_1_1_sprite_options.html", "class_sprite_factory_attorney_1_1_sprite_options" ]
+      ] ],
+      [ "SceneOptions", "class_sprite_factory_attorney_1_1_scene_options.html", "class_sprite_factory_attorney_1_1_scene_options" ],
+      [ "SpriteOptions", "class_sprite_factory_attorney_1_1_sprite_options.html", "class_sprite_factory_attorney_1_1_sprite_options" ]
+    ] ],
+    [ "SpriteTool.h", "_sprite_tool_8h.html", [
+      [ "SpriteTool", "class_sprite_tool.html", "class_sprite_tool" ]
     ] ],
     [ "TestKey.cpp", "_test_key_8cpp.html", null ],
     [ "TestKey.h", "_test_key_8h.html", [

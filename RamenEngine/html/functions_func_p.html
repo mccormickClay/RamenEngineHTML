@@ -94,6 +94,9 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privCreateDefaultCamera()
 : <a class="el" href="class_camera_manager.html#a0e2a4dd2a48e6a0723e651dd2718ed65">CameraManager</a>
 </li>
+<li>privCreateSprite()
+: <a class="el" href="class_sprite_factory.html#a6fc31d73512ccdd365905fc225c088c1">SpriteFactory</a>
+</li>
 <li>privDelete()
 : <a class="el" href="class_scene_manager.html#ae637b8ddc620e5903c1b44293f56bf08">SceneManager</a>
 </li>
@@ -101,12 +104,17 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 : <a class="el" href="class_asset_manager.html#a8d490d41e315b83bc11634f5bffc31a3">AssetManager</a>
 </li>
 <li>privDeleteAssets()
-: <a class="el" href="class_model_manager.html#ad05cfe568076edbd52e4b44ea811fea5">ModelManager</a>
+: <a class="el" href="class_image_manager.html#a3e74453d556e5529e62ff876b107c0ec">ImageManager</a>
+, <a class="el" href="class_model_manager.html#ad05cfe568076edbd52e4b44ea811fea5">ModelManager</a>
 , <a class="el" href="class_shader_manager.html#a8e6b9bffce9ddf2f750ecdb1e2832990">ShaderManager</a>
 , <a class="el" href="class_texture_manager.html#a88eeca9676eb9e549fccd08b1449c0dd">TextureManager</a>
 </li>
+<li>privDeleteCurrentScene()
+: <a class="el" href="class_scene_manager.html#acc54173d9a3b091bfb08095b1f476348">SceneManager</a>
+</li>
 <li>privGet()
-: <a class="el" href="class_model_manager.html#a3d01948948c9e4d070fbcdde6c412cf3">ModelManager</a>
+: <a class="el" href="class_image_manager.html#a94019635334cc58601b15177b594cbed">ImageManager</a>
+, <a class="el" href="class_model_manager.html#a3d01948948c9e4d070fbcdde6c412cf3">ModelManager</a>
 , <a class="el" href="class_shader_manager.html#af05ae877498fbceb647a0bae7e21ecd2">ShaderManager</a>
 , <a class="el" href="class_texture_manager.html#a1dd98850588e4293cfe686c78881013a">TextureManager</a>
 </li>
@@ -115,6 +123,9 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 </li>
 <li>privGetCurrentScene()
 : <a class="el" href="class_scene_manager.html#ac24e8ef292407a7d5902c23e1ae3bee7">SceneManager</a>
+</li>
+<li>privGetImage()
+: <a class="el" href="class_asset_manager.html#a6983bfa9a35b02beca9482add032bbc0">AssetManager</a>
 </li>
 <li>privGetModel()
 : <a class="el" href="class_asset_manager.html#a3cb02ee64fe7d070ecfaa7d860e781f1">AssetManager</a>
@@ -132,12 +143,16 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 : <a class="el" href="class_ramen.html#a69ca79241f958c35dae93e032e489c67">Ramen</a>
 </li>
 <li>privLoad()
-: <a class="el" href="class_model_manager.html#aac23db3725f14ba875ff93b855cbf5c6">ModelManager</a>
+: <a class="el" href="class_image_manager.html#aa2c16cfe59f5405c3839e39e3201df58">ImageManager</a>
+, <a class="el" href="class_model_manager.html#aac23db3725f14ba875ff93b855cbf5c6">ModelManager</a>
 , <a class="el" href="class_shader_manager.html#a2460e2fe531eb4027abce431b2e07404">ShaderManager</a>
 , <a class="el" href="class_texture_manager.html#a26470d9695e1414d980854a88d7840fa">TextureManager</a>
 </li>
+<li>privLoadImage()
+: <a class="el" href="class_asset_manager.html#a475ef51d572241eb75b9b59f805acd41">AssetManager</a>
+</li>
 <li>privLoadModel()
-: <a class="el" href="class_asset_manager.html#a366661463774ece954c743d5f01a6e4f">AssetManager</a>
+: <a class="el" href="class_asset_manager.html#a33289180a297ac4bfeaf8727149d1b4d">AssetManager</a>
 </li>
 <li>privLoadShader()
 : <a class="el" href="class_asset_manager.html#af1f04ac17e55d9e118939a15a1e75f09">AssetManager</a>
@@ -148,8 +163,14 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privProcessTime()
 : <a class="el" href="class_time_manager.html#a2f5b658d4dce2557e781c94a4789d7cf">TimeManager</a>
 </li>
+<li>privRecycleSprite()
+: <a class="el" href="class_sprite_factory.html#a9c6af1c408cd1f90a5c21fdc541cb8fa">SpriteFactory</a>
+</li>
 <li>privRenderBSphere()
 : <a class="el" href="class_visualizer_tool.html#aa79e25cfdbeb37f5f343e60381b84a3b">VisualizerTool</a>
+</li>
+<li>privReturnAllSprites()
+: <a class="el" href="class_sprite_factory.html#abb9852b2be3526c8f54050023c484266">SpriteFactory</a>
 </li>
 <li>privRun()
 : <a class="el" href="class_ramen.html#ab83710dff905cd069ab5d4729cfb5077">Ramen</a>
@@ -160,6 +181,12 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>privSetCurrentCamera()
 : <a class="el" href="class_camera_manager.html#a8fe1540cc47f7c20967f14987090756a">CameraManager</a>
 </li>
+<li>privSetCurrentScene()
+: <a class="el" href="class_scene_manager.html#a2a251fee765e851ad79158e792e84100">SceneManager</a>
+</li>
+<li>privSetImage()
+: <a class="el" href="class_image_manager.html#a714fb1c3e417cf578b14746c7e2724d2">ImageManager</a>
+</li>
 <li>privSetModel()
 : <a class="el" href="class_model_manager.html#a1f909cb69c2db139a4f2405ab39e9850">ModelManager</a>
 </li>
@@ -168,9 +195,6 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 </li>
 <li>privSetShader()
 : <a class="el" href="class_shader_manager.html#ad18b0567ec7156f5be8430dfda958662">ShaderManager</a>
-</li>
-<li>privSetStartScreen()
-: <a class="el" href="class_scene_manager.html#a4e29484fdd4ff353a106345abac563b0">SceneManager</a>
 </li>
 <li>privSetTexture()
 : <a class="el" href="class_texture_manager.html#a545acf958b32eeb1085d6a8e974ce1f3">TextureManager</a>
@@ -184,6 +208,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>Process()
 : <a class="el" href="class_alarmable_manager.html#aa45b4617a8fb47e298cbe6b621e405b1">AlarmableManager</a>
 , <a class="el" href="class_drawable_manager.html#aec0a011f699a2ba9d4aa0064c4b3f23b">DrawableManager</a>
+, <a class="el" href="class_spritable_manager.html#accb62a88058d5cb5b5b20a1f896b4423">SpritableManager</a>
 , <a class="el" href="class_updatable_manager.html#a66721404d621959ca1acc4a3c694550b">UpdatableManager</a>
 </li>
 <li>ProcessAllKeyEvents()

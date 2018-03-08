@@ -1,0 +1,12 @@
+<map id="SpritableRegistrationCommand.cpp" name="SpritableRegistrationCommand.cpp">
+<area shape="rect" id="node2" href="$_command_base_8h.html" title="CommandBase.h" alt="" coords="5,229,128,256"/>
+<area shape="rect" id="node3" href="$_spritable_registration_command_8h.html" title="SpritableRegistrationCommand.h" alt="" coords="37,80,249,107"/>
+<area shape="rect" id="node5" href="$_spritable_8h.html" title="Spritable.h" alt="" coords="387,80,471,107"/>
+<area shape="rect" id="node4" href="$_scene_registration_command_8h.html" title="SceneRegistrationCommand.h" alt="" coords="37,155,235,181"/>
+<area shape="rect" id="node7" href="$_ramen_8h.html" title="Ramen.h" alt="" coords="392,155,467,181"/>
+<area shape="rect" id="node11" href="$_spritable_manager_8h.html" title="SpritableManager.h" alt="" coords="491,155,626,181"/>
+<area shape="rect" id="node13" href="$_registration_state_8h.html" title="RegistrationState.h" alt="" coords="651,155,784,181"/>
+<area shape="rect" id="node8" href="$_time_manager_attorney_8h.html" title="TimeManagerAttorney.h" alt="" coords="361,229,521,256"/>
+<area shape="rect" id="node9" href="$_time_manager_8h.html" title="TimeManager.h" alt="" coords="374,304,485,331"/>
+<area shape="rect" id="node10" href="$_freeze_time_8h.html" title="FreezeTime.h" alt="" coords="371,379,472,405"/>
+</map>

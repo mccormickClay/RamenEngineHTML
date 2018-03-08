@@ -3,8 +3,8 @@ var searchData=
   ['saddlebrown',['SaddleBrown',['../struct_color.html#a3d1f6fbfe8443ebe5bc81a55bf5fb24c',1,'Color']]],
   ['salmon',['Salmon',['../struct_color.html#aca5ba8829a3a99a1643f4fcedd3a6828',1,'Color']]],
   ['sandybrown',['SandyBrown',['../struct_color.html#ab176b7cfc88686f2e9b850a1859d895e',1,'Color']]],
-  ['scenechangedercommand',['SceneChangeDerCommand',['../class_scene_manager.html#a5e57fff6944df1f776df6731df6082a8',1,'SceneManager']]],
-  ['scenechangeregcommand',['SceneChangeRegCommand',['../class_scene_manager.html#a3c767e1a2a7badc20e9a6273432c8067',1,'SceneManager']]],
+  ['scale',['Scale',['../class_sphere_object.html#a46d6133f6fdd45af6ef483c0f9cad099',1,'SphereObject::Scale()'],['../class_sprite.html#a89191815a9f53464466285e6c570c169',1,'Sprite::Scale()'],['../class_sprite_demo3_d_object.html#a690712d4c3d6b63f2e6eb5d0f37c2e12',1,'SpriteDemo3DObject::Scale()']]],
+  ['scenechangecmd',['SceneChangeCmd',['../class_scene_manager.html#afcc41be8a11537a73ab4ae85f7c8afd7',1,'SceneManager']]],
   ['scenestate',['SceneState',['../class_scene.html#a3ba49ddb2bdabc82a5d271cc428043f8',1,'Scene']]],
   ['seagreen',['SeaGreen',['../struct_color.html#a2d19395657cf7b7ceda8ba2311136a4b',1,'Color']]],
   ['searchdata',['searchData',['../class_inputable.html#a539993127b7cfec5c57831c4987ed635',1,'Inputable']]],
@@ -18,6 +18,9 @@ var searchData=
   ['slateblue',['SlateBlue',['../struct_color.html#a78c0c0fbada38a0bcb607a234285f096',1,'Color']]],
   ['slategray',['SlateGray',['../struct_color.html#aff47fe0cf69fc1c388c4cb3890c8b839',1,'Color']]],
   ['snow',['Snow',['../struct_color.html#a7e940371d4ba08e849b8d88efcb8f98d',1,'Color']]],
+  ['sphere',['sphere',['../class_alarms_demo.html#a76e361482ed19102eaf2cab0a5ed152f',1,'AlarmsDemo']]],
+  ['spr_5falien',['spr_Alien',['../class_sprite_demo_object.html#aef70c62bedb04e4d84351140ce563869',1,'SpriteDemoObject']]],
   ['springgreen',['SpringGreen',['../struct_color.html#a03efccc3af42fd9fe9d9ad8c7459e688',1,'Color']]],
+  ['spritelist',['spriteList',['../class_spritable_manager.html#ab9b7d54c19b90ebbbf5813e809253305',1,'SpritableManager']]],
   ['steelblue',['SteelBlue',['../struct_color.html#af197352b98367d5c9f460dc94445d591',1,'Color']]]
 ];
