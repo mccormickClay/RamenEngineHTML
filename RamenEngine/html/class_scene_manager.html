@@ -99,46 +99,6 @@ $(document).ready(function(){initNavTree('class_scene_manager.html','');});
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_scene_manager_8h_source.html">SceneManager.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for SceneManager:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scene_manager__coll__graph.png" border="0" usemap="#_scene_manager_coll__map" alt="Collaboration graph"/></div>
-<map name="_scene_manager_coll__map" id="_scene_manager_coll__map">
-<area shape="rect" id="node2" href="class_scene_change_command.html" title="{SceneChangeCommand\n||+ SceneChangeCommand()\l+ ~SceneChangeCommand()\l+ SetScene()\l+ Execute()\l}" alt="" coords="1337,2712,1527,2833"/>
-<area shape="rect" id="node3" href="class_scene_change_command_base.html" title="{SceneChangeCommandBase\n||+ Execute()\l}" alt="" coords="957,2455,1149,2532"/>
-<area shape="rect" id="node45" href="class_scene_change_null_command.html" title="{SceneChangeNullCommand\n||+ Execute()\l}" alt="" coords="1128,2734,1312,2811"/>
-<area shape="rect" id="node4" href="class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="1843,5,1954,83"/>
-<area shape="rect" id="node12" href="class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="1051,145,1237,223"/>
-<area shape="rect" id="node39" href="class_collision_test_command_base.html" title="{CollisionTestCommandBase\n||+ Execute()\l}" alt="" coords="1806,145,1991,223"/>
-<area shape="rect" id="node42" href="class_collision_group_command.html" title="{CollisionGroupCommand\n||+ Execute()\l}" alt="" coords="2017,145,2183,223"/>
-<area shape="rect" id="node5" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn..." alt="" coords="1503,2337,1649,2649"/>
-<area shape="rect" id="node7" href="struct_scene_1_1_scene_change_registration.html" title="{Scene::SceneChangeRegistration\n|+ currentState\l|}" alt="" coords="2147,2102,2365,2179"/>
-<area shape="rect" id="node8" href="class_drawable_manager.html" title="{DrawableManager\n||+ DrawableManager()\l+ DrawableManager()\l+ operator=()\l+ ~DrawableManager()\l+ Process()\l+ Register()\l+ Deregister()\l}" alt="" coords="575,1109,729,1275"/>
-<area shape="rect" id="node10" href="class_drawable.html" title="Allows Gameobjects to be drawn on screen. " alt="" coords="347,683,538,863"/>
-<area shape="rect" id="node11" href="class_drawable_registration_command.html" title="{DrawableRegistrationCommand\n||+ DrawableRegistrationCommand()\l+ ~DrawableRegistrationCommand()\l+ Execute()\l}" alt="" coords="421,385,651,491"/>
-<area shape="rect" id="node13" href="class_drawable_deregistration_command.html" title="{DrawableDeregistrationCommand\n||+ DrawableDeregistrationCommand()\l+ ~DrawableDeregistrationCommand()\l+ Execute()\l}" alt="" coords="219,925,461,1032"/>
-<area shape="rect" id="node18" href="class_update_registeration_command.html" title="{UpdateRegisterationCommand\n||+ UpdateRegisterationCommand()\l+ ~UpdateRegisterationCommand()\l+ Execute()\l}" alt="" coords="868,385,1095,491"/>
-<area shape="rect" id="node19" href="class_update_deregisteration_command.html" title="{UpdateDeregisterationCommand\n||+ UpdateDeregisterationCommand()\l+ ~UpdateDeregisterationCommand()\l+ Execute()\l}" alt="" coords="835,925,1072,1032"/>
-<area shape="rect" id="node27" href="class_inputable_deregistration_command.html" title="{InputableDeregistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableDeregistrationCommand()\l+ ~InputableDeregistration\lCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="1438,348,1671,528"/>
-<area shape="rect" id="node28" href="class_inputable_registration_command.html" title="{InputableRegistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableRegistrationCommand()\l+ ~InputableRegistrationCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="1358,1352,1589,1517"/>
-<area shape="rect" id="node33" href="class_spritable_deregistration_command.html" title="{SpritableDeregistrationCommand\n||+ SpritableDeregistrationCommand()\l+ ~SpritableDeregistration\lCommand()\l+ Execute()\l}" alt="" coords="1181,377,1413,499"/>
-<area shape="rect" id="node34" href="class_spritable_registration_command.html" title="{SpritableRegistrationCommand\n||+ SpritableRegistrationCommand()\l+ ~SpritableRegistrationCommand()\l+ Execute()\l}" alt="" coords="1269,925,1499,1032"/>
-<area shape="rect" id="node14" title="STL iterator class. " alt="" coords="667,940,811,1017"/>
-<area shape="rect" id="node15" href="class_updatable_manager.html" title="Manager for updatables. Controls what registered objects should be updated every frame. " alt="" coords="753,1109,911,1275"/>
-<area shape="rect" id="node30" href="class_spritable_manager.html" title="{SpritableManager\n||+ SpritableManager()\l+ SpritableManager()\l+ operator=()\l+ ~SpritableManager()\l+ Process()\l+ Register()\l+ Deregister()\l}" alt="" coords="1095,1109,1246,1275"/>
-<area shape="rect" id="node17" href="class_updatable.html" title="Allows Gameobjects to be updated each frame. " alt="" coords="787,683,989,863"/>
-<area shape="rect" id="node20" href="class_keyboard_event_manager.html" title="Manager for SingleKeyManagers. This class holds the information of all SingleKeyManagers. When a AZUL_KEY wants to be managed it will be sent to a SingleKeyManager that focused only on that AZUL_KEY type. " alt="" coords="1285,2058,1472,2223"/>
-<area shape="rect" id="node22" href="class_single_key_manager.html" title="Manager that controls a single key. Multiple GameObject Inputables can be contained inside but only o..." alt="" coords="1517,1595,1675,1775"/>
-<area shape="rect" id="node24" href="class_inputable.html" title="Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more effici..." alt="" coords="1567,1095,1753,1289"/>
-<area shape="rect" id="node26" href="struct_inputable_1_1_registration_data.html" title="{Inputable::RegistrationData\n|+ RegStateCurr\l+ inputEvent\l|}" alt="" coords="1465,727,1644,819"/>
-<area shape="rect" id="node29" title="STL iterator class. " alt="" coords="1271,1852,1441,1929"/>
-<area shape="rect" id="node32" href="class_spritable.html" title="Allows objects to draw sprites over 3D objects. " alt="" coords="1182,683,1389,863"/>
-<area shape="rect" id="node35" href="class_alarmable_manager.html" title="{AlarmableManager\n|+ ref\l+ ALARM_NUMBER\l|+ AlarmableManager()\l+ AlarmableManager()\l+ operator=()\l+ ~AlarmableManager()\l+ Process()\l+ Register()\l+ Deregister()\l}" alt="" coords="1497,2051,1655,2231"/>
-<area shape="rect" id="node37" href="class_cam_manager.html" title="{CamManager\n|&#45; currentCam\l&#45; current2DCam\l&#45; Default2DCamera\l&#45; DefaultCamera\l|+ ~CamManager()\l+ Start()\l+ CreateDefaultCamera()\l+ GetCurrentCamera()\l+ UpdateCurrentCamera()\l+ SetCurrentCamera()\l+ CreateDefault2DCamera()\l+ GetCurrent2DCamera()\l+ SetCurrent2DCamera()\l&#45; DeleteDefaultCamera()\l&#45; Terminate()\l}" alt="" coords="1680,2007,1861,2275"/>
-<area shape="rect" id="node38" href="class_collision_manager.html" title="{CollisionManager\n||+ ProcessCollsionTests()\l+ SetCollisionPair()\l+ SetCollisionSelf()\l+ SendDeleteCommand()\l+ ProcessDeletes()\l+ ~CollisionManager()\l}" alt="" coords="1815,697,1983,848"/>
-<area shape="rect" id="node43" href="class_scene_registeration_broker.html" title="{SceneRegisterationBroker\n||+ ~SceneRegisterationBroker()\l+ AddCommand()\l+ ExecuteCommands()\l}" alt="" coords="2167,552,2369,659"/>
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>

@@ -1,3 +1,0 @@
-<map id="CollisionVolumeBase" name="CollisionVolumeBase">
-<area shape="rect" id="node2" href="$class_collision_volume_b_sphere.html" title="{CollisionVolumeBSphere\n|&#45; Center\l&#45; Radius\l|+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ GetCenter()\l+ GetRadius()\l}" alt="" coords="5,160,171,311"/>
-</map>

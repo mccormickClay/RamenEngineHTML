@@ -1,8 +1,0 @@
-<map id="SpritableManager" name="SpritableManager">
-<area shape="rect" id="node2" title="STL iterator class. " alt="" coords="5,397,149,474"/>
-<area shape="rect" id="node4" href="$class_spritable.html" title="Allows objects to draw sprites over 3D objects. " alt="" coords="351,132,558,312"/>
-<area shape="rect" id="node5" href="$class_spritable_deregistration_command.html" title="{SpritableDeregistrationCommand\n||+ SpritableDeregistrationCommand()\l+ ~SpritableDeregistration\lCommand()\l+ Execute()\l}" alt="" coords="685,375,917,496"/>
-<area shape="rect" id="node8" href="$class_spritable_registration_command.html" title="{SpritableRegistrationCommand\n||+ SpritableRegistrationCommand()\l+ ~SpritableRegistrationCommand()\l+ Execute()\l}" alt="" coords="347,382,576,489"/>
-<area shape="rect" id="node6" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="807,183,993,261"/>
-<area shape="rect" id="node7" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="845,5,955,83"/>
-</map>

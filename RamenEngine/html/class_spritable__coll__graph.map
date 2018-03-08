@@ -1,6 +1,0 @@
-<map id="Spritable" name="Spritable">
-<area shape="rect" id="node2" href="$class_spritable_deregistration_command.html" title="{SpritableDeregistrationCommand\n||+ SpritableDeregistrationCommand()\l+ ~SpritableDeregistration\lCommand()\l+ Execute()\l}" alt="" coords="351,375,583,496"/>
-<area shape="rect" id="node5" href="$class_spritable_registration_command.html" title="{SpritableRegistrationCommand\n||+ SpritableRegistrationCommand()\l+ ~SpritableRegistrationCommand()\l+ Execute()\l}" alt="" coords="5,382,235,489"/>
-<area shape="rect" id="node3" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="472,183,659,261"/>
-<area shape="rect" id="node4" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="510,5,621,83"/>
-</map>

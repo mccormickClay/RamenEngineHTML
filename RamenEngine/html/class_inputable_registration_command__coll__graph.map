@@ -1,7 +1,0 @@
-<map id="InputableRegistrationCommand" name="InputableRegistrationCommand">
-<area shape="rect" id="node6" href="$struct_inputable_1_1_registration_data.html" title="{Inputable::RegistrationData\n|+ RegStateCurr\l+ inputEvent\l|}" alt="" coords="93,487,271,579"/>
-<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="233,132,419,209"/>
-<area shape="rect" id="node7" href="$class_inputable_deregistration_command.html" title="{InputableDeregistrationCommand\n|&#45; registryKey\l&#45; registryEvent\l|+ InputableDeregistrationCommand()\l+ ~InputableDeregistration\lCommand()\l+ SetRegistryKey()\l+ SetRegistryInputType()\l+ GetRegistryInputType()\l+ Execute()\l}" alt="" coords="112,1053,345,1233"/>
-<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="271,5,381,83"/>
-<area shape="rect" id="node4" href="$class_inputable.html" title="Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more effici..." alt="" coords="5,796,191,991"/>
-</map>

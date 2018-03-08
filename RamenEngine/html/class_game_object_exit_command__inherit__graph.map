@@ -1,4 +1,0 @@
-<map id="GameObjectExitCommand" name="GameObjectExitCommand">
-<area shape="rect" id="node2" href="$class_scene_registration_command.html" title="{SceneRegistrationCommand\n||&#45; Execute()\l}" alt="" coords="15,131,201,208"/>
-<area shape="rect" id="node3" href="$class_command_base.html" title="{CommandBase\n||+ Execute()\l}" alt="" coords="53,5,163,83"/>
-</map>

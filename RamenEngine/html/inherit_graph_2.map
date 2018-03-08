@@ -1,3 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_asset_manager.html" title="Manager for User and Default assets. This object communicates with the ModelManager, ShaderManager and TextureManager to allow easier implimentations to Load and Recieve resources. " alt="" coords="5,5,112,32"/>
-</map>
