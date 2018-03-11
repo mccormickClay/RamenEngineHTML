@@ -1,0 +1,28 @@
+var classvmath_1_1mat_n_m =
+[
+    [ "my_type", "classvmath_1_1mat_n_m.html#a16e2ff654e2600426819a3780d9317a6", null ],
+    [ "vector_type", "classvmath_1_1mat_n_m.html#a94f8ec1c4b97fc5552efe5a18f6c7856", null ],
+    [ "matNM", "classvmath_1_1mat_n_m.html#ae8374046f56c16dcd3be494634336346", null ],
+    [ "matNM", "classvmath_1_1mat_n_m.html#aa13dd1a7e0b541030e349150a4dcc98e", null ],
+    [ "matNM", "classvmath_1_1mat_n_m.html#a6301a7ca72149ea5c781406e14005581", null ],
+    [ "matNM", "classvmath_1_1mat_n_m.html#adc5c015bd0842cbf0b0dddb0f94c044e", null ],
+    [ "assign", "classvmath_1_1mat_n_m.html#a5dab41fcfae200c87ff40ad8a17846c0", null ],
+    [ "height", "classvmath_1_1mat_n_m.html#a467b532eedc6d45ba28f05603daca257", null ],
+    [ "identity", "classvmath_1_1mat_n_m.html#a04b6808a3a6c3613eccee24e07117aac", null ],
+    [ "operator const T *", "classvmath_1_1mat_n_m.html#aef482b27bc06672417a2e6826f09fd88", null ],
+    [ "operator T*", "classvmath_1_1mat_n_m.html#a656218ef1ecbbfa78260c626b2d3d64f", null ],
+    [ "operator*", "classvmath_1_1mat_n_m.html#a5a7a6e477e048340968ff405158d6b47", null ],
+    [ "operator*", "classvmath_1_1mat_n_m.html#a165fe6691889b3a7f09f64c30a2972fe", null ],
+    [ "operator*=", "classvmath_1_1mat_n_m.html#af03d84182269bbf75b7b67beb34a48c6", null ],
+    [ "operator*=", "classvmath_1_1mat_n_m.html#a8f389805216621a54187d47e6b4d75eb", null ],
+    [ "operator+", "classvmath_1_1mat_n_m.html#a63dc792b24a28a9ce92d27037fa82755", null ],
+    [ "operator+=", "classvmath_1_1mat_n_m.html#a05946f806f35a079ba69729f8ca25d2c", null ],
+    [ "operator-", "classvmath_1_1mat_n_m.html#a5365a37d60dd67672961a42b43125008", null ],
+    [ "operator-=", "classvmath_1_1mat_n_m.html#a2d6ee76e7686082496fdfd8f076d8728", null ],
+    [ "operator=", "classvmath_1_1mat_n_m.html#a3cf6c96f767a21d8058b170ef7c32fad", null ],
+    [ "operator[]", "classvmath_1_1mat_n_m.html#afa619782fb707679baf5af34f7bef56f", null ],
+    [ "operator[]", "classvmath_1_1mat_n_m.html#a3684745b969b9ec1b7b10b17209f48f5", null ],
+    [ "transpose", "classvmath_1_1mat_n_m.html#afb0fd5c1b07020dffea1466e596e3e7f", null ],
+    [ "width", "classvmath_1_1mat_n_m.html#a05ebc5fc6bb5a97f14ffb2b1019e4499", null ],
+    [ "data", "classvmath_1_1mat_n_m.html#a3377864c632004db906423c5b5df7457", null ]
+];

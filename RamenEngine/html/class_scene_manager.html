@@ -103,10 +103,13 @@ $(document).ready(function(){initNavTree('class_scene_manager.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab279cee8a7ac9b166bd5e7c379043cbe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scene.html">Scene</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_manager.html#ab279cee8a7ac9b166bd5e7c379043cbe">GetCurrentScene</a> ()</td></tr>
+<tr class="memdesc:ab279cee8a7ac9b166bd5e7c379043cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current scene.  <a href="#ab279cee8a7ac9b166bd5e7c379043cbe">More...</a><br /></td></tr>
 <tr class="separator:ab279cee8a7ac9b166bd5e7c379043cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c2e19f413944280fc54218eb9a71c23"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_manager.html#a3c2e19f413944280fc54218eb9a71c23">SetCurrentScene</a> (<a class="el" href="class_scene.html">Scene</a> *newScene)</td></tr>
+<tr class="memdesc:a3c2e19f413944280fc54218eb9a71c23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current scene. NEEDS TO BE PRIVATE  <a href="#a3c2e19f413944280fc54218eb9a71c23">More...</a><br /></td></tr>
 <tr class="separator:a3c2e19f413944280fc54218eb9a71c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af750522414c8188ffa7870f153a758de"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_manager.html#af750522414c8188ffa7870f153a758de">SetNextScene</a> (<a class="el" href="class_scene.html">Scene</a> *newScene)</td></tr>
+<tr class="memdesc:af750522414c8188ffa7870f153a758de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets next scene using commands. This function will later call <a class="el" href="class_scene_manager.html#a3c2e19f413944280fc54218eb9a71c23" title="Sets current scene. NEEDS TO BE PRIVATE ">SetCurrentScene()</a>.  <a href="#af750522414c8188ffa7870f153a758de">More...</a><br /></td></tr>
 <tr class="separator:af750522414c8188ffa7870f153a758de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -135,6 +138,7 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ab60d8cd30240b473f0cc27fb7e6ac5e7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scene_manager.html">SceneManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_manager.html#ab60d8cd30240b473f0cc27fb7e6ac5e7">Instance</a> ()</td></tr>
 <tr class="separator:ab60d8cd30240b473f0cc27fb7e6ac5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06cd5440361bc826a3f53175e544a8fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scene.html">Scene</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_manager.html#a06cd5440361bc826a3f53175e544a8fb">StartScene</a> ()</td></tr>
+<tr class="memdesc:a06cd5440361bc826a3f53175e544a8fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is specifically used to have the user start the game with a specific scene. This is found in the USER folder called: UserStartScreen.cpp.  <a href="#a06cd5440361bc826a3f53175e544a8fb">More...</a><br /></td></tr>
 <tr class="separator:a06cd5440361bc826a3f53175e544a8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87821e1aa8e52a147a769f1411262bb7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_manager.html#a87821e1aa8e52a147a769f1411262bb7">Start</a> ()</td></tr>
 <tr class="separator:a87821e1aa8e52a147a769f1411262bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,6 +175,8 @@ Static Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
+<tr class="memitem:ac860de7e653dece76f6e77276d47f050"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_manager.html#ac860de7e653dece76f6e77276d47f050">SceneTool</a></td></tr>
+<tr class="separator:ac860de7e653dece76f6e77276d47f050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30165f059417f4ed57a7ab134669d7e4"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_manager.html#a30165f059417f4ed57a7ab134669d7e4">SceneManagerAttorney</a></td></tr>
 <tr class="separator:a30165f059417f4ed57a7ab134669d7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -374,6 +380,10 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets current scene. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns the current scene being updated and drawn to. </dd></dl>
 
 </div>
 </div>
@@ -604,6 +614,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sets current scene. NEEDS TO BE PRIVATE </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newScene</td><td>[in,out] If non-null, the new scene. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="af750522414c8188ffa7870f153a758de"></a>
@@ -629,6 +648,15 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets next scene using commands. This function will later call <a class="el" href="class_scene_manager.html#a3c2e19f413944280fc54218eb9a71c23" title="Sets current scene. NEEDS TO BE PRIVATE ">SetCurrentScene()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newScene</td><td>[in,out] If non-null, the new scene. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -679,6 +707,13 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>This function is specifically used to have the user start the game with a specific scene. This is found in the USER folder called: UserStartScreen.cpp. </p>
+<p>The User needs to include the <a class="el" href="_scene_8h.html">scene.h</a> that will be used. and have a new scene of that object be returned in the function.</p>
+<p>Example: </p>
+<p><code> Scene* <a class="el" href="class_scene_manager.html#a06cd5440361bc826a3f53175e544a8fb" title="This function is specifically used to have the user start the game with a specific scene...">SceneManager::StartScene()</a> { return(new TestScene); } </code></p>
+<p>Clay, 3/10/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns the first scene to be used in the game. Not having a scene here will cause a crash. </dd></dl>
 
 </div>
 </div>
@@ -744,6 +779,28 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">friend class <a class="el" href="class_scene_manager_attorney.html">SceneManagerAttorney</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac860de7e653dece76f6e77276d47f050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac860de7e653dece76f6e77276d47f050">&#9670;&nbsp;</a></span>SceneTool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_scene_tool.html">SceneTool</a></td>
         </tr>
       </table>
   </td>

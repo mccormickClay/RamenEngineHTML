@@ -30,6 +30,7 @@ var files_dup =
       [ "Delete", "class_asset_manager_attorney_1_1_delete.html", "class_asset_manager_attorney_1_1_delete" ],
       [ "Load", "class_asset_manager_attorney_1_1_load.html", "class_asset_manager_attorney_1_1_load" ]
     ] ],
+    [ "AssetTool.h", "_asset_tool_8h.html", null ],
     [ "Axis_Default.cpp", "_axis___default_8cpp.html", null ],
     [ "Axis_Default.h", "_axis___default_8h.html", [
       [ "Axis_Default", "class_axis___default.html", "class_axis___default" ]
@@ -44,9 +45,7 @@ var files_dup =
       ] ],
       [ "Initialize", "class_camera_manager_attorney_1_1_initialize.html", "class_camera_manager_attorney_1_1_initialize" ]
     ] ],
-    [ "CameraTool.h", "_camera_tool_8h.html", [
-      [ "CameraTool", "class_camera_tool.html", "class_camera_tool" ]
-    ] ],
+    [ "CameraTool.h", "_camera_tool_8h.html", null ],
     [ "CamManager.cpp", "_cam_manager_8cpp.html", null ],
     [ "CamManager.h", "_cam_manager_8h.html", [
       [ "CamManager", "class_cam_manager.html", "class_cam_manager" ]
@@ -80,7 +79,6 @@ var files_dup =
       [ "CollidableGroup", "class_collidable_group.html", "class_collidable_group" ],
       [ "CollisionGroupDelete", "class_collision_group_delete.html", "class_collision_group_delete" ]
     ] ],
-    [ "CollisionManager.cpp", "_collision_manager_8cpp.html", null ],
     [ "CollisionManager.h", "_collision_manager_8h.html", [
       [ "CollisionManager", "class_collision_manager.html", "class_collision_manager" ]
     ] ],
@@ -104,9 +102,7 @@ var files_dup =
       [ "CollisionVolumeBSphere", "class_collision_volume_b_sphere.html", "class_collision_volume_b_sphere" ]
     ] ],
     [ "Color.cpp", "_color_8cpp.html", null ],
-    [ "Color.h", "_color_8h.html", [
-      [ "Color", "struct_color.html", "struct_color" ]
-    ] ],
+    [ "Color.h", "_color_8h.html", null ],
     [ "CommandBase.h", "_command_base_8h.html", [
       [ "CommandBase", "class_command_base.html", "class_command_base" ]
     ] ],
@@ -168,6 +164,7 @@ var files_dup =
     [ "KeyboardEventManager.h", "_keyboard_event_manager_8h.html", [
       [ "KeyboardEventManager", "class_keyboard_event_manager.html", "class_keyboard_event_manager" ]
     ] ],
+    [ "KeyInput.h", "_key_input_8h.html", null ],
     [ "KeyRegistrationCommand.h", "_key_registration_command_8h.html", [
       [ "KeyRegistrationCommand", "class_key_registration_command.html", "class_key_registration_command" ]
     ] ],
@@ -190,6 +187,10 @@ var files_dup =
     [ "Ramen.cpp", "_ramen_8cpp.html", null ],
     [ "Ramen.h", "_ramen_8h.html", [
       [ "Ramen", "class_ramen.html", "class_ramen" ]
+    ] ],
+    [ "RamenAssets.h", "_ramen_assets_8h.html", [
+      [ "Models", "class_ramen_assets_1_1_models.html", "class_ramen_assets_1_1_models" ],
+      [ "Shaders", "class_ramen_assets_1_1_shaders.html", "class_ramen_assets_1_1_shaders" ]
     ] ],
     [ "RamenAttorney.h", "_ramen_attorney_8h.html", [
       [ "RamenAttorney", "class_ramen_attorney.html", "class_ramen_attorney" ]
@@ -258,6 +259,7 @@ var files_dup =
     [ "SceneRegistrationCommand.h", "_scene_registration_command_8h.html", [
       [ "SceneRegistrationCommand", "class_scene_registration_command.html", "class_scene_registration_command" ]
     ] ],
+    [ "SceneTool.h", "_scene_tool_8h.html", null ],
     [ "ShaderManager.cpp", "_shader_manager_8cpp.html", null ],
     [ "ShaderManager.h", "_shader_manager_8h.html", [
       [ "ShaderManager", "class_shader_manager.html", "class_shader_manager" ]
@@ -293,17 +295,13 @@ var files_dup =
       [ "Sprite", "class_sprite.html", "class_sprite" ]
     ] ],
     [ "SpriteDemo.cpp", "_sprite_demo_8cpp.html", null ],
-    [ "SpriteDemo.h", "_sprite_demo_8h.html", [
-      [ "SpriteDemo", "class_sprite_demo.html", "class_sprite_demo" ]
-    ] ],
+    [ "SpriteDemo.h", "_sprite_demo_8h.html", null ],
     [ "SpriteDemo3DObject.cpp", "_sprite_demo3_d_object_8cpp.html", null ],
     [ "SpriteDemo3DObject.h", "_sprite_demo3_d_object_8h.html", [
       [ "SpriteDemo3DObject", "class_sprite_demo3_d_object.html", "class_sprite_demo3_d_object" ]
     ] ],
     [ "SpriteDemoObject.cpp", "_sprite_demo_object_8cpp.html", null ],
-    [ "SpriteDemoObject.h", "_sprite_demo_object_8h.html", [
-      [ "SpriteDemoObject", "class_sprite_demo_object.html", "class_sprite_demo_object" ]
-    ] ],
+    [ "SpriteDemoObject.h", "_sprite_demo_object_8h.html", null ],
     [ "SpriteFactory.cpp", "_sprite_factory_8cpp.html", null ],
     [ "SpriteFactory.h", "_sprite_factory_8h.html", [
       [ "SpriteFactory", "class_sprite_factory.html", "class_sprite_factory" ]
@@ -316,9 +314,7 @@ var files_dup =
       [ "SceneOptions", "class_sprite_factory_attorney_1_1_scene_options.html", "class_sprite_factory_attorney_1_1_scene_options" ],
       [ "SpriteOptions", "class_sprite_factory_attorney_1_1_sprite_options.html", "class_sprite_factory_attorney_1_1_sprite_options" ]
     ] ],
-    [ "SpriteTool.h", "_sprite_tool_8h.html", [
-      [ "SpriteTool", "class_sprite_tool.html", "class_sprite_tool" ]
-    ] ],
+    [ "SpriteTool.h", "_sprite_tool_8h.html", null ],
     [ "TestKey.cpp", "_test_key_8cpp.html", null ],
     [ "TestKey.h", "_test_key_8h.html", [
       [ "TestKey", "class_test_key.html", "class_test_key" ]
@@ -353,6 +349,27 @@ var files_dup =
     [ "UpdateRegisterationCommand.cpp", "_update_registeration_command_8cpp.html", null ],
     [ "UpdateRegisterationCommand.h", "_update_registeration_command_8h.html", [
       [ "UpdateRegisterationCommand", "class_update_registeration_command.html", "class_update_registeration_command" ]
+    ] ],
+    [ "VisualizerAttorney.h", "_visualizer_attorney_8h.html", [
+      [ "VisualizerAttorney", "class_visualizer_attorney.html", [
+        [ "CommandBSphereOptions", "class_visualizer_attorney_1_1_command_b_sphere_options.html", "class_visualizer_attorney_1_1_command_b_sphere_options" ],
+        [ "DeleteOptions", "class_visualizer_attorney_1_1_delete_options.html", "class_visualizer_attorney_1_1_delete_options" ]
+      ] ],
+      [ "CommandBSphereOptions", "class_visualizer_attorney_1_1_command_b_sphere_options.html", "class_visualizer_attorney_1_1_command_b_sphere_options" ],
+      [ "DeleteOptions", "class_visualizer_attorney_1_1_delete_options.html", "class_visualizer_attorney_1_1_delete_options" ]
+    ] ],
+    [ "VisualizerCommand_Base.h", "_visualizer_command___base_8h.html", [
+      [ "VisualizerCommand_Base", "class_visualizer_command___base.html", "class_visualizer_command___base" ]
+    ] ],
+    [ "VisualizerCommandBSphere.h", "_visualizer_command_b_sphere_8h.html", [
+      [ "VisualizerCommandBSphere", "class_visualizer_command_b_sphere.html", "class_visualizer_command_b_sphere" ]
+    ] ],
+    [ "VisualizerCommandNull.h", "_visualizer_command_null_8h.html", [
+      [ "VisualizerCommandNull", "class_visualizer_command_null.html", "class_visualizer_command_null" ]
+    ] ],
+    [ "VisualizerManager.cpp", "_visualizer_manager_8cpp.html", null ],
+    [ "VisualizerManager.h", "_visualizer_manager_8h.html", [
+      [ "VisualizerManager", "class_visualizer_manager.html", "class_visualizer_manager" ]
     ] ],
     [ "VisualizerTool.cpp", "_visualizer_tool_8cpp.html", null ],
     [ "VisualizerTool.h", "_visualizer_tool_8h.html", [

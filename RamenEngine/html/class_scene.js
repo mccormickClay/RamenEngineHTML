@@ -7,7 +7,7 @@ var class_scene =
     [ "Deregister", "class_scene.html#aa133e5be80149abeb2d7f01e0a123025", null ],
     [ "Deregister", "class_scene.html#a7fc54e6703eb9fcea0017d938c94e130", null ],
     [ "Deregister", "class_scene.html#a62953531535c344beae64594131994f6", null ],
-    [ "Deregister", "class_scene.html#a6ee054aa2abfe85fa5fbeac5b54b1ef7", null ],
+    [ "Deregister", "class_scene.html#a2efc59266df646bb8ce2bbca8f429c7f", null ],
     [ "Draw", "class_scene.html#a4813338ee7c6c995f5bb6f10e3673804", null ],
     [ "GetCurrent2DCamera", "class_scene.html#a01b6942f23fe9f09b90223c69eb45adb", null ],
     [ "GetCurrentCamera", "class_scene.html#ae9b09ae927d8175ec7afb00542e74864", null ],
@@ -16,7 +16,7 @@ var class_scene =
     [ "Register", "class_scene.html#a5c03187d8aa1f0f7df73f0315ac18a30", null ],
     [ "Register", "class_scene.html#a9bf0aa379726b64e6c2fcbcdcbe3c28c", null ],
     [ "Register", "class_scene.html#a6d3789cb2fac41b5b0033283cb988cb3", null ],
-    [ "Register", "class_scene.html#a7e8559b65370c28078c938e41721bf36", null ],
+    [ "Register", "class_scene.html#a2cad298d9d9ab7a2748ede087546b4b1", null ],
     [ "SceneEnd", "class_scene.html#a83e2c09d62bc782d9b6f1a6609bc4125", null ],
     [ "SendDeleteCmd", "class_scene.html#a86bc70dc935d6dcfb5f079735932cffe", null ],
     [ "SetCollisionPair", "class_scene.html#a7257d595b38462d1764a6c4e260b47f7", null ],
@@ -37,5 +37,6 @@ var class_scene =
     [ "KBEventManager", "class_scene.html#a56fd4a9393feb613dfc08e00d1303359", null ],
     [ "RegisterationBroker", "class_scene.html#aca2e2a9273e761a8b3c9f3604e5b2070", null ],
     [ "SceneState", "class_scene.html#a3ba49ddb2bdabc82a5d271cc428043f8", null ],
-    [ "UpdateManager", "class_scene.html#a03465b54c937f2acac454c154f899c01", null ]
+    [ "UpdateManager", "class_scene.html#a03465b54c937f2acac454c154f899c01", null ],
+    [ "VisualManager", "class_scene.html#a50d09c9dc242df5b4b9099175c168cde", null ]
 ];

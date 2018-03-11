@@ -1,4 +1,4 @@
 var class_key_registration_command =
 [
-    [ "Execute", "class_key_registration_command.html#a4f0113b2811a9c859719f3470f161a1d", null ]
+    [ "Execute", "class_key_registration_command.html#a6126bb31e893249f78fbe3310028c9f9", null ]
 ];

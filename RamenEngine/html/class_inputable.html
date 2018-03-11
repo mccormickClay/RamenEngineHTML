@@ -87,8 +87,8 @@ $(document).ready(function(){initNavTree('class_inputable.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -114,7 +114,7 @@ Inheritance diagram for Inputable:</div>
 <area href="class_axis___default.html" alt="Axis_Default" shape="rect" coords="0,112,130,136"/>
 <area href="class_sphere_object.html" title="A sphere object that will change colors depending on two different alarms. " alt="SphereObject" shape="rect" coords="140,112,270,136"/>
 <area href="class_sprite_demo3_d_object.html" alt="SpriteDemo3DObject" shape="rect" coords="280,112,410,136"/>
-<area href="class_sprite_demo_object.html" alt="SpriteDemoObject" shape="rect" coords="420,112,550,136"/>
+<area href="class_sprite_demo_object.html" title="This Demo shows how to ask Ramen to use the Draw2D function inside of a GameObject. It also shows how to draw on that function and the differences between Draw and Draw2D. Draw2D will always be infront of object that were Rendered with Draw. " alt="SpriteDemoObject" shape="rect" coords="420,112,550,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -123,40 +123,38 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_inputable_1_1_registration_data.html">RegistrationData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a13ffe805d6507b01e5d9c14b62b2792d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a> { <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da18cbfcb552dd940be047a906394fb165">KEY_PRESS</a>, 
-<a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da56be2988773227a84b41de37a1cd4e8e">KEY_RELEASE</a>
- }</td></tr>
-<tr class="separator:a13ffe805d6507b01e5d9c14b62b2792d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a191fd4624272222ea8344eabf9d26ead"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a191fd4624272222ea8344eabf9d26ead">Inputable</a> ()</td></tr>
 <tr class="separator:a191fd4624272222ea8344eabf9d26ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b4ce2da991f564ff8528aee6db1452"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a40b4ce2da991f564ff8528aee6db1452">SceneRegistration</a> (AZUL_KEY k, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a> ev)</td></tr>
-<tr class="memdesc:a40b4ce2da991f564ff8528aee6db1452"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_REGISTRATION. Sends the <a class="el" href="class_inputable.html" title="Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more effici...">Inputable</a> object to the KeyboardManager.  <a href="#a40b4ce2da991f564ff8528aee6db1452">More...</a><br /></td></tr>
-<tr class="separator:a40b4ce2da991f564ff8528aee6db1452"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82d955e2a23cd6705274112a93304731"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a82d955e2a23cd6705274112a93304731">SceneDeregistration</a> (AZUL_KEY k, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a> ev)</td></tr>
-<tr class="memdesc:a82d955e2a23cd6705274112a93304731"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_DEREGISTRATION. Deletes the <a class="el" href="class_inputable.html" title="Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more effici...">Inputable</a> object from the KeyboardManager so it no longer checks for this specific key from the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>.  <a href="#a82d955e2a23cd6705274112a93304731">More...</a><br /></td></tr>
-<tr class="separator:a82d955e2a23cd6705274112a93304731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8da50e6d693685faf6d36777f0ce4f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#ab8da50e6d693685faf6d36777f0ce4f4">SceneRegistration</a> (AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev)</td></tr>
+<tr class="memdesc:ab8da50e6d693685faf6d36777f0ce4f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_REGISTRATION. Sends the <a class="el" href="class_inputable.html" title="Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more effici...">Inputable</a> object to the KeyboardManager.  <a href="#ab8da50e6d693685faf6d36777f0ce4f4">More...</a><br /></td></tr>
+<tr class="separator:ab8da50e6d693685faf6d36777f0ce4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6427b77e3a28c95ef59f8555fd150d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#afa6427b77e3a28c95ef59f8555fd150d">SceneDeregistration</a> (AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev)</td></tr>
+<tr class="memdesc:afa6427b77e3a28c95ef59f8555fd150d"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_DEREGISTRATION. Deletes the <a class="el" href="class_inputable.html" title="Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more effici...">Inputable</a> object from the KeyboardManager so it no longer checks for this specific key from the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>.  <a href="#afa6427b77e3a28c95ef59f8555fd150d">More...</a><br /></td></tr>
+<tr class="separator:afa6427b77e3a28c95ef59f8555fd150d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47837480eb9ca33e9455ad876c890a52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a47837480eb9ca33e9455ad876c890a52">~Inputable</a> ()</td></tr>
 <tr class="separator:a47837480eb9ca33e9455ad876c890a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a3795192c102d0afdd10f8e892c517fc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a3795192c102d0afdd10f8e892c517fc4">pDeleteRef</a></td></tr>
+<tr class="separator:a3795192c102d0afdd10f8e892c517fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af134ceb2b100ba937969544101063f80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#af134ceb2b100ba937969544101063f80">SubmitKeyRegistration</a> (AZUL_KEY k, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a> ev)</td></tr>
-<tr class="memdesc:af134ceb2b100ba937969544101063f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if RegistrationState is CURRENTLY_DEREGISTERED. Asks for a key to be read by a specific action. The user can trigger this by using <a class="el" href="class_inputable.html#a4ab3f868d29a2c50a9aca5c7ae53601d" title="Callback to allow a specific key to be used with user code. The user must check to see which key is b...">keyPressed()</a> or <a class="el" href="class_inputable.html#a666f688a54c97b1eb8f84cb6eee0fcd3" title="Callback to allow a specific key to be used with user code. The user must check to see which key is b...">keyReleased()</a>.  <a href="#af134ceb2b100ba937969544101063f80">More...</a><br /></td></tr>
-<tr class="separator:af134ceb2b100ba937969544101063f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad43f777be9d18fc8e8700227e86a67d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#ad43f777be9d18fc8e8700227e86a67d7">SubmitKeyDeregistration</a> (AZUL_KEY k, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a> ev)</td></tr>
-<tr class="memdesc:ad43f777be9d18fc8e8700227e86a67d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks to no longer read the key by an input type.  <a href="#ad43f777be9d18fc8e8700227e86a67d7">More...</a><br /></td></tr>
-<tr class="separator:ad43f777be9d18fc8e8700227e86a67d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a130ff4a6e5c9bd5b480a42705ec20e93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a130ff4a6e5c9bd5b480a42705ec20e93">SubmitKeyRegistration</a> (AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev)</td></tr>
+<tr class="memdesc:a130ff4a6e5c9bd5b480a42705ec20e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if RegistrationState is CURRENTLY_DEREGISTERED. Asks for a key to be read by a specific action. The user can trigger this by using <a class="el" href="class_inputable.html#a4ab3f868d29a2c50a9aca5c7ae53601d" title="Callback to allow a specific key to be used with user code. The user must check to see which key is b...">keyPressed()</a> or <a class="el" href="class_inputable.html#a666f688a54c97b1eb8f84cb6eee0fcd3" title="Callback to allow a specific key to be used with user code. The user must check to see which key is b...">keyReleased()</a>.  <a href="#a130ff4a6e5c9bd5b480a42705ec20e93">More...</a><br /></td></tr>
+<tr class="separator:a130ff4a6e5c9bd5b480a42705ec20e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9027ef3ccf460b07d788e8fd82b98b0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a9027ef3ccf460b07d788e8fd82b98b0a">SubmitKeyDeregistration</a> (AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev)</td></tr>
+<tr class="memdesc:a9027ef3ccf460b07d788e8fd82b98b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks to no longer read the key by an input type.  <a href="#a9027ef3ccf460b07d788e8fd82b98b0a">More...</a><br /></td></tr>
+<tr class="separator:a9027ef3ccf460b07d788e8fd82b98b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:ae39a92f70ee32f827a281707de45b125"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#ae39a92f70ee32f827a281707de45b125">InputData</a> = std::pair&lt; AZUL_KEY, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a> &gt;</td></tr>
-<tr class="separator:ae39a92f70ee32f827a281707de45b125"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad4bc7dac7aa5bb47b2a8ef0d4910ad8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#aad4bc7dac7aa5bb47b2a8ef0d4910ad8">RegistrationKeys</a> = std::map&lt; <a class="el" href="class_inputable.html#ae39a92f70ee32f827a281707de45b125">InputData</a>, <a class="el" href="struct_inputable_1_1_registration_data.html">RegistrationData</a> &gt;</td></tr>
+<tr class="memitem:a0e905568740f131920185633bca2ae6a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a0e905568740f131920185633bca2ae6a">InputData</a> = std::pair&lt; AZUL_KEY, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> &gt;</td></tr>
+<tr class="separator:a0e905568740f131920185633bca2ae6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4bc7dac7aa5bb47b2a8ef0d4910ad8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#aad4bc7dac7aa5bb47b2a8ef0d4910ad8">RegistrationKeys</a> = std::map&lt; <a class="el" href="class_inputable.html#a0e905568740f131920185633bca2ae6a">InputData</a>, <a class="el" href="struct_inputable_1_1_registration_data.html">RegistrationData</a> &gt;</td></tr>
 <tr class="separator:aad4bc7dac7aa5bb47b2a8ef0d4910ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -170,7 +168,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a539993127b7cfec5c57831c4987ed635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_inputable.html#ae39a92f70ee32f827a281707de45b125">InputData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a539993127b7cfec5c57831c4987ed635">searchData</a></td></tr>
+<tr class="memitem:a539993127b7cfec5c57831c4987ed635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_inputable.html#a0e905568740f131920185633bca2ae6a">InputData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#a539993127b7cfec5c57831c4987ed635">searchData</a></td></tr>
 <tr class="separator:a539993127b7cfec5c57831c4987ed635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc557d326b9764be59c07d2d77fa1af5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_inputable.html#aad4bc7dac7aa5bb47b2a8ef0d4910ad8">RegistrationKeys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_inputable.html#afc557d326b9764be59c07d2d77fa1af5">registeredKeys</a></td></tr>
 <tr class="separator:afc557d326b9764be59c07d2d77fa1af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,10 +182,10 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more efficient by not asking every frame for when a keystoke was made. There are two events a key can have: KEY_PRESS AND KEY_RELEASE. </p>
-<p>All Commands must be Registered and Deregistered by the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be used correctly. All GameObjects have <a class="el" href="class_inputable.html#af134ceb2b100ba937969544101063f80" title="Checks to see if RegistrationState is CURRENTLY_DEREGISTERED. Asks for a key to be read by a specific...">SubmitKeyRegistration()</a> and <a class="el" href="class_inputable.html#ad43f777be9d18fc8e8700227e86a67d7" title="Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks to no longer read the key by an inpu...">SubmitKeyDeregistration()</a>; </p>
+<p>All Commands must be Registered and Deregistered by the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be used correctly. All GameObjects have <a class="el" href="class_inputable.html#a130ff4a6e5c9bd5b480a42705ec20e93" title="Checks to see if RegistrationState is CURRENTLY_DEREGISTERED. Asks for a key to be read by a specific...">SubmitKeyRegistration()</a> and <a class="el" href="class_inputable.html#a9027ef3ccf460b07d788e8fd82b98b0a" title="Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks to no longer read the key by an inpu...">SubmitKeyDeregistration()</a>; </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ae39a92f70ee32f827a281707de45b125"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae39a92f70ee32f827a281707de45b125">&#9670;&nbsp;</a></span>InputData</h2>
+<a id="a0e905568740f131920185633bca2ae6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e905568740f131920185633bca2ae6a">&#9670;&nbsp;</a></span>InputData</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -196,7 +194,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_inputable.html#ae39a92f70ee32f827a281707de45b125">Inputable::InputData</a> =  std::pair&lt;AZUL_KEY, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_inputable.html#a0e905568740f131920185633bca2ae6a">Inputable::InputData</a> =  std::pair&lt;AZUL_KEY, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&gt;</td>
         </tr>
       </table>
   </td>
@@ -218,7 +216,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_inputable.html#aad4bc7dac7aa5bb47b2a8ef0d4910ad8">Inputable::RegistrationKeys</a> =  std::map&lt;<a class="el" href="class_inputable.html#ae39a92f70ee32f827a281707de45b125">InputData</a>, <a class="el" href="struct_inputable_1_1_registration_data.html">RegistrationData</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_inputable.html#aad4bc7dac7aa5bb47b2a8ef0d4910ad8">Inputable::RegistrationKeys</a> =  std::map&lt;<a class="el" href="class_inputable.html#a0e905568740f131920185633bca2ae6a">InputData</a>, <a class="el" href="struct_inputable_1_1_registration_data.html">RegistrationData</a>&gt;</td>
         </tr>
       </table>
   </td>
@@ -227,28 +225,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a13ffe805d6507b01e5d9c14b62b2792d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13ffe805d6507b01e5d9c14b62b2792d">&#9670;&nbsp;</a></span>INPUT_EVENT_TYPE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Types of inputs a keyboard stroke can use. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a13ffe805d6507b01e5d9c14b62b2792da18cbfcb552dd940be047a906394fb165"></a>KEY_PRESS&#160;</td><td class="fielddoc"><p>When a specific key is pressed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a13ffe805d6507b01e5d9c14b62b2792da56be2988773227a84b41de37a1cd4e8e"></a>KEY_RELEASE&#160;</td><td class="fielddoc"><p>When a specific key is released. </p>
-</td></tr>
-</table>
 
 </div>
 </div>
@@ -358,8 +334,8 @@ Friends</h2></td></tr>
 <p>Example </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> Airplane::keyReleased(AZUL_KEY k)</div><div class="line"><span class="keywordflow">switch</span> (k)</div><div class="line">{</div><div class="line"><span class="keywordflow">case</span> AZUL_KEY::KEY_T:</div><div class="line">    &lt;...&gt; <span class="comment">// Remove grenade pin</span></div><div class="line">    <span class="keywordflow">break</span>;</div><div class="line"><span class="keywordflow">default</span>:</div><div class="line">    DebugMsg::out(<span class="stringliteral">&quot;\nERROR: Key %i unprocessed&quot;</span>, k);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
-<a id="a82d955e2a23cd6705274112a93304731"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82d955e2a23cd6705274112a93304731">&#9670;&nbsp;</a></span>SceneDeregistration()</h2>
+<a id="afa6427b77e3a28c95ef59f8555fd150d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa6427b77e3a28c95ef59f8555fd150d">&#9670;&nbsp;</a></span>SceneDeregistration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,7 +349,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
           <td class="paramname"><em>ev</em>&#160;</td>
         </tr>
         <tr>
@@ -388,8 +364,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a40b4ce2da991f564ff8528aee6db1452"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40b4ce2da991f564ff8528aee6db1452">&#9670;&nbsp;</a></span>SceneRegistration()</h2>
+<a id="ab8da50e6d693685faf6d36777f0ce4f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8da50e6d693685faf6d36777f0ce4f4">&#9670;&nbsp;</a></span>SceneRegistration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,7 +379,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
           <td class="paramname"><em>ev</em>&#160;</td>
         </tr>
         <tr>
@@ -425,8 +401,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ad43f777be9d18fc8e8700227e86a67d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad43f777be9d18fc8e8700227e86a67d7">&#9670;&nbsp;</a></span>SubmitKeyDeregistration()</h2>
+<a id="a9027ef3ccf460b07d788e8fd82b98b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9027ef3ccf460b07d788e8fd82b98b0a">&#9670;&nbsp;</a></span>SubmitKeyDeregistration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -443,7 +419,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
           <td class="paramname"><em>ev</em>&#160;</td>
         </tr>
         <tr>
@@ -460,11 +436,11 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks to no longer read the key by an input type. </p>
-<p>Example </p><div class="fragment"><div class="line">TankObject::~TankObject()</div><div class="line">{</div><div class="line">    <a class="code" href="class_updatable.html#a1739b07f9bbc3a22c0ca6d9688f628a6">Updatable::SubmitUpdateDeregistration</a>();</div><div class="line">    <a class="code" href="class_inputable.html#ad43f777be9d18fc8e8700227e86a67d7">Inputable::SubmitKeyDeregistration</a>(AZUL_KEY::KEY_T, <a class="code" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da18cbfcb552dd940be047a906394fb165">KEY_PRESS</a>);</div><div class="line">    <a class="code" href="class_inputable.html#ad43f777be9d18fc8e8700227e86a67d7">Inputable::SubmitKeyDeregistration</a>(AZUL_KEY::KEY_T, <a class="code" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da56be2988773227a84b41de37a1cd4e8e">KEY_RELEASE</a>);</div><div class="line">}</div></div><!-- fragment --> 
+<p>Example </p><div class="fragment"><div class="line">TankObject::~TankObject()</div><div class="line">{</div><div class="line">    <a class="code" href="class_updatable.html#a1739b07f9bbc3a22c0ca6d9688f628a6">Updatable::SubmitUpdateDeregistration</a>();</div><div class="line">    <a class="code" href="class_inputable.html#a9027ef3ccf460b07d788e8fd82b98b0a">Inputable::SubmitKeyDeregistration</a>(AZUL_KEY::KEY_T, <a class="code" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763eaefde90d0415c7376d588273c32f8246e">KeyInput::KEY_PRESS</a>);</div><div class="line">    <a class="code" href="class_inputable.html#a9027ef3ccf460b07d788e8fd82b98b0a">Inputable::SubmitKeyDeregistration</a>(AZUL_KEY::KEY_T, <a class="code" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763ea225583fc8526cad03c2b96c00c1679d9">KeyInput::KEY_RELEASE</a>);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
-<a id="af134ceb2b100ba937969544101063f80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af134ceb2b100ba937969544101063f80">&#9670;&nbsp;</a></span>SubmitKeyRegistration()</h2>
+<a id="a130ff4a6e5c9bd5b480a42705ec20e93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a130ff4a6e5c9bd5b480a42705ec20e93">&#9670;&nbsp;</a></span>SubmitKeyRegistration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -481,7 +457,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">INPUT_EVENT_TYPE</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
           <td class="paramname"><em>ev</em>&#160;</td>
         </tr>
         <tr>
@@ -505,7 +481,7 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>Example </p><div class="fragment"><div class="line">TankObject::TankObject()</div><div class="line">{</div><div class="line">    <a class="code" href="class_updatable.html#a705b2573da6eaa190a30bba0f7f4dddc">Updatable::SubmitUpdateRegistration</a>();</div><div class="line">    <a class="code" href="class_inputable.html#af134ceb2b100ba937969544101063f80">Inputable::SubmitKeyRegistration</a>(AZUL_KEY::KEY_T, <a class="code" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da18cbfcb552dd940be047a906394fb165">KEY_PRESS</a>);</div><div class="line">    <a class="code" href="class_inputable.html#af134ceb2b100ba937969544101063f80">Inputable::SubmitKeyRegistration</a>(AZUL_KEY::KEY_T, <a class="code" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da56be2988773227a84b41de37a1cd4e8e">KEY_RELEASE</a>);</div><div class="line">}</div></div><!-- fragment --> 
+<p>Example </p><div class="fragment"><div class="line">TankObject::TankObject()</div><div class="line">{</div><div class="line">    <a class="code" href="class_updatable.html#a705b2573da6eaa190a30bba0f7f4dddc">Updatable::SubmitUpdateRegistration</a>();</div><div class="line">    <a class="code" href="class_inputable.html#a130ff4a6e5c9bd5b480a42705ec20e93">Inputable::SubmitKeyRegistration</a>(AZUL_KEY::KEY_T, <a class="code" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763eaefde90d0415c7376d588273c32f8246e">KeyInput::KEY_PRESS</a>);</div><div class="line">    <a class="code" href="class_inputable.html#a130ff4a6e5c9bd5b480a42705ec20e93">Inputable::SubmitKeyRegistration</a>(AZUL_KEY::KEY_T, <a class="code" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763ea225583fc8526cad03c2b96c00c1679d9">KeyInput::KEY_RELEASE</a>);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -554,6 +530,20 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a3795192c102d0afdd10f8e892c517fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3795192c102d0afdd10f8e892c517fc4">&#9670;&nbsp;</a></span>pDeleteRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> Inputable::pDeleteRef</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afc557d326b9764be59c07d2d77fa1af5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc557d326b9764be59c07d2d77fa1af5">&#9670;&nbsp;</a></span>registeredKeys</h2>
 
@@ -586,7 +576,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_inputable.html#ae39a92f70ee32f827a281707de45b125">InputData</a> Inputable::searchData</td>
+          <td class="memname"><a class="el" href="class_inputable.html#a0e905568740f131920185633bca2ae6a">InputData</a> Inputable::searchData</td>
         </tr>
       </table>
   </td>

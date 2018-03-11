@@ -119,6 +119,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e634afce3dee056a409ed3bcfefa881"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a1e634afce3dee056a409ed3bcfefa881">Run</a> ()</td></tr>
+<tr class="memdesc:a1e634afce3dee056a409ed3bcfefa881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the Engine. Sadly this is public, when it shouldnt be. This is only to be used by main to connect to the engine.  <a href="#a1e634afce3dee056a409ed3bcfefa881">More...</a><br /></td></tr>
 <tr class="separator:a1e634afce3dee056a409ed3bcfefa881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdae37257dd9f8c9ca7ae857fd4261a5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#afdae37257dd9f8c9ca7ae857fd4261a5">GetWinHeight</a> ()</td></tr>
 <tr class="memdesc:afdae37257dd9f8c9ca7ae857fd4261a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets window height.  <a href="#afdae37257dd9f8c9ca7ae857fd4261a5">More...</a><br /></td></tr>
@@ -129,9 +130,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c1f14c0d70a9f866381c685a43d15a1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a0c1f14c0d70a9f866381c685a43d15a1">SetWindowPaneName</a> (const char *name)</td></tr>
 <tr class="memdesc:a0c1f14c0d70a9f866381c685a43d15a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets window pane name.  <a href="#a0c1f14c0d70a9f866381c685a43d15a1">More...</a><br /></td></tr>
 <tr class="separator:a0c1f14c0d70a9f866381c685a43d15a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a030f6c4be2ff4b7be2b4a1e9c746c8cc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a030f6c4be2ff4b7be2b4a1e9c746c8cc">SetWindow</a> (int w, int h)</td></tr>
-<tr class="memdesc:a030f6c4be2ff4b7be2b4a1e9c746c8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a window by specific width and height given by the user.  <a href="#a030f6c4be2ff4b7be2b4a1e9c746c8cc">More...</a><br /></td></tr>
-<tr class="separator:a030f6c4be2ff4b7be2b4a1e9c746c8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb70cf55530554a37a63fa9bb4e3283"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#aebb70cf55530554a37a63fa9bb4e3283">SetWindow</a> (int w=800, int h=600)</td></tr>
+<tr class="memdesc:aebb70cf55530554a37a63fa9bb4e3283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a window by specific width and height given by the user.  <a href="#aebb70cf55530554a37a63fa9bb4e3283">More...</a><br /></td></tr>
+<tr class="separator:aebb70cf55530554a37a63fa9bb4e3283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40cf5565f78d3b7655da893b27fe0d9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#aa40cf5565f78d3b7655da893b27fe0d9">SetClear</a> (float r, float g, float b, float a)</td></tr>
 <tr class="separator:aa40cf5565f78d3b7655da893b27fe0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -146,44 +147,61 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a99ea2088a288d3708c7c9227ce949c20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a99ea2088a288d3708c7c9227ce949c20">~Ramen</a> ()=default</td></tr>
 <tr class="separator:a99ea2088a288d3708c7c9227ce949c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af27b3a97102b9a9c3dfdc581925ae19d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#af27b3a97102b9a9c3dfdc581925ae19d">Initialize</a> ()</td></tr>
+<tr class="memdesc:af27b3a97102b9a9c3dfdc581925ae19d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialized the default window and scene color of the screen. If the user has specified different window size or color (in UserGameInitilize.cpp) it will be processed as well.  <a href="#af27b3a97102b9a9c3dfdc581925ae19d">More...</a><br /></td></tr>
 <tr class="separator:af27b3a97102b9a9c3dfdc581925ae19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82eff082000c49fc9c4c00eda7ae2d90"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a82eff082000c49fc9c4c00eda7ae2d90">LoadContent</a> ()</td></tr>
+<tr class="memdesc:a82eff082000c49fc9c4c00eda7ae2d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the content that is given by the User and from <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a>'s Default Assets. The <a class="el" href="class_scene_manager.html">SceneManager</a> is created and the scene chosen by the user (in UserStartScene.cpp) will also be Initialized in this process. <a href="#a82eff082000c49fc9c4c00eda7ae2d90">More...</a><br /></td></tr>
 <tr class="separator:a82eff082000c49fc9c4c00eda7ae2d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a73bfe6d9e0fda6c4c15b4c92aa7df8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a9a73bfe6d9e0fda6c4c15b4c92aa7df8">Update</a> ()</td></tr>
+<tr class="memdesc:a9a73bfe6d9e0fda6c4c15b4c92aa7df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starting point where all objects will be updated. All updating objects are processed though the <a class="el" href="class_scene_manager.html">SceneManager</a> for the current <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a> (that is chosen by the user). <a href="#a9a73bfe6d9e0fda6c4c15b4c92aa7df8">More...</a><br /></td></tr>
 <tr class="separator:a9a73bfe6d9e0fda6c4c15b4c92aa7df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7442580d19c4299b2aef6db8528057f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a7442580d19c4299b2aef6db8528057f3">Draw</a> ()</td></tr>
+<tr class="memdesc:a7442580d19c4299b2aef6db8528057f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starting point where all GameObjects that requested to be drawn are here. All drawable and spritable (3D and 2D) GraphicObjects are processed thorugh the <a class="el" href="class_scene_manager.html">SceneManager</a> for the current <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a> (that is chosen by the user.)  <a href="#a7442580d19c4299b2aef6db8528057f3">More...</a><br /></td></tr>
 <tr class="separator:a7442580d19c4299b2aef6db8528057f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d50ff43d57f93233f7bb019166093b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a9d50ff43d57f93233f7bb019166093b7">UnLoadContent</a> ()</td></tr>
+<tr class="memitem:a9d50ff43d57f93233f7bb019166093b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a9d50ff43d57f93233f7bb019166093b7">UnLoadContent</a> ()</td></tr>
+<tr class="memdesc:a9d50ff43d57f93233f7bb019166093b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all Managers that are being used inside of the engine. This also calls SceneEnd on the current scene and deletes it. All assets (Models, Images, Textures, ShaderObjects) are deleted first. Afterwards their corresponding Managers are deleted by calling TermainateAllManagers().  <a href="#a9d50ff43d57f93233f7bb019166093b7">More...</a><br /></td></tr>
 <tr class="separator:a9d50ff43d57f93233f7bb019166093b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ec733e89a5bc9adf42212d8c198d6ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a6ec733e89a5bc9adf42212d8c198d6ad">TerminateAllManagers</a> ()</td></tr>
+<tr class="memdesc:a6ec733e89a5bc9adf42212d8c198d6ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminate all managers. After all assets and scenes are deleted, the Engine terminates all managers one by one untill everything is completed. This includes and is not limted to: <a class="el" href="class_model_manager.html" title="Manager for Models. Check AssetManager for more information about Loading and Recieving Models...">ModelManager</a>, <a class="el" href="class_texture_manager.html" title="Manager for Textures. Check AssetManager for more information about Loading and Recieving Textures...">TextureManager</a>, <a class="el" href="class_shader_manager.html" title="Manager for Shaders. Check AssetManager for more information about Loading and Recieving Shaders...">ShaderManager</a>, <a class="el" href="class_image_manager.html">ImageManager</a>, <a class="el" href="class_asset_manager.html" title="Manager for User and Default assets. This object communicates with the ModelManager, ShaderManager and TextureManager to allow easier implimentations to Load and Recieve resources. ">AssetManager</a> and <a class="el" href="class_scene_manager.html">SceneManager</a>.  <a href="#a6ec733e89a5bc9adf42212d8c198d6ad">More...</a><br /></td></tr>
 <tr class="separator:a6ec733e89a5bc9adf42212d8c198d6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed6f10a0dd6235995761015f28971da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#abed6f10a0dd6235995761015f28971da">Terminate</a> ()</td></tr>
 <tr class="separator:abed6f10a0dd6235995761015f28971da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18a1be5ac85605cdccd5812579487347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a18a1be5ac85605cdccd5812579487347">LoadResources</a> ()</td></tr>
+<tr class="memdesc:a18a1be5ac85605cdccd5812579487347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by LoadContent. Loads the resources from the user and the default assets of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a>. The <a class="el" href="class_scene_manager.html">SceneManager</a> is also initialized within this to initialized the first scene chosen by the player (in UserStartScreen.cpp).  <a href="#a18a1be5ac85605cdccd5812579487347">More...</a><br /></td></tr>
 <tr class="separator:a18a1be5ac85605cdccd5812579487347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af494bb47bfbc62d99d97bcf6bf90036d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#af494bb47bfbc62d99d97bcf6bf90036d">GameInitialize</a> ()</td></tr>
 <tr class="memdesc:af494bb47bfbc62d99d97bcf6bf90036d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialized specific User information for <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> to use. This function is controlled by the user inside the UserGameInitialize.cpp  <a href="#af494bb47bfbc62d99d97bcf6bf90036d">More...</a><br /></td></tr>
 <tr class="separator:af494bb47bfbc62d99d97bcf6bf90036d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab83710dff905cd069ab5d4729cfb5077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#ab83710dff905cd069ab5d4729cfb5077">privRun</a> ()</td></tr>
+<tr class="memdesc:ab83710dff905cd069ab5d4729cfb5077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_ramen.html#a1e634afce3dee056a409ed3bcfefa881" title="Runs the Engine. Sadly this is public, when it shouldnt be. This is only to be used by main to connec...">Run()</a>.  <a href="#ab83710dff905cd069ab5d4729cfb5077">More...</a><br /></td></tr>
 <tr class="separator:ab83710dff905cd069ab5d4729cfb5077"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accc3936dc927dba1b7aad89de6fe7b73"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#accc3936dc927dba1b7aad89de6fe7b73">privGetWinHeight</a> ()</td></tr>
+<tr class="memdesc:accc3936dc927dba1b7aad89de6fe7b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_ramen.html#afdae37257dd9f8c9ca7ae857fd4261a5" title="Gets window height. ">GetWinHeight()</a>.  <a href="#accc3936dc927dba1b7aad89de6fe7b73">More...</a><br /></td></tr>
 <tr class="separator:accc3936dc927dba1b7aad89de6fe7b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69ca79241f958c35dae93e032e489c67"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a69ca79241f958c35dae93e032e489c67">privGetWinWidth</a> ()</td></tr>
+<tr class="memdesc:a69ca79241f958c35dae93e032e489c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_ramen.html#ad86073ae9e4d6535e735dc1aa6812895" title="Gets window width. ">GetWinWidth()</a>.  <a href="#a69ca79241f958c35dae93e032e489c67">More...</a><br /></td></tr>
 <tr class="separator:a69ca79241f958c35dae93e032e489c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeffd70940497ecd855030ae0d9c07dc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#aeffd70940497ecd855030ae0d9c07dc3">privSetWindowPaneName</a> (const char *name)</td></tr>
+<tr class="memdesc:aeffd70940497ecd855030ae0d9c07dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_ramen.html#a0c1f14c0d70a9f866381c685a43d15a1" title="Sets window pane name. ">SetWindowPaneName()</a>.  <a href="#aeffd70940497ecd855030ae0d9c07dc3">More...</a><br /></td></tr>
 <tr class="separator:aeffd70940497ecd855030ae0d9c07dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36939935e43d1dc78225b0a674c7f2dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a36939935e43d1dc78225b0a674c7f2dc">privSetWindow</a> (int w, int h)</td></tr>
+<tr class="memdesc:a36939935e43d1dc78225b0a674c7f2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private called for <a class="el" href="class_ramen.html#aebb70cf55530554a37a63fa9bb4e3283" title="Sets a window by specific width and height given by the user. ">SetWindow()</a>.  <a href="#a36939935e43d1dc78225b0a674c7f2dc">More...</a><br /></td></tr>
 <tr class="separator:a36939935e43d1dc78225b0a674c7f2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acca8db7ef3fd49d1e01d8e1b8d90b1ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#acca8db7ef3fd49d1e01d8e1b8d90b1ae">privSetClear</a> (float r, float g, float b, float a)</td></tr>
+<tr class="memdesc:acca8db7ef3fd49d1e01d8e1b8d90b1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_ramen.html#aa40cf5565f78d3b7655da893b27fe0d9">SetClear()</a>.  <a href="#acca8db7ef3fd49d1e01d8e1b8d90b1ae">More...</a><br /></td></tr>
 <tr class="separator:acca8db7ef3fd49d1e01d8e1b8d90b1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf2e89e046603ccf828ebc6af6491d4b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#acf2e89e046603ccf828ebc6af6491d4b">GetTime</a> ()</td></tr>
+<tr class="memdesc:acf2e89e046603ccf828ebc6af6491d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the time from when the engine and game is first started.  <a href="#acf2e89e046603ccf828ebc6af6491d4b">More...</a><br /></td></tr>
 <tr class="separator:acf2e89e046603ccf828ebc6af6491d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a3238c6c097877ae8d9da841f08c6ebfe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ramen.html">Ramen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a3238c6c097877ae8d9da841f08c6ebfe">Instance</a> ()</td></tr>
 <tr class="separator:a3238c6c097877ae8d9da841f08c6ebfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2fb4fc029596f220bd4ad3a0b94ff8f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#ad2fb4fc029596f220bd4ad3a0b94ff8f">staticUnLoadContent</a> ()</td></tr>
+<tr class="separator:ad2fb4fc029596f220bd4ad3a0b94ff8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d178225f8f7bcaaaba1bb226b531c18"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ramen.html#a8d178225f8f7bcaaaba1bb226b531c18">GetEngineTime</a> ()</td></tr>
+<tr class="memdesc:a8d178225f8f7bcaaaba1bb226b531c18"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used by the <a class="el" href="class_freeze_time.html" title="A hack to allow time to befrozen during runtime. This is not meant to be used for game specific contr...">FreezeTime</a> to correctly calculate how long the game was in freeze frame when used.  <a href="#a8d178225f8f7bcaaaba1bb226b531c18">More...</a><br /></td></tr>
 <tr class="separator:a8d178225f8f7bcaaaba1bb226b531c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
@@ -198,6 +216,8 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The baseline control of the Engine. No control is needed from the user here. Any function used by <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> that is controlled by the player are in seperated .cpp files. </p>
+<p>The functions from <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> MUST be used to use the engine.</p>
+<p>This engine involves the telling the <a class="el" href="class_scene_manager.html">SceneManager</a> to tick for the next frame. It processes time and Loads the Assets that are default and brought in from the User. </p>
 <p>Clay, 2/28/2018. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adda455567ad07ae954b25fc4aec38909"></a>
@@ -342,6 +362,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Starting point where all GameObjects that requested to be drawn are here. All drawable and spritable (3D and 2D) GraphicObjects are processed thorugh the <a class="el" href="class_scene_manager.html">SceneManager</a> for the current <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a> (that is chosen by the user.) </p>
+<p>Clay, 3/10/2018. </p>
+
 </div>
 </div>
 <a id="af494bb47bfbc62d99d97bcf6bf90036d"></a>
@@ -398,6 +421,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>This is used by the <a class="el" href="class_freeze_time.html" title="A hack to allow time to befrozen during runtime. This is not meant to be used for game specific contr...">FreezeTime</a> to correctly calculate how long the game was in freeze frame when used. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>The engine time from game start. </dd></dl>
+
 </div>
 </div>
 <a id="acf2e89e046603ccf828ebc6af6491d4b"></a>
@@ -422,6 +449,10 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets the time from when the engine and game is first started. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>The time from start. </dd></dl>
 
 </div>
 </div>
@@ -506,6 +537,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Initialized the default window and scene color of the screen. If the user has specified different window size or color (in UserGameInitilize.cpp) it will be processed as well. </p>
+<p>Clay, 3/10/2018. </p>
+
 </div>
 </div>
 <a id="a3238c6c097877ae8d9da841f08c6ebfe"></a>
@@ -556,6 +590,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Loads the content that is given by the User and from <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a>'s Default Assets. The <a class="el" href="class_scene_manager.html">SceneManager</a> is created and the scene chosen by the user (in UserStartScene.cpp) will also be Initialized in this process.</p>
+<p>Clay, 3/10/2018. </p>
+
 </div>
 </div>
 <a id="a18a1be5ac85605cdccd5812579487347"></a>
@@ -580,6 +617,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called by LoadContent. Loads the resources from the user and the default assets of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a>. The <a class="el" href="class_scene_manager.html">SceneManager</a> is also initialized within this to initialized the first scene chosen by the player (in UserStartScreen.cpp). </p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>
@@ -632,6 +672,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call for <a class="el" href="class_ramen.html#afdae37257dd9f8c9ca7ae857fd4261a5" title="Gets window height. ">GetWinHeight()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>The height of the playable Window. </dd></dl>
+
 </div>
 </div>
 <a id="a69ca79241f958c35dae93e032e489c67"></a>
@@ -657,6 +701,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call for <a class="el" href="class_ramen.html#ad86073ae9e4d6535e735dc1aa6812895" title="Gets window width. ">GetWinWidth()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>The width of the playable Window. </dd></dl>
+
 </div>
 </div>
 <a id="ab83710dff905cd069ab5d4729cfb5077"></a>
@@ -681,6 +729,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Private call for <a class="el" href="class_ramen.html#a1e634afce3dee056a409ed3bcfefa881" title="Runs the Engine. Sadly this is public, when it shouldnt be. This is only to be used by main to connec...">Run()</a>. </p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>
@@ -730,6 +781,18 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call for <a class="el" href="class_ramen.html#aa40cf5565f78d3b7655da893b27fe0d9">SetClear()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td><a class="el" href="struct_color.html" title="Easy way to define a object by a Vect variable. These Colors are constant and can not be changed...">Color</a> R to be set for background color. </td></tr>
+    <tr><td class="paramname">g</td><td><a class="el" href="struct_color.html" title="Easy way to define a object by a Vect variable. These Colors are constant and can not be changed...">Color</a> G to be set for background color. </td></tr>
+    <tr><td class="paramname">b</td><td><a class="el" href="struct_color.html" title="Easy way to define a object by a Vect variable. These Colors are constant and can not be changed...">Color</a> B to be set for background color. </td></tr>
+    <tr><td class="paramname">a</td><td>The Alpha to be set for background color. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a36939935e43d1dc78225b0a674c7f2dc"></a>
@@ -766,6 +829,16 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private called for <a class="el" href="class_ramen.html#aebb70cf55530554a37a63fa9bb4e3283" title="Sets a window by specific width and height given by the user. ">SetWindow()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">w</td><td>The new width of the window. </td></tr>
+    <tr><td class="paramname">h</td><td>The new height of the window. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aeffd70940497ecd855030ae0d9c07dc3"></a>
@@ -792,6 +865,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call for <a class="el" href="class_ramen.html#a0c1f14c0d70a9f866381c685a43d15a1" title="Sets window pane name. ">SetWindowPaneName()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name that will be used on the window pane. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a1e634afce3dee056a409ed3bcfefa881"></a>
@@ -816,6 +898,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Runs the Engine. Sadly this is public, when it shouldnt be. This is only to be used by main to connect to the engine. </p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>
@@ -867,8 +952,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a030f6c4be2ff4b7be2b4a1e9c746c8cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a030f6c4be2ff4b7be2b4a1e9c746c8cc">&#9670;&nbsp;</a></span>SetWindow()</h2>
+<a id="aebb70cf55530554a37a63fa9bb4e3283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebb70cf55530554a37a63fa9bb4e3283">&#9670;&nbsp;</a></span>SetWindow()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -880,13 +965,13 @@ Friends</h2></td></tr>
           <td class="memname">static void Ramen::SetWindow </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
+          <td class="paramname"><em>w</em> = <code>800</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>h</em>&#160;</td>
+          <td class="paramname"><em>h</em> = <code>600</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -948,6 +1033,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ad2fb4fc029596f220bd4ad3a0b94ff8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2fb4fc029596f220bd4ad3a0b94ff8f">&#9670;&nbsp;</a></span>staticUnLoadContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Ramen::staticUnLoadContent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abed6f10a0dd6235995761015f28971da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abed6f10a0dd6235995761015f28971da">&#9670;&nbsp;</a></span>Terminate()</h2>
 
@@ -996,6 +1106,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Terminate all managers. After all assets and scenes are deleted, the Engine terminates all managers one by one untill everything is completed. This includes and is not limted to: <a class="el" href="class_model_manager.html" title="Manager for Models. Check AssetManager for more information about Loading and Recieving Models...">ModelManager</a>, <a class="el" href="class_texture_manager.html" title="Manager for Textures. Check AssetManager for more information about Loading and Recieving Textures...">TextureManager</a>, <a class="el" href="class_shader_manager.html" title="Manager for Shaders. Check AssetManager for more information about Loading and Recieving Shaders...">ShaderManager</a>, <a class="el" href="class_image_manager.html">ImageManager</a>, <a class="el" href="class_asset_manager.html" title="Manager for User and Default assets. This object communicates with the ModelManager, ShaderManager and TextureManager to allow easier implimentations to Load and Recieve resources. ">AssetManager</a> and <a class="el" href="class_scene_manager.html">SceneManager</a>. </p>
+<p>If you want more information on theses Objects look for Managers in the Modules. (Coming Soon). </p>
+<p>Clay, 3/10/2018. </p>
+
 </div>
 </div>
 <a id="a9d50ff43d57f93233f7bb019166093b7"></a>
@@ -1016,10 +1130,13 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Deletes all Managers that are being used inside of the engine. This also calls SceneEnd on the current scene and deletes it. All assets (Models, Images, Textures, ShaderObjects) are deleted first. Afterwards their corresponding Managers are deleted by calling TermainateAllManagers(). </p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>
@@ -1045,6 +1162,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Starting point where all objects will be updated. All updating objects are processed though the <a class="el" href="class_scene_manager.html">SceneManager</a> for the current <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a> (that is chosen by the user).</p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>

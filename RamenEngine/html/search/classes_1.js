@@ -22,5 +22,6 @@ var searchData=
   ['collisionvolumebsphere',['CollisionVolumeBSphere',['../class_collision_volume_b_sphere.html',1,'']]],
   ['color',['Color',['../struct_color.html',1,'']]],
   ['commandbase',['CommandBase',['../class_command_base.html',1,'']]],
+  ['commandbsphereoptions',['CommandBSphereOptions',['../class_visualizer_attorney_1_1_command_b_sphere_options.html',1,'VisualizerAttorney']]],
   ['connection',['Connection',['../class_scene_manager_attorney_1_1_connection.html',1,'SceneManagerAttorney']]]
 ];

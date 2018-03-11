@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['r',['r',['../glcorearb_8h.html#abe08814c2f72843fde4d8df41440d5a0',1,'r():&#160;glcorearb.h'],['../glext_8h.html#abe08814c2f72843fde4d8df41440d5a0',1,'r():&#160;glext.h']]],
+  ['range',['range',['../glcorearb_8h.html#a73b00379db2c7ac5e30a3aa2954a50ee',1,'range():&#160;glcorearb.h'],['../glext_8h.html#a73b00379db2c7ac5e30a3aa2954a50ee',1,'range():&#160;glext.h']]],
+  ['readoffset',['readOffset',['../glcorearb_8h.html#a2d6559779f2cdb4d7d405c0c83c4d650',1,'readOffset():&#160;glcorearb.h'],['../glext_8h.html#a2d6559779f2cdb4d7d405c0c83c4d650',1,'readOffset():&#160;glext.h']]],
+  ['ref',['ref',['../glcorearb_8h.html#ad32bdec748ba376f6c0d2df39ab9a95b',1,'ref():&#160;glcorearb.h'],['../glext_8h.html#ad32bdec748ba376f6c0d2df39ab9a95b',1,'ref():&#160;glext.h']]],
+  ['reference',['reference',['../glext_8h.html#a7f9edf1b02fe22d5c89d9418a37dbcb3',1,'glext.h']]],
+  ['registrationkeys',['RegistrationKeys',['../class_inputable.html#aad4bc7dac7aa5bb47b2a8ef0d4910ad8',1,'Inputable']]],
+  ['relativeoffset',['relativeoffset',['../glcorearb_8h.html#a85ce5fba4879e050bfd04277f9c0effe',1,'relativeoffset():&#160;glcorearb.h'],['../glext_8h.html#a85ce5fba4879e050bfd04277f9c0effe',1,'relativeoffset():&#160;glext.h']]],
+  ['renderbuffer',['renderbuffer',['../glcorearb_8h.html#a2de59ce19521dddd661a02a95abc2764',1,'renderbuffer():&#160;glcorearb.h'],['../glext_8h.html#a2de59ce19521dddd661a02a95abc2764',1,'renderbuffer():&#160;glext.h']]],
+  ['renderbuffers',['renderbuffers',['../glcorearb_8h.html#aa17b802a0d8dde64cb30f5d887be5a22',1,'renderbuffers():&#160;glcorearb.h'],['../glext_8h.html#ae356c9b21befe3e2b6b1ea2713176992',1,'renderbuffers():&#160;glext.h']]],
+  ['renderbuffertarget',['renderbuffertarget',['../glcorearb_8h.html#ad4ca76f1378b4a8be4243761c8df68e6',1,'renderbuffertarget():&#160;glcorearb.h'],['../glext_8h.html#ad4ca76f1378b4a8be4243761c8df68e6',1,'renderbuffertarget():&#160;glext.h']]],
+  ['res',['res',['../glext_8h.html#a1dbb21208b9047cc8031ca9c840d3c2f',1,'glext.h']]],
+  ['reset',['reset',['../glcorearb_8h.html#a11158672fb6a3f09183a338ecff59e41',1,'reset():&#160;glcorearb.h'],['../glext_8h.html#a11158672fb6a3f09183a338ecff59e41',1,'reset():&#160;glext.h']]],
+  ['residences',['residences',['../glext_8h.html#a1b73b6faf5e03196654860a3c89c8265',1,'glext.h']]],
+  ['result',['result',['../glext_8h.html#a321ff419cd5252e54cf95e64dc6687ee',1,'glext.h']]],
+  ['returnedspacing',['returnedSpacing',['../glext_8h.html#a0d97a5a93815ee21d5eb7804189757bf',1,'glext.h']]],
+  ['right',['right',['../glext_8h.html#a5ffadbbacc6b89cf6218bc43b384d3fe',1,'glext.h']]],
+  ['row',['row',['../glcorearb_8h.html#a11b277b422822f784ee248b43eee3e1e',1,'row():&#160;glcorearb.h'],['../glext_8h.html#a08e0b6bb56b39ff71be380b4cdf5ec33',1,'row():&#160;glext.h']]],
+  ['rowbufsize',['rowBufSize',['../glcorearb_8h.html#a649a72094f1fdb9a553000e09e80d8c9',1,'rowBufSize():&#160;glcorearb.h'],['../glext_8h.html#a649a72094f1fdb9a553000e09e80d8c9',1,'rowBufSize():&#160;glext.h']]]
+];

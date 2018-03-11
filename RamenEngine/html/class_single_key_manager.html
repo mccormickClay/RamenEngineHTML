@@ -86,7 +86,9 @@ $(document).ready(function(){initNavTree('class_single_key_manager.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_single_key_manager-members.html">List of all members</a>  </div>
@@ -100,23 +102,33 @@ $(document).ready(function(){initNavTree('class_single_key_manager.html','');});
 
 <p><code>#include &lt;<a class="el" href="_single_key_manager_8h_source.html">SingleKeyManager.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a2581c52b367568679ceaa87481f5fa1f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> = InputList::iterator</td></tr>
+<tr class="separator:a2581c52b367568679ceaa87481f5fa1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a221081b811f1dfa9a87df0bf0707c689"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a221081b811f1dfa9a87df0bf0707c689">SingleKeyManager</a> ()</td></tr>
 <tr class="separator:a221081b811f1dfa9a87df0bf0707c689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a553ca354f2ebc14dceaa351a6ca3769d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a553ca354f2ebc14dceaa351a6ca3769d">SingleKeyManager</a> (AZUL_KEY k)</td></tr>
 <tr class="separator:a553ca354f2ebc14dceaa351a6ca3769d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ad6cc95df7a650102d98ad04eb89aab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a8ad6cc95df7a650102d98ad04eb89aab">Register</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a> ev)</td></tr>
-<tr class="memdesc:a8ad6cc95df7a650102d98ad04eb89aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from the <a class="el" href="class_keyboard_event_manager.html" title="Manager for SingleKeyManagers. This class holds the information of all SingleKeyManagers. When a AZUL_KEY wants to be managed it will be sent to a SingleKeyManager that focused only on that AZUL_KEY type. ">KeyboardEventManager</a>. This will register the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be tested to see if the event is true.  <a href="#a8ad6cc95df7a650102d98ad04eb89aab">More...</a><br /></td></tr>
-<tr class="separator:a8ad6cc95df7a650102d98ad04eb89aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fcfb85cb3bccd2cb8858f808c2bd23b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a0fcfb85cb3bccd2cb8858f808c2bd23b">Deregister</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a> ev)</td></tr>
-<tr class="memdesc:a0fcfb85cb3bccd2cb8858f808c2bd23b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from the <a class="el" href="class_keyboard_event_manager.html" title="Manager for SingleKeyManagers. This class holds the information of all SingleKeyManagers. When a AZUL_KEY wants to be managed it will be sent to a SingleKeyManager that focused only on that AZUL_KEY type. ">KeyboardEventManager</a>. This will deregister the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to stop testing to see if the event is true.  <a href="#a0fcfb85cb3bccd2cb8858f808c2bd23b">More...</a><br /></td></tr>
-<tr class="separator:a0fcfb85cb3bccd2cb8858f808c2bd23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da19d4ac2aeaeae38f9594eef622495"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a1da19d4ac2aeaeae38f9594eef622495">Register</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> &amp;pDeleteRef)</td></tr>
+<tr class="memdesc:a1da19d4ac2aeaeae38f9594eef622495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from the <a class="el" href="class_keyboard_event_manager.html" title="Manager for SingleKeyManagers. This class holds the information of all SingleKeyManagers. When a AZUL_KEY wants to be managed it will be sent to a SingleKeyManager that focused only on that AZUL_KEY type. ">KeyboardEventManager</a>. This will register the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be tested to see if the event is true.  <a href="#a1da19d4ac2aeaeae38f9594eef622495">More...</a><br /></td></tr>
+<tr class="separator:a1da19d4ac2aeaeae38f9594eef622495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7265e8f3d8e74dc12946cacbcf891618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a7265e8f3d8e74dc12946cacbcf891618">Deregister</a> (<a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> &amp;pDeleteRef)</td></tr>
+<tr class="memdesc:a7265e8f3d8e74dc12946cacbcf891618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from the <a class="el" href="class_keyboard_event_manager.html" title="Manager for SingleKeyManagers. This class holds the information of all SingleKeyManagers. When a AZUL_KEY wants to be managed it will be sent to a SingleKeyManager that focused only on that AZUL_KEY type. ">KeyboardEventManager</a>. This will deregister the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to stop testing to see if the event is true.  <a href="#a7265e8f3d8e74dc12946cacbcf891618">More...</a><br /></td></tr>
+<tr class="separator:a7265e8f3d8e74dc12946cacbcf891618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758289657cd7275c3ba06af4b306b919"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a758289657cd7275c3ba06af4b306b919">ProcessKeyEvent</a> ()</td></tr>
 <tr class="memdesc:a758289657cd7275c3ba06af4b306b919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes the all the Inputables key and see if they are being activated.  <a href="#a758289657cd7275c3ba06af4b306b919">More...</a><br /></td></tr>
 <tr class="separator:a758289657cd7275c3ba06af4b306b919"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a48b269cc8badc0a7071c9709bdc271"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a7a48b269cc8badc0a7071c9709bdc271">~SingleKeyManager</a> ()</td></tr>
 <tr class="separator:a7a48b269cc8badc0a7071c9709bdc271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a0717e061d302477b7b683e7a01065e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a0717e061d302477b7b683e7a01065e9f">ref</a></td></tr>
+<tr class="separator:a0717e061d302477b7b683e7a01065e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -158,6 +170,20 @@ Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2581c52b367568679ceaa87481f5fa1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2581c52b367568679ceaa87481f5fa1f">&#9670;&nbsp;</a></span>KeyListRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> =  InputList::iterator</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -216,8 +242,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0fcfb85cb3bccd2cb8858f808c2bd23b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fcfb85cb3bccd2cb8858f808c2bd23b">&#9670;&nbsp;</a></span>Deregister()</h2>
+<a id="a7265e8f3d8e74dc12946cacbcf891618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7265e8f3d8e74dc12946cacbcf891618">&#9670;&nbsp;</a></span>Deregister()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,14 +251,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void SingleKeyManager::Deregister </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_inputable.html">Inputable</a> *&#160;</td>
-          <td class="paramname"><em>token</em>, </td>
+          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
+          <td class="paramname"><em>ev</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a>&#160;</td>
-          <td class="paramname"><em>ev</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> &amp;&#160;</td>
+          <td class="paramname"><em>pDeleteRef</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -246,8 +272,8 @@ Private Attributes</h2></td></tr>
 <p>Clay, 2/28/2018. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">token</td><td>The <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>'s <a class="el" href="class_inputable.html" title="Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more effici...">Inputable</a> Component </td></tr>
     <tr><td class="paramname">ev</td><td>The Key event. </td></tr>
+    <tr><td class="paramname">pDeleteRef</td><td>The reference to the KeyList to give the ability to Quick Erase. </td></tr>
   </table>
   </dd>
 </dl>
@@ -274,8 +300,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ad6cc95df7a650102d98ad04eb89aab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ad6cc95df7a650102d98ad04eb89aab">&#9670;&nbsp;</a></span>Register()</h2>
+<a id="a1da19d4ac2aeaeae38f9594eef622495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1da19d4ac2aeaeae38f9594eef622495">&#9670;&nbsp;</a></span>Register()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,8 +315,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a>&#160;</td>
-          <td class="paramname"><em>ev</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
+          <td class="paramname"><em>ev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> &amp;&#160;</td>
+          <td class="paramname"><em>pDeleteRef</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -306,6 +338,7 @@ Private Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">token</td><td>The <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>'s <a class="el" href="class_inputable.html" title="Allows Gameobjects to use key commands on screen. This is seperate from Update(). This is more effici...">Inputable</a> Component </td></tr>
     <tr><td class="paramname">ev</td><td>The Key event. </td></tr>
+    <tr><td class="paramname">pDeleteRef</td><td>The reference to the KeyList to give the ability to Quick Erase. </td></tr>
   </table>
   </dd>
 </dl>
@@ -419,6 +452,20 @@ Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0717e061d302477b7b683e7a01065e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0717e061d302477b7b683e7a01065e9f">&#9670;&nbsp;</a></span>ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> SingleKeyManager::ref</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

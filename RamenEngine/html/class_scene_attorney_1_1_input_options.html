@@ -98,10 +98,10 @@ $(document).ready(function(){initNavTree('class_scene_attorney_1_1_input_options
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:ac50c11ebe758d77862cf20362fb23d2e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_attorney_1_1_input_options.html#ac50c11ebe758d77862cf20362fb23d2e">Register</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, AZUL_KEY k, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a> ev)</td></tr>
-<tr class="separator:ac50c11ebe758d77862cf20362fb23d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ccbebbe1dc232d415fbe2a4ea492fe4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_attorney_1_1_input_options.html#a5ccbebbe1dc232d415fbe2a4ea492fe4">Deregister</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, AZUL_KEY k, <a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a> ev)</td></tr>
-<tr class="separator:a5ccbebbe1dc232d415fbe2a4ea492fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaa28a46627d744994a1d481d972a177"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_attorney_1_1_input_options.html#aeaa28a46627d744994a1d481d972a177">Register</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> &amp;pDeleteRef)</td></tr>
+<tr class="separator:aeaa28a46627d744994a1d481d972a177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b1bf7abf6854f90241bffa262e318bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_attorney_1_1_input_options.html#a2b1bf7abf6854f90241bffa262e318bf">Deregister</a> (AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> &amp;pDeleteRef)</td></tr>
+<tr class="separator:a2b1bf7abf6854f90241bffa262e318bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad59ed876122d5a428e59d9053948dc05"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_attorney_1_1_input_options.html#ad59ed876122d5a428e59d9053948dc05">SubmitCommand</a> (<a class="el" href="class_scene_registration_command.html">SceneRegistrationCommand</a> *c)</td></tr>
 <tr class="separator:ad59ed876122d5a428e59d9053948dc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -111,8 +111,8 @@ Friends</h2></td></tr>
 <tr class="separator:a8462bee41dd740daa99013b4fb6a1e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5ccbebbe1dc232d415fbe2a4ea492fe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ccbebbe1dc232d415fbe2a4ea492fe4">&#9670;&nbsp;</a></span>Deregister()</h2>
+<a id="a2b1bf7abf6854f90241bffa262e318bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b1bf7abf6854f90241bffa262e318bf">&#9670;&nbsp;</a></span>Deregister()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -123,20 +123,20 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">static void SceneAttorney::InputOptions::Deregister </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_inputable.html">Inputable</a> *&#160;</td>
-          <td class="paramname"><em>token</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">AZUL_KEY&#160;</td>
           <td class="paramname"><em>k</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a>&#160;</td>
-          <td class="paramname"><em>ev</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
+          <td class="paramname"><em>ev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> &amp;&#160;</td>
+          <td class="paramname"><em>pDeleteRef</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -153,8 +153,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ac50c11ebe758d77862cf20362fb23d2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac50c11ebe758d77862cf20362fb23d2e">&#9670;&nbsp;</a></span>Register()</h2>
+<a id="aeaa28a46627d744994a1d481d972a177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa28a46627d744994a1d481d972a177">&#9670;&nbsp;</a></span>Register()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,8 +177,14 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792d">Inputable::INPUT_EVENT_TYPE</a>&#160;</td>
-          <td class="paramname"><em>ev</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
+          <td class="paramname"><em>ev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> &amp;&#160;</td>
+          <td class="paramname"><em>pDeleteRef</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

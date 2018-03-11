@@ -16,7 +16,7 @@ var class_asset_manager =
     [ "LoadModel", "class_asset_manager.html#a7340f31648c488b3b988ead6d1631aa5", null ],
     [ "LoadShader", "class_asset_manager.html#afc501d9155012663807294a3f7b0b363", null ],
     [ "LoadTexture", "class_asset_manager.html#a9c0936c7d7e5e2d6fced2a40fa6cc7cc", null ],
-    [ "LoadUserResources", "class_asset_manager.html#a5251142bf5d58377334b32e6a2b580b0", null ],
+    [ "LoadUserResources", "group___t_o_o_l_s.html#ga5251142bf5d58377334b32e6a2b580b0", null ],
     [ "operator=", "class_asset_manager.html#abb23f8d4ae51bd8bbb099cdd3eddcc06", null ],
     [ "privDeleteAllAssets", "class_asset_manager.html#a8d490d41e315b83bc11634f5bffc31a3", null ],
     [ "privGetImage", "class_asset_manager.html#a6983bfa9a35b02beca9482add032bbc0", null ],
@@ -32,5 +32,6 @@ var class_asset_manager =
     [ "Terminate", "class_asset_manager.html#af07a91459d1c0b24cce172fd2d2b0ac5", null ],
     [ "TerminateChildManagers", "class_asset_manager.html#a0a8df82cc79ef3b714e00c05af1e7186", null ],
     [ "AssetManagerAttorney", "class_asset_manager.html#a59dfc651bb3d4047646282fffb95ae52", null ],
+    [ "AssetTool", "class_asset_manager.html#a12823a8cebf260944ff0e2bdd4ceffd4", null ],
     [ "ptrInstance", "class_asset_manager.html#a68cd52ccd7b4622fdb493b4bfb16025d", null ]
 ];

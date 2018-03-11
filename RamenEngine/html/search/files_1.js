@@ -13,7 +13,6 @@ var searchData=
   ['collisionderegistrationcommand_2eh',['CollisionDeregistrationCommand.h',['../_collision_deregistration_command_8h.html',1,'']]],
   ['collisiongroupcommand_2eh',['CollisionGroupCommand.h',['../_collision_group_command_8h.html',1,'']]],
   ['collisiongroupdelete_2eh',['CollisionGroupDelete.h',['../_collision_group_delete_8h.html',1,'']]],
-  ['collisionmanager_2ecpp',['CollisionManager.cpp',['../_collision_manager_8cpp.html',1,'']]],
   ['collisionmanager_2eh',['CollisionManager.h',['../_collision_manager_8h.html',1,'']]],
   ['collisionregistrationcommand_2eh',['CollisionRegistrationCommand.h',['../_collision_registration_command_8h.html',1,'']]],
   ['collisiontestcommandbase_2eh',['CollisionTestCommandBase.h',['../_collision_test_command_base_8h.html',1,'']]],

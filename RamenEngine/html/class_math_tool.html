@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_math_tool.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a98db480ecdcd2807d7565012acbdce9a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_math_tool.html#a98db480ecdcd2807d7565012acbdce9a">Intersect</a> (const <a class="el" href="class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;A, const <a class="el" href="class_collision_volume_b_sphere.html">CollisionVolumeBSphere</a> &amp;B)</td></tr>
-<tr class="memdesc:a98db480ecdcd2807d7565012acbdce9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test the Intersection between two BSphereVolumes.  <a href="#a98db480ecdcd2807d7565012acbdce9a">More...</a><br /></td></tr>
+<tr class="memdesc:a98db480ecdcd2807d7565012acbdce9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test the Intersection between two BSphereVolumes. This is used during <a class="el" href="class_collision_test_pair_command.html">CollisionTestPairCommand</a> and <a class="el" href="class_collision_test_self_command.html">CollisionTestSelfCommand</a>.  <a href="#a98db480ecdcd2807d7565012acbdce9a">More...</a><br /></td></tr>
 <tr class="separator:a98db480ecdcd2807d7565012acbdce9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -136,7 +136,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Test the Intersection between two BSphereVolumes. </p>
+<p>Test the Intersection between two BSphereVolumes. This is used during <a class="el" href="class_collision_test_pair_command.html">CollisionTestPairCommand</a> and <a class="el" href="class_collision_test_self_command.html">CollisionTestSelfCommand</a>. </p>
 <p>Clay, 2/28/2018. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -145,7 +145,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A bool, if it false then no interaction will occur between the two BSphereVolumes. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A bool, if it false then no interaction will occur between the two BSphereVolumes and a chosen color (Black) will appear. If true then the Bsphere's objects will be able to call Collision. </dd></dl>
 
 </div>
 </div>

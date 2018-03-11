@@ -107,11 +107,14 @@ $(document).ready(function(){initNavTree('class_texture_manager.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0697c4400e7910f376edac174e058c2"><td class="memItemLeft" align="right" valign="top">static Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#ab0697c4400e7910f376edac174e058c2">Get</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:ab0697c4400e7910f376edac174e058c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Texture that has been loaded. If the key is incorrect then the Engine will crash.  <a href="#ab0697c4400e7910f376edac174e058c2">More...</a><br /></td></tr>
 <tr class="separator:ab0697c4400e7910f376edac174e058c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e05d710048166e03118c1c1398bbebc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a4e05d710048166e03118c1c1398bbebc">Load</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:a4e05d710048166e03118c1c1398bbebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load a texture.  <a href="#a4e05d710048166e03118c1c1398bbebc">More...</a><br /></td></tr>
 <tr class="separator:a4e05d710048166e03118c1c1398bbebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe605d402c2c02da522f9434f81b0562"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#abe605d402c2c02da522f9434f81b0562">SetTexture</a> (const std::string &amp;key, Texture *object)</td></tr>
-<tr class="separator:abe605d402c2c02da522f9434f81b0562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2afeedbb51ea5d2a1cd132b7e809a708"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a2afeedbb51ea5d2a1cd132b7e809a708">SetTexture</a> (const std::string &amp;key, Texture *pTexture)</td></tr>
+<tr class="memdesc:a2afeedbb51ea5d2a1cd132b7e809a708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a texture to be stored inside of the map.  <a href="#a2afeedbb51ea5d2a1cd132b7e809a708">More...</a><br /></td></tr>
+<tr class="separator:a2afeedbb51ea5d2a1cd132b7e809a708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -129,10 +132,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aba80d6c7f5275b5de2b6460d21ae3671"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#aba80d6c7f5275b5de2b6460d21ae3671">~TextureManager</a> ()=default</td></tr>
 <tr class="separator:aba80d6c7f5275b5de2b6460d21ae3671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dd98850588e4293cfe686c78881013a"><td class="memItemLeft" align="right" valign="top">Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a1dd98850588e4293cfe686c78881013a">privGet</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:a1dd98850588e4293cfe686c78881013a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call from <a class="el" href="class_texture_manager.html#ab0697c4400e7910f376edac174e058c2" title="Returns a Texture that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>.  <a href="#a1dd98850588e4293cfe686c78881013a">More...</a><br /></td></tr>
 <tr class="separator:a1dd98850588e4293cfe686c78881013a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26470d9695e1414d980854a88d7840fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a26470d9695e1414d980854a88d7840fa">privLoad</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:a26470d9695e1414d980854a88d7840fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private called from <a class="el" href="class_texture_manager.html#a4e05d710048166e03118c1c1398bbebc" title="Public call to load a texture. ">Load()</a>.  <a href="#a26470d9695e1414d980854a88d7840fa">More...</a><br /></td></tr>
 <tr class="separator:a26470d9695e1414d980854a88d7840fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88eeca9676eb9e549fccd08b1449c0dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a88eeca9676eb9e549fccd08b1449c0dd">privDeleteAssets</a> ()</td></tr>
+<tr class="memdesc:a88eeca9676eb9e549fccd08b1449c0dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#a88eeca9676eb9e549fccd08b1449c0dd">More...</a><br /></td></tr>
 <tr class="separator:a88eeca9676eb9e549fccd08b1449c0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a545acf958b32eeb1085d6a8e974ce1f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a545acf958b32eeb1085d6a8e974ce1f3">privSetTexture</a> (const std::string &amp;key, Texture *object)</td></tr>
 <tr class="separator:a545acf958b32eeb1085d6a8e974ce1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,9 +147,8 @@ Private Member Functions</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a81a2f2ac1876be84e0a0a472199679d5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5">Instance</a> ()</td></tr>
 <tr class="separator:a81a2f2ac1876be84e0a0a472199679d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad606f4f66c4b6349b647fe755178bf5f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#ad606f4f66c4b6349b647fe755178bf5f">Delete</a> ()</td></tr>
-<tr class="separator:ad606f4f66c4b6349b647fe755178bf5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a007e2284e9e663b0faaa57c78552f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a7a007e2284e9e663b0faaa57c78552f0">DeleteAssets</a> ()</td></tr>
+<tr class="memdesc:a7a007e2284e9e663b0faaa57c78552f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#a7a007e2284e9e663b0faaa57c78552f0">More...</a><br /></td></tr>
 <tr class="separator:a7a007e2284e9e663b0faaa57c78552f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a030ddb9fc170972c2bbf6e728d181037"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a030ddb9fc170972c2bbf6e728d181037">Terminate</a> ()</td></tr>
 <tr class="separator:a030ddb9fc170972c2bbf6e728d181037"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,31 +274,6 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad606f4f66c4b6349b647fe755178bf5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad606f4f66c4b6349b647fe755178bf5f">&#9670;&nbsp;</a></span>Delete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TextureManager::Delete </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7a007e2284e9e663b0faaa57c78552f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a007e2284e9e663b0faaa57c78552f0">&#9670;&nbsp;</a></span>DeleteAssets()</h2>
 
@@ -316,6 +296,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active. </p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>
@@ -342,6 +325,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns a Texture that has been loaded. If the key is incorrect then the Engine will crash. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Texture given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Texture will be retrieved. </dd></dl>
 
 </div>
 </div>
@@ -404,6 +397,16 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Public call to load a texture. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">path</td><td>Pathname of the file inside the Texture Folder within Assets. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="afd2a4b9f524f1e76faffb7e8dcfa0802"></a>
@@ -455,6 +458,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active. </p>
+<p>Clay, 3/10/2018. </p>
+
 </div>
 </div>
 <a id="a1dd98850588e4293cfe686c78881013a"></a>
@@ -480,6 +486,15 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Private call from <a class="el" href="class_texture_manager.html#ab0697c4400e7910f376edac174e058c2" title="Returns a Texture that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -516,6 +531,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Private called from <a class="el" href="class_texture_manager.html#a4e05d710048166e03118c1c1398bbebc" title="Public call to load a texture. ">Load()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key. </td></tr>
+    <tr><td class="paramname">path</td><td>Filename inside the Texture folder. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -555,8 +580,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="abe605d402c2c02da522f9434f81b0562"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe605d402c2c02da522f9434f81b0562">&#9670;&nbsp;</a></span>SetTexture()</h2>
+<a id="a2afeedbb51ea5d2a1cd132b7e809a708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2afeedbb51ea5d2a1cd132b7e809a708">&#9670;&nbsp;</a></span>SetTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -574,7 +599,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Texture *&#160;</td>
-          <td class="paramname"><em>object</em>&#160;</td>
+          <td class="paramname"><em>pTexture</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -588,6 +613,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets a texture to be stored inside of the map. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key that will be used to <a class="el" href="class_texture_manager.html#ab0697c4400e7910f376edac174e058c2" title="Returns a Texture that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a> the texture later. </td></tr>
+    <tr><td class="paramname">pTexture</td><td>The texture that will be stored inside the map </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

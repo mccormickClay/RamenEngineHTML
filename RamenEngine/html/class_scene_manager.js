@@ -23,6 +23,7 @@ var class_scene_manager =
     [ "Terminate", "class_scene_manager.html#a54d4b597fd2832375e2048ce4c90cac4", null ],
     [ "Update", "class_scene_manager.html#a63dcf65832d6a2c190bf496d9a3b00a3", null ],
     [ "SceneManagerAttorney", "class_scene_manager.html#a30165f059417f4ed57a7ab134669d7e4", null ],
+    [ "SceneTool", "class_scene_manager.html#ac860de7e653dece76f6e77276d47f050", null ],
     [ "NextSceneCmd", "class_scene_manager.html#a8315a729b106812e783f10e17e9406e3", null ],
     [ "NullSceneCmd", "class_scene_manager.html#a39c213680609ff40b5630cdb2f2a29d7", null ],
     [ "ptrCurrentScene", "class_scene_manager.html#a59d7654642cd47a76c08b156c362f480", null ],

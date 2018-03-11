@@ -104,13 +104,17 @@ $(document).ready(function(){initNavTree('class_image_manager.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b1d3cafd94ef6944ab1f6234e1c360e"><td class="memItemLeft" align="right" valign="top">static Image *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a1b1d3cafd94ef6944ab1f6234e1c360e">Get</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:a1b1d3cafd94ef6944ab1f6234e1c360e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an Image that has been loaded. If the key is incorrect then the Engine will crash.  <a href="#a1b1d3cafd94ef6944ab1f6234e1c360e">More...</a><br /></td></tr>
 <tr class="separator:a1b1d3cafd94ef6944ab1f6234e1c360e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafb3375b1a34de3521c87f4390f4d68e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#aafb3375b1a34de3521c87f4390f4d68e">Load</a> (const std::string &amp;key, Texture *pTexture)</td></tr>
+<tr class="memdesc:aafb3375b1a34de3521c87f4390f4d68e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load an Image.  <a href="#aafb3375b1a34de3521c87f4390f4d68e">More...</a><br /></td></tr>
 <tr class="separator:aafb3375b1a34de3521c87f4390f4d68e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c804c60364e599160fcb2f34df6152a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a0c804c60364e599160fcb2f34df6152a">Load</a> (const std::string &amp;key, Texture *pTexture, float rectX, float rectY, float rectWidth, float rectHeight)</td></tr>
-<tr class="separator:a0c804c60364e599160fcb2f34df6152a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf0ca6ebba8bc94b5b72bb4ada91a380"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#aaf0ca6ebba8bc94b5b72bb4ada91a380">SetImage</a> (const std::string &amp;key, Image *object)</td></tr>
-<tr class="separator:aaf0ca6ebba8bc94b5b72bb4ada91a380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ed5e973702bfeb4712dd13107f0ce52"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a2ed5e973702bfeb4712dd13107f0ce52">Load</a> (const std::string &amp;key, Texture *pTexture, float xRect, float yRect, float widthRect, float heightRect)</td></tr>
+<tr class="memdesc:a2ed5e973702bfeb4712dd13107f0ce52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load an image.  <a href="#a2ed5e973702bfeb4712dd13107f0ce52">More...</a><br /></td></tr>
+<tr class="separator:a2ed5e973702bfeb4712dd13107f0ce52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cddac66a8c2f2b6dd71c72885e3e73"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a40cddac66a8c2f2b6dd71c72885e3e73">SetImage</a> (const std::string &amp;key, Image *pImage)</td></tr>
+<tr class="memdesc:a40cddac66a8c2f2b6dd71c72885e3e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets an image.  <a href="#a40cddac66a8c2f2b6dd71c72885e3e73">More...</a><br /></td></tr>
+<tr class="separator:a40cddac66a8c2f2b6dd71c72885e3e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -128,23 +132,27 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a6b2ea1a5539cb48c3815c6c6599188ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a6b2ea1a5539cb48c3815c6c6599188ce">~ImageManager</a> ()=default</td></tr>
 <tr class="separator:a6b2ea1a5539cb48c3815c6c6599188ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94019635334cc58601b15177b594cbed"><td class="memItemLeft" align="right" valign="top">Image *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a94019635334cc58601b15177b594cbed">privGet</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:a94019635334cc58601b15177b594cbed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_image_manager.html#a1b1d3cafd94ef6944ab1f6234e1c360e" title="Returns an Image that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>.  <a href="#a94019635334cc58601b15177b594cbed">More...</a><br /></td></tr>
 <tr class="separator:a94019635334cc58601b15177b594cbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2c16cfe59f5405c3839e39e3201df58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#aa2c16cfe59f5405c3839e39e3201df58">privLoad</a> (const std::string &amp;key, Texture *pTexture)</td></tr>
+<tr class="memdesc:aa2c16cfe59f5405c3839e39e3201df58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_image_manager.html#aafb3375b1a34de3521c87f4390f4d68e" title="Public call to load an Image. ">Load()</a>.  <a href="#aa2c16cfe59f5405c3839e39e3201df58">More...</a><br /></td></tr>
 <tr class="separator:aa2c16cfe59f5405c3839e39e3201df58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cac655a5787f1a668422ec05ceba65c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a8cac655a5787f1a668422ec05ceba65c">privLoad</a> (const std::string &amp;key, Texture *pTexture, float rectX, float rectY, float rectWidth, float rectHeight)</td></tr>
-<tr class="separator:a8cac655a5787f1a668422ec05ceba65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644f1902ebde4593af16bc4358b46586"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a644f1902ebde4593af16bc4358b46586">privLoad</a> (const std::string &amp;key, Texture *pTexture, float xRect, float yRect, float widthRect, float heightRect)</td></tr>
+<tr class="memdesc:a644f1902ebde4593af16bc4358b46586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_image_manager.html#aafb3375b1a34de3521c87f4390f4d68e" title="Public call to load an Image. ">Load()</a>.  <a href="#a644f1902ebde4593af16bc4358b46586">More...</a><br /></td></tr>
+<tr class="separator:a644f1902ebde4593af16bc4358b46586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e74453d556e5529e62ff876b107c0ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a3e74453d556e5529e62ff876b107c0ec">privDeleteAssets</a> ()</td></tr>
+<tr class="memdesc:a3e74453d556e5529e62ff876b107c0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#a3e74453d556e5529e62ff876b107c0ec">More...</a><br /></td></tr>
 <tr class="separator:a3e74453d556e5529e62ff876b107c0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a714fb1c3e417cf578b14746c7e2724d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a714fb1c3e417cf578b14746c7e2724d2">privSetImage</a> (const std::string &amp;key, Image *object)</td></tr>
-<tr class="separator:a714fb1c3e417cf578b14746c7e2724d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60f149f6587a67ca7a1ae15e6243861e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a60f149f6587a67ca7a1ae15e6243861e">privSetImage</a> (const std::string &amp;key, Image *pImage)</td></tr>
+<tr class="memdesc:a60f149f6587a67ca7a1ae15e6243861e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call to <a class="el" href="class_image_manager.html#a40cddac66a8c2f2b6dd71c72885e3e73" title="Sets an image. ">SetImage()</a>.  <a href="#a60f149f6587a67ca7a1ae15e6243861e">More...</a><br /></td></tr>
+<tr class="separator:a60f149f6587a67ca7a1ae15e6243861e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a1aa4ab3d2b986920b20fb7819f9bcd23"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_image_manager.html">ImageManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a1aa4ab3d2b986920b20fb7819f9bcd23">Instance</a> ()</td></tr>
 <tr class="separator:a1aa4ab3d2b986920b20fb7819f9bcd23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae55d78d2c3674367b50ecf599919f851"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#ae55d78d2c3674367b50ecf599919f851">Delete</a> ()</td></tr>
-<tr class="separator:ae55d78d2c3674367b50ecf599919f851"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab92eabd4dddca1205e36df830c5caa07"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#ab92eabd4dddca1205e36df830c5caa07">DeleteAssets</a> ()</td></tr>
+<tr class="memdesc:ab92eabd4dddca1205e36df830c5caa07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static call for Attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#ab92eabd4dddca1205e36df830c5caa07">More...</a><br /></td></tr>
 <tr class="separator:ab92eabd4dddca1205e36df830c5caa07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6420bfad0a5c18d16552e2cad2302069"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a6420bfad0a5c18d16552e2cad2302069">Terminate</a> ()</td></tr>
 <tr class="separator:a6420bfad0a5c18d16552e2cad2302069"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,31 +275,6 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae55d78d2c3674367b50ecf599919f851"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae55d78d2c3674367b50ecf599919f851">&#9670;&nbsp;</a></span>Delete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ImageManager::Delete </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab92eabd4dddca1205e36df830c5caa07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab92eabd4dddca1205e36df830c5caa07">&#9670;&nbsp;</a></span>DeleteAssets()</h2>
 
@@ -314,6 +297,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Static call for Attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active. </p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>
@@ -340,6 +326,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns an Image that has been loaded. If the key is incorrect then the Engine will crash. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Shader given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Shader will be retrieved. </dd></dl>
 
 </div>
 </div>
@@ -402,10 +398,20 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Public call to load an Image. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">pTexture</td><td>Gets the texture that will be needed to display on the Image. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a0c804c60364e599160fcb2f34df6152a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c804c60364e599160fcb2f34df6152a">&#9670;&nbsp;</a></span>Load() <span class="overload">[2/2]</span></h2>
+<a id="a2ed5e973702bfeb4712dd13107f0ce52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ed5e973702bfeb4712dd13107f0ce52">&#9670;&nbsp;</a></span>Load() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,25 +435,25 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rectX</em>, </td>
+          <td class="paramname"><em>xRect</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rectY</em>, </td>
+          <td class="paramname"><em>yRect</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rectWidth</em>, </td>
+          <td class="paramname"><em>widthRect</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rectHeight</em>&#160;</td>
+          <td class="paramname"><em>heightRect</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -461,6 +467,20 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Public call to load an image. </p>
+<p>Clay, 3/9/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key. </td></tr>
+    <tr><td class="paramname">pTexture</td><td>Gets the texture that will be needed to display on the Image. </td></tr>
+    <tr><td class="paramname">xRect</td><td>The image's position on the X axis. </td></tr>
+    <tr><td class="paramname">yRect</td><td>The image's position on the Y axis. </td></tr>
+    <tr><td class="paramname">widthRect</td><td>The width of the image. </td></tr>
+    <tr><td class="paramname">heightRect</td><td>The height of the image. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -513,6 +533,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active. </p>
+<p>Clay, 3/10/2018. </p>
+
 </div>
 </div>
 <a id="a94019635334cc58601b15177b594cbed"></a>
@@ -538,6 +561,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Private call for <a class="el" href="class_image_manager.html#a1b1d3cafd94ef6944ab1f6234e1c360e" title="Returns an Image that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key that will be used to search for the Image. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The pointer to the Image, if false, then the engine will crash. </dd></dl>
 
 </div>
 </div>
@@ -575,10 +608,20 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call for <a class="el" href="class_image_manager.html#aafb3375b1a34de3521c87f4390f4d68e" title="Public call to load an Image. ">Load()</a>. </p>
+<p>Clay, 3/9/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key. </td></tr>
+    <tr><td class="paramname">pTexture</td><td>Gets the texture that will be needed to display on the Image. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a8cac655a5787f1a668422ec05ceba65c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cac655a5787f1a668422ec05ceba65c">&#9670;&nbsp;</a></span>privLoad() <span class="overload">[2/2]</span></h2>
+<a id="a644f1902ebde4593af16bc4358b46586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a644f1902ebde4593af16bc4358b46586">&#9670;&nbsp;</a></span>privLoad() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,25 +645,25 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rectX</em>, </td>
+          <td class="paramname"><em>xRect</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rectY</em>, </td>
+          <td class="paramname"><em>yRect</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rectWidth</em>, </td>
+          <td class="paramname"><em>widthRect</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rectHeight</em>&#160;</td>
+          <td class="paramname"><em>heightRect</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -635,10 +678,24 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call for <a class="el" href="class_image_manager.html#aafb3375b1a34de3521c87f4390f4d68e" title="Public call to load an Image. ">Load()</a>. </p>
+<p>Clay, 3/9/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key. </td></tr>
+    <tr><td class="paramname">pTexture</td><td>Gets the texture that will be needed to display on the Image. </td></tr>
+    <tr><td class="paramname">xRect</td><td>The image's position on the X axis. </td></tr>
+    <tr><td class="paramname">yRect</td><td>The image's position on the Y axis. </td></tr>
+    <tr><td class="paramname">widthRect</td><td>The width of the image. </td></tr>
+    <tr><td class="paramname">heightRect</td><td>The height of the image. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a714fb1c3e417cf578b14746c7e2724d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a714fb1c3e417cf578b14746c7e2724d2">&#9670;&nbsp;</a></span>privSetImage()</h2>
+<a id="a60f149f6587a67ca7a1ae15e6243861e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60f149f6587a67ca7a1ae15e6243861e">&#9670;&nbsp;</a></span>privSetImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -656,7 +713,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Image *&#160;</td>
-          <td class="paramname"><em>object</em>&#160;</td>
+          <td class="paramname"><em>pImage</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -671,10 +728,20 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call to <a class="el" href="class_image_manager.html#a40cddac66a8c2f2b6dd71c72885e3e73" title="Sets an image. ">SetImage()</a>. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to be used to get the image from the map. </td></tr>
+    <tr><td class="paramname">pImage</td><td>The image that will be stored in the map. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="aaf0ca6ebba8bc94b5b72bb4ada91a380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf0ca6ebba8bc94b5b72bb4ada91a380">&#9670;&nbsp;</a></span>SetImage()</h2>
+<a id="a40cddac66a8c2f2b6dd71c72885e3e73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40cddac66a8c2f2b6dd71c72885e3e73">&#9670;&nbsp;</a></span>SetImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -692,7 +759,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Image *&#160;</td>
-          <td class="paramname"><em>object</em>&#160;</td>
+          <td class="paramname"><em>pImage</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -706,6 +773,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets an image. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to be used to get the image from the map. </td></tr>
+    <tr><td class="paramname">pImage</td><td>The image that will be stored in the map. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -49,5 +49,7 @@ var searchData=
   ['_7eupdatablemanager',['~UpdatableManager',['../class_updatable_manager.html#a8a6e0ff47f234978c42580203e053307',1,'UpdatableManager']]],
   ['_7eupdatederegisterationcommand',['~UpdateDeregisterationCommand',['../class_update_deregisteration_command.html#a822e35be7a6a9ac90d9e79e96ab78124',1,'UpdateDeregisterationCommand']]],
   ['_7eupdateregisterationcommand',['~UpdateRegisterationCommand',['../class_update_registeration_command.html#a59d578edb54010713b357f088d705930',1,'UpdateRegisterationCommand']]],
+  ['_7evisualizercommandbsphere',['~VisualizerCommandBSphere',['../class_visualizer_command_b_sphere.html#a0f4d67c5bd540f355bf6697e8d0b45a7',1,'VisualizerCommandBSphere']]],
+  ['_7evisualizermanager',['~VisualizerManager',['../class_visualizer_manager.html#a3a4116378c6cc072ec2d46aef45e19aa',1,'VisualizerManager']]],
   ['_7evisualizertool',['~VisualizerTool',['../class_visualizer_tool.html#a2196ebb1e1cfb73a00b7855c7d1f0e15',1,'VisualizerTool']]]
 ];

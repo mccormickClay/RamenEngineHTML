@@ -1,6 +1,7 @@
 var searchData=
 [
   ['cameramanager',['CameraManager',['../class_camera_manager.html#af1976881cb3c38701dd487f4ff19bc19',1,'CameraManager::CameraManager()=default'],['../class_camera_manager.html#a337865ab18c1a8bfc32d6bc65c294ebc',1,'CameraManager::CameraManager(const CameraManager &amp;)=delete']]],
+  ['changescene',['ChangeScene',['../class_scene_tool.html#ad3fe4e030f73aa56ec3f5a2ce0be6319',1,'SceneTool']]],
   ['checkkey',['CheckKey',['../class_test_key.html#ac6440c6ae1d14325f5d0a14a25b881f6',1,'TestKey']]],
   ['collidable',['Collidable',['../class_collidable.html#a92ce9e2b08086bb2f466168ffc69c9ed',1,'Collidable']]],
   ['collidablegroup',['CollidableGroup',['../class_collidable_group.html#af8ce9cae47feb107fae68fff8855f5bc',1,'CollidableGroup']]],
@@ -12,6 +13,8 @@ var searchData=
   ['collisionregistrationcommand',['CollisionRegistrationCommand',['../class_collision_registration_command.html#a29db9ec49f131ef39e03aa172dfb9c16',1,'CollisionRegistrationCommand']]],
   ['collisiontestpaircommand',['CollisionTestPairCommand',['../class_collision_test_pair_command.html#ac2672cbd7785424631a854f878d3c274',1,'CollisionTestPairCommand']]],
   ['collisiontestselfcommand',['CollisionTestSelfCommand',['../class_collision_test_self_command.html#a291f84198b3d445d9f1f4542e3ff7bff',1,'CollisionTestSelfCommand']]],
+  ['colorconstant',['ColorConstant',['../class_ramen_assets_1_1_shaders.html#af7da32ea1b8ba3ffce60f441720fa10a',1,'RamenAssets::Shaders']]],
+  ['colornotextureconstant',['ColorNoTextureConstant',['../class_ramen_assets_1_1_shaders.html#a51fee1a6c052ff67c36e8cd91aa10c7c',1,'RamenAssets::Shaders']]],
   ['computedata',['ComputeData',['../class_collision_volume_base.html#a0e7c0a2a5bf77d3f18f7392b7641d88f',1,'CollisionVolumeBase::ComputeData()'],['../class_collision_volume_b_sphere.html#a36557edc6ab37d1ec7c23231044cadeb',1,'CollisionVolumeBSphere::ComputeData()']]],
   ['connecttoscene',['ConnectToScene',['../class_game_object.html#ac1b3409129559bfc11845d6437c3d587',1,'GameObject']]],
   ['create',['Create',['../class_sprite_factory_attorney_1_1_scene_options.html#a6534df5bf6d764f910df1fcc5edd3573',1,'SpriteFactoryAttorney::SceneOptions::Create()'],['../class_sprite_tool.html#a7dc4e538c84dae51384bc7d76e4a325c',1,'SpriteTool::Create()']]],

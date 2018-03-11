@@ -110,7 +110,7 @@ Inheritance diagram for Collidable:</div>
 <area href="class_axis___default.html" alt="Axis_Default" shape="rect" coords="0,112,130,136"/>
 <area href="class_sphere_object.html" title="A sphere object that will change colors depending on two different alarms. " alt="SphereObject" shape="rect" coords="140,112,270,136"/>
 <area href="class_sprite_demo3_d_object.html" alt="SpriteDemo3DObject" shape="rect" coords="280,112,410,136"/>
-<area href="class_sprite_demo_object.html" alt="SpriteDemoObject" shape="rect" coords="420,112,550,136"/>
+<area href="class_sprite_demo_object.html" title="This Demo shows how to ask Ramen to use the Draw2D function inside of a GameObject. It also shows how to draw on that function and the differences between Draw and Draw2D. Draw2D will always be infront of object that were Rendered with Draw. " alt="SpriteDemoObject" shape="rect" coords="420,112,550,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -335,7 +335,7 @@ template&lt;typename C &gt; </div>
 </div><div class="memdoc">
 
 <p>Recieve the Bsphere to easily debug and visualize the objects collision. This can be used with the <a class="el" href="class_visualizer_tool.html" title="A visualizer tool for collision use. This is only for Debugging and should not be used for real game ...">VisualizerTool</a> to see the BSphere at the Draw stage. </p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> TankObject::Draw()</div><div class="line">{</div><div class="line">    GraphicsObj-&gt;Render(<a class="code" href="class_camera_tool.html#a99d418b0e435b2b319cd21800b6dcfb7">CameraTool::GetCurrentCamera</a>());</div><div class="line">    Vect collisionColor = Colors::Blue;</div><div class="line">    <a class="code" href="class_visualizer_tool.html#a5a8394c7a5399f49a15ffe8fe6545d70">VisualizerTool::ShowBSphere</a>(<a class="code" href="class_collidable.html#a6aee8b1571e98b7fda6c7a683094558f">GetBSphere</a>(), collisionColor);</div><div class="line"></div><div class="line">}</div></div><!-- fragment --> 
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> TankObject::Draw()</div><div class="line">{</div><div class="line">    GraphicsObj-&gt;Render(<a class="code" href="class_camera_tool.html#a99d418b0e435b2b319cd21800b6dcfb7">CameraTool::GetCurrentCamera</a>());</div><div class="line">    Vect collisionColor = Colors::Blue;</div><div class="line">    <a class="code" href="class_visualizer_tool.html#adc7e1397486dfd382857acf4857ca9ee">VisualizerTool::ShowBSphere</a>(<a class="code" href="class_collidable.html#a6aee8b1571e98b7fda6c7a683094558f">GetBSphere</a>(), collisionColor);</div><div class="line"></div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a9d33f78bfd10c5bdabe88a60d4a86ea6"></a>

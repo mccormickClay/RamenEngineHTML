@@ -90,15 +90,38 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>On (mostly) every large upload, notes of what the current version has added will be on this page.</p>
+<h1><a class="anchor" id="febninth"></a>
+3/9/2018</h1>
+<p><b>New Stuff:</b></p>
+<ul>
+<li><p class="startli"><a class="el" href="class_asset_tool.html" title="An user asset tool that is automatically used by GameObjects. AssetTool Gets information based on the...">AssetTool</a></p><ol type="1">
+<li>Getting Assets are even easier with a <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> Tool. Instantly Get Models, Textures, Shaders, and Images by using this!</li>
+</ol>
+<p class="startli"><code> GraphicObj = new GraphicsObject_WireframeConstantColor(<a class="el" href="class_asset_tool.html#a66e06d0e1e3d34925aca2f9a441602de" title="Using the key, Engine will find the Model and send it to the user to apply to a GraphicsObject. If the key is wrong, the Engine will find no match to its data and crash. ">AssetTool::Model</a>("radModelName"), <a class="el" href="class_asset_tool.html#a558eae0eec105959defb796188bf73b5" title="Using the key, Engine will find the Shader and send it to the user to apply to a GraphicsObject. If the key is wrong, the Engine will find no match to its data and crash. ">AssetTool::Shader</a>("randomShader"), currentColor); </code></p>
+</li>
+<li><p class="startli"><a class="el" href="class_ramen_assets.html" title="Ramen&#39;s default assets that are automatically loaded and given to the User. This is an easier way to ...">RamenAssets</a></p><ol type="1">
+<li>Another UserTool to allow Users instant access to Default Shaders and Models. <code> GraphicsObj = new GraphicsObject_ColorNoTexture(AssetTool::Model(RamenAssets::Models::Axis()), AssetTool::Shader(RamenAssets::Shaders::ColorNoTextureConstant())); </code></li>
+</ol>
+<p class="startli">Not the prettiest looking but still good to remind Users.</p>
+</li>
+</ul>
+<p><b>Polished Shtuff</b></p>
+<ul>
+<li>Faster deletion of SingleKeyInputs<ol type="1">
+<li>Inputables now have references to where key events are placed in the <a class="el" href="class_single_key_manager.html" title="Manager that controls a single key. Multiple GameObject Inputables can be contained inside but only o...">SingleKeyManager</a> lists. Retrival and removal no longer needs to search inside the list.</li>
+<li>The list OF SingleKeyManagers in the <a class="el" href="class_keyboard_event_manager.html" title="Manager for SingleKeyManagers. This class holds the information of all SingleKeyManagers. When a AZUL_KEY wants to be managed it will be sent to a SingleKeyManager that focused only on that AZUL_KEY type. ">KeyboardEventManager</a> do not have a reference... yet.</li>
+</ol>
+</li>
+</ul>
 <h1><a class="anchor" id="febsixth"></a>
 3/6/2018</h1>
 <p><b>Coming Soon(ish):</b></p>
 <ul>
-<li>EngineOptions</li>
-</ul>
-<ol type="1">
+<li>EngineOptions<ol type="1">
 <li>Soon (if Andre thinks its a good idea) will be adding GameOptions. This will allow the user to decide what to do and dont want the engine to do. Example right now is the <a class="el" href="class_sprite_factory.html">SpriteFactory</a>. The Engine currently controls it but the user could turn it off if they want!</li>
 </ol>
+</li>
+</ul>
 <p><b>New Stuff:</b></p><ul>
 <li><a class="el" href="class_sprite.html">Sprite</a><ol type="1">
 <li>Now Documented! (With what is currently available and working).</li>
@@ -124,9 +147,9 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>Sprites do not need to be deleted by the user. When you are done with the sprite, use <a class="el" href="class_sprite.html#a0f047e1cc4b605772d50f1d7e24a231e" title="Destroys this object. This is used if the EngineSpriteFactory is disabled. ">Sprite::Destroy()</a> and you are done!</li>
 </ol>
 </li>
-<li><a class="el" href="class_sprite_tool.html">SpriteTool</a><ol type="1">
-<li>Just like the <a class="el" href="class_camera_tool.html">CameraTool</a>, it allows users to have use of <a class="el" href="class_sprite.html">Sprite</a> Creation without needing the <a class="el" href="_sprite_factory_8h.html">SpriteFactory.h</a></li>
-<li><a class="el" href="class_sprite_tool.html">SpriteTool</a> is already in <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>, just type <a class="el" href="class_sprite.html">Sprite</a> tool and you're set!</li>
+<li><a class="el" href="class_sprite_tool.html" title="A sprite tool for the User to create sprites using in Engine Factory. This is not required to use thi...">SpriteTool</a><ol type="1">
+<li>Just like the <a class="el" href="class_camera_tool.html" title="A camera tool for the user. Allows the User to ask for Cameras in use or to set them to a new Camera ...">CameraTool</a>, it allows users to have use of <a class="el" href="class_sprite.html">Sprite</a> Creation without needing the <a class="el" href="_sprite_factory_8h.html">SpriteFactory.h</a></li>
+<li><a class="el" href="class_sprite_tool.html" title="A sprite tool for the User to create sprites using in Engine Factory. This is not required to use thi...">SpriteTool</a> is already in <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a>, just type <a class="el" href="class_sprite.html">Sprite</a> tool and you're set!</li>
 </ol>
 </li>
 </ul>

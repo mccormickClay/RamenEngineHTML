@@ -12,5 +12,6 @@ var searchData=
   ['alarmregistration',['AlarmRegistration',['../class_alarmable.html#a447b2a813efdeee56bbbbebd7fbc1a1e',1,'Alarmable']]],
   ['alarmregistrationcommand',['AlarmRegistrationCommand',['../class_alarm_registration_command.html#aca417324dffac8f47367bcb0f60f804b',1,'AlarmRegistrationCommand']]],
   ['assetmanager',['AssetManager',['../class_asset_manager.html#a48938b146fa7ad19270a11be5363472a',1,'AssetManager::AssetManager()=default'],['../class_asset_manager.html#a5f2da3cecd7f2c465e8cc056c4ff3451',1,'AssetManager::AssetManager(const AssetManager &amp;)=delete']]],
+  ['axis',['Axis',['../class_ramen_assets_1_1_models.html#a5d689459aba0e7d619544ac25234e2d5',1,'RamenAssets::Models']]],
   ['axis_5fdefault',['Axis_Default',['../class_axis___default.html#a7ef6c496ecb5626393d667e172db1713',1,'Axis_Default']]]
 ];

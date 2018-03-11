@@ -18,9 +18,11 @@ var searchData=
   ['slateblue',['SlateBlue',['../struct_color.html#a78c0c0fbada38a0bcb607a234285f096',1,'Color']]],
   ['slategray',['SlateGray',['../struct_color.html#aff47fe0cf69fc1c388c4cb3890c8b839',1,'Color']]],
   ['snow',['Snow',['../struct_color.html#a7e940371d4ba08e849b8d88efcb8f98d',1,'Color']]],
-  ['sphere',['sphere',['../class_alarms_demo.html#a76e361482ed19102eaf2cab0a5ed152f',1,'AlarmsDemo']]],
+  ['sphere',['sphere',['../class_alarms_demo.html#a76e361482ed19102eaf2cab0a5ed152f',1,'AlarmsDemo::sphere()'],['../class_visualizer_command_b_sphere.html#a3de5d34c31768ab0f3c1b6989c092630',1,'VisualizerCommandBSphere::Sphere()']]],
   ['spr_5falien',['spr_Alien',['../class_sprite_demo_object.html#aef70c62bedb04e4d84351140ce563869',1,'SpriteDemoObject']]],
   ['springgreen',['SpringGreen',['../struct_color.html#a03efccc3af42fd9fe9d9ad8c7459e688',1,'Color']]],
   ['spritelist',['spriteList',['../class_spritable_manager.html#ab9b7d54c19b90ebbbf5813e809253305',1,'SpritableManager']]],
+  ['spritemodel',['spriteModel',['../class_sprite_factory.html#adf09fa1302c5d8b564caba5c0d6e6e80',1,'SpriteFactory']]],
+  ['spriteshader',['spriteShader',['../class_sprite_factory.html#a5342639aa3226017bb75bdbc1030a5e0',1,'SpriteFactory']]],
   ['steelblue',['SteelBlue',['../struct_color.html#af197352b98367d5c9f460dc94445d591',1,'Color']]]
 ];

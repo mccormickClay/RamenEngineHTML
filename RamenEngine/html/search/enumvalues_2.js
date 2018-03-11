@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['key_5fpress',['KEY_PRESS',['../class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da18cbfcb552dd940be047a906394fb165',1,'Inputable']]],
-  ['key_5frelease',['KEY_RELEASE',['../class_inputable.html#a13ffe805d6507b01e5d9c14b62b2792da56be2988773227a84b41de37a1cd4e8e',1,'Inputable']]]
+  ['key_5fpress',['KEY_PRESS',['../class_key_input.html#af7578b87e79e851cce08a1e07fcd763eaefde90d0415c7376d588273c32f8246e',1,'KeyInput']]],
+  ['key_5frelease',['KEY_RELEASE',['../class_key_input.html#af7578b87e79e851cce08a1e07fcd763ea225583fc8526cad03c2b96c00c1679d9',1,'KeyInput']]]
 ];

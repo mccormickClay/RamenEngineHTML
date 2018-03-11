@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['image',['Image',['../class_asset_tool.html#a4fde0595c0829a1904bf7edb944e4483',1,'AssetTool']]],
   ['imagemanager',['ImageManager',['../class_image_manager.html#a0ca1b49a57ca47226226e06926524b2e',1,'ImageManager::ImageManager()=default'],['../class_image_manager.html#a1258c36ccc63ae8add08b171283ad759',1,'ImageManager::ImageManager(const ImageManager &amp;)=delete']]],
   ['initialize',['Initialize',['../class_alarms_demo.html#a57d82c6b04b21fdf88f9d27ca9b91c8e',1,'AlarmsDemo::Initialize()'],['../class_axis___default.html#ac5b0be8528a7fe56e2f4f43b625d855c',1,'Axis_Default::Initialize()'],['../class_ramen.html#af27b3a97102b9a9c3dfdc581925ae19d',1,'Ramen::Initialize()'],['../class_scene.html#af4966b399fd0b8c7a5c14637668ea119',1,'Scene::Initialize()'],['../class_scene_attorney_1_1_scene_options.html#a67fdde5b9398371de749530427f3d667',1,'SceneAttorney::SceneOptions::Initialize()'],['../class_sprite.html#acde04ee0891e844ad99649febd155e7e',1,'Sprite::Initialize()'],['../class_sprite_demo.html#ae6588010e8a51926c674a6d79be980fb',1,'SpriteDemo::Initialize()'],['../class_sprite_demo_object.html#a9cfa83818c0ba5b6f2c223f403694a62',1,'SpriteDemoObject::Initialize()']]],
   ['initializescene',['InitializeScene',['../class_scene_manager_attorney_1_1_connection.html#a9886021b52b3ebf8c25528b0050d2e50',1,'SceneManagerAttorney::Connection']]],

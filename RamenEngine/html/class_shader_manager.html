@@ -107,11 +107,14 @@ $(document).ready(function(){initNavTree('class_shader_manager.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d26db334a22210a001ce47b3f82b733"><td class="memItemLeft" align="right" valign="top">static ShaderObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a6d26db334a22210a001ce47b3f82b733">Get</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:a6d26db334a22210a001ce47b3f82b733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash.  <a href="#a6d26db334a22210a001ce47b3f82b733">More...</a><br /></td></tr>
 <tr class="separator:a6d26db334a22210a001ce47b3f82b733"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabfe013a054b09ce902005d74895a43f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#aabfe013a054b09ce902005d74895a43f">Load</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:aabfe013a054b09ce902005d74895a43f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load a Shader.  <a href="#aabfe013a054b09ce902005d74895a43f">More...</a><br /></td></tr>
 <tr class="separator:aabfe013a054b09ce902005d74895a43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9200202f5ae2eb8ce122bc3bc5960c9b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a9200202f5ae2eb8ce122bc3bc5960c9b">SetShader</a> (const std::string &amp;key, ShaderObject *object)</td></tr>
-<tr class="separator:a9200202f5ae2eb8ce122bc3bc5960c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b8481f5d407da30203a9283286e9f00"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a7b8481f5d407da30203a9283286e9f00">SetShader</a> (const std::string &amp;key, ShaderObject *pShader)</td></tr>
+<tr class="memdesc:a7b8481f5d407da30203a9283286e9f00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a shader to be stored inside of the map.  <a href="#a7b8481f5d407da30203a9283286e9f00">More...</a><br /></td></tr>
+<tr class="separator:a7b8481f5d407da30203a9283286e9f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -129,10 +132,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a23b053748b963e10cb17ae768467942a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a23b053748b963e10cb17ae768467942a">~ShaderManager</a> ()=default</td></tr>
 <tr class="separator:a23b053748b963e10cb17ae768467942a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af05ae877498fbceb647a0bae7e21ecd2"><td class="memItemLeft" align="right" valign="top">ShaderObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#af05ae877498fbceb647a0bae7e21ecd2">privGet</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:af05ae877498fbceb647a0bae7e21ecd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">private call for <a class="el" href="class_shader_manager.html#a6d26db334a22210a001ce47b3f82b733" title="Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>. Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash.  <a href="#af05ae877498fbceb647a0bae7e21ecd2">More...</a><br /></td></tr>
 <tr class="separator:af05ae877498fbceb647a0bae7e21ecd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2460e2fe531eb4027abce431b2e07404"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a2460e2fe531eb4027abce431b2e07404">privLoad</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:a2460e2fe531eb4027abce431b2e07404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_shader_manager.html#aabfe013a054b09ce902005d74895a43f" title="Public call to load a Shader. ">Load()</a>. Calls to load a shader.  <a href="#a2460e2fe531eb4027abce431b2e07404">More...</a><br /></td></tr>
 <tr class="separator:a2460e2fe531eb4027abce431b2e07404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e6b9bffce9ddf2f750ecdb1e2832990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a8e6b9bffce9ddf2f750ecdb1e2832990">privDeleteAssets</a> ()</td></tr>
+<tr class="memdesc:a8e6b9bffce9ddf2f750ecdb1e2832990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#a8e6b9bffce9ddf2f750ecdb1e2832990">More...</a><br /></td></tr>
 <tr class="separator:a8e6b9bffce9ddf2f750ecdb1e2832990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad18b0567ec7156f5be8430dfda958662"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#ad18b0567ec7156f5be8430dfda958662">privSetShader</a> (const std::string &amp;key, ShaderObject *object)</td></tr>
 <tr class="separator:ad18b0567ec7156f5be8430dfda958662"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,9 +147,8 @@ Private Member Functions</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:aeaa687b375b78eefcd836b5430ccfb99"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99">Instance</a> ()</td></tr>
 <tr class="separator:aeaa687b375b78eefcd836b5430ccfb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a3345645d04c64ad09dc3fe8225025f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a7a3345645d04c64ad09dc3fe8225025f">Delete</a> ()</td></tr>
-<tr class="separator:a7a3345645d04c64ad09dc3fe8225025f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf3eeb77940d69a14b87d21004dee6e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#adf3eeb77940d69a14b87d21004dee6e0">DeleteAssets</a> ()</td></tr>
+<tr class="memdesc:adf3eeb77940d69a14b87d21004dee6e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#adf3eeb77940d69a14b87d21004dee6e0">More...</a><br /></td></tr>
 <tr class="separator:adf3eeb77940d69a14b87d21004dee6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b173aa131d39b10945335d1a65b90f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a1b173aa131d39b10945335d1a65b90f0">Terminate</a> ()</td></tr>
 <tr class="separator:a1b173aa131d39b10945335d1a65b90f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,31 +274,6 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7a3345645d04c64ad09dc3fe8225025f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a3345645d04c64ad09dc3fe8225025f">&#9670;&nbsp;</a></span>Delete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ShaderManager::Delete </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="adf3eeb77940d69a14b87d21004dee6e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf3eeb77940d69a14b87d21004dee6e0">&#9670;&nbsp;</a></span>DeleteAssets()</h2>
 
@@ -316,6 +296,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active. </p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>
@@ -342,6 +325,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Shader given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Shader will be retrieved. </dd></dl>
 
 </div>
 </div>
@@ -404,6 +397,17 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Public call to load a Shader. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">path</td><td>Pathname of the file inside the Shader Folder within Assets. </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Example </p>
+<div class="fragment"><div class="line">LoadShader(<span class="stringliteral">&quot;textureFlat&quot;</span>, <span class="stringliteral">&quot;textureFlatRender&quot;</span>);</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="aac4b72bb581bbce0094efb49ce936907"></a>
@@ -455,6 +459,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active. </p>
+<p>Clay, 3/10/2018. </p>
+
 </div>
 </div>
 <a id="af05ae877498fbceb647a0bae7e21ecd2"></a>
@@ -480,6 +487,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>private call for <a class="el" href="class_shader_manager.html#a6d26db334a22210a001ce47b3f82b733" title="Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>. Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Model given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Shader will be retrieved. </dd></dl>
 
 </div>
 </div>
@@ -516,6 +533,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Private call for <a class="el" href="class_shader_manager.html#aabfe013a054b09ce902005d74895a43f" title="Public call to load a Shader. ">Load()</a>. Calls to load a shader. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">path</td><td>Pathname of the file in the Shader folder. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -555,8 +582,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a9200202f5ae2eb8ce122bc3bc5960c9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9200202f5ae2eb8ce122bc3bc5960c9b">&#9670;&nbsp;</a></span>SetShader()</h2>
+<a id="a7b8481f5d407da30203a9283286e9f00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b8481f5d407da30203a9283286e9f00">&#9670;&nbsp;</a></span>SetShader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -574,7 +601,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">ShaderObject *&#160;</td>
-          <td class="paramname"><em>object</em>&#160;</td>
+          <td class="paramname"><em>pShader</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -588,6 +615,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets a shader to be stored inside of the map. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key that will be used to <a class="el" href="class_shader_manager.html#a6d26db334a22210a001ce47b3f82b733" title="Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a> the shader later. </td></tr>
+    <tr><td class="paramname">pShader</td><td>The shader that will be stored inside the map </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

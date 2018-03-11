@@ -89,25 +89,35 @@ $(document).ready(function(){initNavTree('class_camera_tool.html','');});
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_camera_tool-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CameraTool Class Reference</div>  </div>
+<div class="title">CameraTool Class Reference<div class="ingroups"><a class="el" href="group___b_a_s_i_c_s.html">Basics</a> &raquo; <a class="el" href="group___t_o_o_l_s.html">Tools</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A camera tool for the user. Allows the User to ask for Cameras in use or to set them to a new Camera given by the User. This is use for Rendering a <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> into the <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>.  
+ <a href="class_camera_tool.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_camera_tool_8h_source.html">CameraTool.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a99d418b0e435b2b319cd21800b6dcfb7"><td class="memItemLeft" align="right" valign="top">static Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_tool.html#a99d418b0e435b2b319cd21800b6dcfb7">GetCurrentCamera</a> ()</td></tr>
-<tr class="memdesc:a99d418b0e435b2b319cd21800b6dcfb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current camera.  <a href="#a99d418b0e435b2b319cd21800b6dcfb7">More...</a><br /></td></tr>
+<tr class="memdesc:a99d418b0e435b2b319cd21800b6dcfb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current 3D camera.  <a href="#a99d418b0e435b2b319cd21800b6dcfb7">More...</a><br /></td></tr>
 <tr class="separator:a99d418b0e435b2b319cd21800b6dcfb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bd02a3b4b3d240ec1728df06463b28c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_tool.html#a5bd02a3b4b3d240ec1728df06463b28c">SetCurrentCamera</a> (Camera *cam)</td></tr>
+<tr class="memdesc:a5bd02a3b4b3d240ec1728df06463b28c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current 3D camera.  <a href="#a5bd02a3b4b3d240ec1728df06463b28c">More...</a><br /></td></tr>
 <tr class="separator:a5bd02a3b4b3d240ec1728df06463b28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a931cf841feb4e42b0a86f0a5c9b746cb"><td class="memItemLeft" align="right" valign="top">static Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_tool.html#a931cf841feb4e42b0a86f0a5c9b746cb">GetCurrent2DCamera</a> ()</td></tr>
+<tr class="memdesc:a931cf841feb4e42b0a86f0a5c9b746cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current 2D camera.  <a href="#a931cf841feb4e42b0a86f0a5c9b746cb">More...</a><br /></td></tr>
 <tr class="separator:a931cf841feb4e42b0a86f0a5c9b746cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45ac442645f7bdf53ddba2f45d7946e7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera_tool.html#a45ac442645f7bdf53ddba2f45d7946e7">SetCurrent2DCamera</a> (Camera *cam)</td></tr>
+<tr class="memdesc:a45ac442645f7bdf53ddba2f45d7946e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current 2D camera.  <a href="#a45ac442645f7bdf53ddba2f45d7946e7">More...</a><br /></td></tr>
 <tr class="separator:a45ac442645f7bdf53ddba2f45d7946e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A camera tool for the user. Allows the User to ask for Cameras in use or to set them to a new Camera given by the User. This is use for Rendering a <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> into the <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. </p>
+<p><code> void <a class="el" href="class_sphere_object.html#a60771134a28dc8d6bd4c89cabbfe231a" title="Callback for all GameObjects to be drawn on screen. Draw will likely be used with GraphicsObject Rend...">SphereObject::Draw()</a> { GraphicObj-&gt;Render(CameraTool::GetCurrentCamera()); } </code> </p>
+<p>Clay, 3/9/2018. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a931cf841feb4e42b0a86f0a5c9b746cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a931cf841feb4e42b0a86f0a5c9b746cb">&#9670;&nbsp;</a></span>GetCurrent2DCamera()</h2>
 
@@ -130,6 +140,10 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets current 2D camera. </p>
+<p>Clay, 3/9/2018. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns the current 2D Camera </dd></dl>
 
 </div>
 </div>
@@ -156,9 +170,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets current camera. </p>
+<p>Gets current 3D camera. </p>
 <p>Clay, 2/28/2018. </p>
-<dl class="section return"><dt>Returns</dt><dd>Null if it fails, else the current camera. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the current 3D Camera </dd></dl>
 
 </div>
 </div>
@@ -186,6 +200,15 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Sets current 2D camera. </p>
+<p>Clay, 3/9/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cam</td><td>The camera that is going to become the current 2D Camera. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a5bd02a3b4b3d240ec1728df06463b28c"></a>
@@ -211,6 +234,15 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets current 3D camera. </p>
+<p>Clay, 3/9/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cam</td><td>The camera that is going to become the current 3D Camera. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

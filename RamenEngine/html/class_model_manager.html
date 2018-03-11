@@ -107,13 +107,17 @@ $(document).ready(function(){initNavTree('class_model_manager.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acf9bdf662275f86f846371a0aa751df4"><td class="memItemLeft" align="right" valign="top">static Model *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#acf9bdf662275f86f846371a0aa751df4">Get</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:acf9bdf662275f86f846371a0aa751df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Model that has been loaded. If the key is incorrect then the Engine will crash.  <a href="#acf9bdf662275f86f846371a0aa751df4">More...</a><br /></td></tr>
 <tr class="separator:acf9bdf662275f86f846371a0aa751df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade3bb59460c79214c5cda5f85161a1f7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#ade3bb59460c79214c5cda5f85161a1f7">Load</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:ade3bb59460c79214c5cda5f85161a1f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load a model.  <a href="#ade3bb59460c79214c5cda5f85161a1f7">More...</a><br /></td></tr>
 <tr class="separator:ade3bb59460c79214c5cda5f85161a1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f5e1b9065c84ef488efbb133fa1a6fe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a9f5e1b9065c84ef488efbb133fa1a6fe">Load</a> (const std::string &amp;key, Model::PreMadedeModels premadeObject)</td></tr>
+<tr class="memdesc:a9f5e1b9065c84ef488efbb133fa1a6fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public call to load a model.  <a href="#a9f5e1b9065c84ef488efbb133fa1a6fe">More...</a><br /></td></tr>
 <tr class="separator:a9f5e1b9065c84ef488efbb133fa1a6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3519abefa65b6a561876fdb380e852eb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a3519abefa65b6a561876fdb380e852eb">SetModel</a> (const std::string &amp;key, Model *object)</td></tr>
-<tr class="separator:a3519abefa65b6a561876fdb380e852eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9a90e1bc1723c62a2bc5eace76417b9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#ad9a90e1bc1723c62a2bc5eace76417b9">SetModel</a> (const std::string &amp;key, Model *pModel)</td></tr>
+<tr class="memdesc:ad9a90e1bc1723c62a2bc5eace76417b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a model to be stored inside of the map.  <a href="#ad9a90e1bc1723c62a2bc5eace76417b9">More...</a><br /></td></tr>
+<tr class="separator:ad9a90e1bc1723c62a2bc5eace76417b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -131,12 +135,16 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a03b7cf9bd87e1b5cd296aafc08361547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a03b7cf9bd87e1b5cd296aafc08361547">~ModelManager</a> ()=default</td></tr>
 <tr class="separator:a03b7cf9bd87e1b5cd296aafc08361547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d01948948c9e4d070fbcdde6c412cf3"><td class="memItemLeft" align="right" valign="top">Model *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a3d01948948c9e4d070fbcdde6c412cf3">privGet</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:a3d01948948c9e4d070fbcdde6c412cf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">private call for <a class="el" href="class_model_manager.html#acf9bdf662275f86f846371a0aa751df4" title="Returns a Model that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>. Returns a Model that has been loaded. If the key is incorrect then the Engine will crash.  <a href="#a3d01948948c9e4d070fbcdde6c412cf3">More...</a><br /></td></tr>
 <tr class="separator:a3d01948948c9e4d070fbcdde6c412cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac23db3725f14ba875ff93b855cbf5c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#aac23db3725f14ba875ff93b855cbf5c6">privLoad</a> (const std::string &amp;key, const std::string &amp;path)</td></tr>
+<tr class="memdesc:aac23db3725f14ba875ff93b855cbf5c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_model_manager.html#ade3bb59460c79214c5cda5f85161a1f7" title="Public call to load a model. ">Load()</a>. Calls to load a model.  <a href="#aac23db3725f14ba875ff93b855cbf5c6">More...</a><br /></td></tr>
 <tr class="separator:aac23db3725f14ba875ff93b855cbf5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7da3b59e03f976adb703c174ec167075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a7da3b59e03f976adb703c174ec167075">privLoad</a> (const std::string &amp;key, Model::PreMadedeModels premadeObject)</td></tr>
+<tr class="memdesc:a7da3b59e03f976adb703c174ec167075"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_model_manager.html#ade3bb59460c79214c5cda5f85161a1f7" title="Public call to load a model. ">Load()</a>. Calls to load a model.  <a href="#a7da3b59e03f976adb703c174ec167075">More...</a><br /></td></tr>
 <tr class="separator:a7da3b59e03f976adb703c174ec167075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad05cfe568076edbd52e4b44ea811fea5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#ad05cfe568076edbd52e4b44ea811fea5">privDeleteAssets</a> ()</td></tr>
+<tr class="memdesc:ad05cfe568076edbd52e4b44ea811fea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#ad05cfe568076edbd52e4b44ea811fea5">More...</a><br /></td></tr>
 <tr class="separator:ad05cfe568076edbd52e4b44ea811fea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f909cb69c2db139a4f2405ab39e9850"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a1f909cb69c2db139a4f2405ab39e9850">privSetModel</a> (const std::string &amp;key, Model *object)</td></tr>
 <tr class="separator:a1f909cb69c2db139a4f2405ab39e9850"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,9 +153,8 @@ Private Member Functions</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:afb1fbe7bcd21494e661676b997008173"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_model_manager.html">ModelManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#afb1fbe7bcd21494e661676b997008173">Instance</a> ()</td></tr>
 <tr class="separator:afb1fbe7bcd21494e661676b997008173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6de57c5529f7de83ffbf727773881ba7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a6de57c5529f7de83ffbf727773881ba7">Delete</a> ()</td></tr>
-<tr class="separator:a6de57c5529f7de83ffbf727773881ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af64759a4688d7645df893ab663165be5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#af64759a4688d7645df893ab663165be5">DeleteAssets</a> ()</td></tr>
+<tr class="memdesc:af64759a4688d7645df893ab663165be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#af64759a4688d7645df893ab663165be5">More...</a><br /></td></tr>
 <tr class="separator:af64759a4688d7645df893ab663165be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d9391a5ea51959d4d422868429e26f7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a0d9391a5ea51959d4d422868429e26f7">Terminate</a> ()</td></tr>
 <tr class="separator:a0d9391a5ea51959d4d422868429e26f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,31 +280,6 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6de57c5529f7de83ffbf727773881ba7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6de57c5529f7de83ffbf727773881ba7">&#9670;&nbsp;</a></span>Delete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ModelManager::Delete </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af64759a4688d7645df893ab663165be5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af64759a4688d7645df893ab663165be5">&#9670;&nbsp;</a></span>DeleteAssets()</h2>
 
@@ -320,6 +302,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active. </p>
+<p>Clay, 3/10/2018. </p>
 
 </div>
 </div>
@@ -346,6 +331,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns a Model that has been loaded. If the key is incorrect then the Engine will crash. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Model given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Model will be retrieved. </dd></dl>
 
 </div>
 </div>
@@ -408,6 +403,16 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Public call to load a model. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">path</td><td>Pathname of the file in the Model folder. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a9f5e1b9065c84ef488efbb133fa1a6fe"></a>
@@ -443,6 +448,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Public call to load a model. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">premadeObject</td><td>Premade Models already available to the user. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -495,6 +510,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active. </p>
+<p>Clay, 3/10/2018. </p>
+
 </div>
 </div>
 <a id="a3d01948948c9e4d070fbcdde6c412cf3"></a>
@@ -520,6 +538,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>private call for <a class="el" href="class_model_manager.html#acf9bdf662275f86f846371a0aa751df4" title="Returns a Model that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>. Returns a Model that has been loaded. If the key is incorrect then the Engine will crash. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the Model given by the User. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Model will be retrieved. </dd></dl>
 
 </div>
 </div>
@@ -557,6 +585,16 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private call for <a class="el" href="class_model_manager.html#ade3bb59460c79214c5cda5f85161a1f7" title="Public call to load a model. ">Load()</a>. Calls to load a model. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">path</td><td>Pathname of the file in the Model folder. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a7da3b59e03f976adb703c174ec167075"></a>
@@ -592,6 +630,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Private call for <a class="el" href="class_model_manager.html#ade3bb59460c79214c5cda5f85161a1f7" title="Public call to load a model. ">Load()</a>. Calls to load a model. </p>
+<p>Clay, 2/28/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name that is going to be used for the file. </td></tr>
+    <tr><td class="paramname">premadeObject</td><td>Premade Models already available to the user. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -631,8 +679,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a3519abefa65b6a561876fdb380e852eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3519abefa65b6a561876fdb380e852eb">&#9670;&nbsp;</a></span>SetModel()</h2>
+<a id="ad9a90e1bc1723c62a2bc5eace76417b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a90e1bc1723c62a2bc5eace76417b9">&#9670;&nbsp;</a></span>SetModel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -650,7 +698,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Model *&#160;</td>
-          <td class="paramname"><em>object</em>&#160;</td>
+          <td class="paramname"><em>pModel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -664,6 +712,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets a model to be stored inside of the map. </p>
+<p>Clay, 3/10/2018. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key that will be used to <a class="el" href="class_model_manager.html#acf9bdf662275f86f846371a0aa751df4" title="Returns a Model that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a> the model later. </td></tr>
+    <tr><td class="paramname">pModel</td><td>The model that will be stored inside the map </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
