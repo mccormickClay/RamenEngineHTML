@@ -1,9 +1,0 @@
-var searchData=
-[
-  ['vecn',['vecN',['../classvmath_1_1vec_n.html#aa938f806f75f4e595188de3165c8fcd4',1,'vmath::vecN::vecN()'],['../classvmath_1_1vec_n.html#a4eaf07f4e78afef5ed4b1b737dd94d44',1,'vmath::vecN::vecN(const vecN &amp;that)'],['../classvmath_1_1vec_n.html#a00e5af5a2821b884f46e2135871d76b6',1,'vmath::vecN::vecN(T s)']]],
-  ['vect',['Vect',['../class_vect.html#a1c153510458899146850b79a7277630b',1,'Vect::Vect()'],['../class_vect.html#a38db816f7f0a57f1ce3752bae8138d88',1,'Vect::Vect(const Vect &amp;inV)'],['../class_vect.html#a490b445f40f6c26e5e58bdd1a7ffc54e',1,'Vect::Vect(const float in_x, const float in_y, const float in_z, const float in_w=1.0f)']]],
-  ['visualizercommandbsphere',['VisualizerCommandBSphere',['../class_visualizer_command_b_sphere.html#ae6d5b8f828d28c206e3fb1f359ca5ca7',1,'VisualizerCommandBSphere']]],
-  ['visualizermanager',['VisualizerManager',['../class_visualizer_manager.html#a937173e71f745304cdf3da8d018d5771',1,'VisualizerManager::VisualizerManager()=default'],['../class_visualizer_manager.html#a82fc6b5afd75bcf1be04a32e8d252dad',1,'VisualizerManager::VisualizerManager(const VisualizerManager &amp;)=delete']]],
-  ['visualizertool',['VisualizerTool',['../class_visualizer_tool.html#af812cd6df9d9fb20aef227878fca2884',1,'VisualizerTool::VisualizerTool()'],['../class_visualizer_tool.html#a36d76c0f06138e24360d9088735c74aa',1,'VisualizerTool::VisualizerTool(const VisualizerTool &amp;)=delete']]],
-  ['void',['void',['../glcorearb_8h.html#aa088430624f5301325a9973083d70226',1,'void(APIENTRY *GLDEBUGPROCARB)(GLenum source:&#160;glcorearb.h'],['../glcorearb_8h.html#a950fc91edb4504f62f1c577bf4727c29',1,'void(APIENTRYP PFNGLCULLFACEPROC)(GLenum mode):&#160;glcorearb.h'],['../glext_8h.html#aa088430624f5301325a9973083d70226',1,'void(APIENTRY *GLDEBUGPROCARB)(GLenum source:&#160;glext.h'],['../glext_8h.html#af4df3f795f4b5b15f7118978de4bf832',1,'void(APIENTRYP PFNGLBLENDCOLORPROC)(GLfloat red:&#160;glext.h']]]
-];

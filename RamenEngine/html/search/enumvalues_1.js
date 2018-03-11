@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['currently_5fderegistered',['CURRENTLY_DEREGISTERED',['../_registration_state_8h.html#a7c6efa1e80dd77c20a8d82b1620ab85fac5f16aac2cb497a0dc031c9de9206b8a',1,'RegistrationState.h']]],
-  ['currently_5fregistered',['CURRENTLY_REGISTERED',['../_registration_state_8h.html#a7c6efa1e80dd77c20a8d82b1620ab85faf822322a573b75dfbdf520eb55b5d02c',1,'RegistrationState.h']]]
+  ['key_5fpress',['KEY_PRESS',['../class_key_input.html#af7578b87e79e851cce08a1e07fcd763eaefde90d0415c7376d588273c32f8246e',1,'KeyInput']]],
+  ['key_5frelease',['KEY_RELEASE',['../class_key_input.html#af7578b87e79e851cce08a1e07fcd763ea225583fc8526cad03c2b96c00c1679d9',1,'KeyInput']]]
 ];

@@ -102,36 +102,24 @@ $(document).ready(function(){initNavTree('class_updatable.html','');});
  <a href="class_updatable.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_updatable_8h_source.html">Updatable.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Updatable:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_updatable.png" usemap="#Updatable_map" alt=""/>
-  <map id="Updatable_map" name="Updatable_map">
-<area href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ..." alt="GameObject" shape="rect" coords="210,56,340,80"/>
-<area href="class_axis___default.html" alt="Axis_Default" shape="rect" coords="0,112,130,136"/>
-<area href="class_sphere_object.html" title="A sphere object that will change colors depending on two different alarms. " alt="SphereObject" shape="rect" coords="140,112,270,136"/>
-<area href="class_sprite_demo3_d_object.html" alt="SpriteDemo3DObject" shape="rect" coords="280,112,410,136"/>
-<area href="class_sprite_demo_object.html" title="This Demo shows how to ask Ramen to use the Draw2D function inside of a GameObject. It also shows how to draw on that function and the differences between Draw and Draw2D. Draw2D will always be infront of object that were Rendered with Draw. " alt="SpriteDemoObject" shape="rect" coords="420,112,550,136"/>
-</map>
- </div></div>
+
+<p>Inherited by <a class="el" href="class_game_object.html">GameObject</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9a8b6c0e34f2958db872b6090455f90d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a9a8b6c0e34f2958db872b6090455f90d">Updatable</a> ()</td></tr>
-<tr class="separator:a9a8b6c0e34f2958db872b6090455f90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16534a7b64346e19b6182d7e1e6c7723"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a16534a7b64346e19b6182d7e1e6c7723">SceneRegistration</a> ()</td></tr>
-<tr class="memdesc:a16534a7b64346e19b6182d7e1e6c7723"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_REGISTRATION. Sends the <a class="el" href="class_updatable.html" title="Allows Gameobjects to be updated each frame. ">Updatable</a> object to the <a class="el" href="class_updatable_manager.html" title="Manager for updatables. Controls what registered objects should be updated every frame. ">UpdatableManager</a> to Update every frame.  <a href="#a16534a7b64346e19b6182d7e1e6c7723">More...</a><br /></td></tr>
+<tr class="memitem:a16534a7b64346e19b6182d7e1e6c7723"><td class="memItemLeft" align="right" valign="top"><a id="a16534a7b64346e19b6182d7e1e6c7723"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a16534a7b64346e19b6182d7e1e6c7723">SceneRegistration</a> ()</td></tr>
+<tr class="memdesc:a16534a7b64346e19b6182d7e1e6c7723"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_REGISTRATION. Sends the <a class="el" href="class_updatable.html" title="Allows Gameobjects to be updated each frame. ">Updatable</a> object to the <a class="el" href="class_updatable_manager.html" title="Manager for updatables. Controls what registered objects should be updated every frame. ">UpdatableManager</a> to Update every frame. <br /></td></tr>
 <tr class="separator:a16534a7b64346e19b6182d7e1e6c7723"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37eb54a213b8e1f0aac995234662276a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a37eb54a213b8e1f0aac995234662276a">SceneDeregistration</a> ()</td></tr>
-<tr class="memdesc:a37eb54a213b8e1f0aac995234662276a"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_DEREGISTRATION. Deletes the <a class="el" href="class_updatable.html" title="Allows Gameobjects to be updated each frame. ">Updatable</a> object from the <a class="el" href="class_updatable_manager.html" title="Manager for updatables. Controls what registered objects should be updated every frame. ">UpdatableManager</a> so it no longer updated.  <a href="#a37eb54a213b8e1f0aac995234662276a">More...</a><br /></td></tr>
+<tr class="memitem:a37eb54a213b8e1f0aac995234662276a"><td class="memItemLeft" align="right" valign="top"><a id="a37eb54a213b8e1f0aac995234662276a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a37eb54a213b8e1f0aac995234662276a">SceneDeregistration</a> ()</td></tr>
+<tr class="memdesc:a37eb54a213b8e1f0aac995234662276a"><td class="mdescLeft">&#160;</td><td class="mdescRight">After submission, checks RegistrationState for PENDING_DEREGISTRATION. Deletes the <a class="el" href="class_updatable.html" title="Allows Gameobjects to be updated each frame. ">Updatable</a> object from the <a class="el" href="class_updatable_manager.html" title="Manager for updatables. Controls what registered objects should be updated every frame. ">UpdatableManager</a> so it no longer updated. <br /></td></tr>
 <tr class="separator:a37eb54a213b8e1f0aac995234662276a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d575546f727080c9153a05986202cc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a8d575546f727080c9153a05986202cc1">~Updatable</a> ()</td></tr>
-<tr class="separator:a8d575546f727080c9153a05986202cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a21a0e903ff0afe9365dd8133ede289c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_updatable_manager.html#a7a8b601dda175f1a4b0433f339f0a5e6">UpdatableManager::StorageListRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a21a0e903ff0afe9365dd8133ede289c8">pDeleteRef</a></td></tr>
+<tr class="memitem:a21a0e903ff0afe9365dd8133ede289c8"><td class="memItemLeft" align="right" valign="top"><a id="a21a0e903ff0afe9365dd8133ede289c8"></a>
+UpdatableManager::StorageListRef&#160;</td><td class="memItemRight" valign="bottom"><b>pDeleteRef</b></td></tr>
 <tr class="separator:a21a0e903ff0afe9365dd8133ede289c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -151,95 +139,26 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a68cf544a183ecbdec9ed5b0199a80c97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_registration_state_8h.html#a7c6efa1e80dd77c20a8d82b1620ab85f">RegistrationState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a68cf544a183ecbdec9ed5b0199a80c97">RegStateCurr</a></td></tr>
+<tr class="memitem:a68cf544a183ecbdec9ed5b0199a80c97"><td class="memItemLeft" align="right" valign="top"><a id="a68cf544a183ecbdec9ed5b0199a80c97"></a>
+RegistrationState&#160;</td><td class="memItemRight" valign="bottom"><b>RegStateCurr</b></td></tr>
 <tr class="separator:a68cf544a183ecbdec9ed5b0199a80c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6197dd3a9e44ded95c1e7ac811580d7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_update_registeration_command.html">UpdateRegisterationCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a6197dd3a9e44ded95c1e7ac811580d7f">pRegisteredCommand</a></td></tr>
+<tr class="memitem:a6197dd3a9e44ded95c1e7ac811580d7f"><td class="memItemLeft" align="right" valign="top"><a id="a6197dd3a9e44ded95c1e7ac811580d7f"></a>
+<a class="el" href="class_update_registeration_command.html">UpdateRegisterationCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pRegisteredCommand</b></td></tr>
 <tr class="separator:a6197dd3a9e44ded95c1e7ac811580d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c70eb3fc3c7713fbcbc55fb78bfd05c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_update_deregisteration_command.html">UpdateDeregisterationCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#a5c70eb3fc3c7713fbcbc55fb78bfd05c">pDeregisteredCommand</a></td></tr>
+<tr class="memitem:a5c70eb3fc3c7713fbcbc55fb78bfd05c"><td class="memItemLeft" align="right" valign="top"><a id="a5c70eb3fc3c7713fbcbc55fb78bfd05c"></a>
+<a class="el" href="class_update_deregisteration_command.html">UpdateDeregisterationCommand</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pDeregisteredCommand</b></td></tr>
 <tr class="separator:a5c70eb3fc3c7713fbcbc55fb78bfd05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ad8125d60138ea72a87c0a071567e9d04"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_updatable.html#ad8125d60138ea72a87c0a071567e9d04">UpdatableManager</a></td></tr>
+<tr class="memitem:ad8125d60138ea72a87c0a071567e9d04"><td class="memItemLeft" align="right" valign="top"><a id="ad8125d60138ea72a87c0a071567e9d04"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>UpdatableManager</b></td></tr>
 <tr class="separator:ad8125d60138ea72a87c0a071567e9d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Allows Gameobjects to be updated each frame. </p>
 <p>All Commands must be Registered and Deregistered by the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be used correctly. All GameObjects have <a class="el" href="class_updatable.html#a705b2573da6eaa190a30bba0f7f4dddc" title="Checks to see if RegistrationState is CURRENTLY_DEREGISTERED. Asks for a GameObject to be updated...">SubmitUpdateRegistration()</a> and <a class="el" href="class_updatable.html#a1739b07f9bbc3a22c0ca6d9688f628a6" title="Checks to see if RegistrationState is CURRENTLY_REGISTERED. Asks for the specific GameObject to not b...">SubmitUpdateDeregistration()</a>; </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9a8b6c0e34f2958db872b6090455f90d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a8b6c0e34f2958db872b6090455f90d">&#9670;&nbsp;</a></span>Updatable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Updatable::Updatable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d575546f727080c9153a05986202cc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d575546f727080c9153a05986202cc1">&#9670;&nbsp;</a></span>~Updatable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Updatable::~Updatable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a37eb54a213b8e1f0aac995234662276a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37eb54a213b8e1f0aac995234662276a">&#9670;&nbsp;</a></span>SceneDeregistration()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Updatable::SceneDeregistration </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>After submission, checks RegistrationState for PENDING_DEREGISTRATION. Deletes the <a class="el" href="class_updatable.html" title="Allows Gameobjects to be updated each frame. ">Updatable</a> object from the <a class="el" href="class_updatable_manager.html" title="Manager for updatables. Controls what registered objects should be updated every frame. ">UpdatableManager</a> so it no longer updated. </p>
-
-</div>
-</div>
-<a id="a16534a7b64346e19b6182d7e1e6c7723"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16534a7b64346e19b6182d7e1e6c7723">&#9670;&nbsp;</a></span>SceneRegistration()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Updatable::SceneRegistration </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>After submission, checks RegistrationState for PENDING_REGISTRATION. Sends the <a class="el" href="class_updatable.html" title="Allows Gameobjects to be updated each frame. ">Updatable</a> object to the <a class="el" href="class_updatable_manager.html" title="Manager for updatables. Controls what registered objects should be updated every frame. ">UpdatableManager</a> to Update every frame. </p>
-
-</div>
-</div>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1739b07f9bbc3a22c0ca6d9688f628a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1739b07f9bbc3a22c0ca6d9688f628a6">&#9670;&nbsp;</a></span>SubmitUpdateDeregistration()</h2>
 
@@ -323,113 +242,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ad8125d60138ea72a87c0a071567e9d04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8125d60138ea72a87c0a071567e9d04">&#9670;&nbsp;</a></span>UpdatableManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_updatable_manager.html">UpdatableManager</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a21a0e903ff0afe9365dd8133ede289c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21a0e903ff0afe9365dd8133ede289c8">&#9670;&nbsp;</a></span>pDeleteRef</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_updatable_manager.html#a7a8b601dda175f1a4b0433f339f0a5e6">UpdatableManager::StorageListRef</a> Updatable::pDeleteRef</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5c70eb3fc3c7713fbcbc55fb78bfd05c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c70eb3fc3c7713fbcbc55fb78bfd05c">&#9670;&nbsp;</a></span>pDeregisteredCommand</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_update_deregisteration_command.html">UpdateDeregisterationCommand</a>* Updatable::pDeregisteredCommand</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6197dd3a9e44ded95c1e7ac811580d7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6197dd3a9e44ded95c1e7ac811580d7f">&#9670;&nbsp;</a></span>pRegisteredCommand</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_update_registeration_command.html">UpdateRegisterationCommand</a>* Updatable::pRegisteredCommand</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a68cf544a183ecbdec9ed5b0199a80c97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68cf544a183ecbdec9ed5b0199a80c97">&#9670;&nbsp;</a></span>RegStateCurr</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_registration_state_8h.html#a7c6efa1e80dd77c20a8d82b1620ab85f">RegistrationState</a> Updatable::RegStateCurr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_updatable_8h_source.html">Updatable.h</a></li>
-<li><a class="el" href="_updatable_8cpp.html">Updatable.cpp</a></li>
+<li>Updatable.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

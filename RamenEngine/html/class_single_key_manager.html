@@ -104,144 +104,59 @@ $(document).ready(function(){initNavTree('class_single_key_manager.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a2581c52b367568679ceaa87481f5fa1f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> = InputList::iterator</td></tr>
+<tr class="memitem:a2581c52b367568679ceaa87481f5fa1f"><td class="memItemLeft" align="right" valign="top"><a id="a2581c52b367568679ceaa87481f5fa1f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>KeyListRef</b> = InputList::iterator</td></tr>
 <tr class="separator:a2581c52b367568679ceaa87481f5fa1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a221081b811f1dfa9a87df0bf0707c689"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a221081b811f1dfa9a87df0bf0707c689">SingleKeyManager</a> ()</td></tr>
-<tr class="separator:a221081b811f1dfa9a87df0bf0707c689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a553ca354f2ebc14dceaa351a6ca3769d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a553ca354f2ebc14dceaa351a6ca3769d">SingleKeyManager</a> (AZUL_KEY k)</td></tr>
+<tr class="memitem:a553ca354f2ebc14dceaa351a6ca3769d"><td class="memItemLeft" align="right" valign="top"><a id="a553ca354f2ebc14dceaa351a6ca3769d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SingleKeyManager</b> (AZUL_KEY k)</td></tr>
 <tr class="separator:a553ca354f2ebc14dceaa351a6ca3769d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1da19d4ac2aeaeae38f9594eef622495"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a1da19d4ac2aeaeae38f9594eef622495">Register</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> &amp;pDeleteRef)</td></tr>
+<tr class="memitem:a1da19d4ac2aeaeae38f9594eef622495"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a1da19d4ac2aeaeae38f9594eef622495">Register</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, KeyListRef &amp;pDeleteRef)</td></tr>
 <tr class="memdesc:a1da19d4ac2aeaeae38f9594eef622495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from the <a class="el" href="class_keyboard_event_manager.html" title="Manager for SingleKeyManagers. This class holds the information of all SingleKeyManagers. When a AZUL_KEY wants to be managed it will be sent to a SingleKeyManager that focused only on that AZUL_KEY type. ">KeyboardEventManager</a>. This will register the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to be tested to see if the event is true.  <a href="#a1da19d4ac2aeaeae38f9594eef622495">More...</a><br /></td></tr>
 <tr class="separator:a1da19d4ac2aeaeae38f9594eef622495"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7265e8f3d8e74dc12946cacbcf891618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a7265e8f3d8e74dc12946cacbcf891618">Deregister</a> (<a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> &amp;pDeleteRef)</td></tr>
+<tr class="memitem:a7265e8f3d8e74dc12946cacbcf891618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a7265e8f3d8e74dc12946cacbcf891618">Deregister</a> (<a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, KeyListRef &amp;pDeleteRef)</td></tr>
 <tr class="memdesc:a7265e8f3d8e74dc12946cacbcf891618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from the <a class="el" href="class_keyboard_event_manager.html" title="Manager for SingleKeyManagers. This class holds the information of all SingleKeyManagers. When a AZUL_KEY wants to be managed it will be sent to a SingleKeyManager that focused only on that AZUL_KEY type. ">KeyboardEventManager</a>. This will deregister the <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> to stop testing to see if the event is true.  <a href="#a7265e8f3d8e74dc12946cacbcf891618">More...</a><br /></td></tr>
 <tr class="separator:a7265e8f3d8e74dc12946cacbcf891618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758289657cd7275c3ba06af4b306b919"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a758289657cd7275c3ba06af4b306b919">ProcessKeyEvent</a> ()</td></tr>
 <tr class="memdesc:a758289657cd7275c3ba06af4b306b919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes the all the Inputables key and see if they are being activated.  <a href="#a758289657cd7275c3ba06af4b306b919">More...</a><br /></td></tr>
 <tr class="separator:a758289657cd7275c3ba06af4b306b919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a48b269cc8badc0a7071c9709bdc271"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a7a48b269cc8badc0a7071c9709bdc271">~SingleKeyManager</a> ()</td></tr>
-<tr class="separator:a7a48b269cc8badc0a7071c9709bdc271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0717e061d302477b7b683e7a01065e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a0717e061d302477b7b683e7a01065e9f">ref</a></td></tr>
+<tr class="memitem:a0717e061d302477b7b683e7a01065e9f"><td class="memItemLeft" align="right" valign="top"><a id="a0717e061d302477b7b683e7a01065e9f"></a>
+KeyListRef&#160;</td><td class="memItemRight" valign="bottom"><b>ref</b></td></tr>
 <tr class="separator:a0717e061d302477b7b683e7a01065e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a5f97936c67991a6f8a03e67d6631cb5c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a5f97936c67991a6f8a03e67d6631cb5c">InputList</a> = std::list&lt; <a class="el" href="class_inputable.html">Inputable</a> * &gt;</td></tr>
+<tr class="memitem:a5f97936c67991a6f8a03e67d6631cb5c"><td class="memItemLeft" align="right" valign="top"><a id="a5f97936c67991a6f8a03e67d6631cb5c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>InputList</b> = std::list&lt; <a class="el" href="class_inputable.html">Inputable</a> * &gt;</td></tr>
 <tr class="separator:a5f97936c67991a6f8a03e67d6631cb5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a130a53f56499be4f1a3e3aded0b5f302"><td class="memItemLeft" align="right" valign="top">AZUL_KEY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a130a53f56499be4f1a3e3aded0b5f302">key</a></td></tr>
+<tr class="memitem:a130a53f56499be4f1a3e3aded0b5f302"><td class="memItemLeft" align="right" valign="top"><a id="a130a53f56499be4f1a3e3aded0b5f302"></a>
+AZUL_KEY&#160;</td><td class="memItemRight" valign="bottom"><b>key</b></td></tr>
 <tr class="separator:a130a53f56499be4f1a3e3aded0b5f302"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada49ba17b638f3850f67f5a6f0dcdfb2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#ada49ba17b638f3850f67f5a6f0dcdfb2">currentStatePlaced</a></td></tr>
+<tr class="memitem:ada49ba17b638f3850f67f5a6f0dcdfb2"><td class="memItemLeft" align="right" valign="top"><a id="ada49ba17b638f3850f67f5a6f0dcdfb2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>currentStatePlaced</b></td></tr>
 <tr class="separator:ada49ba17b638f3850f67f5a6f0dcdfb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fd6f508102bcd518c32fa7d430ef533"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a9fd6f508102bcd518c32fa7d430ef533">prevStatePlaced</a></td></tr>
+<tr class="memitem:a9fd6f508102bcd518c32fa7d430ef533"><td class="memItemLeft" align="right" valign="top"><a id="a9fd6f508102bcd518c32fa7d430ef533"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>prevStatePlaced</b></td></tr>
 <tr class="separator:a9fd6f508102bcd518c32fa7d430ef533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab23fcabf82237c86e602d15fe231de9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_single_key_manager.html#a5f97936c67991a6f8a03e67d6631cb5c">InputList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#ab23fcabf82237c86e602d15fe231de9f">keyPressList</a></td></tr>
+<tr class="memitem:ab23fcabf82237c86e602d15fe231de9f"><td class="memItemLeft" align="right" valign="top"><a id="ab23fcabf82237c86e602d15fe231de9f"></a>
+InputList&#160;</td><td class="memItemRight" valign="bottom"><b>keyPressList</b></td></tr>
 <tr class="separator:ab23fcabf82237c86e602d15fe231de9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09c11b222bd5e357c01228ccfab8de57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_single_key_manager.html#a5f97936c67991a6f8a03e67d6631cb5c">InputList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_single_key_manager.html#a09c11b222bd5e357c01228ccfab8de57">keyReleaseList</a></td></tr>
+<tr class="memitem:a09c11b222bd5e357c01228ccfab8de57"><td class="memItemLeft" align="right" valign="top"><a id="a09c11b222bd5e357c01228ccfab8de57"></a>
+InputList&#160;</td><td class="memItemRight" valign="bottom"><b>keyReleaseList</b></td></tr>
 <tr class="separator:a09c11b222bd5e357c01228ccfab8de57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manager that controls a single key. Multiple <a class="el" href="class_game_object.html" title="The game entity that holds most information to see, control, and interact with. A GameObject is made ...">GameObject</a> Inputables can be contained inside but only of a specific key. Both events (KEY_PRESSED and KEY_RELEASED) and tested in this Manager. </p>
 <p>Clay, 2/28/2018. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a5f97936c67991a6f8a03e67d6631cb5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f97936c67991a6f8a03e67d6631cb5c">&#9670;&nbsp;</a></span>InputList</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_single_key_manager.html#a5f97936c67991a6f8a03e67d6631cb5c">SingleKeyManager::InputList</a> =  std::list&lt;<a class="el" href="class_inputable.html">Inputable</a>*&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2581c52b367568679ceaa87481f5fa1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2581c52b367568679ceaa87481f5fa1f">&#9670;&nbsp;</a></span>KeyListRef</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> =  InputList::iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a221081b811f1dfa9a87df0bf0707c689"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a221081b811f1dfa9a87df0bf0707c689">&#9670;&nbsp;</a></span>SingleKeyManager() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SingleKeyManager::SingleKeyManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a553ca354f2ebc14dceaa351a6ca3769d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a553ca354f2ebc14dceaa351a6ca3769d">&#9670;&nbsp;</a></span>SingleKeyManager() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SingleKeyManager::SingleKeyManager </td>
-          <td>(</td>
-          <td class="paramtype">AZUL_KEY&#160;</td>
-          <td class="paramname"><em>k</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7a48b269cc8badc0a7071c9709bdc271"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a48b269cc8badc0a7071c9709bdc271">&#9670;&nbsp;</a></span>~SingleKeyManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SingleKeyManager::~SingleKeyManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7265e8f3d8e74dc12946cacbcf891618"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7265e8f3d8e74dc12946cacbcf891618">&#9670;&nbsp;</a></span>Deregister()</h2>
 
@@ -257,7 +172,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> &amp;&#160;</td>
+          <td class="paramtype">KeyListRef &amp;&#160;</td>
           <td class="paramname"><em>pDeleteRef</em>&#160;</td>
         </tr>
         <tr>
@@ -321,7 +236,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> &amp;&#160;</td>
+          <td class="paramtype">KeyListRef &amp;&#160;</td>
           <td class="paramname"><em>pDeleteRef</em>&#160;</td>
         </tr>
         <tr>
@@ -345,134 +260,9 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ada49ba17b638f3850f67f5a6f0dcdfb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada49ba17b638f3850f67f5a6f0dcdfb2">&#9670;&nbsp;</a></span>currentStatePlaced</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool SingleKeyManager::currentStatePlaced</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a130a53f56499be4f1a3e3aded0b5f302"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a130a53f56499be4f1a3e3aded0b5f302">&#9670;&nbsp;</a></span>key</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">AZUL_KEY SingleKeyManager::key</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab23fcabf82237c86e602d15fe231de9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab23fcabf82237c86e602d15fe231de9f">&#9670;&nbsp;</a></span>keyPressList</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_single_key_manager.html#a5f97936c67991a6f8a03e67d6631cb5c">InputList</a> SingleKeyManager::keyPressList</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a09c11b222bd5e357c01228ccfab8de57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09c11b222bd5e357c01228ccfab8de57">&#9670;&nbsp;</a></span>keyReleaseList</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_single_key_manager.html#a5f97936c67991a6f8a03e67d6631cb5c">InputList</a> SingleKeyManager::keyReleaseList</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9fd6f508102bcd518c32fa7d430ef533"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fd6f508102bcd518c32fa7d430ef533">&#9670;&nbsp;</a></span>prevStatePlaced</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool SingleKeyManager::prevStatePlaced</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0717e061d302477b7b683e7a01065e9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0717e061d302477b7b683e7a01065e9f">&#9670;&nbsp;</a></span>ref</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">KeyListRef</a> SingleKeyManager::ref</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_single_key_manager_8h_source.html">SingleKeyManager.h</a></li>
-<li><a class="el" href="_single_key_manager_8cpp.html">SingleKeyManager.cpp</a></li>
+<li>SingleKeyManager.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

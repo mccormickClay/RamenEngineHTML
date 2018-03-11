@@ -118,19 +118,18 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a24586e718c2af9ac089a81452181628f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a24586e718c2af9ac089a81452181628f">StorageMap</a> = std::map&lt; std::string, ShaderObject * &gt;</td></tr>
+<tr class="memitem:a24586e718c2af9ac089a81452181628f"><td class="memItemLeft" align="right" valign="top"><a id="a24586e718c2af9ac089a81452181628f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>StorageMap</b> = std::map&lt; std::string, ShaderObject * &gt;</td></tr>
 <tr class="separator:a24586e718c2af9ac089a81452181628f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a24e6624418d548bad255a9f9e1eae165"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a24e6624418d548bad255a9f9e1eae165">ShaderManager</a> ()=default</td></tr>
-<tr class="separator:a24e6624418d548bad255a9f9e1eae165"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7107f141de4148e9870d3870027337cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a7107f141de4148e9870d3870027337cd">ShaderManager</a> (const <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;)=delete</td></tr>
+<tr class="memitem:a7107f141de4148e9870d3870027337cd"><td class="memItemLeft" align="right" valign="top"><a id="a7107f141de4148e9870d3870027337cd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ShaderManager</b> (const <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;)=delete</td></tr>
 <tr class="separator:a7107f141de4148e9870d3870027337cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac4b72bb581bbce0094efb49ce936907"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#aac4b72bb581bbce0094efb49ce936907">operator=</a> (const <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;)=delete</td></tr>
+<tr class="memitem:aac4b72bb581bbce0094efb49ce936907"><td class="memItemLeft" align="right" valign="top"><a id="aac4b72bb581bbce0094efb49ce936907"></a>
+<a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;)=delete</td></tr>
 <tr class="separator:aac4b72bb581bbce0094efb49ce936907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23b053748b963e10cb17ae768467942a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a23b053748b963e10cb17ae768467942a">~ShaderManager</a> ()=default</td></tr>
-<tr class="separator:a23b053748b963e10cb17ae768467942a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af05ae877498fbceb647a0bae7e21ecd2"><td class="memItemLeft" align="right" valign="top">ShaderObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#af05ae877498fbceb647a0bae7e21ecd2">privGet</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:af05ae877498fbceb647a0bae7e21ecd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">private call for <a class="el" href="class_shader_manager.html#a6d26db334a22210a001ce47b3f82b733" title="Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>. Returns a Shader that has been loaded. If the key is incorrect then the Engine will crash.  <a href="#af05ae877498fbceb647a0bae7e21ecd2">More...</a><br /></td></tr>
 <tr class="separator:af05ae877498fbceb647a0bae7e21ecd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,140 +139,47 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a8e6b9bffce9ddf2f750ecdb1e2832990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a8e6b9bffce9ddf2f750ecdb1e2832990">privDeleteAssets</a> ()</td></tr>
 <tr class="memdesc:a8e6b9bffce9ddf2f750ecdb1e2832990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#a8e6b9bffce9ddf2f750ecdb1e2832990">More...</a><br /></td></tr>
 <tr class="separator:a8e6b9bffce9ddf2f750ecdb1e2832990"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad18b0567ec7156f5be8430dfda958662"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#ad18b0567ec7156f5be8430dfda958662">privSetShader</a> (const std::string &amp;key, ShaderObject *object)</td></tr>
+<tr class="memitem:ad18b0567ec7156f5be8430dfda958662"><td class="memItemLeft" align="right" valign="top"><a id="ad18b0567ec7156f5be8430dfda958662"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>privSetShader</b> (const std::string &amp;key, ShaderObject *object)</td></tr>
 <tr class="separator:ad18b0567ec7156f5be8430dfda958662"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:aeaa687b375b78eefcd836b5430ccfb99"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#aeaa687b375b78eefcd836b5430ccfb99">Instance</a> ()</td></tr>
+<tr class="memitem:aeaa687b375b78eefcd836b5430ccfb99"><td class="memItemLeft" align="right" valign="top"><a id="aeaa687b375b78eefcd836b5430ccfb99"></a>
+static <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b> ()</td></tr>
 <tr class="separator:aeaa687b375b78eefcd836b5430ccfb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf3eeb77940d69a14b87d21004dee6e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#adf3eeb77940d69a14b87d21004dee6e0">DeleteAssets</a> ()</td></tr>
 <tr class="memdesc:adf3eeb77940d69a14b87d21004dee6e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#adf3eeb77940d69a14b87d21004dee6e0">More...</a><br /></td></tr>
 <tr class="separator:adf3eeb77940d69a14b87d21004dee6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b173aa131d39b10945335d1a65b90f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a1b173aa131d39b10945335d1a65b90f0">Terminate</a> ()</td></tr>
+<tr class="memitem:a1b173aa131d39b10945335d1a65b90f0"><td class="memItemLeft" align="right" valign="top"><a id="a1b173aa131d39b10945335d1a65b90f0"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Terminate</b> ()</td></tr>
 <tr class="separator:a1b173aa131d39b10945335d1a65b90f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad934bd89c05bd04894a01d6f541b80fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_shader_manager.html#a24586e718c2af9ac089a81452181628f">StorageMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#ad934bd89c05bd04894a01d6f541b80fa">shaderMap</a></td></tr>
+<tr class="memitem:ad934bd89c05bd04894a01d6f541b80fa"><td class="memItemLeft" align="right" valign="top"><a id="ad934bd89c05bd04894a01d6f541b80fa"></a>
+StorageMap&#160;</td><td class="memItemRight" valign="bottom"><b>shaderMap</b></td></tr>
 <tr class="separator:ad934bd89c05bd04894a01d6f541b80fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a164060e980b22c97989f88990a499290"><td class="memItemLeft" align="right" valign="top">StorageMap::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a164060e980b22c97989f88990a499290">it</a></td></tr>
+<tr class="memitem:a164060e980b22c97989f88990a499290"><td class="memItemLeft" align="right" valign="top"><a id="a164060e980b22c97989f88990a499290"></a>
+StorageMap::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>it</b></td></tr>
 <tr class="separator:a164060e980b22c97989f88990a499290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:adfd72f42ed44e4d6c3c54df11f20c575"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_shader_manager.html">ShaderManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#adfd72f42ed44e4d6c3c54df11f20c575">ptrInstance</a> = nullptr</td></tr>
+<tr class="memitem:adfd72f42ed44e4d6c3c54df11f20c575"><td class="memItemLeft" align="right" valign="top"><a id="adfd72f42ed44e4d6c3c54df11f20c575"></a>
+static <a class="el" href="class_shader_manager.html">ShaderManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ptrInstance</b> = nullptr</td></tr>
 <tr class="separator:adfd72f42ed44e4d6c3c54df11f20c575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a97022f78230dba6423365444e6c6f63d"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_manager.html#a97022f78230dba6423365444e6c6f63d">ShaderManagerAttorney</a></td></tr>
+<tr class="memitem:a97022f78230dba6423365444e6c6f63d"><td class="memItemLeft" align="right" valign="top"><a id="a97022f78230dba6423365444e6c6f63d"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>ShaderManagerAttorney</b></td></tr>
 <tr class="separator:a97022f78230dba6423365444e6c6f63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manager for Shaders. Check <a class="el" href="class_asset_manager.html" title="Manager for User and Default assets. This object communicates with the ModelManager, ShaderManager and TextureManager to allow easier implimentations to Load and Recieve resources. ">AssetManager</a> for more information about Loading and Recieving Shaders. Contains all Shaders in a map. The user can name their resources using the "key" parameter.</p>
 <p>Clay, 2/28/2018. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a24586e718c2af9ac089a81452181628f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24586e718c2af9ac089a81452181628f">&#9670;&nbsp;</a></span>StorageMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_shader_manager.html#a24586e718c2af9ac089a81452181628f">ShaderManager::StorageMap</a> =  std::map&lt;std::string, ShaderObject*&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a24e6624418d548bad255a9f9e1eae165"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24e6624418d548bad255a9f9e1eae165">&#9670;&nbsp;</a></span>ShaderManager() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ShaderManager::ShaderManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7107f141de4148e9870d3870027337cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7107f141de4148e9870d3870027337cd">&#9670;&nbsp;</a></span>ShaderManager() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ShaderManager::ShaderManager </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a23b053748b963e10cb17ae768467942a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23b053748b963e10cb17ae768467942a">&#9670;&nbsp;</a></span>~ShaderManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ShaderManager::~ShaderManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="adf3eeb77940d69a14b87d21004dee6e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf3eeb77940d69a14b87d21004dee6e0">&#9670;&nbsp;</a></span>DeleteAssets()</h2>
 
@@ -338,31 +244,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="aeaa687b375b78eefcd836b5430ccfb99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaa687b375b78eefcd836b5430ccfb99">&#9670;&nbsp;</a></span>Instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="class_shader_manager.html">ShaderManager</a>&amp; ShaderManager::Instance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aabfe013a054b09ce902005d74895a43f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aabfe013a054b09ce902005d74895a43f">&#9670;&nbsp;</a></span>Load()</h2>
 
@@ -408,32 +289,6 @@ Friends</h2></td></tr>
 </dl>
 <p>Example </p>
 <div class="fragment"><div class="line">LoadShader(<span class="stringliteral">&quot;textureFlat&quot;</span>, <span class="stringliteral">&quot;textureFlatRender&quot;</span>);</div></div><!-- fragment --> 
-</div>
-</div>
-<a id="aac4b72bb581bbce0094efb49ce936907"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac4b72bb581bbce0094efb49ce936907">&#9670;&nbsp;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_shader_manager.html">ShaderManager</a>&amp; ShaderManager::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_shader_manager.html">ShaderManager</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a id="a8e6b9bffce9ddf2f750ecdb1e2832990"></a>
@@ -546,42 +401,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ad18b0567ec7156f5be8430dfda958662"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad18b0567ec7156f5be8430dfda958662">&#9670;&nbsp;</a></span>privSetShader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ShaderManager::privSetShader </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ShaderObject *&#160;</td>
-          <td class="paramname"><em>object</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7b8481f5d407da30203a9283286e9f00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b8481f5d407da30203a9283286e9f00">&#9670;&nbsp;</a></span>SetShader()</h2>
 
@@ -628,124 +447,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a1b173aa131d39b10945335d1a65b90f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b173aa131d39b10945335d1a65b90f0">&#9670;&nbsp;</a></span>Terminate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ShaderManager::Terminate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a97022f78230dba6423365444e6c6f63d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97022f78230dba6423365444e6c6f63d">&#9670;&nbsp;</a></span>ShaderManagerAttorney</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_shader_manager_attorney.html">ShaderManagerAttorney</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a164060e980b22c97989f88990a499290"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a164060e980b22c97989f88990a499290">&#9670;&nbsp;</a></span>it</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">StorageMap::iterator ShaderManager::it</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adfd72f42ed44e4d6c3c54df11f20c575"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfd72f42ed44e4d6c3c54df11f20c575">&#9670;&nbsp;</a></span>ptrInstance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_shader_manager.html">ShaderManager</a> * ShaderManager::ptrInstance = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad934bd89c05bd04894a01d6f541b80fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad934bd89c05bd04894a01d6f541b80fa">&#9670;&nbsp;</a></span>shaderMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_shader_manager.html#a24586e718c2af9ac089a81452181628f">StorageMap</a> ShaderManager::shaderMap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_shader_manager_8h_source.html">ShaderManager.h</a></li>
-<li><a class="el" href="_shader_manager_8cpp.html">ShaderManager.cpp</a></li>
+<li>ShaderManager.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

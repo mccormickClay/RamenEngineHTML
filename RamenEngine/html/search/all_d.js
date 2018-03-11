@@ -1,10 +1,13 @@
 var searchData=
 [
-  ['oldlace',['OldLace',['../struct_color.html#a2961679582532a3fa0c883ea26bd4d94',1,'Color']]],
-  ['olive',['Olive',['../struct_color.html#a06975a2d1a72ed8afa5d2e44331dc4c3',1,'Color']]],
-  ['olivedrab',['OliveDrab',['../struct_color.html#aa7dbcac16c0ac291b625035a3290d3a2',1,'Color']]],
-  ['operator_3d',['operator=',['../class_alarmable_manager.html#ad265d71a287fd16eca7b5ecf5ae45881',1,'AlarmableManager::operator=()'],['../class_asset_manager.html#abb23f8d4ae51bd8bbb099cdd3eddcc06',1,'AssetManager::operator=()'],['../class_camera_manager.html#aef716f486fad7f6a2c26be6e01f6a6c3',1,'CameraManager::operator=()'],['../class_drawable_manager.html#acc078c3db0d8f6d5665b18283edbf202',1,'DrawableManager::operator=()'],['../class_freeze_time.html#a9f129fa9a0c26c9058ec3ac10d6073c7',1,'FreezeTime::operator=()'],['../class_image_manager.html#af2094a4523cc7da5bd758efb3e1ba837',1,'ImageManager::operator=()'],['../class_keyboard_event_manager.html#afb2282fb95875eea0cce8026983d07f1',1,'KeyboardEventManager::operator=()'],['../class_model_manager.html#ab52ee75a762316009594e828a7a3e971',1,'ModelManager::operator=()'],['../class_ramen.html#af251060283d8d2cce51b67d4ffbc97b2',1,'Ramen::operator=()'],['../class_scene_manager.html#af12069bf78e076bd8d6ba0fe1a00d7f1',1,'SceneManager::operator=()'],['../class_shader_manager.html#aac4b72bb581bbce0094efb49ce936907',1,'ShaderManager::operator=()'],['../class_spritable_manager.html#aa2a932c43af419c0a5fb54590cb497ab',1,'SpritableManager::operator=()'],['../class_sprite_factory.html#aef019cc049343cbbc9d6ff49c63356fc',1,'SpriteFactory::operator=()'],['../class_texture_manager.html#afd2a4b9f524f1e76faffb7e8dcfa0802',1,'TextureManager::operator=()'],['../class_time_manager.html#a39ec2f9b8d5a8fd23f39b5622f0c0405',1,'TimeManager::operator=()'],['../class_updatable_manager.html#a6fd7a3349b77b6941527ce8cde83a328',1,'UpdatableManager::operator=()'],['../class_visualizer_manager.html#a9635b27acdb077364657ed387a33fd6d',1,'VisualizerManager::operator=()'],['../class_visualizer_tool.html#a0d5e9de9a67b32786122c5fb5fcd459f',1,'VisualizerTool::operator=()']]],
-  ['orange',['Orange',['../struct_color.html#a5c10787a7098a432167f4288a5851566',1,'Color']]],
-  ['orangered',['OrangeRed',['../struct_color.html#a0021db0d1454ed1873d49c637b2c1c3e',1,'Color']]],
-  ['orchid',['Orchid',['../struct_color.html#a87bb3e5c75d21e798ebc85a1b5c2dd79',1,'Color']]]
+  ['terminateallmanagers',['TerminateAllManagers',['../class_ramen.html#a6ec733e89a5bc9adf42212d8c198d6ad',1,'Ramen']]],
+  ['terminatechildmanagers',['TerminateChildManagers',['../class_asset_manager.html#a0a8df82cc79ef3b714e00c05af1e7186',1,'AssetManager']]],
+  ['testkey',['TestKey',['../class_test_key.html',1,'']]],
+  ['texture',['Texture',['../class_asset_tool.html#a87a42dce7f24813d8ef1d50fac23642b',1,'AssetTool']]],
+  ['texturemanager',['TextureManager',['../class_texture_manager.html',1,'']]],
+  ['texturemanagerattorney',['TextureManagerAttorney',['../class_texture_manager_attorney.html',1,'']]],
+  ['timemanager',['TimeManager',['../class_time_manager.html',1,'']]],
+  ['timemanagerattorney',['TimeManagerAttorney',['../class_time_manager_attorney.html',1,'']]],
+  ['tools',['Tools',['../group___t_o_o_l_s.html',1,'']]],
+  ['triggeralarm',['TriggerAlarm',['../class_alarmable.html#a043d268abd8f4ec1a6825c9f6b2ade77',1,'Alarmable']]]
 ];

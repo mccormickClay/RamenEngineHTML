@@ -36,33 +36,26 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", null ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Enumerations", "globals_enum.html", null ]
-      ] ]
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_alarm_deregistration_command_8cpp.html",
-"class_alarm_registration_command.html",
-"class_drawable.html#a7fcee39362c678403998dd6454ed0720",
-"class_scene.html#ad7b544efbfd028b8b9eab0d27ab99cbb",
-"class_sprite_demo3_d_object.html#ae66814b3b5e1847fbbac94e15c306c42",
-"functions_vars_i.html"
+"_alarm_deregistration_command_8h_source.html",
+"class_collidable.html#a92ce9e2b08086bb2f466168ffc69c9ed",
+"class_model_manager.html#a30d0523536edf4e71d8a833bcbed7e03",
+"class_single_key_manager.html#a553ca354f2ebc14dceaa351a6ca3769d",
+"class_visualizer_command___base.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

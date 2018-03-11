@@ -1,6 +1,25 @@
 var searchData=
 [
-  ['keyboardeventmanager',['KeyboardEventManager',['../class_keyboard_event_manager.html#ae6e852149b324566d56fd13a473fafef',1,'KeyboardEventManager::KeyboardEventManager()=default'],['../class_keyboard_event_manager.html#aabdf101850c373816162e6a57a4928e8',1,'KeyboardEventManager::KeyboardEventManager(const KeyboardEventManager &amp;)=delete']]],
-  ['keypressed',['keyPressed',['../class_inputable.html#a4ab3f868d29a2c50a9aca5c7ae53601d',1,'Inputable::keyPressed()'],['../class_sprite_demo_object.html#a281bc8da93aef3b6e57c2e8bab702d78',1,'SpriteDemoObject::keyPressed()']]],
-  ['keyreleased',['keyReleased',['../class_inputable.html#a666f688a54c97b1eb8f84cb6eee0fcd3',1,'Inputable']]]
+  ['printframetime',['PrintFrameTime',['../class_time_manager.html#add31c307771f533faa3fb5e30878ee37',1,'TimeManager']]],
+  ['privdeleteallassets',['privDeleteAllAssets',['../class_asset_manager.html#a8d490d41e315b83bc11634f5bffc31a3',1,'AssetManager']]],
+  ['privdeleteassets',['privDeleteAssets',['../class_image_manager.html#a3e74453d556e5529e62ff876b107c0ec',1,'ImageManager::privDeleteAssets()'],['../class_model_manager.html#ad05cfe568076edbd52e4b44ea811fea5',1,'ModelManager::privDeleteAssets()'],['../class_shader_manager.html#a8e6b9bffce9ddf2f750ecdb1e2832990',1,'ShaderManager::privDeleteAssets()'],['../class_texture_manager.html#a88eeca9676eb9e549fccd08b1449c0dd',1,'TextureManager::privDeleteAssets()']]],
+  ['privget',['privGet',['../class_image_manager.html#a94019635334cc58601b15177b594cbed',1,'ImageManager::privGet()'],['../class_model_manager.html#a3d01948948c9e4d070fbcdde6c412cf3',1,'ModelManager::privGet()'],['../class_shader_manager.html#af05ae877498fbceb647a0bae7e21ecd2',1,'ShaderManager::privGet()'],['../class_texture_manager.html#a1dd98850588e4293cfe686c78881013a',1,'TextureManager::privGet()']]],
+  ['privgetimage',['privGetImage',['../class_asset_manager.html#a6983bfa9a35b02beca9482add032bbc0',1,'AssetManager']]],
+  ['privgetmodel',['privGetModel',['../class_asset_manager.html#a3cb02ee64fe7d070ecfaa7d860e781f1',1,'AssetManager']]],
+  ['privgetshader',['privGetShader',['../class_asset_manager.html#a31b18ddd1f402256ae5ded3e4284e975',1,'AssetManager']]],
+  ['privgettexture',['privGetTexture',['../class_asset_manager.html#a0e6d3e0558a714934049b0a46446379b',1,'AssetManager']]],
+  ['privgetwinheight',['privGetWinHeight',['../class_ramen.html#accc3936dc927dba1b7aad89de6fe7b73',1,'Ramen']]],
+  ['privgetwinwidth',['privGetWinWidth',['../class_ramen.html#a69ca79241f958c35dae93e032e489c67',1,'Ramen']]],
+  ['privload',['privLoad',['../class_image_manager.html#aa2c16cfe59f5405c3839e39e3201df58',1,'ImageManager::privLoad(const std::string &amp;key, Texture *pTexture)'],['../class_image_manager.html#a644f1902ebde4593af16bc4358b46586',1,'ImageManager::privLoad(const std::string &amp;key, Texture *pTexture, float xRect, float yRect, float widthRect, float heightRect)'],['../class_model_manager.html#aac23db3725f14ba875ff93b855cbf5c6',1,'ModelManager::privLoad(const std::string &amp;key, const std::string &amp;path)'],['../class_model_manager.html#a7da3b59e03f976adb703c174ec167075',1,'ModelManager::privLoad(const std::string &amp;key, Model::PreMadedeModels premadeObject)'],['../class_shader_manager.html#a2460e2fe531eb4027abce431b2e07404',1,'ShaderManager::privLoad()'],['../class_texture_manager.html#a26470d9695e1414d980854a88d7840fa',1,'TextureManager::privLoad()']]],
+  ['privloadimage',['privLoadImage',['../class_asset_manager.html#a475ef51d572241eb75b9b59f805acd41',1,'AssetManager::privLoadImage(const std::string &amp;key, Texture *pTexture)'],['../class_asset_manager.html#a47d092708563d0c6b46f3702590625b7',1,'AssetManager::privLoadImage(const std::string &amp;key, Texture *pTexture, float xRect, float yRect, float widthRect, float heightRect)']]],
+  ['privloadmodel',['privLoadModel',['../class_asset_manager.html#a366661463774ece954c743d5f01a6e4f',1,'AssetManager::privLoadModel(const std::string &amp;key, const std::string &amp;path)'],['../class_asset_manager.html#a33289180a297ac4bfeaf8727149d1b4d',1,'AssetManager::privLoadModel(const std::string &amp;key, Model::PreMadedeModels premadeObject)']]],
+  ['privloadshader',['privLoadShader',['../class_asset_manager.html#af1f04ac17e55d9e118939a15a1e75f09',1,'AssetManager']]],
+  ['privloadtexture',['privLoadTexture',['../class_asset_manager.html#a403bced3ecd569f9541405dce78c92eb',1,'AssetManager']]],
+  ['privrun',['privRun',['../class_ramen.html#ab83710dff905cd069ab5d4729cfb5077',1,'Ramen']]],
+  ['privsetclear',['privSetClear',['../class_ramen.html#acca8db7ef3fd49d1e01d8e1b8d90b1ae',1,'Ramen']]],
+  ['privsetimage',['privSetImage',['../class_image_manager.html#a60f149f6587a67ca7a1ae15e6243861e',1,'ImageManager']]],
+  ['privsetwindow',['privSetWindow',['../class_ramen.html#a36939935e43d1dc78225b0a674c7f2dc',1,'Ramen']]],
+  ['privsetwindowpanename',['privSetWindowPaneName',['../class_ramen.html#aeffd70940497ecd855030ae0d9c07dc3',1,'Ramen']]],
+  ['processallkeyevents',['ProcessAllKeyEvents',['../class_keyboard_event_manager.html#a0b6a0c1fe372ac3abf21f594c9ca8a20',1,'KeyboardEventManager']]],
+  ['processkeyevent',['ProcessKeyEvent',['../class_single_key_manager.html#a758289657cd7275c3ba06af4b306b919',1,'SingleKeyManager']]]
 ];

@@ -121,19 +121,18 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a1a2635c1542de6c0f9bcf85aaf1b5c99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a1a2635c1542de6c0f9bcf85aaf1b5c99">StorageMap</a> = std::map&lt; std::string, Model * &gt;</td></tr>
+<tr class="memitem:a1a2635c1542de6c0f9bcf85aaf1b5c99"><td class="memItemLeft" align="right" valign="top"><a id="a1a2635c1542de6c0f9bcf85aaf1b5c99"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>StorageMap</b> = std::map&lt; std::string, Model * &gt;</td></tr>
 <tr class="separator:a1a2635c1542de6c0f9bcf85aaf1b5c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ab9bee567bd727cedef4750f8ba638a68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#ab9bee567bd727cedef4750f8ba638a68">ModelManager</a> ()=default</td></tr>
-<tr class="separator:ab9bee567bd727cedef4750f8ba638a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af633614dbc200837ff2cd9b4ccbd325f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#af633614dbc200837ff2cd9b4ccbd325f">ModelManager</a> (const <a class="el" href="class_model_manager.html">ModelManager</a> &amp;)=delete</td></tr>
+<tr class="memitem:af633614dbc200837ff2cd9b4ccbd325f"><td class="memItemLeft" align="right" valign="top"><a id="af633614dbc200837ff2cd9b4ccbd325f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ModelManager</b> (const <a class="el" href="class_model_manager.html">ModelManager</a> &amp;)=delete</td></tr>
 <tr class="separator:af633614dbc200837ff2cd9b4ccbd325f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab52ee75a762316009594e828a7a3e971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_model_manager.html">ModelManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#ab52ee75a762316009594e828a7a3e971">operator=</a> (const <a class="el" href="class_model_manager.html">ModelManager</a> &amp;)=delete</td></tr>
+<tr class="memitem:ab52ee75a762316009594e828a7a3e971"><td class="memItemLeft" align="right" valign="top"><a id="ab52ee75a762316009594e828a7a3e971"></a>
+<a class="el" href="class_model_manager.html">ModelManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_model_manager.html">ModelManager</a> &amp;)=delete</td></tr>
 <tr class="separator:ab52ee75a762316009594e828a7a3e971"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03b7cf9bd87e1b5cd296aafc08361547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a03b7cf9bd87e1b5cd296aafc08361547">~ModelManager</a> ()=default</td></tr>
-<tr class="separator:a03b7cf9bd87e1b5cd296aafc08361547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d01948948c9e4d070fbcdde6c412cf3"><td class="memItemLeft" align="right" valign="top">Model *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a3d01948948c9e4d070fbcdde6c412cf3">privGet</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:a3d01948948c9e4d070fbcdde6c412cf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">private call for <a class="el" href="class_model_manager.html#acf9bdf662275f86f846371a0aa751df4" title="Returns a Model that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>. Returns a Model that has been loaded. If the key is incorrect then the Engine will crash.  <a href="#a3d01948948c9e4d070fbcdde6c412cf3">More...</a><br /></td></tr>
 <tr class="separator:a3d01948948c9e4d070fbcdde6c412cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,140 +145,47 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ad05cfe568076edbd52e4b44ea811fea5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#ad05cfe568076edbd52e4b44ea811fea5">privDeleteAssets</a> ()</td></tr>
 <tr class="memdesc:ad05cfe568076edbd52e4b44ea811fea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#ad05cfe568076edbd52e4b44ea811fea5">More...</a><br /></td></tr>
 <tr class="separator:ad05cfe568076edbd52e4b44ea811fea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f909cb69c2db139a4f2405ab39e9850"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a1f909cb69c2db139a4f2405ab39e9850">privSetModel</a> (const std::string &amp;key, Model *object)</td></tr>
+<tr class="memitem:a1f909cb69c2db139a4f2405ab39e9850"><td class="memItemLeft" align="right" valign="top"><a id="a1f909cb69c2db139a4f2405ab39e9850"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>privSetModel</b> (const std::string &amp;key, Model *object)</td></tr>
 <tr class="separator:a1f909cb69c2db139a4f2405ab39e9850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:afb1fbe7bcd21494e661676b997008173"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_model_manager.html">ModelManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#afb1fbe7bcd21494e661676b997008173">Instance</a> ()</td></tr>
+<tr class="memitem:afb1fbe7bcd21494e661676b997008173"><td class="memItemLeft" align="right" valign="top"><a id="afb1fbe7bcd21494e661676b997008173"></a>
+static <a class="el" href="class_model_manager.html">ModelManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b> ()</td></tr>
 <tr class="separator:afb1fbe7bcd21494e661676b997008173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af64759a4688d7645df893ab663165be5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#af64759a4688d7645df893ab663165be5">DeleteAssets</a> ()</td></tr>
 <tr class="memdesc:af64759a4688d7645df893ab663165be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#af64759a4688d7645df893ab663165be5">More...</a><br /></td></tr>
 <tr class="separator:af64759a4688d7645df893ab663165be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d9391a5ea51959d4d422868429e26f7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a0d9391a5ea51959d4d422868429e26f7">Terminate</a> ()</td></tr>
+<tr class="memitem:a0d9391a5ea51959d4d422868429e26f7"><td class="memItemLeft" align="right" valign="top"><a id="a0d9391a5ea51959d4d422868429e26f7"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Terminate</b> ()</td></tr>
 <tr class="separator:a0d9391a5ea51959d4d422868429e26f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad57c6399948b9185a87de9799a6e50c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_model_manager.html#a1a2635c1542de6c0f9bcf85aaf1b5c99">StorageMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#ad57c6399948b9185a87de9799a6e50c8">ModelMap</a></td></tr>
+<tr class="memitem:ad57c6399948b9185a87de9799a6e50c8"><td class="memItemLeft" align="right" valign="top"><a id="ad57c6399948b9185a87de9799a6e50c8"></a>
+StorageMap&#160;</td><td class="memItemRight" valign="bottom"><b>ModelMap</b></td></tr>
 <tr class="separator:ad57c6399948b9185a87de9799a6e50c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ba4f23b3ec1f041415bace138f0b489"><td class="memItemLeft" align="right" valign="top">StorageMap::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a7ba4f23b3ec1f041415bace138f0b489">it</a></td></tr>
+<tr class="memitem:a7ba4f23b3ec1f041415bace138f0b489"><td class="memItemLeft" align="right" valign="top"><a id="a7ba4f23b3ec1f041415bace138f0b489"></a>
+StorageMap::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>it</b></td></tr>
 <tr class="separator:a7ba4f23b3ec1f041415bace138f0b489"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a1a9a098e34d4afeb30e02cb9ff5c0dcb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_model_manager.html">ModelManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a1a9a098e34d4afeb30e02cb9ff5c0dcb">ptrInstance</a> = nullptr</td></tr>
+<tr class="memitem:a1a9a098e34d4afeb30e02cb9ff5c0dcb"><td class="memItemLeft" align="right" valign="top"><a id="a1a9a098e34d4afeb30e02cb9ff5c0dcb"></a>
+static <a class="el" href="class_model_manager.html">ModelManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ptrInstance</b> = nullptr</td></tr>
 <tr class="separator:a1a9a098e34d4afeb30e02cb9ff5c0dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a30d0523536edf4e71d8a833bcbed7e03"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_manager.html#a30d0523536edf4e71d8a833bcbed7e03">ModelManagerAttorney</a></td></tr>
+<tr class="memitem:a30d0523536edf4e71d8a833bcbed7e03"><td class="memItemLeft" align="right" valign="top"><a id="a30d0523536edf4e71d8a833bcbed7e03"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>ModelManagerAttorney</b></td></tr>
 <tr class="separator:a30d0523536edf4e71d8a833bcbed7e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manager for Models. Check <a class="el" href="class_asset_manager.html" title="Manager for User and Default assets. This object communicates with the ModelManager, ShaderManager and TextureManager to allow easier implimentations to Load and Recieve resources. ">AssetManager</a> for more information about Loading and Recieving Models. Contains all Models in a map. The user can name their resources using the "key" parameter.</p>
 <p>Clay, 2/28/2018. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a1a2635c1542de6c0f9bcf85aaf1b5c99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a2635c1542de6c0f9bcf85aaf1b5c99">&#9670;&nbsp;</a></span>StorageMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_model_manager.html#a1a2635c1542de6c0f9bcf85aaf1b5c99">ModelManager::StorageMap</a> =  std::map&lt;std::string, Model*&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab9bee567bd727cedef4750f8ba638a68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9bee567bd727cedef4750f8ba638a68">&#9670;&nbsp;</a></span>ModelManager() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ModelManager::ModelManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af633614dbc200837ff2cd9b4ccbd325f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af633614dbc200837ff2cd9b4ccbd325f">&#9670;&nbsp;</a></span>ModelManager() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ModelManager::ModelManager </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_model_manager.html">ModelManager</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03b7cf9bd87e1b5cd296aafc08361547"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03b7cf9bd87e1b5cd296aafc08361547">&#9670;&nbsp;</a></span>~ModelManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ModelManager::~ModelManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af64759a4688d7645df893ab663165be5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af64759a4688d7645df893ab663165be5">&#9670;&nbsp;</a></span>DeleteAssets()</h2>
 
@@ -341,31 +247,6 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Model will be retrieved. </dd></dl>
-
-</div>
-</div>
-<a id="afb1fbe7bcd21494e661676b997008173"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb1fbe7bcd21494e661676b997008173">&#9670;&nbsp;</a></span>Instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="class_model_manager.html">ModelManager</a>&amp; ModelManager::Instance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -458,32 +339,6 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ab52ee75a762316009594e828a7a3e971"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab52ee75a762316009594e828a7a3e971">&#9670;&nbsp;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_model_manager.html">ModelManager</a>&amp; ModelManager::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_model_manager.html">ModelManager</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -643,42 +498,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f909cb69c2db139a4f2405ab39e9850"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f909cb69c2db139a4f2405ab39e9850">&#9670;&nbsp;</a></span>privSetModel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ModelManager::privSetModel </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Model *&#160;</td>
-          <td class="paramname"><em>object</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad9a90e1bc1723c62a2bc5eace76417b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9a90e1bc1723c62a2bc5eace76417b9">&#9670;&nbsp;</a></span>SetModel()</h2>
 
@@ -725,124 +544,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d9391a5ea51959d4d422868429e26f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d9391a5ea51959d4d422868429e26f7">&#9670;&nbsp;</a></span>Terminate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ModelManager::Terminate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a30d0523536edf4e71d8a833bcbed7e03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30d0523536edf4e71d8a833bcbed7e03">&#9670;&nbsp;</a></span>ModelManagerAttorney</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_model_manager_attorney.html">ModelManagerAttorney</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7ba4f23b3ec1f041415bace138f0b489"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ba4f23b3ec1f041415bace138f0b489">&#9670;&nbsp;</a></span>it</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">StorageMap::iterator ModelManager::it</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad57c6399948b9185a87de9799a6e50c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad57c6399948b9185a87de9799a6e50c8">&#9670;&nbsp;</a></span>ModelMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_model_manager.html#a1a2635c1542de6c0f9bcf85aaf1b5c99">StorageMap</a> ModelManager::ModelMap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1a9a098e34d4afeb30e02cb9ff5c0dcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a9a098e34d4afeb30e02cb9ff5c0dcb">&#9670;&nbsp;</a></span>ptrInstance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_model_manager.html">ModelManager</a> * ModelManager::ptrInstance = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_model_manager_8h_source.html">ModelManager.h</a></li>
-<li><a class="el" href="_model_manager_8cpp.html">ModelManager.cpp</a></li>
+<li>ModelManager.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

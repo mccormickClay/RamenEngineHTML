@@ -118,19 +118,18 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a07571650bc3132529c605dcb5f384173"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a07571650bc3132529c605dcb5f384173">StorageMap</a> = std::map&lt; std::string, Texture * &gt;</td></tr>
+<tr class="memitem:a07571650bc3132529c605dcb5f384173"><td class="memItemLeft" align="right" valign="top"><a id="a07571650bc3132529c605dcb5f384173"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>StorageMap</b> = std::map&lt; std::string, Texture * &gt;</td></tr>
 <tr class="separator:a07571650bc3132529c605dcb5f384173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aca4613cdc54d8c39aa1de41dc26c7fec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#aca4613cdc54d8c39aa1de41dc26c7fec">TextureManager</a> ()=default</td></tr>
-<tr class="separator:aca4613cdc54d8c39aa1de41dc26c7fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0a812052ff90565e3a0e3bcfc766240"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#ae0a812052ff90565e3a0e3bcfc766240">TextureManager</a> (const <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;)=delete</td></tr>
+<tr class="memitem:ae0a812052ff90565e3a0e3bcfc766240"><td class="memItemLeft" align="right" valign="top"><a id="ae0a812052ff90565e3a0e3bcfc766240"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>TextureManager</b> (const <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;)=delete</td></tr>
 <tr class="separator:ae0a812052ff90565e3a0e3bcfc766240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd2a4b9f524f1e76faffb7e8dcfa0802"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_texture_manager.html">TextureManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#afd2a4b9f524f1e76faffb7e8dcfa0802">operator=</a> (const <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;)=delete</td></tr>
+<tr class="memitem:afd2a4b9f524f1e76faffb7e8dcfa0802"><td class="memItemLeft" align="right" valign="top"><a id="afd2a4b9f524f1e76faffb7e8dcfa0802"></a>
+<a class="el" href="class_texture_manager.html">TextureManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;)=delete</td></tr>
 <tr class="separator:afd2a4b9f524f1e76faffb7e8dcfa0802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba80d6c7f5275b5de2b6460d21ae3671"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#aba80d6c7f5275b5de2b6460d21ae3671">~TextureManager</a> ()=default</td></tr>
-<tr class="separator:aba80d6c7f5275b5de2b6460d21ae3671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dd98850588e4293cfe686c78881013a"><td class="memItemLeft" align="right" valign="top">Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a1dd98850588e4293cfe686c78881013a">privGet</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:a1dd98850588e4293cfe686c78881013a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call from <a class="el" href="class_texture_manager.html#ab0697c4400e7910f376edac174e058c2" title="Returns a Texture that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>.  <a href="#a1dd98850588e4293cfe686c78881013a">More...</a><br /></td></tr>
 <tr class="separator:a1dd98850588e4293cfe686c78881013a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,140 +139,47 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a88eeca9676eb9e549fccd08b1449c0dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a88eeca9676eb9e549fccd08b1449c0dd">privDeleteAssets</a> ()</td></tr>
 <tr class="memdesc:a88eeca9676eb9e549fccd08b1449c0dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call to delete assets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#a88eeca9676eb9e549fccd08b1449c0dd">More...</a><br /></td></tr>
 <tr class="separator:a88eeca9676eb9e549fccd08b1449c0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a545acf958b32eeb1085d6a8e974ce1f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a545acf958b32eeb1085d6a8e974ce1f3">privSetTexture</a> (const std::string &amp;key, Texture *object)</td></tr>
+<tr class="memitem:a545acf958b32eeb1085d6a8e974ce1f3"><td class="memItemLeft" align="right" valign="top"><a id="a545acf958b32eeb1085d6a8e974ce1f3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>privSetTexture</b> (const std::string &amp;key, Texture *object)</td></tr>
 <tr class="separator:a545acf958b32eeb1085d6a8e974ce1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a81a2f2ac1876be84e0a0a472199679d5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a81a2f2ac1876be84e0a0a472199679d5">Instance</a> ()</td></tr>
+<tr class="memitem:a81a2f2ac1876be84e0a0a472199679d5"><td class="memItemLeft" align="right" valign="top"><a id="a81a2f2ac1876be84e0a0a472199679d5"></a>
+static <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b> ()</td></tr>
 <tr class="separator:a81a2f2ac1876be84e0a0a472199679d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a007e2284e9e663b0faaa57c78552f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a7a007e2284e9e663b0faaa57c78552f0">DeleteAssets</a> ()</td></tr>
 <tr class="memdesc:a7a007e2284e9e663b0faaa57c78552f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static call for attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#a7a007e2284e9e663b0faaa57c78552f0">More...</a><br /></td></tr>
 <tr class="separator:a7a007e2284e9e663b0faaa57c78552f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a030ddb9fc170972c2bbf6e728d181037"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a030ddb9fc170972c2bbf6e728d181037">Terminate</a> ()</td></tr>
+<tr class="memitem:a030ddb9fc170972c2bbf6e728d181037"><td class="memItemLeft" align="right" valign="top"><a id="a030ddb9fc170972c2bbf6e728d181037"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Terminate</b> ()</td></tr>
 <tr class="separator:a030ddb9fc170972c2bbf6e728d181037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1be6b4668ffeb0d319fa93c1c094edbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_texture_manager.html#a07571650bc3132529c605dcb5f384173">StorageMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a1be6b4668ffeb0d319fa93c1c094edbc">TextureMap</a></td></tr>
+<tr class="memitem:a1be6b4668ffeb0d319fa93c1c094edbc"><td class="memItemLeft" align="right" valign="top"><a id="a1be6b4668ffeb0d319fa93c1c094edbc"></a>
+StorageMap&#160;</td><td class="memItemRight" valign="bottom"><b>TextureMap</b></td></tr>
 <tr class="separator:a1be6b4668ffeb0d319fa93c1c094edbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d6e8880c6c4ae6d9e72dc5c86abf4ab"><td class="memItemLeft" align="right" valign="top">StorageMap::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a2d6e8880c6c4ae6d9e72dc5c86abf4ab">it</a></td></tr>
+<tr class="memitem:a2d6e8880c6c4ae6d9e72dc5c86abf4ab"><td class="memItemLeft" align="right" valign="top"><a id="a2d6e8880c6c4ae6d9e72dc5c86abf4ab"></a>
+StorageMap::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>it</b></td></tr>
 <tr class="separator:a2d6e8880c6c4ae6d9e72dc5c86abf4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a338eb4efe61a429bc2f512474e1632a1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_texture_manager.html">TextureManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#a338eb4efe61a429bc2f512474e1632a1">ptrInstance</a> = nullptr</td></tr>
+<tr class="memitem:a338eb4efe61a429bc2f512474e1632a1"><td class="memItemLeft" align="right" valign="top"><a id="a338eb4efe61a429bc2f512474e1632a1"></a>
+static <a class="el" href="class_texture_manager.html">TextureManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ptrInstance</b> = nullptr</td></tr>
 <tr class="separator:a338eb4efe61a429bc2f512474e1632a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:aa8b9bb729fef86d58e00f6670e40efd2"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_texture_manager.html#aa8b9bb729fef86d58e00f6670e40efd2">TextureManagerAttorney</a></td></tr>
+<tr class="memitem:aa8b9bb729fef86d58e00f6670e40efd2"><td class="memItemLeft" align="right" valign="top"><a id="aa8b9bb729fef86d58e00f6670e40efd2"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>TextureManagerAttorney</b></td></tr>
 <tr class="separator:aa8b9bb729fef86d58e00f6670e40efd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manager for Textures. Check <a class="el" href="class_asset_manager.html" title="Manager for User and Default assets. This object communicates with the ModelManager, ShaderManager and TextureManager to allow easier implimentations to Load and Recieve resources. ">AssetManager</a> for more information about Loading and Recieving Textures. Contains all Textures in a map. The user can name their resources using the "key" parameter. </p>
 <p>Clay, 2/28/2018. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a07571650bc3132529c605dcb5f384173"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07571650bc3132529c605dcb5f384173">&#9670;&nbsp;</a></span>StorageMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_texture_manager.html#a07571650bc3132529c605dcb5f384173">TextureManager::StorageMap</a> =  std::map&lt;std::string, Texture*&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aca4613cdc54d8c39aa1de41dc26c7fec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca4613cdc54d8c39aa1de41dc26c7fec">&#9670;&nbsp;</a></span>TextureManager() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TextureManager::TextureManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae0a812052ff90565e3a0e3bcfc766240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0a812052ff90565e3a0e3bcfc766240">&#9670;&nbsp;</a></span>TextureManager() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TextureManager::TextureManager </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aba80d6c7f5275b5de2b6460d21ae3671"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba80d6c7f5275b5de2b6460d21ae3671">&#9670;&nbsp;</a></span>~TextureManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TextureManager::~TextureManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7a007e2284e9e663b0faaa57c78552f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a007e2284e9e663b0faaa57c78552f0">&#9670;&nbsp;</a></span>DeleteAssets()</h2>
 
@@ -338,31 +244,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a81a2f2ac1876be84e0a0a472199679d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81a2f2ac1876be84e0a0a472199679d5">&#9670;&nbsp;</a></span>Instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="class_texture_manager.html">TextureManager</a>&amp; TextureManager::Instance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4e05d710048166e03118c1c1398bbebc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e05d710048166e03118c1c1398bbebc">&#9670;&nbsp;</a></span>Load()</h2>
 
@@ -406,32 +287,6 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="afd2a4b9f524f1e76faffb7e8dcfa0802"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd2a4b9f524f1e76faffb7e8dcfa0802">&#9670;&nbsp;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_texture_manager.html">TextureManager</a>&amp; TextureManager::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_texture_manager.html">TextureManager</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -544,42 +399,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a545acf958b32eeb1085d6a8e974ce1f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a545acf958b32eeb1085d6a8e974ce1f3">&#9670;&nbsp;</a></span>privSetTexture()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TextureManager::privSetTexture </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Texture *&#160;</td>
-          <td class="paramname"><em>object</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2afeedbb51ea5d2a1cd132b7e809a708"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2afeedbb51ea5d2a1cd132b7e809a708">&#9670;&nbsp;</a></span>SetTexture()</h2>
 
@@ -626,124 +445,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a030ddb9fc170972c2bbf6e728d181037"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a030ddb9fc170972c2bbf6e728d181037">&#9670;&nbsp;</a></span>Terminate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TextureManager::Terminate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="aa8b9bb729fef86d58e00f6670e40efd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8b9bb729fef86d58e00f6670e40efd2">&#9670;&nbsp;</a></span>TextureManagerAttorney</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_texture_manager_attorney.html">TextureManagerAttorney</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2d6e8880c6c4ae6d9e72dc5c86abf4ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d6e8880c6c4ae6d9e72dc5c86abf4ab">&#9670;&nbsp;</a></span>it</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">StorageMap::iterator TextureManager::it</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a338eb4efe61a429bc2f512474e1632a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a338eb4efe61a429bc2f512474e1632a1">&#9670;&nbsp;</a></span>ptrInstance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_texture_manager.html">TextureManager</a> * TextureManager::ptrInstance = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1be6b4668ffeb0d319fa93c1c094edbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1be6b4668ffeb0d319fa93c1c094edbc">&#9670;&nbsp;</a></span>TextureMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_texture_manager.html#a07571650bc3132529c605dcb5f384173">StorageMap</a> TextureManager::TextureMap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_texture_manager_8h_source.html">TextureManager.h</a></li>
-<li><a class="el" href="_texture_manager_8cpp.html">TextureManager.cpp</a></li>
+<li>TextureManager.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

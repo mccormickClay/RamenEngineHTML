@@ -98,8 +98,6 @@ $(document).ready(function(){initNavTree('class_image_manager.html','');});
 <div class="title">ImageManager Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="_image_manager_8h_source.html">ImageManager.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -118,19 +116,18 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:add883fe70a91c428a8dc61a4e44e234f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#add883fe70a91c428a8dc61a4e44e234f">StorageMap</a> = std::map&lt; std::string, Image * &gt;</td></tr>
+<tr class="memitem:add883fe70a91c428a8dc61a4e44e234f"><td class="memItemLeft" align="right" valign="top"><a id="add883fe70a91c428a8dc61a4e44e234f"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>StorageMap</b> = std::map&lt; std::string, Image * &gt;</td></tr>
 <tr class="separator:add883fe70a91c428a8dc61a4e44e234f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a0ca1b49a57ca47226226e06926524b2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a0ca1b49a57ca47226226e06926524b2e">ImageManager</a> ()=default</td></tr>
-<tr class="separator:a0ca1b49a57ca47226226e06926524b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1258c36ccc63ae8add08b171283ad759"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a1258c36ccc63ae8add08b171283ad759">ImageManager</a> (const <a class="el" href="class_image_manager.html">ImageManager</a> &amp;)=delete</td></tr>
+<tr class="memitem:a1258c36ccc63ae8add08b171283ad759"><td class="memItemLeft" align="right" valign="top"><a id="a1258c36ccc63ae8add08b171283ad759"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ImageManager</b> (const <a class="el" href="class_image_manager.html">ImageManager</a> &amp;)=delete</td></tr>
 <tr class="separator:a1258c36ccc63ae8add08b171283ad759"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2094a4523cc7da5bd758efb3e1ba837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_image_manager.html">ImageManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#af2094a4523cc7da5bd758efb3e1ba837">operator=</a> (const <a class="el" href="class_image_manager.html">ImageManager</a> &amp;)=delete</td></tr>
+<tr class="memitem:af2094a4523cc7da5bd758efb3e1ba837"><td class="memItemLeft" align="right" valign="top"><a id="af2094a4523cc7da5bd758efb3e1ba837"></a>
+<a class="el" href="class_image_manager.html">ImageManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_image_manager.html">ImageManager</a> &amp;)=delete</td></tr>
 <tr class="separator:af2094a4523cc7da5bd758efb3e1ba837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b2ea1a5539cb48c3815c6c6599188ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a6b2ea1a5539cb48c3815c6c6599188ce">~ImageManager</a> ()=default</td></tr>
-<tr class="separator:a6b2ea1a5539cb48c3815c6c6599188ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94019635334cc58601b15177b594cbed"><td class="memItemLeft" align="right" valign="top">Image *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a94019635334cc58601b15177b594cbed">privGet</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:a94019635334cc58601b15177b594cbed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private call for <a class="el" href="class_image_manager.html#a1b1d3cafd94ef6944ab1f6234e1c360e" title="Returns an Image that has been loaded. If the key is incorrect then the Engine will crash...">Get()</a>.  <a href="#a94019635334cc58601b15177b594cbed">More...</a><br /></td></tr>
 <tr class="separator:a94019635334cc58601b15177b594cbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,131 +146,37 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a1aa4ab3d2b986920b20fb7819f9bcd23"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_image_manager.html">ImageManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a1aa4ab3d2b986920b20fb7819f9bcd23">Instance</a> ()</td></tr>
+<tr class="memitem:a1aa4ab3d2b986920b20fb7819f9bcd23"><td class="memItemLeft" align="right" valign="top"><a id="a1aa4ab3d2b986920b20fb7819f9bcd23"></a>
+static <a class="el" href="class_image_manager.html">ImageManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b> ()</td></tr>
 <tr class="separator:a1aa4ab3d2b986920b20fb7819f9bcd23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab92eabd4dddca1205e36df830c5caa07"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#ab92eabd4dddca1205e36df830c5caa07">DeleteAssets</a> ()</td></tr>
 <tr class="memdesc:ab92eabd4dddca1205e36df830c5caa07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static call for Attorneys to use privDeleteAssets. This is only used inside of <a class="el" href="class_ramen.html" title="The baseline control of the Engine. No control is needed from the user here. Any function used by Ram...">Ramen</a> while Ramen::UnLoadingContent() is active.  <a href="#ab92eabd4dddca1205e36df830c5caa07">More...</a><br /></td></tr>
 <tr class="separator:ab92eabd4dddca1205e36df830c5caa07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6420bfad0a5c18d16552e2cad2302069"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a6420bfad0a5c18d16552e2cad2302069">Terminate</a> ()</td></tr>
+<tr class="memitem:a6420bfad0a5c18d16552e2cad2302069"><td class="memItemLeft" align="right" valign="top"><a id="a6420bfad0a5c18d16552e2cad2302069"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Terminate</b> ()</td></tr>
 <tr class="separator:a6420bfad0a5c18d16552e2cad2302069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aeb4132bd1300c870935e1a6c2b480293"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_image_manager.html#add883fe70a91c428a8dc61a4e44e234f">StorageMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#aeb4132bd1300c870935e1a6c2b480293">ImageMap</a></td></tr>
+<tr class="memitem:aeb4132bd1300c870935e1a6c2b480293"><td class="memItemLeft" align="right" valign="top"><a id="aeb4132bd1300c870935e1a6c2b480293"></a>
+StorageMap&#160;</td><td class="memItemRight" valign="bottom"><b>ImageMap</b></td></tr>
 <tr class="separator:aeb4132bd1300c870935e1a6c2b480293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af679543bb9bb3800c5108b66c85c51ff"><td class="memItemLeft" align="right" valign="top">StorageMap::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#af679543bb9bb3800c5108b66c85c51ff">it</a></td></tr>
+<tr class="memitem:af679543bb9bb3800c5108b66c85c51ff"><td class="memItemLeft" align="right" valign="top"><a id="af679543bb9bb3800c5108b66c85c51ff"></a>
+StorageMap::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>it</b></td></tr>
 <tr class="separator:af679543bb9bb3800c5108b66c85c51ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:acde30474c2e1ac1d40d01e467d32ef21"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_image_manager.html">ImageManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#acde30474c2e1ac1d40d01e467d32ef21">ptrInstance</a> = nullptr</td></tr>
+<tr class="memitem:acde30474c2e1ac1d40d01e467d32ef21"><td class="memItemLeft" align="right" valign="top"><a id="acde30474c2e1ac1d40d01e467d32ef21"></a>
+static <a class="el" href="class_image_manager.html">ImageManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ptrInstance</b> = nullptr</td></tr>
 <tr class="separator:acde30474c2e1ac1d40d01e467d32ef21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a4daaf56e6be07960cba4d17438f6d7b3"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a4daaf56e6be07960cba4d17438f6d7b3">ImageManagerAttorney</a></td></tr>
+<tr class="memitem:a4daaf56e6be07960cba4d17438f6d7b3"><td class="memItemLeft" align="right" valign="top"><a id="a4daaf56e6be07960cba4d17438f6d7b3"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>ImageManagerAttorney</b></td></tr>
 <tr class="separator:a4daaf56e6be07960cba4d17438f6d7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="add883fe70a91c428a8dc61a4e44e234f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add883fe70a91c428a8dc61a4e44e234f">&#9670;&nbsp;</a></span>StorageMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_image_manager.html#add883fe70a91c428a8dc61a4e44e234f">ImageManager::StorageMap</a> =  std::map&lt;std::string, Image*&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0ca1b49a57ca47226226e06926524b2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ca1b49a57ca47226226e06926524b2e">&#9670;&nbsp;</a></span>ImageManager() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ImageManager::ImageManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1258c36ccc63ae8add08b171283ad759"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1258c36ccc63ae8add08b171283ad759">&#9670;&nbsp;</a></span>ImageManager() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ImageManager::ImageManager </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_image_manager.html">ImageManager</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6b2ea1a5539cb48c3815c6c6599188ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b2ea1a5539cb48c3815c6c6599188ce">&#9670;&nbsp;</a></span>~ImageManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ImageManager::~ImageManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab92eabd4dddca1205e36df830c5caa07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab92eabd4dddca1205e36df830c5caa07">&#9670;&nbsp;</a></span>DeleteAssets()</h2>
@@ -336,31 +239,6 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>If the Key does not exist, an error will occur. Else, a pointer to a Shader will be retrieved. </dd></dl>
-
-</div>
-</div>
-<a id="a1aa4ab3d2b986920b20fb7819f9bcd23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1aa4ab3d2b986920b20fb7819f9bcd23">&#9670;&nbsp;</a></span>Instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="class_image_manager.html">ImageManager</a>&amp; ImageManager::Instance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -481,32 +359,6 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="af2094a4523cc7da5bd758efb3e1ba837"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2094a4523cc7da5bd758efb3e1ba837">&#9670;&nbsp;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_image_manager.html">ImageManager</a>&amp; ImageManager::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_image_manager.html">ImageManager</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -786,124 +638,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a6420bfad0a5c18d16552e2cad2302069"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6420bfad0a5c18d16552e2cad2302069">&#9670;&nbsp;</a></span>Terminate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ImageManager::Terminate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a4daaf56e6be07960cba4d17438f6d7b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4daaf56e6be07960cba4d17438f6d7b3">&#9670;&nbsp;</a></span>ImageManagerAttorney</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_image_manager_attorney.html">ImageManagerAttorney</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aeb4132bd1300c870935e1a6c2b480293"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb4132bd1300c870935e1a6c2b480293">&#9670;&nbsp;</a></span>ImageMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_image_manager.html#add883fe70a91c428a8dc61a4e44e234f">StorageMap</a> ImageManager::ImageMap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af679543bb9bb3800c5108b66c85c51ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af679543bb9bb3800c5108b66c85c51ff">&#9670;&nbsp;</a></span>it</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">StorageMap::iterator ImageManager::it</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acde30474c2e1ac1d40d01e467d32ef21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acde30474c2e1ac1d40d01e467d32ef21">&#9670;&nbsp;</a></span>ptrInstance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_image_manager.html">ImageManager</a> * ImageManager::ptrInstance = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_image_manager_8h_source.html">ImageManager.h</a></li>
-<li><a class="el" href="_image_manager_8cpp.html">ImageManager.cpp</a></li>
+<li>ImageManager.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

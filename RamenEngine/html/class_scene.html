@@ -87,7 +87,6 @@ $(document).ready(function(){initNavTree('class_scene.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -102,29 +101,15 @@ $(document).ready(function(){initNavTree('class_scene.html','');});
  <a href="class_scene.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_scene_8h_source.html">Scene.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Scene:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_scene.png" usemap="#Scene_map" alt=""/>
-  <map id="Scene_map" name="Scene_map">
-<area href="class_alarms_demo.html" title="In this Demo, sphere is used to test how Alarmable workds and how to make a constant loop of alarms..." alt="AlarmsDemo" shape="rect" coords="0,112,83,136"/>
-<area href="class_scene_null.html" alt="SceneNull" shape="rect" coords="93,112,176,136"/>
-<area href="class_sprite_demo.html" title="In this Demo, sphere is used to test how Alarmable workds and how to make a constant loop of alarms..." alt="SpriteDemo" shape="rect" coords="186,112,269,136"/>
-</map>
- </div></div>
+
+<p>Inherits Align16.</p>
+
+<p>Inherited by <a class="el" href="class_alarms_demo.html">AlarmsDemo</a>, <a class="el" href="class_scene_null.html">SceneNull</a>, and <a class="el" href="class_sprite_demo.html">SpriteDemo</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scene_1_1_scene_change_registration.html">SceneChangeRegistration</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad10176d75a9cc0da56626f682d083507"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ad10176d75a9cc0da56626f682d083507">Scene</a> ()</td></tr>
-<tr class="separator:ad10176d75a9cc0da56626f682d083507"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
-<tr class="separator:a3b8cec2e32546713915f8c6303c951f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -157,261 +142,100 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a83e2c09d62bc782d9b6f1a6609bc4125"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a83e2c09d62bc782d9b6f1a6609bc4125">SceneEnd</a> ()</td></tr>
 <tr class="memdesc:a83e2c09d62bc782d9b6f1a6609bc4125"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a virtual function that is needed for the User <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a> to allow GameObjects to be properly deleted. Before a scene is deleted, this function is called allowing the user to delete their GameObjects and Factories correctly. <a href="#a83e2c09d62bc782d9b6f1a6609bc4125">More...</a><br /></td></tr>
 <tr class="separator:a83e2c09d62bc782d9b6f1a6609bc4125"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38283003afe7ab0ab20ee02318c03858"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a38283003afe7ab0ab20ee02318c03858">SubmitCommand</a> (<a class="el" href="class_scene_registration_command.html">SceneRegistrationCommand</a> *c)</td></tr>
+<tr class="memitem:a38283003afe7ab0ab20ee02318c03858"><td class="memItemLeft" align="right" valign="top"><a id="a38283003afe7ab0ab20ee02318c03858"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SubmitCommand</b> (<a class="el" href="class_scene_registration_command.html">SceneRegistrationCommand</a> *c)</td></tr>
 <tr class="separator:a38283003afe7ab0ab20ee02318c03858"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9335351a3d106a0180bc9d1f1cb1733"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ae9335351a3d106a0180bc9d1f1cb1733">Register</a> (<a class="el" href="class_updatable.html">Updatable</a> *token, <a class="el" href="class_updatable_manager.html#a7a8b601dda175f1a4b0433f339f0a5e6">UpdatableManager::StorageListRef</a> &amp;ref)</td></tr>
+<tr class="memitem:ae9335351a3d106a0180bc9d1f1cb1733"><td class="memItemLeft" align="right" valign="top"><a id="ae9335351a3d106a0180bc9d1f1cb1733"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Register</b> (<a class="el" href="class_updatable.html">Updatable</a> *token, UpdatableManager::StorageListRef &amp;ref)</td></tr>
 <tr class="separator:ae9335351a3d106a0180bc9d1f1cb1733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa359c5036c1f70070a9315e31be65e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#afa359c5036c1f70070a9315e31be65e1">Deregister</a> (<a class="el" href="class_updatable_manager.html#a7a8b601dda175f1a4b0433f339f0a5e6">UpdatableManager::StorageListRef</a> &amp;ref)</td></tr>
+<tr class="memitem:afa359c5036c1f70070a9315e31be65e1"><td class="memItemLeft" align="right" valign="top"><a id="afa359c5036c1f70070a9315e31be65e1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Deregister</b> (UpdatableManager::StorageListRef &amp;ref)</td></tr>
 <tr class="separator:afa359c5036c1f70070a9315e31be65e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c03187d8aa1f0f7df73f0315ac18a30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a5c03187d8aa1f0f7df73f0315ac18a30">Register</a> (<a class="el" href="class_drawable.html">Drawable</a> *token, <a class="el" href="class_drawable_manager.html#ab265b671fa7b83a0aa168cb9b27cb842">DrawableManager::StorageListRef</a> &amp;ref)</td></tr>
+<tr class="memitem:a5c03187d8aa1f0f7df73f0315ac18a30"><td class="memItemLeft" align="right" valign="top"><a id="a5c03187d8aa1f0f7df73f0315ac18a30"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Register</b> (<a class="el" href="class_drawable.html">Drawable</a> *token, DrawableManager::StorageListRef &amp;ref)</td></tr>
 <tr class="separator:a5c03187d8aa1f0f7df73f0315ac18a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa133e5be80149abeb2d7f01e0a123025"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aa133e5be80149abeb2d7f01e0a123025">Deregister</a> (<a class="el" href="class_drawable_manager.html#ab265b671fa7b83a0aa168cb9b27cb842">DrawableManager::StorageListRef</a> &amp;ref)</td></tr>
+<tr class="memitem:aa133e5be80149abeb2d7f01e0a123025"><td class="memItemLeft" align="right" valign="top"><a id="aa133e5be80149abeb2d7f01e0a123025"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Deregister</b> (DrawableManager::StorageListRef &amp;ref)</td></tr>
 <tr class="separator:aa133e5be80149abeb2d7f01e0a123025"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bf0aa379726b64e6c2fcbcdcbe3c28c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a9bf0aa379726b64e6c2fcbcdcbe3c28c">Register</a> (<a class="el" href="class_spritable.html">Spritable</a> *token, <a class="el" href="class_spritable_manager.html#ad0fc13872d1748eb2b1394543f361593">SpritableManager::StorageListRef</a> &amp;ref)</td></tr>
+<tr class="memitem:a9bf0aa379726b64e6c2fcbcdcbe3c28c"><td class="memItemLeft" align="right" valign="top"><a id="a9bf0aa379726b64e6c2fcbcdcbe3c28c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Register</b> (<a class="el" href="class_spritable.html">Spritable</a> *token, SpritableManager::StorageListRef &amp;ref)</td></tr>
 <tr class="separator:a9bf0aa379726b64e6c2fcbcdcbe3c28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fc54e6703eb9fcea0017d938c94e130"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a7fc54e6703eb9fcea0017d938c94e130">Deregister</a> (<a class="el" href="class_spritable_manager.html#ad0fc13872d1748eb2b1394543f361593">SpritableManager::StorageListRef</a> &amp;ref)</td></tr>
+<tr class="memitem:a7fc54e6703eb9fcea0017d938c94e130"><td class="memItemLeft" align="right" valign="top"><a id="a7fc54e6703eb9fcea0017d938c94e130"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Deregister</b> (SpritableManager::StorageListRef &amp;ref)</td></tr>
 <tr class="separator:a7fc54e6703eb9fcea0017d938c94e130"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d3789cb2fac41b5b0033283cb988cb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6d3789cb2fac41b5b0033283cb988cb3">Register</a> (float time, <a class="el" href="class_alarmable.html">Alarmable</a> *token, <a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a> id, <a class="el" href="class_alarmable_manager.html#acab3951ce10e81ee583ddd266776d6aa">AlarmableManager::StorageMapRef</a> &amp;ref)</td></tr>
+<tr class="memitem:a6d3789cb2fac41b5b0033283cb988cb3"><td class="memItemLeft" align="right" valign="top"><a id="a6d3789cb2fac41b5b0033283cb988cb3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Register</b> (float time, <a class="el" href="class_alarmable.html">Alarmable</a> *token, <a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a> id, AlarmableManager::StorageMapRef &amp;ref)</td></tr>
 <tr class="separator:a6d3789cb2fac41b5b0033283cb988cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62953531535c344beae64594131994f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a62953531535c344beae64594131994f6">Deregister</a> (<a class="el" href="class_alarmable_manager.html#acab3951ce10e81ee583ddd266776d6aa">AlarmableManager::StorageMapRef</a> &amp;ref)</td></tr>
+<tr class="memitem:a62953531535c344beae64594131994f6"><td class="memItemLeft" align="right" valign="top"><a id="a62953531535c344beae64594131994f6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Deregister</b> (AlarmableManager::StorageMapRef &amp;ref)</td></tr>
 <tr class="separator:a62953531535c344beae64594131994f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cad298d9d9ab7a2748ede087546b4b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a2cad298d9d9ab7a2748ede087546b4b1">Register</a> (<a class="el" href="class_inputable.html">Inputable</a> *token, AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> &amp;pDeleteRef)</td></tr>
+<tr class="memitem:a2cad298d9d9ab7a2748ede087546b4b1"><td class="memItemLeft" align="right" valign="top"><a id="a2cad298d9d9ab7a2748ede087546b4b1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Register</b> (<a class="el" href="class_inputable.html">Inputable</a> *token, AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, SingleKeyManager::KeyListRef &amp;pDeleteRef)</td></tr>
 <tr class="separator:a2cad298d9d9ab7a2748ede087546b4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2efc59266df646bb8ce2bbca8f429c7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a2efc59266df646bb8ce2bbca8f429c7f">Deregister</a> (AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, <a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> &amp;pDeleteRef)</td></tr>
+<tr class="memitem:a2efc59266df646bb8ce2bbca8f429c7f"><td class="memItemLeft" align="right" valign="top"><a id="a2efc59266df646bb8ce2bbca8f429c7f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Deregister</b> (AZUL_KEY k, <a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a> ev, SingleKeyManager::KeyListRef &amp;pDeleteRef)</td></tr>
 <tr class="separator:a2efc59266df646bb8ce2bbca8f429c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9b09ae927d8175ec7afb00542e74864"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ae9b09ae927d8175ec7afb00542e74864">GetCurrentCamera</a> ()</td></tr>
+<tr class="memitem:ae9b09ae927d8175ec7afb00542e74864"><td class="memItemLeft" align="right" valign="top"><a id="ae9b09ae927d8175ec7afb00542e74864"></a>
+Camera *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCurrentCamera</b> ()</td></tr>
 <tr class="separator:ae9b09ae927d8175ec7afb00542e74864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01b6942f23fe9f09b90223c69eb45adb"><td class="memItemLeft" align="right" valign="top">Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a01b6942f23fe9f09b90223c69eb45adb">GetCurrent2DCamera</a> ()</td></tr>
+<tr class="memitem:a01b6942f23fe9f09b90223c69eb45adb"><td class="memItemLeft" align="right" valign="top"><a id="a01b6942f23fe9f09b90223c69eb45adb"></a>
+Camera *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCurrent2DCamera</b> ()</td></tr>
 <tr class="separator:a01b6942f23fe9f09b90223c69eb45adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86bc70dc935d6dcfb5f079735932cffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a86bc70dc935d6dcfb5f079735932cffe">SendDeleteCmd</a> (<a class="el" href="class_collision_group_command.html">CollisionGroupCommand</a> *cmd)</td></tr>
+<tr class="memitem:a86bc70dc935d6dcfb5f079735932cffe"><td class="memItemLeft" align="right" valign="top"><a id="a86bc70dc935d6dcfb5f079735932cffe"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SendDeleteCmd</b> (<a class="el" href="class_collision_group_command.html">CollisionGroupCommand</a> *cmd)</td></tr>
 <tr class="separator:a86bc70dc935d6dcfb5f079735932cffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad7b544efbfd028b8b9eab0d27ab99cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_cam_manager.html">CamManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ad7b544efbfd028b8b9eab0d27ab99cbb">CameraManager</a></td></tr>
+<tr class="memitem:ad7b544efbfd028b8b9eab0d27ab99cbb"><td class="memItemLeft" align="right" valign="top"><a id="ad7b544efbfd028b8b9eab0d27ab99cbb"></a>
+<a class="el" href="class_cam_manager.html">CamManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>CameraManager</b></td></tr>
 <tr class="separator:ad7b544efbfd028b8b9eab0d27ab99cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03465b54c937f2acac454c154f899c01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_updatable_manager.html">UpdatableManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a03465b54c937f2acac454c154f899c01">UpdateManager</a></td></tr>
+<tr class="memitem:a03465b54c937f2acac454c154f899c01"><td class="memItemLeft" align="right" valign="top"><a id="a03465b54c937f2acac454c154f899c01"></a>
+<a class="el" href="class_updatable_manager.html">UpdatableManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateManager</b></td></tr>
 <tr class="separator:a03465b54c937f2acac454c154f899c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76aeccbd502c502d47f457cfc8b91155"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_drawable_manager.html">DrawableManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a76aeccbd502c502d47f457cfc8b91155">DrawManager</a></td></tr>
+<tr class="memitem:a76aeccbd502c502d47f457cfc8b91155"><td class="memItemLeft" align="right" valign="top"><a id="a76aeccbd502c502d47f457cfc8b91155"></a>
+<a class="el" href="class_drawable_manager.html">DrawableManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>DrawManager</b></td></tr>
 <tr class="separator:a76aeccbd502c502d47f457cfc8b91155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f7be1f3f7e3b159dae5d5689fb3af02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_spritable_manager.html">SpritableManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a8f7be1f3f7e3b159dae5d5689fb3af02">Draw2DManager</a></td></tr>
+<tr class="memitem:a8f7be1f3f7e3b159dae5d5689fb3af02"><td class="memItemLeft" align="right" valign="top"><a id="a8f7be1f3f7e3b159dae5d5689fb3af02"></a>
+<a class="el" href="class_spritable_manager.html">SpritableManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Draw2DManager</b></td></tr>
 <tr class="separator:a8f7be1f3f7e3b159dae5d5689fb3af02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62568b47bb3295bcbcb8b7dfb04350b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_alarmable_manager.html">AlarmableManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a62568b47bb3295bcbcb8b7dfb04350b1">AlarmManager</a></td></tr>
+<tr class="memitem:a62568b47bb3295bcbcb8b7dfb04350b1"><td class="memItemLeft" align="right" valign="top"><a id="a62568b47bb3295bcbcb8b7dfb04350b1"></a>
+<a class="el" href="class_alarmable_manager.html">AlarmableManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>AlarmManager</b></td></tr>
 <tr class="separator:a62568b47bb3295bcbcb8b7dfb04350b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56fd4a9393feb613dfc08e00d1303359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keyboard_event_manager.html">KeyboardEventManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a56fd4a9393feb613dfc08e00d1303359">KBEventManager</a></td></tr>
+<tr class="memitem:a56fd4a9393feb613dfc08e00d1303359"><td class="memItemLeft" align="right" valign="top"><a id="a56fd4a9393feb613dfc08e00d1303359"></a>
+<a class="el" href="class_keyboard_event_manager.html">KeyboardEventManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>KBEventManager</b></td></tr>
 <tr class="separator:a56fd4a9393feb613dfc08e00d1303359"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca2e2a9273e761a8b3c9f3604e5b2070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scene_registeration_broker.html">SceneRegisterationBroker</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aca2e2a9273e761a8b3c9f3604e5b2070">RegisterationBroker</a></td></tr>
+<tr class="memitem:aca2e2a9273e761a8b3c9f3604e5b2070"><td class="memItemLeft" align="right" valign="top"><a id="aca2e2a9273e761a8b3c9f3604e5b2070"></a>
+<a class="el" href="class_scene_registeration_broker.html">SceneRegisterationBroker</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterationBroker</b></td></tr>
 <tr class="separator:aca2e2a9273e761a8b3c9f3604e5b2070"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0559efcadd735aca744c00911be335b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_collision_manager.html">CollisionManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0559efcadd735aca744c00911be335b8">ColManager</a></td></tr>
+<tr class="memitem:a0559efcadd735aca744c00911be335b8"><td class="memItemLeft" align="right" valign="top"><a id="a0559efcadd735aca744c00911be335b8"></a>
+<a class="el" href="class_collision_manager.html">CollisionManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ColManager</b></td></tr>
 <tr class="separator:a0559efcadd735aca744c00911be335b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50d09c9dc242df5b4b9099175c168cde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_visualizer_manager.html">VisualizerManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a50d09c9dc242df5b4b9099175c168cde">VisualManager</a></td></tr>
+<tr class="memitem:a50d09c9dc242df5b4b9099175c168cde"><td class="memItemLeft" align="right" valign="top"><a id="a50d09c9dc242df5b4b9099175c168cde"></a>
+<a class="el" href="class_visualizer_manager.html">VisualizerManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>VisualManager</b></td></tr>
 <tr class="separator:a50d09c9dc242df5b4b9099175c168cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ba49ddb2bdabc82a5d271cc428043f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scene_1_1_scene_change_registration.html">SceneChangeRegistration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a3ba49ddb2bdabc82a5d271cc428043f8">SceneState</a></td></tr>
+<tr class="memitem:a3ba49ddb2bdabc82a5d271cc428043f8"><td class="memItemLeft" align="right" valign="top"><a id="a3ba49ddb2bdabc82a5d271cc428043f8"></a>
+<a class="el" href="struct_scene_1_1_scene_change_registration.html">SceneChangeRegistration</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SceneState</b></td></tr>
 <tr class="separator:a3ba49ddb2bdabc82a5d271cc428043f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a9ccced59c1ea3f69f081eebbcf719cc6"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a9ccced59c1ea3f69f081eebbcf719cc6">CameraManagerAttorney</a></td></tr>
+<tr class="memitem:a9ccced59c1ea3f69f081eebbcf719cc6"><td class="memItemLeft" align="right" valign="top"><a id="a9ccced59c1ea3f69f081eebbcf719cc6"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>CameraManagerAttorney</b></td></tr>
 <tr class="separator:a9ccced59c1ea3f69f081eebbcf719cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4039bcb7c81a24f70d47079c0281543d"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a4039bcb7c81a24f70d47079c0281543d">CameraTool</a></td></tr>
+<tr class="memitem:a4039bcb7c81a24f70d47079c0281543d"><td class="memItemLeft" align="right" valign="top"><a id="a4039bcb7c81a24f70d47079c0281543d"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>CameraTool</b></td></tr>
 <tr class="separator:a4039bcb7c81a24f70d47079c0281543d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16e0e075d75997e866c3dc71a56c0d16"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a16e0e075d75997e866c3dc71a56c0d16">SceneAttorney</a></td></tr>
+<tr class="memitem:a16e0e075d75997e866c3dc71a56c0d16"><td class="memItemLeft" align="right" valign="top"><a id="a16e0e075d75997e866c3dc71a56c0d16"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>SceneAttorney</b></td></tr>
 <tr class="separator:a16e0e075d75997e866c3dc71a56c0d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad4cf9f37b9aa669db2381b4f9d1529a"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aad4cf9f37b9aa669db2381b4f9d1529a">CollisionAttorney</a></td></tr>
+<tr class="memitem:aad4cf9f37b9aa669db2381b4f9d1529a"><td class="memItemLeft" align="right" valign="top"><a id="aad4cf9f37b9aa669db2381b4f9d1529a"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>CollisionAttorney</b></td></tr>
 <tr class="separator:aad4cf9f37b9aa669db2381b4f9d1529a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn, Updated, Can use alarms, send an input, and collide with other objects. Commands are needed to "Submit" registration requests to the <a class="el" href="class_scene.html" title="The entity that holds all GameObjects at a given time. It controls whether Objects are Drawn...">Scene</a>. multiple scenes can be used and switched between one another. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad10176d75a9cc0da56626f682d083507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad10176d75a9cc0da56626f682d083507">&#9670;&nbsp;</a></span>Scene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Scene::Scene </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3b8cec2e32546713915f8c6303c951f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b8cec2e32546713915f8c6303c951f1">&#9670;&nbsp;</a></span>~Scene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Scene::~Scene </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="afa359c5036c1f70070a9315e31be65e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa359c5036c1f70070a9315e31be65e1">&#9670;&nbsp;</a></span>Deregister() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Deregister </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_updatable_manager.html#a7a8b601dda175f1a4b0433f339f0a5e6">UpdatableManager::StorageListRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa133e5be80149abeb2d7f01e0a123025"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa133e5be80149abeb2d7f01e0a123025">&#9670;&nbsp;</a></span>Deregister() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Deregister </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_drawable_manager.html#ab265b671fa7b83a0aa168cb9b27cb842">DrawableManager::StorageListRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7fc54e6703eb9fcea0017d938c94e130"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fc54e6703eb9fcea0017d938c94e130">&#9670;&nbsp;</a></span>Deregister() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Deregister </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_spritable_manager.html#ad0fc13872d1748eb2b1394543f361593">SpritableManager::StorageListRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a62953531535c344beae64594131994f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62953531535c344beae64594131994f6">&#9670;&nbsp;</a></span>Deregister() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Deregister </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_alarmable_manager.html#acab3951ce10e81ee583ddd266776d6aa">AlarmableManager::StorageMapRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2efc59266df646bb8ce2bbca8f429c7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2efc59266df646bb8ce2bbca8f429c7f">&#9670;&nbsp;</a></span>Deregister() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Deregister </td>
-          <td>(</td>
-          <td class="paramtype">AZUL_KEY&#160;</td>
-          <td class="paramname"><em>k</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
-          <td class="paramname"><em>ev</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>pDeleteRef</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4813338ee7c6c995f5bb6f10e3673804"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4813338ee7c6c995f5bb6f10e3673804">&#9670;&nbsp;</a></span>Draw()</h2>
 
@@ -438,56 +262,6 @@ Friends</h2></td></tr>
 <p>Updates all objects for the user. All GameObjects that have Submitted for Draw are rendered here. GameObjects MUST be submitted correctly for this to work. </p>
 <p>Look up Drawables and Spritables for more information. </p>
 <p>Clay, 3/9/2018. </p>
-
-</div>
-</div>
-<a id="a01b6942f23fe9f09b90223c69eb45adb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01b6942f23fe9f09b90223c69eb45adb">&#9670;&nbsp;</a></span>GetCurrent2DCamera()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Camera * Scene::GetCurrent2DCamera </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae9b09ae927d8175ec7afb00542e74864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9b09ae927d8175ec7afb00542e74864">&#9670;&nbsp;</a></span>GetCurrentCamera()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Camera * Scene::GetCurrentCamera </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -523,210 +297,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9335351a3d106a0180bc9d1f1cb1733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9335351a3d106a0180bc9d1f1cb1733">&#9670;&nbsp;</a></span>Register() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Register </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_updatable.html">Updatable</a> *&#160;</td>
-          <td class="paramname"><em>token</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_updatable_manager.html#a7a8b601dda175f1a4b0433f339f0a5e6">UpdatableManager::StorageListRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5c03187d8aa1f0f7df73f0315ac18a30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c03187d8aa1f0f7df73f0315ac18a30">&#9670;&nbsp;</a></span>Register() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Register </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_drawable.html">Drawable</a> *&#160;</td>
-          <td class="paramname"><em>token</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_drawable_manager.html#ab265b671fa7b83a0aa168cb9b27cb842">DrawableManager::StorageListRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9bf0aa379726b64e6c2fcbcdcbe3c28c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bf0aa379726b64e6c2fcbcdcbe3c28c">&#9670;&nbsp;</a></span>Register() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Register </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_spritable.html">Spritable</a> *&#160;</td>
-          <td class="paramname"><em>token</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_spritable_manager.html#ad0fc13872d1748eb2b1394543f361593">SpritableManager::StorageListRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d3789cb2fac41b5b0033283cb988cb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d3789cb2fac41b5b0033283cb988cb3">&#9670;&nbsp;</a></span>Register() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Register </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_alarmable.html">Alarmable</a> *&#160;</td>
-          <td class="paramname"><em>token</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_alarmable_manager.html#a78cfc784d78e1cda78df7d5a42b2cc68">AlarmableManager::ALARM_ID</a>&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_alarmable_manager.html#acab3951ce10e81ee583ddd266776d6aa">AlarmableManager::StorageMapRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2cad298d9d9ab7a2748ede087546b4b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cad298d9d9ab7a2748ede087546b4b1">&#9670;&nbsp;</a></span>Register() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::Register </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_inputable.html">Inputable</a> *&#160;</td>
-          <td class="paramname"><em>token</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">AZUL_KEY&#160;</td>
-          <td class="paramname"><em>k</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_key_input.html#af7578b87e79e851cce08a1e07fcd763e">KeyInput::INPUT_EVENT_TYPE</a>&#160;</td>
-          <td class="paramname"><em>ev</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_single_key_manager.html#a2581c52b367568679ceaa87481f5fa1f">SingleKeyManager::KeyListRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>pDeleteRef</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a83e2c09d62bc782d9b6f1a6609bc4125"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83e2c09d62bc782d9b6f1a6609bc4125">&#9670;&nbsp;</a></span>SceneEnd()</h2>
 
@@ -756,32 +326,6 @@ Friends</h2></td></tr>
 <p>Clay, 3/9/2018. </p>
 
 <p>Reimplemented in <a class="el" href="class_alarms_demo.html#a53f4c880d2bde0721c02726a5230c920">AlarmsDemo</a>, and <a class="el" href="class_sprite_demo.html#aca23273642240630a90562221caeaa6d">SpriteDemo</a>.</p>
-
-</div>
-</div>
-<a id="a86bc70dc935d6dcfb5f079735932cffe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86bc70dc935d6dcfb5f079735932cffe">&#9670;&nbsp;</a></span>SendDeleteCmd()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::SendDeleteCmd </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_collision_group_command.html">CollisionGroupCommand</a> *&#160;</td>
-          <td class="paramname"><em>cmd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -926,32 +470,6 @@ template&lt;typename C &gt; </div>
 
 </div>
 </div>
-<a id="a38283003afe7ab0ab20ee02318c03858"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38283003afe7ab0ab20ee02318c03858">&#9670;&nbsp;</a></span>SubmitCommand()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::SubmitCommand </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_scene_registration_command.html">SceneRegistrationCommand</a> *&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a71a71b4f7752b853ff8032b0941a9d8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71a71b4f7752b853ff8032b0941a9d8d">&#9670;&nbsp;</a></span>Update()</h2>
 
@@ -981,319 +499,9 @@ template&lt;typename C &gt; </div>
 
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a9ccced59c1ea3f69f081eebbcf719cc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ccced59c1ea3f69f081eebbcf719cc6">&#9670;&nbsp;</a></span>CameraManagerAttorney</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_camera_manager_attorney.html">CameraManagerAttorney</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4039bcb7c81a24f70d47079c0281543d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4039bcb7c81a24f70d47079c0281543d">&#9670;&nbsp;</a></span>CameraTool</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_camera_tool.html">CameraTool</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad4cf9f37b9aa669db2381b4f9d1529a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad4cf9f37b9aa669db2381b4f9d1529a">&#9670;&nbsp;</a></span>CollisionAttorney</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_collision_attorney.html">CollisionAttorney</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16e0e075d75997e866c3dc71a56c0d16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16e0e075d75997e866c3dc71a56c0d16">&#9670;&nbsp;</a></span>SceneAttorney</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="class_scene_attorney.html">SceneAttorney</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a62568b47bb3295bcbcb8b7dfb04350b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62568b47bb3295bcbcb8b7dfb04350b1">&#9670;&nbsp;</a></span>AlarmManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_alarmable_manager.html">AlarmableManager</a>* Scene::AlarmManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad7b544efbfd028b8b9eab0d27ab99cbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7b544efbfd028b8b9eab0d27ab99cbb">&#9670;&nbsp;</a></span>CameraManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_cam_manager.html">CamManager</a>* Scene::CameraManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0559efcadd735aca744c00911be335b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0559efcadd735aca744c00911be335b8">&#9670;&nbsp;</a></span>ColManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_collision_manager.html">CollisionManager</a>* Scene::ColManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8f7be1f3f7e3b159dae5d5689fb3af02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f7be1f3f7e3b159dae5d5689fb3af02">&#9670;&nbsp;</a></span>Draw2DManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_spritable_manager.html">SpritableManager</a>* Scene::Draw2DManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a76aeccbd502c502d47f457cfc8b91155"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76aeccbd502c502d47f457cfc8b91155">&#9670;&nbsp;</a></span>DrawManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drawable_manager.html">DrawableManager</a>* Scene::DrawManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a56fd4a9393feb613dfc08e00d1303359"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56fd4a9393feb613dfc08e00d1303359">&#9670;&nbsp;</a></span>KBEventManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_keyboard_event_manager.html">KeyboardEventManager</a>* Scene::KBEventManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aca2e2a9273e761a8b3c9f3604e5b2070"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca2e2a9273e761a8b3c9f3604e5b2070">&#9670;&nbsp;</a></span>RegisterationBroker</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_scene_registeration_broker.html">SceneRegisterationBroker</a>* Scene::RegisterationBroker</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3ba49ddb2bdabc82a5d271cc428043f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ba49ddb2bdabc82a5d271cc428043f8">&#9670;&nbsp;</a></span>SceneState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_scene_1_1_scene_change_registration.html">SceneChangeRegistration</a> Scene::SceneState</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03465b54c937f2acac454c154f899c01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03465b54c937f2acac454c154f899c01">&#9670;&nbsp;</a></span>UpdateManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_updatable_manager.html">UpdatableManager</a>* Scene::UpdateManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50d09c9dc242df5b4b9099175c168cde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50d09c9dc242df5b4b9099175c168cde">&#9670;&nbsp;</a></span>VisualManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_visualizer_manager.html">VisualizerManager</a>* Scene::VisualManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_scene_8h_source.html">Scene.h</a></li>
-<li><a class="el" href="_scene_8cpp.html">Scene.cpp</a></li>
+<li>Scene.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
